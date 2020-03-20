@@ -1,0 +1,11 @@
+**/*.tfstate
+**/*.tfplan
+**/*.tfstate.backup
+**/.terraform
+**/.terraform/*
+**/.DS_Store
+**/components/sandbox/terraform.tfstate.1576507874.backup
+
+*.iml
+.idea/
+
