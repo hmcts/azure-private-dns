@@ -3,3 +3,7 @@ variable "resource_group_name" {
   description = "Name of the resource group that contains the DNS zones."
   default     = "reformmgmtrg"
 }
+
+variable "env" {
+  default = "sbox"
+}

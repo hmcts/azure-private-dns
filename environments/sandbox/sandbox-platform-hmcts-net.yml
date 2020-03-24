@@ -1,0 +1,17 @@
+name: "sandbox.platform.hmcts.net"
+vnet_links:
+  - link_name: "core-infra-vnet-sandbox-platform"
+    vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/core-infra-sandbox/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-sandbox"
+  - link_name: "core-infra-vnet-idam-sandbox-platform"
+    vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/core-infra-idam-sandbox/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-sandbox"
+  - link_name: "mgmt-infra-sandbox-platform"
+    vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/mgmt-infra-sandbox/providers/Microsoft.Network/virtualNetworks/mgmt-infra-sandbox"
+A:
+  - name: "a_record_name"
+    ttl: 3600
+    record:
+      - "51.140.180.140"
+cname:
+  - name: "that"
+    ttl: 300
+    record: "other"

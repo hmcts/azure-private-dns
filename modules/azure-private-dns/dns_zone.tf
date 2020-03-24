@@ -1,18 +1,16 @@
-resource "azurerm_resource_group" "resource_group" {
+resource "azurerm_resource_group" "main" {
   name     = var.resource_group_name
   location = var.location
 }
 
 //resource "azurerm_private_dns_zone" "dns_zones" {
-//  count = length(var.zone_names)
+//  for_each = toset(var.zone_names)
 //
-//  names = var.zone_names[count.index].value
+//  name                = each.value
 //  resource_group_name = var.resource_group_name
 //}
-resource "azurerm_private_dns_zone" "dns_zones" {
-  for_each = toset(var.zone_names)
-
-  name                = each.value
+resource "azurerm_private_dns_zone" "zone" {
+  name                = var.zone_name
   resource_group_name = var.resource_group_name
 }
 
@@ -21,6 +19,6 @@ resource "azurerm_private_dns_zone_virtual_network_link" "vnet_link" {
 
   name                  = each.value.link_name
   resource_group_name   = var.resource_group_name
-  private_dns_zone_name = each.value.zone
+  private_dns_zone_name = var.zone_name
   virtual_network_id    = each.value.vnet_id
 }

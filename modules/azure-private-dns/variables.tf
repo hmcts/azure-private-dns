@@ -8,8 +8,8 @@ variable "resource_group_name" {
   description = "Name of the resource group that contains the DNS zones."
 }
 
-variable "zone_names" {
-  description = "List of DNS zones to manage"
+variable "zone_name" {
+  description = "DNS zone to manage"
   default     = []
 }
 
