@@ -1,4 +1,4 @@
-module "private-dns" {
+module "sandbox-platform" {
   source              = "../../modules/azure-private-dns/"
   cname_records       = yamldecode(data.local_file.sandbox-platform-configuration.content).cname
   a_recordsets        = yamldecode(data.local_file.sandbox-platform-configuration.content).A

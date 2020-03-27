@@ -14,14 +14,31 @@ variable "zone_name" {
 }
 
 variable "vnet_links" {
+  type = list(object({
+    link_name = string
+    vnet_id   = string
+  }))
+
   default = []
 }
 
 variable "cname_records" {
+  type = list(object({
+    name   = string
+    ttl    = number
+    record = string
+  }))
+
   default = []
 }
 
 variable "a_recordsets" {
+  type = list(object({
+    name   = string
+    ttl    = number
+    record = list(string)
+  }))
+
   default = []
 }
 

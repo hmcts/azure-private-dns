@@ -1,0 +1,42 @@
+jobs:
+  - deployment: Deploy
+    pool:
+      vmImage: ${{ parameters.agentPool }}
+    environment: mgmt
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+            - download: current
+              displayName: 'Download artifacts'
+              artifact: drop
+            - download: current
+              displayName: 'Download tfplan'
+              artifact: ${{ parameters.zone }}${{ parameters.build }}plan
+            - task: CopyFiles@2
+              inputs:
+                sourceFolder: '$(Pipeline.Workspace)/${{ parameters.zone }}${{ parameters.build }}plan'
+                targetFolder: '$(Pipeline.Workspace)/drop/components/${{ parameters.zone }}'
+            
+            - task: TerraformInstaller@0
+              inputs:
+                terraformVersion: ${{ parameters.terraformVersion }}
+            - task: TerraformCLI@0
+              displayName: Init - ${{ parameters.zone }}
+              inputs:
+                command: 'init'
+                backendType: 'azurerm'
+                backendServiceArm: ${{ parameters.backendServiceArm }}
+                backendAzureRmResourceGroupName: ${{ parameters.backendAzureRmResourceGroupName }}
+                backendAzureRmStorageAccountName: ${{ parameters.backendAzureRmStorageAccountName }}
+                backendAzureRmContainerName: 'tfstate'
+                backendAzureRmKey: 'private-dns/${{ parameters.zone }}.tfstate'
+                workingDirectory: '$(Pipeline.Workspace)/drop/components/${{ parameters.zone }}'
+
+            - task: TerraformCLI@0
+              displayName: Apply - ${{ parameters.zone }}
+              inputs:
+                command: 'apply'
+                commandOptions: '${{ parameters.zone }}${{ parameters.build }}plan'
+                environmentServiceName: ${{ parameters.backendServiceArm }}
+                workingDirectory: '$(Pipeline.Workspace)/drop/components/${{ parameters.zone }}'

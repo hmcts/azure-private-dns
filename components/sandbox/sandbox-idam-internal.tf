@@ -1,4 +1,4 @@
-module "private-dns" {
+module "sandbox-idam-internal" {
   source              = "../../modules/azure-private-dns/"
   cname_records       = yamldecode(data.local_file.sandbox-idam-internal-configuration.content).cname
   a_recordsets        = yamldecode(data.local_file.sandbox-idam-internal-configuration.content).A

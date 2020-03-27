@@ -1,5 +1,5 @@
 resource "azurerm_private_dns_cname_record" "this" {
-  for_each = toset(var.cname_records)
+  for_each = { for record in var.cname_records : record.name => record }
 
   name                = each.value.name
   zone_name           = var.zone_name
