@@ -17,6 +17,7 @@ stages:
         parameters:
           zone: 'sandbox'
           build: $(Build.BuildNumber)
+          poolName: ${{ variables.poolName }}
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
           backendServiceArm: 'dts-cftsbox-intsvc'
@@ -45,6 +46,7 @@ stages:
         parameters:
           zone: 'sandbox'
           build: $(Build.BuildNumber)
+          poolName: ${{ variables.poolName }}
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
           backendServiceArm: 'dts-cftsbox-intsvc'

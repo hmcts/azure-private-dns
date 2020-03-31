@@ -1,7 +1,7 @@
 jobs:
   - job: Plan_${{ parameters.zone }}
     pool:
-      name: ${{ variables.poolName }}
+      name: ${{ parameters.poolName }}
       vmImage: ${{ parameters.agentPool }}
     steps:
       - task: TerraformInstaller@0
