@@ -1,6 +1,7 @@
 jobs:
   - deployment: Deploy
     pool:
+      name: ${{ variables.poolName }}
       vmImage: ${{ parameters.agentPool }}
     environment: mgmt
     strategy:

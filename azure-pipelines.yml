@@ -6,6 +6,7 @@ trigger:
 
 variables:
   terraformVersion: 0.12.23
+  poolName: privatedns-prod
   agentPool: 'ubuntu-18.04'
 
 stages:
@@ -24,6 +25,7 @@ stages:
 
       - job: Archive
         pool:
+          name: ${{ variables.poolName }}
           vmImage: ${{ variables.agentPool }}
         steps:
           - task: CopyFiles@2
