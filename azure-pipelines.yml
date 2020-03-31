@@ -22,6 +22,18 @@ stages:
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftsboxintsvc'
 
+      - job: Archive
+        pool:
+          vmImage: ${{ variables.agentPool }}
+        steps:
+          - task: CopyFiles@2
+            displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
+            inputs:
+              TargetFolder: '$(Build.ArtifactStagingDirectory)'
+
+          - task: PublishBuildArtifacts@1
+            displayName: 'Publish Artifact: drop'
+
   - stage: Sandbox_Apply
     dependsOn: Plan_phase
     displayName: "Sandbox Apply"
