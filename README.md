@@ -15,7 +15,9 @@ as an example.
 After creating the Private DNS zones, you can run the `consul_records.py` script to import existing Consul 
 A and CNAME records. The script invocation syntax is as follows:
 
+```
 consul_records.py -c <client> -p <secret> -s <subscription> -d <domain> -r <resource_group> -z <zone> <consul_dns_servers...> 
+```   
 
 where:
 
