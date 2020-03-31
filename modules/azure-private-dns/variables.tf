@@ -10,7 +10,6 @@ variable "resource_group_name" {
 
 variable "zone_name" {
   description = "DNS zone to manage"
-  default     = []
 }
 
 variable "vnet_links" {
@@ -43,3 +42,5 @@ variable "a_recordsets" {
 }
 
 variable "env" {}
+
+variable "common_tags" {}

@@ -6,4 +6,5 @@ module "sandbox-platform" {
   vnet_links          = yamldecode(data.local_file.sandbox-platform-configuration.content).vnet_links
   resource_group_name = var.resource_group_name
   env                 = var.env
+  common_tags         = local.common_tags
 }
