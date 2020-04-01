@@ -24,7 +24,6 @@ stages:
 
       - job: Archive
         pool:
-          name: ${{ variables.poolName }}
           vmImage: ${{ variables.agentPool }}
         steps:
           - task: CopyFiles@2
