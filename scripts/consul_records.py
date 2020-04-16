@@ -77,7 +77,7 @@ def main(argv):
         -d <domain>: DNS domain
         -z <zone>: Private DNS zone
         -r <resource_group>: Resource Group for the Private DNS zone
-        <consul_dns_servers>: Space-separated list of Consul servers that serve the domain
+        <consul_dns_servers>: Space-separated list of Consul servers that serve the domain (use all 3 consul servers, they could be out of sync)
     """
     usage = """consul_records.py -c <client-id> -p <client-secret> -s <subscription> -d <domain> -r <resource_group> -z <zone> <consul_dns_servers...>
 
@@ -88,7 +88,7 @@ def main(argv):
         -d <domain>: DNS domain
         -z <zone>: Private DNS zone
         -r <resource_group>: Resource Group for the Private DNS zone
-        <consul_dns_servers>: Space-separated list of Consul servers that serve the domain        
+        <consul_dns_servers>: Space-separated list of Consul servers that serve the domain (use all 3 consul servers, they could be out of sync)     
 
     """
     client, secret, subscription, domain, resource_group, zone = [None, None, None, None, None, None]
