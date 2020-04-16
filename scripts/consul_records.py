@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
 import sys
 import getopt
@@ -79,7 +79,7 @@ def main(argv):
         -r <resource_group>: Resource Group for the Private DNS zone
         <consul_dns_servers>: Space-separated list of Consul servers that serve the domain
     """
-    usage = 'consul_records.py -c <client> -p <secret> -s <subscription> -d <domain> ' \
+    usage = 'consul_records.py -c <client-id> -p <client-secret> -s <subscription> -d <domain> ' \
         + '-r <resource_group> -z <zone> <consul_dns_servers...>'
     client, secret, subscription, domain, resource_group, zone = [None, None, None, None, None, None]
     servers = []
