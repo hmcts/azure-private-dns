@@ -71,16 +71,26 @@ def main(argv):
     """Script to import existing Consul A and CNAME records into an Azure Private DNS Zone.
 
     Args:
-        -c <client> (str): Service Principal client id
-        -p <secret>: Service Principal client secret
+        -c <client-id> (str): Service Principal client id
+        -p <client-secret>: Service Principal client secret
         -s <subscription>: Subscription Id for the target Private DNS zone
         -d <domain>: DNS domain
         -z <zone>: Private DNS zone
         -r <resource_group>: Resource Group for the Private DNS zone
         <consul_dns_servers>: Space-separated list of Consul servers that serve the domain
     """
-    usage = 'consul_records.py -c <client-id> -p <client-secret> -s <subscription> -d <domain> ' \
-        + '-r <resource_group> -z <zone> <consul_dns_servers...>'
+    usage = """consul_records.py -c <client-id> -p <client-secret> -s <subscription> -d <domain> -r <resource_group> -z <zone> <consul_dns_servers...>
+
+    Args:
+        -c <client-id>: Service Principal client id
+        -p <client-secret>: Service Principal client secret
+        -s <subscription>: Subscription Id for the target Private DNS zone
+        -d <domain>: DNS domain
+        -z <zone>: Private DNS zone
+        -r <resource_group>: Resource Group for the Private DNS zone
+        <consul_dns_servers>: Space-separated list of Consul servers that serve the domain        
+
+    """
     client, secret, subscription, domain, resource_group, zone = [None, None, None, None, None, None]
     servers = []
     try:
