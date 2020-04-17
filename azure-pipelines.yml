@@ -99,6 +99,11 @@ stages:
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftsboxintsvc'
 
+  - stage: Preview_Apply
+    dependsOn: Plan_phase
+    displayName: "Preview Apply"
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    jobs:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
           zone: 'preview'
@@ -109,6 +114,11 @@ stages:
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftptlintsvc'
 
+  - stage: Aat_Apply
+    dependsOn: Plan_phase
+    displayName: "AAT Apply"
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    jobs:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
           zone: 'aat'
@@ -119,6 +129,11 @@ stages:
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftptlintsvc'
 
+  - stage: Perftest_Apply
+    dependsOn: Plan_phase
+    displayName: "Perftest Apply"
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    jobs:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
           zone: 'perftest'
@@ -129,6 +144,11 @@ stages:
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftptlintsvc'
 
+  - stage: Ithc_Apply
+    dependsOn: Plan_phase
+    displayName: "ITHC Apply"
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    jobs:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
           zone: 'ithc'
@@ -139,6 +159,11 @@ stages:
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftptlintsvc'
 
+  - stage: Demo_Apply
+    dependsOn: Plan_phase
+    displayName: "Demo Apply"
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    jobs:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
           zone: 'demo'
