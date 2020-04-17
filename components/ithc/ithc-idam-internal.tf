@@ -6,5 +6,4 @@ module "ithc-idam-internal" {
   vnet_links          = yamldecode(data.local_file.ithc-idam-internal-configuration.content).vnet_links
   resource_group_name = var.resource_group_name
   env                 = var.env
-  common_tags         = common_tags
 }
