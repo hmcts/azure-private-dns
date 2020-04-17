@@ -1,0 +1,8 @@
+name: "service.core-compute-demo.internal"
+vnet_links:
+  - link_name: "core-infra-vnet-demo-internal"
+    vnet_id: "/subscriptions/1c4f0704-a29e-403d-b719-b90c34ef14c9/resourceGroups/core-infra-demo/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-demo"
+  - link_name: "core-infra-vnet-idam-demo-internal"
+    vnet_id: "/subscriptions/1c4f0704-a29e-403d-b719-b90c34ef14c9/resourceGroups/core-infra-idam-demo/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-demo"
+A: []
+cname: []

@@ -22,6 +22,56 @@ stages:
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftsboxintsvc'
 
+      - template: pipeline-templates/terraform-plan.yaml
+        parameters:
+          zone: 'preview'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
+
+      - template: pipeline-templates/terraform-plan.yaml
+        parameters:
+          zone: 'aat'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
+
+      - template: pipeline-templates/terraform-plan.yaml
+        parameters:
+          zone: 'perftest'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
+
+      - template: pipeline-templates/terraform-plan.yaml
+        parameters:
+          zone: 'ithc'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
+
+      - template: pipeline-templates/terraform-plan.yaml
+        parameters:
+          zone: 'demo'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
+
       - job: Archive
         pool:
           vmImage: ${{ variables.agentPool }}
@@ -49,3 +99,52 @@ stages:
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftsboxintsvc'
 
+      - template: pipeline-templates/terraform-apply.yaml
+        parameters:
+          zone: 'preview'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
+
+      - template: pipeline-templates/terraform-apply.yaml
+        parameters:
+          zone: 'aat'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
+
+      - template: pipeline-templates/terraform-apply.yaml
+        parameters:
+          zone: 'perftest'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
+
+      - template: pipeline-templates/terraform-apply.yaml
+        parameters:
+          zone: 'ithc'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
+
+      - template: pipeline-templates/terraform-apply.yaml
+        parameters:
+          zone: 'demo'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
