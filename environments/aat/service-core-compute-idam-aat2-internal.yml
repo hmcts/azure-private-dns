@@ -1,4 +1,4 @@
-name: "service.core-compute-aat2.internal"
+name: "service.core-compute-idam-aat2.internal"
 vnet_links:
   - link_name: "core-infra-vnet-preview-internal"
     vnet_id: "/subscriptions/1c4f0704-a29e-403d-b719-b90c34ef14c9/resourceGroups/core-infra-preview/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-preview"
