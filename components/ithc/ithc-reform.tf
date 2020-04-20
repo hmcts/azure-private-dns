@@ -1,3 +1,4 @@
+module "ithc-reform" {
   source              = "../../modules/azure-private-dns/"
   cname_records       = yamldecode(data.local_file.ithc-reform-configuration.content).cname
   a_recordsets        = yamldecode(data.local_file.ithc-reform-configuration.content).A
