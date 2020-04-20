@@ -1,0 +1,14 @@
+name: "service.core-compute-aat.internal"
+vnet_links:
+  - link_name: "core-infra-vnet-preview-internal"
+    vnet_id: "/subscriptions/1c4f0704-a29e-403d-b719-b90c34ef14c9/resourceGroups/core-infra-preview/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-preview"
+  - link_name: "core-infra-vnet-idam-preview-internal"
+    vnet_id: "/subscriptions/1c4f0704-a29e-403d-b719-b90c34ef14c9/resourceGroups/core-infra-idam-preview/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-preview"
+  - link_name: "core-infra-vnet-aat-internal"
+    vnet_id: "/subscriptions/1c4f0704-a29e-403d-b719-b90c34ef14c9/resourceGroups/core-infra-aat/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-aat"
+  - link_name: "core-infra-vnet-idam-aat-internal"
+    vnet_id: "/subscriptions/1c4f0704-a29e-403d-b719-b90c34ef14c9/resourceGroups/core-infra-idam-aat/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-aat"
+  - link_name: "core-infra-vnet-idam-aat2-internal"
+    vnet_id: "/subscriptions/1c4f0704-a29e-403d-b719-b90c34ef14c9/resourceGroups/core-infra-idam-aat2/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-aat2"
+A: []
+cname: []

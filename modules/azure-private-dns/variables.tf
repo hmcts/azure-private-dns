@@ -42,5 +42,3 @@ variable "a_recordsets" {
 }
 
 variable "env" {}
-
-variable "common_tags" {}
