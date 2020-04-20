@@ -1,0 +1,46 @@
+name: "reform.hmcts.net"
+vnet_links:
+  # prod
+  - link_name: "core-infra-vnet-prod-internal"
+    vnet_id: "/subscriptions/8999dec3-0104-4a27-94ee-6588559729d1/resourceGroups/core-infra-prod/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-prod"
+  - link_name: "core-infra-vnet-idam-prod"
+    vnet_id: "/subscriptions/8999dec3-0104-4a27-94ee-6588559729d1/resourceGroups/core-infra-idam-prod/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-prod"
+  - link_name: "core-infra-vnet-idam-prod2"
+    vnet_id: "/subscriptions/8999dec3-0104-4a27-94ee-6588559729d1/resourceGroups/core-infra-idam-prod2/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-prod2"
+  - link_name: "mgmt-infra-platform"
+    vnet_id: "/subscriptions/8999dec3-0104-4a27-94ee-6588559729d1/resourceGroups/mgmt-infra-prod/providers/Microsoft.Network/virtualNetworks/mgmt-infra-prod"
+  # preview
+  - link_name: "core-infra-vnet-preview-internal"
+    vnet_id: "/subscriptions/1c4f0704-a29e-403d-b719-b90c34ef14c9/resourceGroups/core-infra-preview/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-preview"
+  - link_name: "core-infra-vnet-idam-preview-internal"
+    vnet_id: "/subscriptions/1c4f0704-a29e-403d-b719-b90c34ef14c9/resourceGroups/core-infra-idam-preview/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-preview"
+  - link_name: "core-infra-vnet-aat-internal"
+    vnet_id: "/subscriptions/1c4f0704-a29e-403d-b719-b90c34ef14c9/resourceGroups/core-infra-aat/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-aat"
+  - link_name: "core-infra-vnet-idam-aat-internal"
+    vnet_id: "/subscriptions/1c4f0704-a29e-403d-b719-b90c34ef14c9/resourceGroups/core-infra-idam-aat/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-aat"
+  - link_name: "core-infra-vnet-idam-aat2-internal"
+    vnet_id: "/subscriptions/1c4f0704-a29e-403d-b719-b90c34ef14c9/resourceGroups/core-infra-idam-aat2/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-aat2"
+  # demo
+  - link_name: "core-infra-vnet-demo-internal"
+    vnet_id: "/subscriptions/1c4f0704-a29e-403d-b719-b90c34ef14c9/resourceGroups/core-infra-demo/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-demo"
+  - link_name: "core-infra-vnet-idam-demo-internal"
+    vnet_id: "/subscriptions/1c4f0704-a29e-403d-b719-b90c34ef14c9/resourceGroups/core-infra-idam-demo/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-demo"
+  # ithc
+  - link_name: "core-infra-vnet-ithc-internal"
+    vnet_id: "/subscriptions/7a4e3bd5-ae3a-4d0c-b441-2188fee3ff1c/resourceGroups/core-infra-ithc/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-ithc"
+  - link_name: "core-infra-vnet-idam-ithc-internal"
+    vnet_id: "/subscriptions/7a4e3bd5-ae3a-4d0c-b441-2188fee3ff1c/resourceGroups/core-infra-idam-ithc/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-ithc"
+  # perftest
+  - link_name: "core-infra-vnet-perftest-internal"
+    vnet_id: "/subscriptions/7a4e3bd5-ae3a-4d0c-b441-2188fee3ff1c/resourceGroups/core-infra-perftest/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-perftest"
+  - link_name: "core-infra-vnet-idam-perftest-internal"
+    vnet_id: "/subscriptions/7a4e3bd5-ae3a-4d0c-b441-2188fee3ff1c/resourceGroups/core-infra-idam-perftest/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-perftest"
+  # sandbox
+  - link_name: "core-infra-vnet-sandbox-idam-internal"
+    vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/core-infra-sandbox/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-sandbox"
+  - link_name: "core-infra-vnet-idam-sandbox-idam-internal"
+    vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/core-infra-idam-sandbox/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-sandbox"
+  - link_name: "mgmt-infra-sandbox-idam-internal"
+    vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/mgmt-infra-sandbox/providers/Microsoft.Network/virtualNetworks/mgmt-infra-sandbox"
+A: []
+cname: []
