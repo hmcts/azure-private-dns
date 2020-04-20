@@ -1,0 +1,12 @@
+name: "platform.hmcts.net"
+vnet_links:
+  - link_name: "core-infra-vnet-prod-internal"
+    vnet_id: "/subscriptions/8999dec3-0104-4a27-94ee-6588559729d1/resourceGroups/core-infra-prod/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-prod"
+  - link_name: "core-infra-vnet-idam-prod"
+    vnet_id: "/subscriptions/8999dec3-0104-4a27-94ee-6588559729d1/resourceGroups/core-infra-idam-prod/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-prod"
+  - link_name: "core-infra-vnet-idam-prod2"
+    vnet_id: "/subscriptions/8999dec3-0104-4a27-94ee-6588559729d1/resourceGroups/core-infra-idam-prod2/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-prod2"
+  - link_name: "mgmt-infra-platform"
+    vnet_id: "/subscriptions/8999dec3-0104-4a27-94ee-6588559729d1/resourceGroups/mgmt-infra-prod/providers/Microsoft.Network/virtualNetworks/mgmt-infra-prod"
+A: []
+cname: []
