@@ -1,0 +1,8 @@
+name: "perftest.platform.hmcts.net"
+vnet_links:
+  - link_name: "core-infra-vnet-perftest-internal"
+    vnet_id: "/subscriptions/7a4e3bd5-ae3a-4d0c-b441-2188fee3ff1c/resourceGroups/core-infra-perftest/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-perftest"
+  - link_name: "core-infra-vnet-idam-perftest-internal"
+    vnet_id: "/subscriptions/7a4e3bd5-ae3a-4d0c-b441-2188fee3ff1c/resourceGroups/core-infra-idam-perftest/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-perftest"
+A: []
+cname: []
