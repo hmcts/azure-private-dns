@@ -9,7 +9,3 @@ data "local_file" "perftest-idam-internal-configuration" {
 data "local_file" "perftest-platform-configuration" {
   filename = "${path.cwd}/../../environments/perftest/perftest-platform-hmcts-net.yml"
 }
-
-data "local_file" "perftest-reform-configuration" {
-  filename = "${path.cwd}/../../environments/perftest/perftest-reform-hmcts-net.yml"
-}
