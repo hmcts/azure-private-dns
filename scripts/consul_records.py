@@ -57,7 +57,7 @@ def load_records(servers):
     a_records = {}
     cname_records = {}
     for server in servers:
-        with urlopen("http://{}:{}//v1/agent/services".format(server, 8500)) as response:
+        with urlopen("http://{}:{}//v1/agent/services".format(server, 8500), timeout=120) as response:
             data_json = json.load(response)
             for k, v in data_json.items():
                 if not v['Tags'] or 'A' in v['Tags']:
