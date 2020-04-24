@@ -42,5 +42,244 @@ vnet_links:
     vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/core-infra-idam-sandbox/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-sandbox"
   - link_name: "mgmt-infra-sandbox-idam-internal"
     vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/mgmt-infra-sandbox/providers/Microsoft.Network/virtualNetworks/mgmt-infra-sandbox"
-A: []
-cname: []
+A:
+  - name: sftp
+    record:
+    - 51.132.40.106
+    ttl: 300
+  - name: reformMgmtF5Perim
+    record:
+    - 172.31.254.254
+    ttl: 300
+  - name: reformMgmtF5Internal
+    record:
+    - 172.31.254.252
+    ttl: 300
+  - name: betaNLF5Perim
+    record:
+    - 10.15.15.254
+    ttl: 300
+  - name: betaNLF5Demo
+    record:
+    - 10.15.15.252
+    ttl: 300
+  - name: betaNLF5Dev
+    record:
+    - 10.15.15.250
+    ttl: 300
+  - name: betaNLF5Stage
+    record:
+    - 10.15.15.248
+    ttl: 300
+  - name: betaNLF5Test
+    record:
+    - 10.15.15.246
+    ttl: 300
+  - name: betaNLF5CC
+    record:
+    - 10.15.15.244
+    ttl: 300
+  - name: betaProdF5Perim
+    record:
+    - 10.29.0.254
+    ttl: 300
+  - name: betaProdF5Internal
+    record:
+    - 10.31.15.252
+    ttl: 300
+  - name: betaProdF5CC
+    record:
+    - 10.31.15.250
+    ttl: 300
+  - name: betaPreProdF5Perim
+    record:
+    - 10.45.0.254
+    ttl: 300
+  - name: betaPreProdF5Internal
+    record:
+    - 10.47.15.252
+    ttl: 300
+  - name: betaPreProdF5CC
+    record:
+    - 10.47.15.250
+    ttl: 300
+  - name: devf5lb
+    record:
+    - 10.1.255.254
+    ttl: 300
+  - name: testf5lb
+    record:
+    - 10.1.255.254
+    ttl: 300
+  - name: demof5lb
+    record:
+    - 10.15.15.252
+    ttl: 300
+  - name: preprodf5lb
+    record:
+    - 10.47.15.252
+    ttl: 300
+  - name: prodf5lb
+    record:
+    - 10.31.15.252
+    ttl: 300
+  - name: idamdevf5lb
+    record:
+    - 10.14.255.254
+    ttl: 300
+  - name: idamtestf5lb
+    record:
+    - 10.14.255.254
+    ttl: 300
+  - name: idamdemof5lb
+    record:
+    - 10.14.255.254
+    ttl: 300
+  - name: sftp-dev
+    record:
+    - 51.140.117.157
+    ttl: 60
+  - name: sftp-prod
+    record:
+    - 51.140.47.203
+    ttl: 60
+  - name: betaNLSFTP01
+    record:
+    - 10.15.11.4
+    ttl: 300
+  - name: betaNLSFTP02
+    record:
+    - 10.15.11.5
+    ttl: 300
+  - name: betaPreProdSFTP01
+    record:
+    - 10.47.11.4
+    ttl: 300
+  - name: betaProdBackup01
+    record:
+    - 10.16.4.13
+    ttl: 300
+  - name: betaProdFailover01
+    record:
+    - 10.16.0.200
+    ttl: 300
+  - name: betaProdSFTP01
+    record:
+    - 10.31.11.4
+    ttl: 300
+  - name: betapreProdBackup01
+    record:
+    - 10.32.4.8
+    ttl: 300
+  - name: refromSscsSftpVm01
+    record:
+    - 10.32.0.16
+    ttl: 300
+  - name: ReformMgmtDevopsBuildAgent01
+    record:
+    - 172.16.4.17
+    ttl: 300
+  - name: reformMgmtDevBastion02
+    record:
+    - 172.16.0.4
+    ttl: 300
+  - name: reformMgmtDevOpsAdmin01
+    record:
+    - 172.16.2.17
+    ttl: 300
+  - name: reformMgmtDevOpsBackup01
+    record:
+    - 172.16.2.15
+    ttl: 300
+  - name: reformMgmtDevOpsBackup03
+    record:
+    - 172.16.2.39
+    ttl: 300
+  - name: reformMgmtDevOpsJenkins01
+    record:
+    - 172.16.2.5
+    ttl: 300
+  - name: reformMgmtDevOpsLDAP01
+    record:
+    - 172.16.2.8
+    ttl: 300
+  - name: reformMgmtDevopsBastion
+    record:
+    - 172.16.0.5
+    ttl: 300
+  - name: reformMgmtDevopsDNS01
+    record:
+    - 172.16.0.10
+    ttl: 300
+  - name: reformMgmtDevopsDNS02
+    record:
+    - 172.16.0.14
+    ttl: 300
+  - name: reformMgmtMTA
+    record:
+    - 172.16.0.8
+    ttl: 300
+  - name: reformMgmtProxyIn
+    record:
+    - 172.16.0.6
+    ttl: 300
+  - name: reformMgmtProxyOut
+    record:
+    - 172.16.0.7
+    ttl: 300
+  - name: serviceNowMID01
+    record:
+    - 172.16.0.16
+    ttl: 300
+cname:
+  - name: reformMgmtDevBastion
+    record: reformMgmtDevBastion02
+    ttl: 300
+  - name: bastion
+    record: reformMgmtDevBastion02
+    ttl: 300
+  - name: ldap
+    record: reformMgmtDevOpsLDAP01
+    ttl: 300
+  - name: backup1
+    record: reformMgmtBackup01
+    ttl: 300
+  - name: backup2
+    record: reformMgmtDevOpsBackup01
+    ttl: 300
+  - name: dashboard
+    record: proxyin
+    ttl: 300
+  - name: demoproxyin
+    record: betaDemoAProxyIn01
+    ttl: 300
+  - name: mta
+    record: reformMgmtMTA
+    ttl: 3600
+  - name: password
+    record: proxyin
+    ttl: 300
+  - name: passwordchange
+    record: proxyin
+    ttl: 300
+  - name: prod-build
+    record: proxyin
+    ttl: 3600
+  - name: proxyin
+    record: reformmgmtproxyin
+    ttl: 300
+  - name: prodproxyin
+    record: reformmgmtproxyin02
+    ttl: 300
+  - name: proxyout
+    record: reformmgmtproxyout
+    ttl: 300
+  - name: reformmgmtadmin01
+    record: reformmgmtdevopsadmin01
+    ttl: 300
+  - name: mgmtf5perim
+    record: reformMgmtF5Perim
+    ttl: 300
+  - name: mgmtf5int
+    record: reformMgmtF5Internal
+    ttl: 300

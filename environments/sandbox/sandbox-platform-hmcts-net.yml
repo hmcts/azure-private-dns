@@ -6,14 +6,62 @@ vnet_links:
     vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/core-infra-idam-sandbox/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-sandbox"
   - link_name: "mgmt-infra-sandbox-platform"
     vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/mgmt-infra-sandbox/providers/Microsoft.Network/virtualNetworks/mgmt-infra-sandbox"
-A: []
-cname: []
-#A:
-#  - name: "a_record_name"
-#    ttl: 3600
-#    record:
-#      - "51.140.180.140"
-#cname:
-#  - name: "that"
-#    ttl: 300
-#    record: "other"
+A:
+  - name: grafana
+    record:
+    - 10.10.9.250
+    ttl: 300
+  - name: prometheus-00
+    record:
+    - 10.10.1.250
+    ttl: 300
+  - name: prometheus-01
+    record:
+    - 10.10.3.250
+    ttl: 300
+  - name: alertmanager-00
+    record:
+    - 10.10.1.250
+    ttl: 300
+  - name: alertmanager-01
+    record:
+    - 10.10.3.250
+    ttl: 300
+  - name: alertmanager-mgmt-sbox
+    record:
+    - 10.10.9.250
+    ttl: 300
+cname:
+  - name: moneyclaim
+    record: sandbox-waf
+    ttl: 300
+  - name: moneyclaim-legal
+    record: sandbox-waf
+    ttl: 300
+  - name: fees-register
+    record: sandbox-waf
+    ttl: 300
+  - name: idam-api
+    record: idam-api-sbox.service.core-compute-sandbox.internal.
+    ttl: 300
+  - name: idam-web-admin
+    record: idam-web-admin-sbox.service.core-compute-sandbox.internal.
+    ttl: 300
+  - name: idam-web-public
+    record: hmcts-sbox.azurefd.net.
+    ttl: 300
+  - name: idam-api-sprod
+    record: idam-api-sprod-sbox.service.core-compute-sandbox.internal.
+    ttl: 300
+  - name: idam-web-admin-sprod
+    record: idam-api-sprod-sbox.service.core-compute-sandbox.internal.
+    ttl: 300
+  - name: idam-web-public-sprod
+    record: hmcts-sbox.azurefd.net.
+    ttl: 300
+  - name: payment
+    record: sandbox-waf
+    ttl: 300
+  - name: bar
+    record: sandbox-waf
+    ttl: 300
