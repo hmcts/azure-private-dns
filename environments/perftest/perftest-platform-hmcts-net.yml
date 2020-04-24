@@ -4,5 +4,61 @@ vnet_links:
     vnet_id: "/subscriptions/7a4e3bd5-ae3a-4d0c-b441-2188fee3ff1c/resourceGroups/core-infra-perftest/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-perftest"
   - link_name: "core-infra-vnet-idam-perftest-internal"
     vnet_id: "/subscriptions/7a4e3bd5-ae3a-4d0c-b441-2188fee3ff1c/resourceGroups/core-infra-idam-perftest/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-perftest"
-A: []
-cname: []
+A:
+  - name: prometheus-00
+    record:
+    - 10.10.41.250
+    ttl: 300
+  - name: prometheus-01
+    record:
+    - 10.10.45.250
+    ttl: 300
+  - name: alertmanager-00
+    record:
+    - 10.10.41.250
+    ttl: 300
+  - name: alertmanager-01
+    record:
+    - 10.10.45.250
+    ttl: 300
+  - name: ccd-admin-web
+    record:
+    - 10.10.46.121
+    ttl: 300
+cname:
+  - name: moneyclaims-legal
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
+  - name: benefit-appeal
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
+  - name: sscs-cor
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
+  - name: www-ccd
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
+  - name: gateway-ccd
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
+  - name: return-case-doc-ccd
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
+  - name: idam-api
+    record: idam-api-perftest.service.core-compute-perftest.internal.
+    ttl: 300
+  - name: idam-web-admin
+    record: idam-web-admin-perftest.service.core-compute-perftest.internal.
+    ttl: 300
+  - name: idam-web-public
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
+  - name: tmidam-web-admin
+    record: 9d6e4c5b-6d6d-4535-ab02-5e6e91fe0af9.cloudapp.net.
+    ttl: 300
+  - name: bulkscan
+    record: cce9c112-ef98-4879-81ee-e7ce4ff33356.cloudapp.net.
+    ttl: 300
+  - name: reformscan
+    record: a975c6f9-93cc-42fe-8cb1-c194eee0e2db.cloudapp.net.
+    ttl: 300
