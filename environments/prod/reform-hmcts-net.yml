@@ -47,59 +47,59 @@ A:
     record:
     - 51.132.40.106
     ttl: 300
-  - name: reformMgmtF5Perim
+  - name: reformmgmtf5perim
     record:
     - 172.31.254.254
     ttl: 300
-  - name: reformMgmtF5Internal
+  - name: reformmgmtf5internal
     record:
     - 172.31.254.252
     ttl: 300
-  - name: betaNLF5Perim
+  - name: betanlf5perim
     record:
     - 10.15.15.254
     ttl: 300
-  - name: betaNLF5Demo
+  - name: betanlf5demo
     record:
     - 10.15.15.252
     ttl: 300
-  - name: betaNLF5Dev
+  - name: betanlf5dev
     record:
     - 10.15.15.250
     ttl: 300
-  - name: betaNLF5Stage
+  - name: betanlf5stage
     record:
     - 10.15.15.248
     ttl: 300
-  - name: betaNLF5Test
+  - name: betanlf5test
     record:
     - 10.15.15.246
     ttl: 300
-  - name: betaNLF5CC
+  - name: betanlf5cc
     record:
     - 10.15.15.244
     ttl: 300
-  - name: betaProdF5Perim
+  - name: betaprodf5perim
     record:
     - 10.29.0.254
     ttl: 300
-  - name: betaProdF5Internal
+  - name: betaprodf5internal
     record:
     - 10.31.15.252
     ttl: 300
-  - name: betaProdF5CC
+  - name: betaprodf5cc
     record:
     - 10.31.15.250
     ttl: 300
-  - name: betaPreProdF5Perim
+  - name: betapreprodf5perim
     record:
     - 10.45.0.254
     ttl: 300
-  - name: betaPreProdF5Internal
+  - name: betapreprodf5internal
     record:
     - 10.47.15.252
     ttl: 300
-  - name: betaPreProdF5CC
+  - name: betapreprodf5cc
     record:
     - 10.47.15.250
     ttl: 300
@@ -143,143 +143,143 @@ A:
     record:
     - 51.140.47.203
     ttl: 60
-  - name: betaNLSFTP01
+  - name: betanlsftp01
     record:
     - 10.15.11.4
     ttl: 300
-  - name: betaNLSFTP02
+  - name: betanlsftp02
     record:
     - 10.15.11.5
     ttl: 300
-  - name: betaPreProdSFTP01
+  - name: betapreprodsftp01
     record:
     - 10.47.11.4
     ttl: 300
-  - name: betaProdBackup01
+  - name: betaprodbackup01
     record:
     - 10.16.4.13
     ttl: 300
-  - name: betaProdFailover01
+  - name: betaprodfailover01
     record:
     - 10.16.0.200
     ttl: 300
-  - name: betaProdSFTP01
+  - name: betaprodsftp01
     record:
     - 10.31.11.4
     ttl: 300
-  - name: betapreProdBackup01
+  - name: betapreprodbackup01
     record:
     - 10.32.4.8
     ttl: 300
-  - name: refromSscsSftpVm01
+  - name: refromsscssftpvm01
     record:
     - 10.32.0.16
     ttl: 300
-  - name: ReformMgmtDevopsBuildAgent01
+  - name: reformmgmtdevopsbuildagent01
     record:
     - 172.16.4.17
     ttl: 300
-  - name: reformMgmtDevBastion02
+  - name: reformmgmtdevbastion02
     record:
     - 172.16.0.4
     ttl: 300
-  - name: reformMgmtDevOpsAdmin01
+  - name: reformmgmtdevopsadmin01
     record:
     - 172.16.2.17
     ttl: 300
-  - name: reformMgmtDevOpsBackup01
+  - name: reformmgmtdevopsbackup01
     record:
     - 172.16.2.15
     ttl: 300
-  - name: reformMgmtDevOpsBackup03
+  - name: reformmgmtdevopsbackup03
     record:
     - 172.16.2.39
     ttl: 300
-  - name: reformMgmtDevOpsJenkins01
+  - name: reformmgmtdevopsjenkins01
     record:
     - 172.16.2.5
     ttl: 300
-  - name: reformMgmtDevOpsLDAP01
+  - name: reformmgmtdevopsldap01
     record:
     - 172.16.2.8
     ttl: 300
-  - name: reformMgmtDevopsBastion
+  - name: reformmgmtdevopsbastion
     record:
     - 172.16.0.5
     ttl: 300
-  - name: reformMgmtDevopsDNS01
+  - name: reformmgmtdevopsdns01
     record:
     - 172.16.0.10
     ttl: 300
-  - name: reformMgmtDevopsDNS02
+  - name: reformmgmtdevopsdns02
     record:
     - 172.16.0.14
     ttl: 300
-  - name: reformMgmtMTA
+  - name: reformmgmtmta
     record:
     - 172.16.0.8
     ttl: 300
-  - name: reformMgmtProxyIn
+  - name: reformmgmtproxyin
     record:
     - 172.16.0.6
     ttl: 300
-  - name: reformMgmtProxyOut
+  - name: reformmgmtproxyout
     record:
     - 172.16.0.7
     ttl: 300
-  - name: serviceNowMID01
+  - name: servicenowmid01
     record:
     - 172.16.0.16
     ttl: 300
 cname:
-  - name: reformMgmtDevBastion
-    record: reformMgmtDevBastion02
+  - name: reformmgmtdevbastion
+    record: reformmgmtdevbastion02.reform.hmcts.net.
     ttl: 300
   - name: bastion
-    record: reformMgmtDevBastion02
+    record: reformmgmtdevbastion02.reform.hmcts.net.
     ttl: 300
   - name: ldap
-    record: reformMgmtDevOpsLDAP01
+    record: reformmgmtdevopsldap01.reform.hmcts.net.
     ttl: 300
   - name: backup1
-    record: reformMgmtBackup01
+    record: reformmgmtbackup01.reform.hmcts.net.
     ttl: 300
   - name: backup2
-    record: reformMgmtDevOpsBackup01
+    record: reformmgmtdevopsbackup01.reform.hmcts.net.
     ttl: 300
   - name: dashboard
-    record: proxyin
+    record: proxyin.reform.hmcts.net.
     ttl: 300
   - name: demoproxyin
-    record: betaDemoAProxyIn01
+    record: betademoaproxyin01.reform.hmcts.net.
     ttl: 300
   - name: mta
-    record: reformMgmtMTA
+    record: reformmgmtmta.reform.hmcts.net.
     ttl: 3600
   - name: password
-    record: proxyin
+    record: proxyin.reform.hmcts.net.
     ttl: 300
   - name: passwordchange
-    record: proxyin
+    record: proxyin.reform.hmcts.net.
     ttl: 300
   - name: prod-build
-    record: proxyin
+    record: proxyin.reform.hmcts.net.
     ttl: 3600
   - name: proxyin
-    record: reformmgmtproxyin
+    record: reformmgmtproxyin.reform.hmcts.net.
     ttl: 300
   - name: prodproxyin
-    record: reformmgmtproxyin02
+    record: reformmgmtproxyin02.reform.hmcts.net.
     ttl: 300
   - name: proxyout
-    record: reformmgmtproxyout
+    record: reformmgmtproxyout.reform.hmcts.net.
     ttl: 300
   - name: reformmgmtadmin01
-    record: reformmgmtdevopsadmin01
+    record: reformmgmtdevopsadmin01.reform.hmcts.net.
     ttl: 300
   - name: mgmtf5perim
-    record: reformMgmtF5Perim
+    record: reformmgmtf5perim.reform.hmcts.net.
     ttl: 300
   - name: mgmtf5int
-    record: reformMgmtF5Internal
+    record: reformmgmtf5internal.reform.hmcts.net.
     ttl: 300
