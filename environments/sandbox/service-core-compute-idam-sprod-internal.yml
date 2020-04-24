@@ -1,0 +1,8 @@
+name: "service.core-compute-idam-sprod.internal"
+vnet_links:
+  - link_name: "core-infra-vnet-idam-sprod-idam-internal"
+    vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/core-infra-idam-sprod/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-sprod"
+  - link_name: "mgmt-infra-sandbox-idam-internal"
+    vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/mgmt-infra-sandbox/providers/Microsoft.Network/virtualNetworks/mgmt-infra-sandbox"
+A: []
+cname: []
