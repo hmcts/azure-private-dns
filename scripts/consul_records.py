@@ -68,6 +68,9 @@ def load_records(servers):
                     a_records[v['Service']] = v['Address']
                 elif 'CNAME' in v['Tags']:
                     cname_records[v['Service']] = v['Address']
+                elif 'scm' == v['Service']:
+                    for srv in v['Tags']:
+                        a_records[srv + '.scm'] = v['Address']
     return {'A': a_records, 'CNAME': cname_records}
 
 
