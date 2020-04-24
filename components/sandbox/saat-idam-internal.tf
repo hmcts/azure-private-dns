@@ -1,4 +1,4 @@
-data "local_file" "idam-saat-internal-configuration" {
+data "local_file" "saat-idam-internal-configuration" {
   filename = "${path.cwd}/../../environments/sandbox/service-core-compute-idam-saat-internal.yml"
 }
 

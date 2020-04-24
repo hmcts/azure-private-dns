@@ -1,4 +1,4 @@
-data "local_file" "idam-sprod-internal-configuration" {
+data "local_file" "sprod-idam-internal-configuration" {
   filename = "${path.cwd}/../../environments/sandbox/service-core-compute-idam-sprod-internal.yml"
 }
 
