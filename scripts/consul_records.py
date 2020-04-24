@@ -42,13 +42,13 @@ class RecordRegistrationClient(object):
         for rec_type, rec in records.items():
             if rec_type == 'A':
                 for service, address in rec.items():
-                    self.register_a(resource_group_name, private_zone_name, service, address, ttl)
                     print("Registering A = {}, {}, {}, {}".format(resource_group_name, private_zone_name, service, address))
+                    self.register_a(resource_group_name, private_zone_name, service, address, ttl)
                     i += 1
             elif rec_type == 'CNAME':
                 for service, address in rec.items():
-                    self.register_cname(resource_group_name, private_zone_name, service, address, ttl)
                     print("Registering CNAME = {}, {}, {}, {}".format(resource_group_name, private_zone_name, service, address))
+                    self.register_cname(resource_group_name, private_zone_name, service, address, ttl)
                     j += 1
         print("Loaded {} A recs + {} CNAME recs = {}".format(i, j, i+j))
 
