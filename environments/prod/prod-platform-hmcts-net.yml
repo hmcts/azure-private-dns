@@ -15,5 +15,387 @@ vnet_links:
     vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/core-infra-idam-sandbox/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-sandbox"
   - link_name: "mgmt-infra-sandbox-idam-internal"
     vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/mgmt-infra-sandbox/providers/Microsoft.Network/virtualNetworks/mgmt-infra-sandbox"
-A: []
-cname: []
+A:
+  - name: aat-waf
+    record:
+    - 51.140.157.202
+    ttl: 300
+  - name: prod-waf
+    record:
+    - 51.140.154.148
+    ttl: 300
+  - name: prod-waf-additional
+    record:
+    - 51.140.162.48
+    ttl: 300
+  - name: demo-waf
+    record:
+    - 51.143.139.207
+    ttl: 300
+  - name: demo-waf-2
+    record:
+    - 51.141.226.211
+    ttl: 300
+  - name: preview-waf
+    record:
+    - 51.143.139.66
+    ttl: 300
+  - name: demo-waf-3
+    record:
+    - 52.151.85.197
+    ttl: 300
+  - name: ccpay-waf
+    record:
+    - 51.143.156.137
+    ttl: 300
+  - name: ccpay-demo-waf
+    record:
+    - 51.145.4.148
+    ttl: 300
+  - name: mgmt-jenkins-sandbox
+    record:
+    - 10.99.196.9
+    ttl: 300
+  - name: sandbox-build
+    record:
+    - 51.140.32.178
+    ttl: 300
+  - name: sandbox-build-beta
+    record:
+    - 40.120.54.64
+    ttl: 300
+  - name: mgmt-jenkins-sandbox-a
+    record:
+    - 10.99.196.7
+    ttl: 300
+  - name: mgmt-jenkins-sandbox-b
+    record:
+    - 10.99.196.5
+    ttl: 300
+  - name: mgmt-jenkins-prod
+    record:
+    - 10.96.4.12
+    ttl: 300
+  - name: mgmt-jenkins-prod-a
+    record:
+    - 10.96.4.9
+    ttl: 300
+  - name: mgmt-jenkins-prod-b
+    record:
+    - 10.96.4.10
+    ttl: 300
+  - name: build
+    record:
+    - 51.141.228.15
+    ttl: 300
+  - name: build-beta
+    record:
+    - 51.145.50.201
+    ttl: 300
+  - name: aks-mgmt-sandbox-proxyin
+    record:
+    - 10.10.9.250
+    ttl: 300
+  - name: aks-mgmt-prod-proxyin
+    record:
+    - 10.10.65.250
+    ttl: 300
+  - name: sandbox-build-failure-analyzer
+    record:
+    - 52.151.93.193
+    ttl: 300
+  - name: build-failure-analyzer
+    record:
+    - 51.141.230.224
+    ttl: 300
+  - name: grafana-ptl
+    record:
+    - 10.10.65.250
+    ttl: 300
+  - name: alertmanager-mgmt-ptl
+    record:
+    - 10.10.65.250
+    ttl: 300
+  - name: prometheus-00
+    record:
+    - 10.13.15.250
+    ttl: 300
+  - name: prometheus-01
+    record:
+    - 10.13.31.250
+    ttl: 300
+  - name: alertmanager-00
+    record:
+    - 10.13.15.250
+    ttl: 300
+  - name: alertmanager-01
+    record:
+    - 10.13.31.250
+    ttl: 300
+  - name: ccd-admin-web
+    record:
+    - 10.13.32.120
+    ttl: 300
+  - name: ccd-ethosldata-waf
+    record:
+    - 51.105.44.181
+    ttl: 300
+  - name: ccd-demo-waf
+    record:
+    - 51.140.101.77
+    ttl: 300
+  - name: idam
+    record:
+    - 51.143.183.107
+    ttl: 60
+  - name: www.idam
+    record:
+    - 51.143.183.107
+    ttl: 60
+  - name: registration
+    record:
+    - 51.140.72.138
+    ttl: 60
+  - name: www.registration
+    record:
+    - 51.140.72.138
+    ttl: 60
+  - name: dm-store-prod.service
+    record:
+    - 51.140.154.148
+    ttl: 300
+  - name: www.featuretoggle.sprod
+    record:
+    - 51.140.40.196
+    ttl: 300
+  - name: www.featuretoggle
+    record:
+    - 51.140.43.74
+    ttl: 300
+  - name: portal
+    record:
+    - 51.145.4.100
+    ttl: 300
+  - name: sod-ss
+    record:
+    - 51.132.42.55
+    ttl: 300
+  - name: nexpose-console
+    record:
+    - 10.0.14.5
+    ttl: 300
+  - name: ctsc-web-forms-ui-stg
+    record:
+    - 51.145.47.4
+    ttl: 300
+cname:
+  - name: sandbox-a-build
+    record: proxyin.reform.hmcts.net.
+    ttl: 300
+  - name: sandbox-b-build
+    record: proxyin.reform.hmcts.net.
+    ttl: 300
+  - name: a-build
+    record: proxyin.reform.hmcts.net.
+    ttl: 300
+  - name: b-build
+    record: proxyin.reform.hmcts.net.
+    ttl: 300
+  - name: sandbox-artifactory
+    record: proxyin.reform.hmcts.net.
+    ttl: 300
+  - name: sandbox-traefik
+    record: proxyin.reform.hmcts.net.
+    ttl: 300
+  - name: artifactory
+    record: proxyin.reform.hmcts.net.
+    ttl: 300
+  - name: traefik
+    record: proxyin.reform.hmcts.net.
+    ttl: 300
+  - name: sandbox-pact-broker
+    record: proxyin.reform.hmcts.net.
+    ttl: 300
+  - name: pact-broker
+    record: proxyin.reform.hmcts.net.
+    ttl: 300
+  - name: www.moneyclaim-legal
+    record: hmcts-prod.azurefd.net.
+    ttl: 300
+  - name: www.ccd
+    record: hmcts-prod.azurefd.net.
+    ttl: 300
+  - name: gateway.ccd
+    record: hmcts-prod.azurefd.net.
+    ttl: 300
+  - name: return-case-doc.ccd
+    record: hmcts-prod.azurefd.net.
+    ttl: 300
+  - name: www-ccd-ethosldata
+    record: ccd-ethosldata-waf.platform.hmcts.net.
+    ttl: 300
+  - name: gateway-ccd-ethosldata
+    record: ccd-ethosldata-waf.platform.hmcts.net.
+    ttl: 300
+  - name: admin-ccd-ethosldata
+    record: ccd-admin-web-ethosldata.service.core-compute-ethosldata.internal
+    ttl: 300
+  - name: fees-register
+    record: hmcts-prod.azurefd.net.
+    ttl: 300
+  - name: www.fees-register
+    record: hmcts-prod.azurefd.net.
+    ttl: 300
+  - name: tmwww.fees-register
+    record: prod-waf-additional.platform.hmcts.net.
+    ttl: 300
+  - name: fees-register-api
+    record: prod-waf-additional.platform.hmcts.net.
+    ttl: 300
+  - name: tmwww.fees-register-api
+    record: prod-waf-additional.platform.hmcts.net.
+    ttl: 300
+  - name: idam-api.preview
+    record: idam-api.service.core-compute-preview.internal.
+    ttl: 300
+  - name: idam-web-admin.preview
+    record: idam-web-admin.service.core-compute-preview.internal.
+    ttl: 300
+  - name: idam-web-public.preview
+    record: idam-web-public.service.core-compute-preview.internal.
+    ttl: 300
+  - name: tmidam-web-admin.preview
+    record: 80394856-07bf-44a8-907b-c7c5a93c2c30.cloudapp.net.
+    ttl: 300
+  - name: tmidam-web-public.preview
+    record: 80394856-07bf-44a8-907b-c7c5a93c2c30.cloudapp.net.
+    ttl: 300
+  - name: idam-web-admin-ethosldata
+    record: hmcts-idam-web-admin-idam-ethosldata.trafficmanager.net.
+    ttl: 300
+  - name: idam-web-public-ethosldata
+    record: hmcts-idam-web-public-idam-ethosldata.trafficmanager.net.
+    ttl: 300
+  - name: tmidam-web-public-ethosldata
+    record: 500f1820-ccf8-4799-9d15-900c58827d70.cloudapp.net.
+    ttl: 300
+  - name: tmidam-web-admin-ethosldata
+    record: 500f1820-ccf8-4799-9d15-900c58827d70.cloudapp.net.
+    ttl: 300
+  - name: idam-api-ethosldata
+    record: idam-api-idam-ethosldata.service.core-compute-idam-ethosldata.internal.
+    ttl: 300
+  - name: idam-api
+    record: idam-api-idam-prod.service.core-compute-idam-prod.internal.
+    ttl: 60
+  - name: idam-api-pregolive
+    record: idam-api-idam-prod.service.core-compute-idam-prod.internal.
+    ttl: 300
+  - name: idam-web-admin
+    record: hmcts-idam-web-admin-idam-prod.trafficmanager.net.
+    ttl: 60
+  - name: idam-web-public
+    record: hmcts-idam-web-public-idam-prod.trafficmanager.net.
+    ttl: 60
+  - name: tmidam-web-public
+    record: 7436ed5c-c64c-4053-9c36-6d8ee8702a6d.cloudapp.net.
+    ttl: 60
+  - name: tmidam-web-admin
+    record: 7436ed5c-c64c-4053-9c36-6d8ee8702a6d.cloudapp.net.
+    ttl: 60
+  - name: idam-api-prod2
+    record: idam-api-prod.service.core-compute-prod.internal.
+    ttl: 60
+  - name: idam-web-admin-prod2
+    record: idam-web-admin-prod.service.core-compute-prod.internal.
+    ttl: 60
+  - name: payment
+    record: prod-waf-additional.platform.hmcts.net.
+    ttl: 300
+  - name: www.paybubble
+    record: hmcts-prod.azurefd.net.
+    ttl: 300
+  - name: tmpaybubble
+    record: ccpay-waf.platform.hmcts.net.
+    ttl: 300
+  - name: paybubble
+    record: hmcts-prod.azurefd.net.
+    ttl: 300
+  - name: bar
+    record: prod-waf.platform.hmcts.net.
+    ttl: 300
+  - name: www.bar
+    record: prod-waf.platform.hmcts.net.
+    ttl: 300
+  - name: www.manage-payments
+    record: prod-waf-additional.platform.hmcts.net.
+    ttl: 300
+  - name: tmwww.manage-payments
+    record: prod-waf-additional.platform.hmcts.net.
+    ttl: 300
+  - name: in-court-presentation
+    record: prod-waf.platform.hmcts.net.
+    ttl: 300
+  - name: apply-for-probate
+    record: probate-appgw-prod.platform.hmcts.net.
+    ttl: 300
+  - name: www.apply-for-probate
+    record: probate-appgw-prod.platform.hmcts.net.
+    ttl: 300
+  - name: tmwww.apply-for-probate
+    record: probate-appgw-prod.platform.hmcts.net.
+    ttl: 300
+  - name: bulkscan.sprod
+    record: 74e26139-b9c5-4959-a100-cda7b7ab62c7.cloudapp.net.
+    ttl: 300
+  - name: bulkscan
+    record: 0c825335-3be3-454d-af9a-ff6a54a9fbc2.cloudapp.net.
+    ttl: 300
+  - name: bulkscan.saat
+    record: 249883f2-b70d-43f4-ad2c-d5100c94b5b9.cloudapp.net.
+    ttl: 300
+  - name: reformscan
+    record: 2be0d184-af73-4abf-84c1-6a0e447ebe50.cloudapp.net.
+    ttl: 300
+  - name: docmosis-development
+    record: proxyin.reform.hmcts.net.
+    ttl: 300
+  - name: docmosis-testing
+    record: proxyin.reform.hmcts.net.
+    ttl: 300
+  - name: docmosis-ithc
+    record: proxyin.reform.hmcts.net.
+    ttl: 300
+  - name: docmosis
+    record: proxyin.reform.hmcts.net.
+    ttl: 300
+  - name: sslmon
+    record: proxyin.reform.hmcts.net.
+    ttl: 300
+  - name: manage-org
+    record: hmcts-xui-mo-webapp-prod.trafficmanager.net.
+    ttl: 300
+  - name: administer-orgs
+    record: hmcts-xui-ao-webapp-prod.trafficmanager.net.
+    ttl: 300
+  - name: register-org
+    record: hmcts-xui-mo-webapp-prod.trafficmanager.net.
+    ttl: 300
+  - name: manage-case
+    record: hmcts-xui-webapp-prod.trafficmanager.net.
+    ttl: 300
+  - name: tmmanage-case
+    record: 3ea55565-0202-4fa4-a74b-e9b0bccdefd5.cloudapp.net.
+    ttl: 300
+  - name: tmmanage-org
+    record: 3ea55565-0202-4fa4-a74b-e9b0bccdefd5.cloudapp.net.
+    ttl: 300
+  - name: tmadminister-orgs
+    record: 3ea55565-0202-4fa4-a74b-e9b0bccdefd5.cloudapp.net.
+    ttl: 300
+  - name: awverify.sscs
+    record: awverify.sscs-tya-frontend-prod-shutter.azurewebsites.net
+    ttl: 300
+  - name: sscs
+    record: sscs-tya-frontend-prod-shutter.azurewebsites.net
+    ttl: 300
