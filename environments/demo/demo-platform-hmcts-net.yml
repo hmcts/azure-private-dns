@@ -4,5 +4,93 @@ vnet_links:
     vnet_id: "/subscriptions/1c4f0704-a29e-403d-b719-b90c34ef14c9/resourceGroups/core-infra-demo/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-demo"
   - link_name: "core-infra-vnet-idam-demo-internal"
     vnet_id: "/subscriptions/1c4f0704-a29e-403d-b719-b90c34ef14c9/resourceGroups/core-infra-idam-demo/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-demo"
-A: []
-cname: []
+A:
+  - name: www.featuretoggle
+    record:
+    - 51.140.41.143
+    ttl: 300
+cname:
+  - name: www.moneyclaims
+    record: demo-waf.demo.platform.hmcts.net.
+    ttl: 300
+  - name: www.moneyclaims-legal
+    record: demo-waf.demo.platform.hmcts.net.
+    ttl: 300
+  - name: www-ccd
+    record: ccd-demo-waf.demo.platform.hmcts.net.
+    ttl: 300
+  - name: gateway-ccd
+    record: ccd-demo-waf.demo.platform.hmcts.net.
+    ttl: 300
+  - name: www.ccd
+    record: demo-waf.demo.platform.hmcts.net.
+    ttl: 300
+  - name: gateway.ccd
+    record: demo-waf.demo.platform.hmcts.net.
+    ttl: 300
+  - name: return-case-doc.ccd
+    record: demo-waf.demo.platform.hmcts.net.
+    ttl: 300
+  - name: fees-register
+    record: ccpay-demo-waf.demo.platform.hmcts.net.
+    ttl: 300
+  - name: www.fees-register
+    record: ccpay-demo-waf.demo.platform.hmcts.net.
+    ttl: 300
+  - name: fees-register-api
+    record: demo-waf.demo.platform.hmcts.net.
+    ttl: 300
+  - name: idam-api
+    record: idam-api-idam-demo.service.core-compute-idam-demo.internal.
+    ttl: 300
+  - name: idam-web-admin
+    record: hmcts-idam-web-admin-idam-demo.trafficmanager.net.
+    ttl: 300
+  - name: idam-web-public
+    record: hmcts-idam-web-public-idam-demo.trafficmanager.net.
+    ttl: 300
+  - name: tmidam-web-public
+    record: 14fa5e11-1c38-4525-8f5e-cd7210606537.cloudapp.net.
+    ttl: 300
+  - name: tmidam-web-admin
+    record: 14fa5e11-1c38-4525-8f5e-cd7210606537.cloudapp.net.
+    ttl: 300
+  - name: payment
+    record: demo-waf.demo.platform.hmcts.net.
+    ttl: 300
+  - name: paybubble
+    record: ccpay-demo-waf.demo.platform.hmcts.net.
+    ttl: 300
+  - name: www.paybubble
+    record: ccpay-demo-waf.demo.platform.hmcts.net.
+    ttl: 300
+  - name: bar
+    record: demo-waf.demo.platform.hmcts.net.
+    ttl: 300
+  - name: www.bar
+    record: demo-waf.demo.platform.hmcts.net.
+    ttl: 300
+  - name: probate
+    record: probate-appgw-demo.demo.platform.hmcts.net.
+    ttl: 300
+  - name: apply-for-probate
+    record: probate-appgw-demo.demo.platform.hmcts.net.
+    ttl: 300
+  - name: www.apply-for-probate
+    record: probate-appgw-demo.demo.platform.hmcts.net.
+    ttl: 300
+  - name: tmwww.apply-for-probate
+    record: probate-appgw-demo.demo.platform.hmcts.net.
+    ttl: 300
+  - name: bulkscan
+    record: f72fd46f-5e4b-42d9-9d23-697fb97f5640.cloudapp.net.
+    ttl: 300
+  - name: bulk-scanning
+    record: 3644b292-ae3f-4055-ba68-4a9500e43659.cloudapp.net.
+    ttl: 300
+  - name: awverify.sscs
+    record: awverify.sscs-tya-frontend-demo-shutter.azurewebsites
+    ttl: 300
+  - name: sscs
+    record: sscs-tya-frontend-demo-shutter.azurewebsites
+    ttl: 300

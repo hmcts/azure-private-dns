@@ -10,5 +10,146 @@ vnet_links:
     vnet_id: "/subscriptions/1c4f0704-a29e-403d-b719-b90c34ef14c9/resourceGroups/core-infra-idam-aat/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-aat"
   - link_name: "core-infra-vnet-idam-aat2-internal"
     vnet_id: "/subscriptions/1c4f0704-a29e-403d-b719-b90c34ef14c9/resourceGroups/core-infra-idam-aat2/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-aat2"
-A: []
-cname: []
+A:
+  - name: prometheus-00
+    record:
+    - 10.10.19.250
+    ttl: 300
+  - name: prometheus-01
+    record:
+    - 10.10.23.250
+    ttl: 300
+  - name: alertmanager-00
+    record:
+    - 10.10.19.250
+    ttl: 300
+  - name: alertmanager-01
+    record:
+    - 10.10.23.250
+    ttl: 300
+  - name: ccd-admin-web
+    record:
+    - 10.10.24.121
+    ttl: 300
+  - name: dm-store-aat.service
+    record:
+    - 51.145.48.139
+    ttl: 300
+cname:
+  - name: adoption
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: moneyclaims
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: moneyclaims-legal
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: benefit-appeal
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: track-appeal
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: sscs-cor
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: www-ccd
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: gateway-ccd
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: return-case-doc-ccd
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: fees-register
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: fees-register-api
+    record: aat-waf.aat.platform.hmcts.net.
+    ttl: 300
+  - name: idam-api
+    record: idam-api-aat.service.core-compute-aat.internal.
+    ttl: 300
+  - name: idam-web-admin
+    record: idam-web-admin-aat.service.core-compute-aat.internal.
+    ttl: 300
+  - name: idam-web-public
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: tmidam-web-public
+    record: d060dd65-4af6-42e7-9e1d-adfd3b847879.cloudapp.net.
+    ttl: 300
+  - name: tmidam-web-admin
+    record: d060dd65-4af6-42e7-9e1d-adfd3b847879.cloudapp.net.
+    ttl: 300
+  - name: idam-api-aat2
+    record: idam-api-aat.service.core-compute-aat.internal.
+    ttl: 300
+  - name: idam-web-admin-aat2
+    record: idam-web-admin-aat.service.core-compute-aat.internal.
+    ttl: 300
+  - name: idam-web-public-aat2
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: payment
+    record: aat-waf.aat.platform.hmcts.net.
+    ttl: 300
+  - name: paybubble
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: bar
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: petitioner-frontend-aks
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: respond-divorce-aks
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: decree-nisi-aks
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: decree-absolute-aks
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: probate
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: bulkscan
+    record: 81231a71-d7a7-413e-a607-703e41a978fe.cloudapp.net.
+    ttl: 300
+  - name: reformscan
+    record: 7cd7d74d-3207-47ce-af46-33f51cf09738.cloudapp.net.
+    ttl: 300
+  - name: jcm
+    record: hmcts-jui-webapp-aat.trafficmanager.net.
+    ttl: 300
+  - name: tmjcm
+    record: 4fa22a19-8647-45be-8d8b-c1712177738c.cloudapp.net.
+    ttl: 300
+  - name: awverify.sscs
+    record: awverify.sscs-tya-frontend-aat-shutter.azurewebsites.net.aat.platform.hmcts.net.
+    ttl: 300
+  - name: sscs
+    record: sscs-tya-frontend-aat-shutter.azurewebsites.net.aat.platform.hmcts.net.
+    ttl: 300
+  - name: register-org
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: manage-org
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: administer-orgs
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: manage-case
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: immigration-appeal
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: pcq
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
