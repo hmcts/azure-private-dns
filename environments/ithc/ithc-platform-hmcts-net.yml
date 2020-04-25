@@ -10,9 +10,6 @@ A:
     - 10.10.36.121
     ttl: 300
 cname:
-  - name: neuvector
-    record: 10.10.36.6.ithc.platform.hmcts.net.
-    ttl: 300
   - name: moneyclaims
     record: hmcts-ithc.azure-fd.net.
     ttl: 300
