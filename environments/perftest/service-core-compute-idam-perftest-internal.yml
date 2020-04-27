@@ -6,5 +6,7 @@ vnet_links:
     vnet_id: "/subscriptions/7a4e3bd5-ae3a-4d0c-b441-2188fee3ff1c/resourceGroups/core-infra-idam-perftest/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-perftest"
   - link_name: "mgmt-infra-prod"
     vnet_id: "/subscriptions/8999dec3-0104-4a27-94ee-6588559729d1/resourceGroups/mgmt-infra-prod/providers/Microsoft.Network/virtualNetworks/mgmt-infra-prod"
+  - link_name: "core-infra-vnet-mgmt"
+    vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/rg-mgmt/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-mgmt"
 A: []
 cname: []

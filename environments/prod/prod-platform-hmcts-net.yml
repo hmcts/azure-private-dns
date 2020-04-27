@@ -15,6 +15,8 @@ vnet_links:
     vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/core-infra-idam-sandbox/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-sandbox"
   - link_name: "mgmt-infra-sandbox-idam-internal"
     vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/mgmt-infra-sandbox/providers/Microsoft.Network/virtualNetworks/mgmt-infra-sandbox"
+  - link_name: "core-infra-vnet-mgmt"
+    vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/rg-mgmt/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-mgmt"
 A:
   - name: aat-waf
     record:
