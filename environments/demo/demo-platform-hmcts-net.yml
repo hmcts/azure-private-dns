@@ -11,6 +11,18 @@ A:
     record:
     - 51.140.41.143
     ttl: 300
+  - name: idam-api
+    record:
+    - 10.11.15.221
+    ttl: 300
+  - name: idam-web-admin
+    record:
+    - 51.11.5.163
+    ttl: 300
+  - name: idam-web-public
+    record:
+    - 51.11.5.163
+    ttl: 300
 cname:
   - name: www.moneyclaims
     record: demo-waf.demo.platform.hmcts.net.
@@ -41,15 +53,6 @@ cname:
     ttl: 300
   - name: fees-register-api
     record: demo-waf.demo.platform.hmcts.net.
-    ttl: 300
-  - name: idam-api
-    record: idam-api-idam-demo.service.core-compute-idam-demo.internal.
-    ttl: 300
-  - name: idam-web-admin
-    record: hmcts-idam-web-admin-idam-demo.trafficmanager.net.
-    ttl: 300
-  - name: idam-web-public
-    record: hmcts-idam-web-public-idam-demo.trafficmanager.net.
     ttl: 300
   - name: tmidam-web-public
     record: 14fa5e11-1c38-4525-8f5e-cd7210606537.cloudapp.net.
