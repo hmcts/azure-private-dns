@@ -50,6 +50,9 @@ cname:
   - name: return-case-doc-ccd
     record: hmcts-perftest.azurefd.net.
     ttl: 300
+  - name: manage-case
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
   - name: idam-api
     record: idam-api-perftest.service.core-compute-perftest.internal.
     ttl: 300
