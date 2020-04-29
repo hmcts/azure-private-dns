@@ -13,11 +13,7 @@ variable "zone_name" {
 }
 
 variable "vnet_links" {
-  type = list(object({
-    link_name = string
-    vnet_id   = string
-  }))
-
+  type = list
   default = []
 }
 
