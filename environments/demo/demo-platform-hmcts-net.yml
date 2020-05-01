@@ -27,6 +27,10 @@ A:
     record:
     - 51.11.5.163
     ttl: 300
+  - name: paybubble
+    record:
+    - 51.11.25.221
+    ttl: 300
 cname:
   - name: www.moneyclaims
     record: demo-waf.demo.platform.hmcts.net.
@@ -66,12 +70,6 @@ cname:
     ttl: 300
   - name: payment
     record: demo-waf.demo.platform.hmcts.net.
-    ttl: 300
-  - name: paybubble
-    record: ccpay-demo-waf.demo.platform.hmcts.net.
-    ttl: 300
-  - name: www.paybubble
-    record: ccpay-demo-waf.demo.platform.hmcts.net.
     ttl: 300
   - name: bar
     record: demo-waf.demo.platform.hmcts.net.
