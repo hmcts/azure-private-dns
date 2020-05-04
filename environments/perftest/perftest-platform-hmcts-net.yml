@@ -53,6 +53,9 @@ cname:
   - name: manage-case
     record: hmcts-perftest.azurefd.net.
     ttl: 300
+  - name: paybubble
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
   - name: idam-api
     record: idam-api-perftest.service.core-compute-perftest.internal.
     ttl: 300
@@ -71,3 +74,4 @@ cname:
   - name: reformscan
     record: a975c6f9-93cc-42fe-8cb1-c194eee0e2db.cloudapp.net.
     ttl: 300
+    
