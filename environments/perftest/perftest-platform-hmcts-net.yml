@@ -53,7 +53,7 @@ cname:
   - name: manage-case
     record: hmcts-perftest.azurefd.net.
     ttl: 300
-   - name: paybubble
+  - name: paybubble
     record: hmcts-perftest.azurefd.net.
     ttl: 300
   - name: idam-api
