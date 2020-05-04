@@ -382,16 +382,16 @@ cname:
     record: proxyin.reform.hmcts.net.
     ttl: 300
   - name: manage-org
-    record: hmcts-xui-mo-webapp-prod.trafficmanager.net.
+    record: hmcts-prod.azurefd.net.
     ttl: 300
   - name: administer-orgs
-    record: hmcts-xui-ao-webapp-prod.trafficmanager.net.
+    record: hmcts-prod.azurefd.net.
     ttl: 300
   - name: register-org
-    record: hmcts-xui-mo-webapp-prod.trafficmanager.net.
+    record: hmcts-prod.azurefd.net.
     ttl: 300
   - name: manage-case
-    record: hmcts-xui-webapp-prod.trafficmanager.net.
+    record: hmcts-prod.azurefd.net.
     ttl: 300
   - name: tmmanage-case
     record: 3ea55565-0202-4fa4-a74b-e9b0bccdefd5.cloudapp.net.
