@@ -334,7 +334,10 @@ cname:
     record: prod-waf.platform.hmcts.net.
     ttl: 300
   - name: www.manage-payments
-    record: prod-waf-additional.platform.hmcts.net.
+    record: hmcts-prod.azurefd.net.
+    ttl: 300
+  - name: manage-payments
+    record: hmcts-prod.azurefd.net.
     ttl: 300
   - name: tmwww.manage-payments
     record: prod-waf-additional.platform.hmcts.net.
