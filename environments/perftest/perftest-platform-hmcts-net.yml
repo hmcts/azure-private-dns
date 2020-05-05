@@ -53,6 +53,15 @@ cname:
   - name: manage-case
     record: hmcts-perftest.azurefd.net.
     ttl: 300
+  - name: administer-orgs
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
+  - name: manage-org
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
+  - name: register-org
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
   - name: paybubble
     record: hmcts-perftest.azurefd.net.
     ttl: 300
