@@ -53,6 +53,9 @@ cname:
   - name: return-case-doc.ccd
     record: demo-waf.platform.hmcts.net.
     ttl: 300
+  - name: return-case-doc-ccd
+    record: demo-waf.platform.hmcts.net.
+    ttl: 300
   - name: fees-register
     record: ccpay-demo-waf.demo.platform.hmcts.net.
     ttl: 300
