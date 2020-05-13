@@ -194,6 +194,10 @@ A:
     record:
     - 51.145.47.4
     ttl: 300
+  - name: response
+    record:
+    - 10.10.65.250
+    ttl: 300
 cname:
   - name: sandbox-a-build
     record: proxyin.reform.hmcts.net.
