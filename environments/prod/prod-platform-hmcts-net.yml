@@ -194,6 +194,10 @@ A:
     record:
     - 51.145.47.4
     ttl: 300
+  - name: response
+    record:
+    - 10.10.65.250
+    ttl: 300
 cname:
   - name: sandbox-a-build
     record: proxyin.reform.hmcts.net.
@@ -334,7 +338,10 @@ cname:
     record: prod-waf.platform.hmcts.net.
     ttl: 300
   - name: www.manage-payments
-    record: prod-waf-additional.platform.hmcts.net.
+    record: hmcts-prod.azurefd.net.
+    ttl: 300
+  - name: manage-payments
+    record: hmcts-prod.azurefd.net.
     ttl: 300
   - name: tmwww.manage-payments
     record: prod-waf-additional.platform.hmcts.net.
@@ -379,16 +386,16 @@ cname:
     record: proxyin.reform.hmcts.net.
     ttl: 300
   - name: manage-org
-    record: hmcts-xui-mo-webapp-prod.trafficmanager.net.
+    record: hmcts-prod.azurefd.net.
     ttl: 300
   - name: administer-orgs
-    record: hmcts-xui-ao-webapp-prod.trafficmanager.net.
+    record: hmcts-prod.azurefd.net.
     ttl: 300
   - name: register-org
-    record: hmcts-xui-mo-webapp-prod.trafficmanager.net.
+    record: hmcts-prod.azurefd.net.
     ttl: 300
   - name: manage-case
-    record: hmcts-xui-webapp-prod.trafficmanager.net.
+    record: hmcts-prod.azurefd.net.
     ttl: 300
   - name: tmmanage-case
     record: 3ea55565-0202-4fa4-a74b-e9b0bccdefd5.cloudapp.net.

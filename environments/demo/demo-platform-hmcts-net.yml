@@ -27,27 +27,34 @@ A:
     record:
     - 51.11.5.163
     ttl: 300
+  - name: paybubble
+    record:
+    - 51.11.25.221
+    ttl: 300
 cname:
   - name: www.moneyclaims
-    record: demo-waf.demo.platform.hmcts.net.
+    record: demo-waf.platform.hmcts.net.
     ttl: 300
   - name: www.moneyclaims-legal
-    record: demo-waf.demo.platform.hmcts.net.
+    record: demo-waf.platform.hmcts.net.
     ttl: 300
   - name: www-ccd
-    record: ccd-demo-waf.demo.platform.hmcts.net.
+    record: ccd-demo-waf.platform.hmcts.net.
     ttl: 300
   - name: gateway-ccd
-    record: ccd-demo-waf.demo.platform.hmcts.net.
+    record: ccd-demo-waf.platform.hmcts.net.
     ttl: 300
   - name: www.ccd
-    record: demo-waf.demo.platform.hmcts.net.
+    record: demo-waf.platform.hmcts.net.
     ttl: 300
   - name: gateway.ccd
-    record: demo-waf.demo.platform.hmcts.net.
+    record: demo-waf.platform.hmcts.net.
     ttl: 300
   - name: return-case-doc.ccd
-    record: demo-waf.demo.platform.hmcts.net.
+    record: demo-waf.platform.hmcts.net.
+    ttl: 300
+  - name: return-case-doc-ccd
+    record: demo-waf.platform.hmcts.net.
     ttl: 300
   - name: fees-register
     record: ccpay-demo-waf.demo.platform.hmcts.net.
@@ -56,7 +63,7 @@ cname:
     record: ccpay-demo-waf.demo.platform.hmcts.net.
     ttl: 300
   - name: fees-register-api
-    record: demo-waf.demo.platform.hmcts.net.
+    record: demo-waf.platform.hmcts.net.
     ttl: 300
   - name: tmidam-web-public
     record: 14fa5e11-1c38-4525-8f5e-cd7210606537.cloudapp.net.
@@ -65,19 +72,13 @@ cname:
     record: 14fa5e11-1c38-4525-8f5e-cd7210606537.cloudapp.net.
     ttl: 300
   - name: payment
-    record: demo-waf.demo.platform.hmcts.net.
-    ttl: 300
-  - name: paybubble
-    record: ccpay-demo-waf.demo.platform.hmcts.net.
-    ttl: 300
-  - name: www.paybubble
-    record: ccpay-demo-waf.demo.platform.hmcts.net.
+    record: demo-waf.platform.hmcts.net.
     ttl: 300
   - name: bar
-    record: demo-waf.demo.platform.hmcts.net.
+    record: demo-waf.platform.hmcts.net.
     ttl: 300
   - name: www.bar
-    record: demo-waf.demo.platform.hmcts.net.
+    record: demo-waf.platform.hmcts.net.
     ttl: 300
   - name: probate
     record: probate-appgw-demo.demo.platform.hmcts.net.
