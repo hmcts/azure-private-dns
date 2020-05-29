@@ -7,5 +7,5 @@ data "local_file" "preview-idam-internal-configuration" {
 }
 
 data "local_file" "preview-platform-configuration" {
-  filename = "${path.cwd}/../../environments/preview/preview-platform-hmcts-net.yml}"
+  filename = "${path.cwd}/../../environments/preview/preview-platform-hmcts-net.yml"
 }
