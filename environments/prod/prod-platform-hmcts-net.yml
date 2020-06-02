@@ -118,7 +118,11 @@ A:
     record:
     - 10.10.65.250
     ttl: 300
-  - name: alertmanager-mgmt-ptl
+  - name: prometheus-ptl
+    record:
+    - 10.10.65.250
+    ttl: 300
+  - name: alertmanager-ptl
     record:
     - 10.10.65.250
     ttl: 300
