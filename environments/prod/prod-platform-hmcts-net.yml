@@ -305,28 +305,16 @@ cname:
     record: idam-api-idam-ethosldata.service.core-compute-idam-ethosldata.internal.
     ttl: 300
   - name: idam-api
-    record: idam-api-idam-prod.service.core-compute-idam-prod.internal.
+    record: idam-api-prod.service.core-compute-prod.internal.
     ttl: 60
-  - name: idam-api-pregolive
-    record: idam-api-idam-prod.service.core-compute-idam-prod.internal.
-    ttl: 300
   - name: idam-web-admin
-    record: hmcts-idam-web-admin-idam-prod.trafficmanager.net.
-    ttl: 60
-  - name: idam-web-public
-    record: hmcts-idam-web-public-idam-prod.trafficmanager.net.
+    record: idam-web-admin-prod.service.core-compute-prod.internal.
     ttl: 60
   - name: tmidam-web-public
     record: 7436ed5c-c64c-4053-9c36-6d8ee8702a6d.cloudapp.net.
     ttl: 60
   - name: tmidam-web-admin
     record: 7436ed5c-c64c-4053-9c36-6d8ee8702a6d.cloudapp.net.
-    ttl: 60
-  - name: idam-api-prod2
-    record: idam-api-prod.service.core-compute-prod.internal.
-    ttl: 60
-  - name: idam-web-admin-prod2
-    record: idam-web-admin-prod.service.core-compute-prod.internal.
     ttl: 60
   - name: payment
     record: prod-waf-additional.platform.hmcts.net.
