@@ -250,6 +250,15 @@ cname:
   - name: admin-ccd-ethosldata
     record: ccd-admin-web-ethosldata.service.core-compute-ethosldata.internal
     ttl: 300
+  - name: equality-and-diversity
+    record: hmcts-prod.azurefd.net.
+    ttl: 300
+  - name: www.equality-and-diversity
+    record: hmcts-prod.azurefd.net.
+    ttl: 300
+  - name: tmequality-and-diversity
+    record: prod-waf-additional.platform.hmcts.net.
+    ttl: 300    
   - name: fees-register
     record: hmcts-prod.azurefd.net.
     ttl: 300
