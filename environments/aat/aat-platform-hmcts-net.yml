@@ -133,6 +133,9 @@ cname:
   - name: reformscan
     record: b5a2cd10-b60c-4e5b-9e1f-215906da8c1d.cloudapp.net.
     ttl: 300
+  - name: reformscanstg
+    record: aa5dc4c7-2cef-4765-a826-c46a18febe3b.cloudapp.net.
+    ttl: 300
   - name: jcm
     record: hmcts-jui-webapp-aat.trafficmanager.net.
     ttl: 300
