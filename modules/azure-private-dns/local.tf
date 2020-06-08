@@ -7,6 +7,7 @@ locals {
     ithc     = "Medium"
     perftest = "Medium"
     demo     = "Medium"
+    ethosldata     = "High"
   }
 
   env_display_names = {
@@ -17,6 +18,7 @@ locals {
     ithc     = "ITHC"
     perftest = "Test"
     demo     = "Demo"
+    ethosldata = "EthosLDATA"
   }
 
   common_tags = {
