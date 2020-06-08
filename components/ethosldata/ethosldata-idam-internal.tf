@@ -1,8 +1,4 @@
-data "local_file" "ethosldata-idam-internal-configuration" {
-  filename = "${path.cwd}/../../environments/ethosldata/service-core-compute-idam-ethosldata-internal.yml"
-}
-
-module "sprod-idam-internal" {
+module "ethosldata-idam-internal" {
   source              = "../../modules/azure-private-dns/"
   cname_records       = yamldecode(data.local_file.sprod-idam-internal-configuration.content).cname
   a_recordsets        = yamldecode(data.local_file.sprod-idam-internal-configuration.content).A
