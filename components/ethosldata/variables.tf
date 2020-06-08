@@ -5,5 +5,5 @@ variable "resource_group_name" {
 }
 
 variable "env" {
-  default = "ethos"
+  default = "ethosldata"
 }
