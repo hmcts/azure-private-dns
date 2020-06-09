@@ -35,6 +35,9 @@ cname:
   - name: www.moneyclaims
     record: demo-waf.platform.hmcts.net.
     ttl: 300
+  - name: cmc-demo-claim-store
+    record: demo-waf.platform.hmcts.net.
+    ttl: 300
   - name: www.moneyclaims-legal
     record: demo-waf.platform.hmcts.net.
     ttl: 300
