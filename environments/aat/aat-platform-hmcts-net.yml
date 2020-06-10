@@ -128,7 +128,7 @@ cname:
     record: hmcts-aat.azurefd.net.
     ttl: 300
   - name: bulkscan
-    record: 81231a71-d7a7-413e-a607-703e41a978fe.cloudapp.net.
+    record: 0c45ee29-301b-4815-8f63-cd1b128af609.cloudapp.net.
     ttl: 300
   - name: reformscan
     record: b5a2cd10-b60c-4e5b-9e1f-215906da8c1d.cloudapp.net.
