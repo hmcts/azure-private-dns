@@ -365,7 +365,7 @@ cname:
     record: 74e26139-b9c5-4959-a100-cda7b7ab62c7.cloudapp.net.
     ttl: 300
   - name: bulkscan
-    record: 0c825335-3be3-454d-af9a-ff6a54a9fbc2.cloudapp.net.
+    record: 9196f345-717b-4318-9466-38fe93aa8a4a.cloudapp.net.
     ttl: 300
   - name: bulkscan.saat
     record: 249883f2-b70d-43f4-ad2c-d5100c94b5b9.cloudapp.net.
