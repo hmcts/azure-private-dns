@@ -90,7 +90,7 @@ A:
     ttl: 300
   - name: build
     record:
-    - 51.141.228.15
+    - 51.145.50.201
     ttl: 300
   - name: build-beta
     record:
