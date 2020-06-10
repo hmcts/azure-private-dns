@@ -130,6 +130,9 @@ cname:
   - name: bulkscan
     record: 0c45ee29-301b-4815-8f63-cd1b128af609.cloudapp.net.
     ttl: 300
+  - name: bulkscanstg
+    record: 3c7bcbcd-1e69-4377-8f96-b90fb026ad23.cloudapp.net.
+    ttl: 300
   - name: reformscan
     record: b5a2cd10-b60c-4e5b-9e1f-215906da8c1d.cloudapp.net.
     ttl: 300
