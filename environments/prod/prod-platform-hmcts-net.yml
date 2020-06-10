@@ -64,7 +64,7 @@ A:
     ttl: 300
   - name: sandbox-build
     record:
-    - 51.140.32.178
+    - 40.120.54.64
     ttl: 300
   - name: sandbox-build-beta
     record:
