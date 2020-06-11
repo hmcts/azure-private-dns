@@ -45,6 +45,10 @@ A:
     record:
     - 51.145.48.139
     ttl: 300
+  - name: netbox
+    record:
+    - 51.145.47.4
+    ttl: 300
 cname:
   - name: adoption
     record: hmcts-aat.azurefd.net.
@@ -168,9 +172,5 @@ cname:
     ttl: 300
   - name: pcq
     record: hmcts-aat.azurefd.net.
-    ttl: 300
-  - name: netbox
-    record:
-    - 51.145.47.4
     ttl: 300
     
