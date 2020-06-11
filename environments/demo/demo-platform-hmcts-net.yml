@@ -31,6 +31,10 @@ A:
     record:
     - 51.11.25.221
     ttl: 300
+  - name: cmc-demo-claim-store
+    record:
+      - 10.11.15.221
+    ttl: 300
 cname:
   - name: www.moneyclaims
     record: demo-waf.platform.hmcts.net.
