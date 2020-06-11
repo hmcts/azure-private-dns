@@ -169,3 +169,8 @@ cname:
   - name: pcq
     record: hmcts-aat.azurefd.net.
     ttl: 300
+  - name: netbox
+    record:
+    - 51.145.47.4
+    ttl: 300
+    
