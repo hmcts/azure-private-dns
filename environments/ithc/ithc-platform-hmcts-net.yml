@@ -17,7 +17,7 @@ A:
     ttl: 300
 cname:
   - name: moneyclaims
-    record: hmcts-ithc.azure-fd.net.
+    record: hmcts-ithc.azurefd.net.
     ttl: 300
   - name: www-ccd
     record: hmcts-ithc.azurefd.net.
