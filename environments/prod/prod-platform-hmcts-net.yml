@@ -150,10 +150,6 @@ A:
     record:
     - 51.105.44.181
     ttl: 300
-  - name: ccd-demo-waf
-    record:
-    - 51.140.101.77
-    ttl: 300
   - name: idam
     record:
     - 51.143.183.107

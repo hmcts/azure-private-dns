@@ -42,12 +42,6 @@ cname:
   - name: www.moneyclaims-legal
     record: demo-waf.platform.hmcts.net.
     ttl: 300
-  - name: www-ccd
-    record: ccd-demo-waf.platform.hmcts.net.
-    ttl: 300
-  - name: gateway-ccd
-    record: ccd-demo-waf.platform.hmcts.net.
-    ttl: 300
   - name: www.ccd
     record: demo-waf.platform.hmcts.net.
     ttl: 300
