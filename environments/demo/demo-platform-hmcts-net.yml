@@ -15,6 +15,10 @@ A:
     record:
     - 51.140.41.143
     ttl: 300
+  - name: gateway-ccd
+    record:
+    - 51.11.5.163
+    ttl: 300
   - name: idam-api
     record:
     - 10.11.15.221
@@ -41,6 +45,12 @@ cname:
     ttl: 300
   - name: www.moneyclaims-legal
     record: demo-waf.platform.hmcts.net.
+    ttl: 300
+  - name: www-ccd
+    record: ccd-demo-waf.platform.hmcts.net.
+    ttl: 300
+  - name: gateway-ccd
+    record: ccd-demo-waf.platform.hmcts.net.
     ttl: 300
   - name: www.ccd
     record: demo-waf.platform.hmcts.net.
