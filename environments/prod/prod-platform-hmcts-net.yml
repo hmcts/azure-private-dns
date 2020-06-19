@@ -34,14 +34,6 @@ A:
     record:
     - 51.140.162.48
     ttl: 300
-  - name: demo-waf
-    record:
-    - 51.143.139.207
-    ttl: 300
-  - name: demo-waf-2
-    record:
-    - 51.141.226.211
-    ttl: 300
   - name: preview-waf
     record:
     - 51.143.139.66
