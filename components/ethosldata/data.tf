@@ -7,5 +7,5 @@ data "local_file" "ethosldata-idam-internal-configuration" {
 }
 
 data "local_file" "ethosldata-platform-configuration" {
-  filename = "${path.cwd}/../../environments/ethosldata/ethosldata-platform-hmcts-net.yml"
+  filename = "${path.cwd}/../../environments/ethosldata/ethosldata-platform.hmcts-net.yml"
 }
