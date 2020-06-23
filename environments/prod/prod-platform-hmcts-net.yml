@@ -31,8 +31,6 @@ vnet_links:
     vnet_id: "/subscriptions/4da0ce99-35c5-491f-8a0b-56c39f7278fa/resourceGroups/ethos-ccd-appvm/providers/Microsoft.Network/virtualNetworks/ethos-ccd-appvm-vnet"
   - link_name: "ethosldata-sqlvm-vnet"
     vnet_id: "/subscriptions/4da0ce99-35c5-491f-8a0b-56c39f7278fa/resourceGroups/ethos-ccd-sqlvm/providers/Microsoft.Network/virtualNetworks/ethos-ccd-sqlvm-vnet"
-  - link_name: "ethosldata-databricks-workers-vnet"
-    vnet_id: "/subscriptions/4da0ce99-35c5-491f-8a0b-56c39f7278fa/resourceGroups/databricks-rg-ethos-ccd-ethosldata-f4dzg7huangoi/providers/Microsoft.Network/virtualNetworks/workers-vnet"
 A:
   - name: aat-waf
     record:
@@ -150,10 +148,6 @@ A:
     record:
     - 10.13.32.120
     ttl: 300
-  - name: ccd-ethosldata-waf
-    record:
-    - 51.105.44.181
-    ttl: 300
   - name: idam
     record:
     - 51.143.183.107
@@ -249,11 +243,14 @@ cname:
   - name: return-case-doc.ccd
     record: hmcts-prod.azurefd.net.
     ttl: 300
+  - name: return-case-doc-ccd-ethosldata
+    record: hmcts-ldata.azurefd.net.
+    ttl: 300
   - name: www-ccd-ethosldata
-    record: ccd-ethosldata-waf.platform.hmcts.net.
+    record: hmcts-ldata.azurefd.net.
     ttl: 300
   - name: gateway-ccd-ethosldata
-    record: ccd-ethosldata-waf.platform.hmcts.net.
+    record: hmcts-ldata.azurefd.net.
     ttl: 300
   - name: admin-ccd-ethosldata
     record: ccd-admin-web-ethosldata.service.core-compute-ethosldata.internal
@@ -301,7 +298,7 @@ cname:
     record: hmcts-idam-web-admin-idam-ethosldata.trafficmanager.net.
     ttl: 300
   - name: idam-web-public-ethosldata
-    record: hmcts-idam-web-public-idam-ethosldata.trafficmanager.net.
+    record: hmcts-ldata.azurefd.net.
     ttl: 300
   - name: tmidam-web-public-ethosldata
     record: 500f1820-ccf8-4799-9d15-900c58827d70.cloudapp.net.
