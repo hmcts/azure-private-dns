@@ -307,7 +307,7 @@ cname:
     record: 500f1820-ccf8-4799-9d15-900c58827d70.cloudapp.net.
     ttl: 300
   - name: idam-api-ethosldata
-    record: idam-api-idam-ethosldata.service.core-compute-ethosldata.internal.
+    record: idam-api-ethosldata.service.core-compute-ethosldata.internal.
     ttl: 300
   - name: idam-api
     record: idam-api-prod.service.core-compute-prod.internal.
