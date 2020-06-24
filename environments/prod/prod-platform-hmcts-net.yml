@@ -295,7 +295,7 @@ cname:
     record: 80394856-07bf-44a8-907b-c7c5a93c2c30.cloudapp.net.
     ttl: 300
   - name: idam-web-admin-ethosldata
-    record: hmcts-idam-web-admin-idam-ethosldata.trafficmanager.net.
+    record: idam-web-admin-ethosldata.service.core-compute-ethosldata.internal.
     ttl: 300
   - name: idam-web-public-ethosldata
     record: hmcts-ldata.azurefd.net.
