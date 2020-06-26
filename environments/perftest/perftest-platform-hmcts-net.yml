@@ -65,6 +65,9 @@ cname:
   - name: paybubble
     record: hmcts-perftest.azurefd.net.
     ttl: 300
+  - name: fees-register
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
   - name: pcq
     record: hmcts-perftest.azurefd.net.
     ttl: 300
