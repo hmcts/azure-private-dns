@@ -10,7 +10,15 @@ vnet_links:
     vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/rg-mgmt/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-mgmt"
   - link_name: "reform-mgmt-core-vnet"
     vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformMgmtCoreRG/providers/Microsoft.Network/virtualNetworks/reformMgmtCoreVNet"
-A: []
+A:
+  - name: prometheus-00
+    record:
+    - 10.11.15.221
+    ttl: 300
+  - name: alertmanager-00
+    record:
+    - 10.11.15.221
+    ttl: 300
 cname:
   - name: bulkscan
     record: f72fd46f-5e4b-42d9-9d23-697fb97f5640.cloudapp.net.
@@ -20,12 +28,4 @@ cname:
     ttl: 300
   - name: reformscan
     record: 2fbaac41-f785-421f-b3e0-d50484a7de2b.cloudapp.net.
-    ttl: 300
-  - name: prometheus-00
-    record:
-    - 10.11.15.221
-    ttl: 300
-  - name: alertmanager-00
-    record:
-    - 10.11.15.221
     ttl: 300
