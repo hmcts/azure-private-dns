@@ -15,6 +15,22 @@ A:
     record:
     - 10.10.36.121
     ttl: 300
+  - name: prometheus-00
+    record:
+    - 10.10.33.250
+    ttl: 300
+  - name: prometheus-01
+    record:
+    - 10.10.35.250
+    ttl: 300
+  - name: alertmanager-00
+    record:
+    - 10.10.33.250
+    ttl: 300
+  - name: alertmanager-01
+    record:
+    - 10.10.35.250
+    ttl: 300
 cname:
   - name: moneyclaims
     record: hmcts-ithc.azurefd.net.
