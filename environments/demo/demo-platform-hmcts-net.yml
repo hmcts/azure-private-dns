@@ -23,9 +23,9 @@ cname:
     ttl: 300
   - name: prometheus-00
     record:
-      - 10.11.15.221
+    - 10.11.15.221
     ttl: 300
   - name: alertmanager-00
     record:
-      - 10.11.15.221
+    - 10.11.15.221
     ttl: 300
