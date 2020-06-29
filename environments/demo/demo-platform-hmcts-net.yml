@@ -21,3 +21,11 @@ cname:
   - name: reformscan
     record: 2fbaac41-f785-421f-b3e0-d50484a7de2b.cloudapp.net.
     ttl: 300
+  - name: prometheus-00
+    record:
+      - 10.11.15.221
+    ttl: 300
+  - name: alertmanager-00
+    record:
+      - 10.11.15.221
+    ttl: 300

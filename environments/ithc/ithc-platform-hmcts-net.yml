@@ -82,3 +82,19 @@ cname:
   - name: bar
     record: hmcts-ithc.azurefd.net.
     ttl: 300
+  - name: prometheus-00
+    record:
+      - 10.10.33.250
+    ttl: 300
+  - name: prometheus-01
+    record:
+      - 10.10.35.250
+    ttl: 300
+  - name: alertmanager-00
+    record:
+      - 10.10.33.250
+    ttl: 300
+  - name: alertmanager-01
+    record:
+      - 10.10.35.250
+    ttl: 300
