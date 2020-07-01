@@ -196,6 +196,10 @@ A:
     record:
     - 10.10.65.250
     ttl: 300
+  - name: response-api
+    record:
+    - 10.10.65.250
+    ttl: 300
   - name: netbox
     record:
     - 20.49.156.148
