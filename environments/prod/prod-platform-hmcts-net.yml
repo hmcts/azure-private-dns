@@ -194,7 +194,7 @@ A:
     ttl: 300
   - name: response
     record:
-    - 10.10.65.250
+    - 51.141.228.194
     ttl: 300
   - name: response-api
     record:
