@@ -188,6 +188,10 @@ A:
     record:
     - 10.0.14.5
     ttl: 300
+  - name: siem
+    record:
+    - 10.0.9.68
+    ttl: 300
   - name: ctsc-web-forms-ui-stg
     record:
     - 51.145.47.4
