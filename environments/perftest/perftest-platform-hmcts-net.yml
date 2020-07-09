@@ -31,6 +31,10 @@ A:
     record:
     - 10.10.46.121
     ttl: 300
+  - name: ccd-logstash
+    record:
+    - 10.112.153.10
+    ttl: 300
 cname:
   - name: moneyclaims-legal
     record: hmcts-perftest.azurefd.net.
