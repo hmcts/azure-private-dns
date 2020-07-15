@@ -50,9 +50,6 @@ cname:
   - name: idam-api
     record: idam-api-sbox.service.core-compute-sandbox.internal.
     ttl: 300
-  - name: idam-web-admin
-    record: idam-web-admin-sbox.service.core-compute-sandbox.internal.
-    ttl: 300
   - name: idam-web-public
     record: hmcts-sbox.azurefd.net.
     ttl: 300
