@@ -87,13 +87,9 @@ cname:
   - name: idam-web-public
     record: hmcts-perftest.azurefd.net.
     ttl: 300
-  - name: tmidam-web-admin
-    record: 9d6e4c5b-6d6d-4535-ab02-5e6e91fe0af9.cloudapp.net.
-    ttl: 300
   - name: bulkscan
     record: cce9c112-ef98-4879-81ee-e7ce4ff33356.cloudapp.net.
     ttl: 300
   - name: reformscan
     record: 8f940326-eb81-4bb2-9320-41b836d2034d.cloudapp.net.
     ttl: 300
-    
