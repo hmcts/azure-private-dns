@@ -47,17 +47,8 @@ cname:
   - name: idam-api
     record: idam-api-ithc.service.core-compute-ithc.internal.
     ttl: 300
-  - name: idam-web-admin
-    record: idam-web-admin-ithc.service.core-compute-ithc.internal.
-    ttl: 300
   - name: idam-web-public
     record: hmcts-ithc.azurefd.net.
-    ttl: 300
-  - name: tmidam-web-public
-    record: f8ba11e0-da48-45a5-b105-7aed33e2bf42.cloudapp.net.
-    ttl: 300
-  - name: tmidam-web-admin
-    record: f8ba11e0-da48-45a5-b105-7aed33e2bf42.cloudapp.net.
     ttl: 300
   - name: petitioner-frontend-aks
     record: hmcts-ithc.azurefd.net.

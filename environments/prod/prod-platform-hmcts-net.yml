@@ -296,23 +296,11 @@ cname:
   - name: idam-web-public.preview
     record: idam-web-public.service.core-compute-preview.internal.
     ttl: 300
-  - name: tmidam-web-admin.preview
-    record: 80394856-07bf-44a8-907b-c7c5a93c2c30.cloudapp.net.
-    ttl: 300
-  - name: tmidam-web-public.preview
-    record: 80394856-07bf-44a8-907b-c7c5a93c2c30.cloudapp.net.
-    ttl: 300
   - name: idam-web-admin-ethosldata
     record: idam-web-admin-ethosldata.service.core-compute-ethosldata.internal.
     ttl: 300
   - name: idam-web-public-ethosldata
     record: hmcts-ldata.azurefd.net.
-    ttl: 300
-  - name: tmidam-web-public-ethosldata
-    record: 500f1820-ccf8-4799-9d15-900c58827d70.cloudapp.net.
-    ttl: 300
-  - name: tmidam-web-admin-ethosldata
-    record: 500f1820-ccf8-4799-9d15-900c58827d70.cloudapp.net.
     ttl: 300
   - name: idam-api-ethosldata
     record: idam-api-ethosldata.service.core-compute-ethosldata.internal.
@@ -322,12 +310,6 @@ cname:
     ttl: 60
   - name: idam-web-admin
     record: idam-web-admin-prod.service.core-compute-prod.internal.
-    ttl: 60
-  - name: tmidam-web-public
-    record: 7436ed5c-c64c-4053-9c36-6d8ee8702a6d.cloudapp.net.
-    ttl: 60
-  - name: tmidam-web-admin
-    record: 7436ed5c-c64c-4053-9c36-6d8ee8702a6d.cloudapp.net.
     ttl: 60
   - name: payment
     record: prod-waf-additional.platform.hmcts.net.

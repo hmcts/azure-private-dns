@@ -92,12 +92,6 @@ cname:
   - name: idam-web-public
     record: hmcts-aat.azurefd.net.
     ttl: 300
-  - name: tmidam-web-public
-    record: d060dd65-4af6-42e7-9e1d-adfd3b847879.cloudapp.net.
-    ttl: 300
-  - name: tmidam-web-admin
-    record: d060dd65-4af6-42e7-9e1d-adfd3b847879.cloudapp.net.
-    ttl: 300
   - name: idam-api-aat2
     record: idam-api-aat.service.core-compute-aat.internal.
     ttl: 300
@@ -173,4 +167,3 @@ cname:
   - name: pcq
     record: hmcts-aat.azurefd.net.
     ttl: 300
-    
