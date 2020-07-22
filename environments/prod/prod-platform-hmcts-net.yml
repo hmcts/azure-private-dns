@@ -33,6 +33,10 @@ vnet_links:
     vnet_id: "/subscriptions/4da0ce99-35c5-491f-8a0b-56c39f7278fa/resourceGroups/ethos-ccd-sqlvm/providers/Microsoft.Network/virtualNetworks/ethos-ccd-sqlvm-vnet"
   - link_name: "bastion-prod-vnet"
     vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/bastion-prod-rg/providers/Microsoft.Network/virtualNetworks/bastion-prod-vnet"
+  - link_name: "bastion-nonprod-vnet"
+    vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/bastion-nonprod-rg/providers/Microsoft.Network/virtualNetworks/bastion-nonprod-vnet"
+  - link_name: "bastion-sbox-vnet"
+    vnet_id: "/subscriptions/b3394340-6c9f-44ca-aa3e-9ff38bd1f9ac/resourceGroups/bastion-sbox-rg/providers/Microsoft.Network/virtualNetworks/bastion-sbox-vnet"
 A:
   - name: aat-waf
     record:
