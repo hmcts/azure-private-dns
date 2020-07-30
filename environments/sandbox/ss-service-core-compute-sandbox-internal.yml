@@ -1,0 +1,6 @@
+name: "ss-service.core-compute-sandbox.internal"
+vnet_links:
+  - link_name: "ss_aks_sbox_network"
+    vnet_id: "/subscriptions/a8140a9e-f1b0-481f-a4de-09e2ee23f7ab/resourceGroups/ss_aks_sbox_network_resource_group/providers/Microsoft.Network/virtualNetworks/ss_aks_sbox_network"
+A: []
+cname: []
