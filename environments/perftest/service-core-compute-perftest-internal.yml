@@ -10,5 +10,9 @@ vnet_links:
     vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/rg-mgmt/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-mgmt"
   - link_name: "reform-mgmt-core-vnet"
     vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformMgmtCoreRG/providers/Microsoft.Network/virtualNetworks/reformMgmtCoreVNet"
+  - link_name: "bastion-nonprod-vnet"
+    vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/bastion-nonprod-rg/providers/Microsoft.Network/virtualNetworks/bastion-nonprod-vnet"
+  - link_name: "pet-stg-vnet"
+    vnet_id: "/subscriptions/58a2ce36-4e09-467b-8330-d164aa559c68/resourceGroups/pet_stg_network_resource_group/providers/Microsoft.Network/virtualNetworks/pet_stg_network"
 A: []
 cname: []

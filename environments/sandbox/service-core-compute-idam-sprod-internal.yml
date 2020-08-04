@@ -11,5 +11,7 @@ vnet_links:
     vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/core-infra-sandbox/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-sandbox"
   - link_name: "core-sbox-vnet"
     vnet_id: "/subscriptions/b72ab7b7-723f-4b18-b6f6-03b0f2c6a1bb/resourceGroups/aks-infra-sbox-rg/providers/Microsoft.Network/virtualNetworks/core-sbox-vnet"
+  - link_name: "bastion-sbox-vnet"
+    vnet_id: "/subscriptions/b3394340-6c9f-44ca-aa3e-9ff38bd1f9ac/resourceGroups/bastion-sbox-rg/providers/Microsoft.Network/virtualNetworks/bastion-sbox-vnet"
 A: []
 cname: []
