@@ -154,14 +154,6 @@ A:
     record:
     - 10.13.32.120
     ttl: 300
-  - name: idam
-    record:
-    - 51.143.183.107
-    ttl: 60
-  - name: www.idam
-    record:
-    - 51.143.183.107
-    ttl: 60
   - name: registration
     record:
     - 51.140.72.138
@@ -315,7 +307,7 @@ cname:
     record: idam-api-prod.service.core-compute-prod.internal.
     ttl: 60
   - name: idam-web-admin
-    record: idam-web-admin-prod.service.core-compute-prod.internal.
+    record: hmcts-prod.azurefd.net.
     ttl: 60
   - name: payment
     record: prod-waf-additional.platform.hmcts.net.
