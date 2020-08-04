@@ -128,18 +128,6 @@ A:
     record:
     - 10.31.15.252
     ttl: 300
-  - name: idamdevf5lb
-    record:
-    - 10.14.255.254
-    ttl: 300
-  - name: idamtestf5lb
-    record:
-    - 10.14.255.254
-    ttl: 300
-  - name: idamdemof5lb
-    record:
-    - 10.14.255.254
-    ttl: 300
   - name: sftp-dev
     record:
     - 51.140.117.157

@@ -86,7 +86,7 @@ cname:
     record: idam-api-perftest.service.core-compute-perftest.internal.
     ttl: 300
   - name: idam-web-admin
-    record: idam-web-admin-perftest.service.core-compute-perftest.internal.
+    record: hmcts-perftest.azurefd.net.
     ttl: 300
   - name: idam-web-public
     record: hmcts-perftest.azurefd.net.
