@@ -51,6 +51,10 @@ A:
     record:
     - 51.145.47.4
     ttl: 300
+  - name: camunda-bpm
+    record:
+    - 10.10.24.121
+    ttl: 300
 cname:
   - name: adoption
     record: hmcts-aat.azurefd.net.

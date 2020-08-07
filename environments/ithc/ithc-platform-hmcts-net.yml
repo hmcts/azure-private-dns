@@ -33,6 +33,10 @@ A:
     record:
     - 10.10.35.250
     ttl: 300
+  - name: camunda-bpm
+    record:
+    - 10.10.36.121
+    ttl: 300
 cname:
   - name: moneyclaims
     record: hmcts-ithc.azurefd.net.
