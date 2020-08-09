@@ -19,7 +19,7 @@ vnet_links:
   - link_name: "bastion-nonprod-vnet"
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/bastion-nonprod-rg/providers/Microsoft.Network/virtualNetworks/bastion-nonprod-vnet"
 A:
-  - name: camunda-api
+  - name: camunda-api-aat
     record:
     - 10.10.24.121
     ttl: 300
