@@ -39,6 +39,14 @@ A:
     record:
     - 10.10.9.250
     ttl: 300
+  - name: backstage
+    record:
+    - 10.10.9.250
+    ttl: 300
+  - name: backstage-api
+    record:
+    - 10.10.9.250
+    ttl: 300
 cname:
   - name: moneyclaim
     record: sandbox-waf.sandbox.platform.hmcts.net.
