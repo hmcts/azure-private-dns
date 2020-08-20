@@ -17,4 +17,8 @@ A:
     record:
     - 10.140.15.250
     ttl: 300
+  - name: maintenance
+    record:
+    - 10.140.15.250
+    ttl: 300
 cname: []
