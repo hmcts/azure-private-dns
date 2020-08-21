@@ -161,7 +161,7 @@ cname:
   - name: immigration-appeal
     record: hmcts-aat.azurefd.net.
     ttl: 300
-  - name: ia-wa-proto-frontend
+  - name: wa-proto-frontend
     record: hmcts-aat.azurefd.net.
     ttl: 300
   - name: pcq
