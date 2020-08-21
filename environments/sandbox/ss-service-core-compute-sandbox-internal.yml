@@ -21,4 +21,8 @@ A:
     record:
     - 10.140.15.250
     ttl: 300
+  - name: hmi
+    record:
+    - 10.140.15.250
+    ttl: 300
 cname: []
