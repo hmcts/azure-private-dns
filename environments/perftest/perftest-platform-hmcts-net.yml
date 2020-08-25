@@ -101,3 +101,6 @@ cname:
   - name: reformscan
     record: 8f940326-eb81-4bb2-9320-41b836d2034d.cloudapp.net.
     ttl: 300
+  - name: probate
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
