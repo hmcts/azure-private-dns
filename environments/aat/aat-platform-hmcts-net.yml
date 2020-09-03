@@ -167,3 +167,6 @@ cname:
   - name: pcq
     record: hmcts-aat.azurefd.net.
     ttl: 300
+  - name: ctf
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
