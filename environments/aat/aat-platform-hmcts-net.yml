@@ -122,6 +122,9 @@ cname:
   - name: probate
     record: hmcts-aat.azurefd.net.
     ttl: 300
+  - name: fact
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
   - name: bulkscan
     record: 0c45ee29-301b-4815-8f63-cd1b128af609.cloudapp.net.
     ttl: 300
