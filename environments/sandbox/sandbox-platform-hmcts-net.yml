@@ -81,6 +81,6 @@ cname:
   - name: idam-web-admin
     record: hmcts-sbox.azurefd.net.
     ttl: 300
-  - name: hmi-poc-apim
+  - name: hmi-apim-sbox
     record: hmcts-sbox.azurefd.net.
     ttl: 300
