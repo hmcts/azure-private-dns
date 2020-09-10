@@ -28,4 +28,8 @@ A:
     record:
     - 10.140.15.250
     ttl: 300
+    - name: docmosis-aks
+    record:
+    - 10.140.15.250
+    ttl: 300
 cname: []
