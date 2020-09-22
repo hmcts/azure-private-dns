@@ -21,4 +21,8 @@ A:
     record:
     - 10.10.35.250
     ttl: 300
+  - name: ia-home-office-mock-api-ithc
+    record:
+    - 10.10.35.250
+    ttl: 300
 cname: []
