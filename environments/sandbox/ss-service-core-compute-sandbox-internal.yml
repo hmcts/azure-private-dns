@@ -24,7 +24,11 @@ A:
     record:
     - 10.140.15.250
     ttl: 300
-  - name: hmi
+  - name: hmi-wiremock
+    record:
+    - 10.140.15.250
+    ttl: 300
+  - name: hmi-pact
     record:
     - 10.140.15.250
     ttl: 300
