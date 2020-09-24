@@ -19,4 +19,8 @@ A:
     record:
     - 10.10.46.121
     ttl: 300
+  - name: div-cms-perftest
+    record:
+    - 10.10.46.121
+    ttl: 300
 cname: []
