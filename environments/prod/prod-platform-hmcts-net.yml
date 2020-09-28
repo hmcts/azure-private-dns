@@ -209,6 +209,14 @@ A:
     record:
     - 20.49.156.148
     ttl: 300
+  - name: traefik-int-stg
+    record:
+    - 192.173.127.250
+    ttl: 300
+  - name: docmosis-stg
+    record:
+    - 192.173.127.250
+    ttl: 300
 cname:
   - name: sandbox-artifactory
     record: proxyin.reform.hmcts.net.
