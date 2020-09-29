@@ -35,4 +35,8 @@ A:
     record:
     - 10.10.46.121
     ttl: 300
+  - name: finrem-cos-perftest
+    record:
+    - 10.10.46.121
+    ttl: 300
 cname: []
