@@ -23,4 +23,16 @@ A:
     record:
     - 10.10.46.121
     ttl: 300
+  - name: finrem-emca-perftest
+    record:
+    - 10.10.46.121
+    ttl: 300
+  - name: finrem-ns-perftest
+    record:
+    - 10.10.46.121
+    ttl: 300
+  - name: finrem-ps-perftest
+    record:
+    - 10.10.46.121
+    ttl: 300
 cname: []
