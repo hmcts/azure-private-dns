@@ -25,4 +25,24 @@ A:
     record:
     - 10.10.35.250
     ttl: 300
+  - name: finrem-emca-ithc
+    record:
+    - 10.10.35.250
+    ttl: 300
+  - name: finrem-ns-ithc
+    record:
+    - 10.10.35.250
+    ttl: 300
+  - name: finrem-ps-ithc
+    record:
+    - 10.10.35.250
+    ttl: 300
+  - name: finrem-cos-ithc
+    record:
+    - 10.10.35.250
+    ttl: 300
+  - name: finrem-dgcs-ithc
+    record:
+    - 10.10.35.250
+    ttl: 300
 cname: []
