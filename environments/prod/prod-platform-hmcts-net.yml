@@ -217,14 +217,6 @@ A:
     record:
     - 192.173.127.250
     ttl: 300
-  - name: fees-register
-    record:
-    - 10.13.32.122
-    ttl: 300
-  - name: www.fees-register
-    record:
-    - 10.13.32.122
-    ttl: 300
 cname:
   - name: sandbox-artifactory
     record: proxyin.reform.hmcts.net.
@@ -270,7 +262,13 @@ cname:
     ttl: 300
   - name: tmequality-and-diversity
     record: prod-waf-additional.platform.hmcts.net.
-    ttl: 300    
+    ttl: 300  
+  - name: fees-register	
+    record: hmcts-prod.azurefd.net.	
+    ttl: 300	
+  - name: www.fees-register	
+    record: hmcts-prod.azurefd.net.	
+    ttl: 300
   - name: tmwww.fees-register
     record: prod-waf-additional.platform.hmcts.net.
     ttl: 300
