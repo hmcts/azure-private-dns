@@ -16,9 +16,5 @@ vnet_links:
     vnet_id: "/subscriptions/58a2ce36-4e09-467b-8330-d164aa559c68/resourceGroups/pet_prod_network_resource_group/providers/Microsoft.Network/virtualNetworks/pet_prod_network"
   - link_name: "bastion-prod-vnet"
     vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/bastion-prod-rg/providers/Microsoft.Network/virtualNetworks/bastion-prod-vnet"
-A:
-  - name: camunda-api-prod
-    record:
-    - 10.13.32.120
-    ttl: 300
+A: []
 cname: []
