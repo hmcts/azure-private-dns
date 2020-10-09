@@ -217,6 +217,11 @@ A:
     record:
     - 192.173.127.250
     ttl: 300
+  - name: camunda-bpm
+    ttl: 300
+    record:
+      - "10.13.32.120"
+
 cname:
   - name: sandbox-artifactory
     record: proxyin.reform.hmcts.net.
