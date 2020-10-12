@@ -47,6 +47,14 @@ A:
     record:
     - 10.10.9.250
     ttl: 300
+  - name: artifactory
+    record:
+    - 10.10.9.250
+    ttl: 300
+  - name: pact-broker
+    record:
+    - 10.10.9.250
+    ttl: 300
 cname:
   - name: moneyclaim
     record: sandbox-waf.sandbox.platform.hmcts.net.
