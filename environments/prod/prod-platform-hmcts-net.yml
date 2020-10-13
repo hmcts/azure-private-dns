@@ -221,20 +221,16 @@ A:
     ttl: 300
     record:
       - "10.13.32.120"
-
-cname:
-  - name: sandbox-artifactory
-    record: proxyin.reform.hmcts.net.
-    ttl: 300
   - name: artifactory
-    record: proxyin.reform.hmcts.net.
-    ttl: 300
-  - name: sandbox-pact-broker
-    record: proxyin.reform.hmcts.net.
+    record:
+    - 10.10.65.250
     ttl: 300
   - name: pact-broker
-    record: proxyin.reform.hmcts.net.
+    record:
+      - 10.10.65.250
     ttl: 300
+
+cname:
   - name: www.moneyclaim-legal
     record: hmcts-prod.azurefd.net.
     ttl: 300
