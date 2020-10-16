@@ -1,3 +1,7 @@
+data "local_file" "ithc-internal-configuration" {
+  filename = "${path.cwd}/../../environments/ithc/service-core-compute-ithc-internal.yml"
+}
+
 module "ithc-internal" {
   source              = "../../modules/azure-private-dns/"
   cname_records       = yamldecode(data.local_file.ithc-internal-configuration.content).cname

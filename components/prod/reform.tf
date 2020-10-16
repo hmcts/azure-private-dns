@@ -1,3 +1,7 @@
+data "local_file" "reform-configuration" {
+  filename = "${path.cwd}/../../environments/prod/reform-hmcts-net.yml"
+}
+
 module "reform" {
   source              = "../../modules/azure-private-dns/"
   cname_records       = yamldecode(data.local_file.reform-configuration.content).cname

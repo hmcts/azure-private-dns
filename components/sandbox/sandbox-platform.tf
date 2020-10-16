@@ -1,3 +1,7 @@
+data "local_file" "sandbox-platform-configuration" {
+  filename = "${path.cwd}/../../environments/sandbox/sandbox-platform-hmcts-net.yml"
+}
+
 module "sandbox-platform" {
   source              = "../../modules/azure-private-dns/"
   cname_records       = yamldecode(data.local_file.sandbox-platform-configuration.content).cname
