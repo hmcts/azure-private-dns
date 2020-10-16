@@ -1,3 +1,7 @@
+data "local_file" "aat-platform-configuration" {
+  filename = "${path.cwd}/../../environments/staging/aat-platform-hmcts-net.yml"
+}
+
 module "aat-platform" {
   source              = "../../modules/azure-private-dns/"
   cname_records       = yamldecode(data.local_file.aat-platform-configuration.content).cname

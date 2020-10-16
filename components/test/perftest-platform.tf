@@ -1,3 +1,7 @@
+data "local_file" "perftest-platform-configuration" {
+  filename = "${path.cwd}/../../environments/test/perftest-platform-hmcts-net.yml"
+}
+
 module "perftest-platform" {
   source              = "../../modules/azure-private-dns/"
   cname_records       = yamldecode(data.local_file.perftest-platform-configuration.content).cname

@@ -1,3 +1,7 @@
+data "local_file" "demo-platform-configuration" {
+  filename = "${path.cwd}/../../environments/demo/demo-platform-hmcts-net.yml"
+}
+
 module "demo-platform" {
   source              = "../../modules/azure-private-dns/"
   cname_records       = yamldecode(data.local_file.demo-platform-configuration.content).cname
