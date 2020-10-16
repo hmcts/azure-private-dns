@@ -24,7 +24,7 @@ stages:
 
       - template: pipeline-templates/terraform-plan.yaml
         parameters:
-          zone: 'preview'
+          zone: 'dev'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
@@ -34,7 +34,7 @@ stages:
 
       - template: pipeline-templates/terraform-plan.yaml
         parameters:
-          zone: 'aat'
+          zone: 'staging'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
@@ -44,7 +44,7 @@ stages:
 
       - template: pipeline-templates/terraform-plan.yaml
         parameters:
-          zone: 'perftest'
+          zone: 'test'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
