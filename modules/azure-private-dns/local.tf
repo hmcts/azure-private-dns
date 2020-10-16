@@ -1,23 +1,28 @@
 locals {
   criticality = {
-    sbox     = "Low"
-    aat      = "High"
-    prod     = "High"
-    preview  = "High"
-    ithc     = "Medium"
-    perftest = "Medium"
-    demo     = "Medium"
-    ethosldata     = "High"
+    sbox       = "Low"
+    dev        = "High"
+    aat        = "High"
+    staging    = "High"
+    prod       = "High"
+    preview    = "High"
+    ithc       = "Medium"
+    perftest   = "Medium"
+    test       = "Medium"
+    demo       = "Medium"
+    ethosldata = "High"
   }
 
   env_display_names = {
-    sbox     = "Sandbox"
-    aat      = "Staging"
-    prod     = "Production"
-    preview  = "Preview"
-    ithc     = "ITHC"
-    perftest = "Test"
-    demo     = "Demo"
+    sbox       = "Sandbox"
+    dev        = "Development"
+    aat        = "Staging"
+    staging    = "Staging"
+    prod       = "Production"
+    preview    = "Preview"
+    ithc       = "ITHC"
+    perftest   = "Test"
+    demo       = "Demo"
     ethosldata = "EthosLDATA"
   }
 
