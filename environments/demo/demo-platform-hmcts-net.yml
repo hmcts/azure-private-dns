@@ -22,6 +22,12 @@ cname:
   - name: "v2-bulkscan"
     ttl: 600
     record: "bulk-scan-v2-demo-frontdoor.azurefd.net"
+  - name: "reformscan"
+    ttl: 600
+    record: "reform-scan-v2-demo-frontdoor.azurefd.net"
+  - name: "v2-reformscan"
+    ttl: 600
+    record: "reform-scan-v2-demo-frontdoor.azurefd.net"
   - name: bulk-scanning
     record: 3644b292-ae3f-4055-ba68-4a9500e43659.cloudapp.net.
     ttl: 300
