@@ -1,3 +1,7 @@
+data "local_file" "preview-idam-internal-configuration" {
+  filename = "${path.cwd}/../../environments/dev/service-core-compute-idam-preview-internal.yml"
+}
+
 module "preview-idam-internal" {
   source              = "../../modules/azure-private-dns/"
   cname_records       = yamldecode(data.local_file.preview-idam-internal-configuration.content).cname

@@ -1,3 +1,7 @@
+data "local_file" "ethosldata-platform-configuration" {
+  filename = "${path.cwd}/../../environments/ethosldata/ethosldata-platform.hmcts-net.yml"
+}
+
 module "ethosldata-platform" {
   source              = "../../modules/azure-private-dns/"
   cname_records       = yamldecode(data.local_file.ethosldata-platform-configuration.content).cname

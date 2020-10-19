@@ -1,3 +1,7 @@
+data "local_file" "perftest-idam-internal-configuration" {
+  filename = "${path.cwd}/../../environments/test/service-core-compute-idam-perftest-internal.yml"
+}
+
 module "perftest-idam-internal" {
   source              = "../../modules/azure-private-dns/"
   cname_records       = yamldecode(data.local_file.perftest-idam-internal-configuration.content).cname

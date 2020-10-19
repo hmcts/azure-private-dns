@@ -14,15 +14,7 @@ vnet_links:
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/bastion-nonprod-rg/providers/Microsoft.Network/virtualNetworks/bastion-nonprod-vnet"
   - link_name: "pet-dev-vnet"
     vnet_id: "/subscriptions/58a2ce36-4e09-467b-8330-d164aa559c68/resourceGroups/pet_dev_network_resource_group/providers/Microsoft.Network/virtualNetworks/pet_dev_network"  
-A:
-  - name: prometheus-00
-    record:
-    - 10.11.15.221
-    ttl: 300
-  - name: alertmanager-00
-    record:
-    - 10.11.15.221
-    ttl: 300
+A: []
 cname:
   - name: "bulkscan"
     ttl: 600
@@ -34,5 +26,5 @@ cname:
     record: 3644b292-ae3f-4055-ba68-4a9500e43659.cloudapp.net.
     ttl: 300
   - name: reformscan
-    record: 2fbaac41-f785-421f-b3e0-d50484a7de2b.cloudapp.net.
+    record: bulkscandemo.blob.core.windows.net.
     ttl: 300

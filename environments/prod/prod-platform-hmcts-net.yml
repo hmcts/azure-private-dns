@@ -209,19 +209,28 @@ A:
     record:
     - 20.49.156.148
     ttl: 300
-cname:
-  - name: sandbox-artifactory
-    record: proxyin.reform.hmcts.net.
+  - name: traefik-int-stg
+    record:
+    - 192.173.127.250
     ttl: 300
+  - name: docmosis-stg
+    record:
+    - 192.173.127.250
+    ttl: 300
+  - name: camunda-bpm
+    ttl: 300
+    record:
+      - "10.13.32.120"
   - name: artifactory
-    record: proxyin.reform.hmcts.net.
-    ttl: 300
-  - name: sandbox-pact-broker
-    record: proxyin.reform.hmcts.net.
+    record:
+    - 10.10.65.250
     ttl: 300
   - name: pact-broker
-    record: proxyin.reform.hmcts.net.
+    record:
+      - 10.10.65.250
     ttl: 300
+
+cname:
   - name: www.moneyclaim-legal
     record: hmcts-prod.azurefd.net.
     ttl: 300
@@ -254,12 +263,12 @@ cname:
     ttl: 300
   - name: tmequality-and-diversity
     record: prod-waf-additional.platform.hmcts.net.
-    ttl: 300    
-  - name: fees-register
-    record: hmcts-prod.azurefd.net.
-    ttl: 300
-  - name: www.fees-register
-    record: hmcts-prod.azurefd.net.
+    ttl: 300  
+  - name: fees-register	
+    record: hmcts-prod.azurefd.net.	
+    ttl: 300	
+  - name: www.fees-register	
+    record: hmcts-prod.azurefd.net.	
     ttl: 300
   - name: tmwww.fees-register
     record: prod-waf-additional.platform.hmcts.net.

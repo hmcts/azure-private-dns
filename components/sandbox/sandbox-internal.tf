@@ -1,3 +1,7 @@
+data "local_file" "sandbox-internal-configuration" {
+  filename = "${path.cwd}/../../environments/sandbox/service-core-compute-sandbox-internal.yml"
+}
+
 module "sandbox-internal" {
   source              = "../../modules/azure-private-dns/"
   cname_records       = yamldecode(data.local_file.sandbox-internal-configuration.content).cname

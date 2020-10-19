@@ -47,6 +47,14 @@ A:
     record:
     - 10.10.9.250
     ttl: 300
+  - name: artifactory
+    record:
+    - 10.10.9.250
+    ttl: 300
+  - name: pact-broker
+    record:
+    - 10.10.9.250
+    ttl: 300
 cname:
   - name: moneyclaim
     record: sandbox-waf.sandbox.platform.hmcts.net.
@@ -81,6 +89,6 @@ cname:
   - name: idam-web-admin
     record: hmcts-sbox.azurefd.net.
     ttl: 300
-  - name: hmi-apim-sbox
+  - name: hmi-apim
     record: hmcts-sbox.azurefd.net.
     ttl: 300
