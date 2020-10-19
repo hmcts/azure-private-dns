@@ -55,6 +55,14 @@ A:
     record:
     - 10.10.9.250
     ttl: 300
+  - name: traefik-ss-00
+    record:
+    - 10.140.15.250
+    ttl: 300
+  - name: traefik-ss-01
+    record:
+    - 10.140.31.250
+    ttl: 300
 cname:
   - name: moneyclaim
     record: sandbox-waf.sandbox.platform.hmcts.net.
