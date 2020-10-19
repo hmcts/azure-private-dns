@@ -68,6 +68,7 @@ A:
   - name: hmi-casehqemulator
     record:
     - 10.140.15.250
+    ttl: 300
   - name: traefik-ss-00
     record:
     - 10.140.15.250
