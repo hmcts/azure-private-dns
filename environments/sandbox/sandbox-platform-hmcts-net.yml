@@ -57,7 +57,7 @@ A:
     record:
     - 10.10.9.250
     ttl: 300
-   - name: hmi-wiremock
+  - name: hmi-wiremock
     record:
     - 10.140.15.250
     ttl: 300
