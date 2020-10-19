@@ -24,9 +24,9 @@ A:
     - 10.11.15.221
     ttl: 300
 cname:
-  - name: bulkscan
-    record: f72fd46f-5e4b-42d9-9d23-697fb97f5640.cloudapp.net.
-    ttl: 300
+  - name: "bulkscan"
+    ttl: 600
+    record: "bulk-scan-v2-demo-frontdoor.azurefd.net"
   - name: bulk-scanning
     record: 3644b292-ae3f-4055-ba68-4a9500e43659.cloudapp.net.
     ttl: 300
