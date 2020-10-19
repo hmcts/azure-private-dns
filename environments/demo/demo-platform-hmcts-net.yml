@@ -31,6 +31,3 @@ cname:
   - name: bulk-scanning
     record: 3644b292-ae3f-4055-ba68-4a9500e43659.cloudapp.net.
     ttl: 300
-  - name: reformscan
-    record: bulkscandemo.blob.core.windows.net.
-    ttl: 300
