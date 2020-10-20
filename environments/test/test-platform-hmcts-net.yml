@@ -6,6 +6,22 @@ vnet_links:
     vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformMgmtCoreRG/providers/Microsoft.Network/virtualNetworks/reformMgmtCoreVNet"
   - link_name: "bastion-nonprod-vnet"
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/bastion-nonprod-rg/providers/Microsoft.Network/virtualNetworks/bastion-nonprod-vnet"
-A: []
-
-cname: []
+  - link_name: "hmi-sharedinfra-vnet-test"
+    vnet_id: "/subscriptions/3eec5bde-7feb-4566-bfb6-805df6e10b90/resourceGroups/hmi-sharedinfra-test-rg/providers/Microsoft.Network/virtualNetworks/hmi-sharedinfra-vnet-test"
+A:
+  - name: hmi-wiremock
+    record:
+    - 10.141.15.250
+    ttl: 300
+  - name: hmi-pact
+    record:
+    - 10.141.15.250
+    ttl: 300
+  - name: hmi-casehqemulator
+    record:
+    - 10.141.15.250
+    ttl: 300
+cname:
+  - name: hmi-apim
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
