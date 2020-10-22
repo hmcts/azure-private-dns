@@ -33,7 +33,7 @@ A:
     ttl: 300
   - name: ccd-admin-web
     record:
-    - 10.10.46.121
+    - 10.61.32.121
     ttl: 300
   - name: ccd-logstash
     record:
@@ -41,7 +41,7 @@ A:
     ttl: 300
   - name: camunda-bpm
     record:
-    - 10.10.46.121
+    - 10.61.32.121
     ttl: 300
 cname:
   - name: moneyclaims-legal
