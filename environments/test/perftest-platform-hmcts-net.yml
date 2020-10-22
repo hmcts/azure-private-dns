@@ -107,3 +107,9 @@ cname:
   - name: hmi-apim
     record: hmcts-perftest.azurefd.net.
     ttl: 300
+  - name: fact
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
+  - name: fact-admin
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300    

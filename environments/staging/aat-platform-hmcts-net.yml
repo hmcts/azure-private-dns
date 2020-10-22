@@ -125,6 +125,9 @@ cname:
   - name: fact
     record: hmcts-aat.azurefd.net.
     ttl: 300
+  - name: fact-admin
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
   - name: "bulkscan"
     ttl: 300
     record: "bulk-scan-v2-aat-frontdoor.azurefd.net"
