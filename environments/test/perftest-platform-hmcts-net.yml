@@ -17,23 +17,23 @@ vnet_links:
 A:
   - name: prometheus-00
     record:
-    - 10.10.41.250
+    - 10.61.15.250
     ttl: 300
   - name: prometheus-01
     record:
-    - 10.10.45.250
+    - 10.61.31.250
     ttl: 300
   - name: alertmanager-00
     record:
-    - 10.10.41.250
+    - 10.61.15.250
     ttl: 300
   - name: alertmanager-01
     record:
-    - 10.10.45.250
+    - 10.61.31.250
     ttl: 300
   - name: ccd-admin-web
     record:
-    - 10.10.46.121
+    - 10.61.32.121
     ttl: 300
   - name: ccd-logstash
     record:
@@ -41,7 +41,7 @@ A:
     ttl: 300
   - name: camunda-bpm
     record:
-    - 10.10.46.121
+    - 10.61.32.121
     ttl: 300
 cname:
   - name: moneyclaims-legal
