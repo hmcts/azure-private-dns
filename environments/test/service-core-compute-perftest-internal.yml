@@ -17,26 +17,26 @@ vnet_links:
 A:
   - name: camunda-api-perftest
     record:
-    - 10.10.46.121
+    - 10.61.32.121
     ttl: 300
   - name: div-cms-perftest
     record:
-    - 10.10.46.121
+    - 10.61.32.121
     ttl: 300
   - name: finrem-emca-perftest
     record:
-    - 10.10.46.121
+    - 10.61.32.121
     ttl: 300
   - name: finrem-ns-perftest
     record:
-    - 10.10.46.121
+    - 10.61.32.121
     ttl: 300
   - name: finrem-ps-perftest
     record:
-    - 10.10.46.121
+    - 10.61.32.121
     ttl: 300
   - name: finrem-cos-perftest
     record:
-    - 10.10.46.121
+    - 10.61.32.121
     ttl: 300
 cname: []
