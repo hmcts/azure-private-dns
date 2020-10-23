@@ -96,11 +96,11 @@ cname:
     record: hmcts-perftest.azurefd.net.
     ttl: 300
   - name: bulkscan
-    record: cce9c112-ef98-4879-81ee-e7ce4ff33356.cloudapp.net.
     ttl: 300
+    record: hmcts-perftest.azurefd.net.
   - name: reformscan
-    record: 8f940326-eb81-4bb2-9320-41b836d2034d.cloudapp.net.
     ttl: 300
+    record: hmcts-perftest.azurefd.net
   - name: probate
     record: hmcts-perftest.azurefd.net.
     ttl: 300
