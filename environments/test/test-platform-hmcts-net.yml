@@ -21,6 +21,14 @@ A:
     record:
     - 10.141.15.250
     ttl: 300
+  - name: traefik-ss-00
+    record:
+    - 10.141.15.250
+    ttl: 300
+  - name: traefik-ss-01
+    record:
+    - 10.141.31.250
+    ttl: 300
 cname:
   - name: hmi-apim
     record: hmcts-perftest.azurefd.net.
