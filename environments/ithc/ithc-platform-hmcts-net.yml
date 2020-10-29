@@ -92,6 +92,9 @@ cname:
   - name: fees-register
     record: hmcts-ithc.azurefd.net.
     ttl: 300
+  - name: fact
+    record: hmcts-ithc.azurefd.net.
+    ttl: 300    
   - name: bar
     record: hmcts-ithc.azurefd.net.
     ttl: 300
