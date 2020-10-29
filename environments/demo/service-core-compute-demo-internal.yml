@@ -17,6 +17,6 @@ vnet_links:
 A:
   - name: camunda-api-demo
     record:
-      - 10.11.32.121
+      - 10.51.32.121
     ttl: 300
 cname: []
