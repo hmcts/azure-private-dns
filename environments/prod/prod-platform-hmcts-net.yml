@@ -264,11 +264,11 @@ cname:
   - name: tmequality-and-diversity
     record: prod-waf-additional.platform.hmcts.net.
     ttl: 300  
-  - name: fees-register	
-    record: hmcts-prod.azurefd.net.	
-    ttl: 300	
-  - name: www.fees-register	
-    record: hmcts-prod.azurefd.net.	
+  - name: fees-register
+    record: hmcts-prod.azurefd.net.
+    ttl: 300
+  - name: www.fees-register
+    record: hmcts-prod.azurefd.net.
     ttl: 300
   - name: tmwww.fees-register
     record: prod-waf-additional.platform.hmcts.net.
@@ -395,4 +395,7 @@ cname:
     ttl: 300
   - name: sscs
     record: sscs-tya-frontend-prod-shutter.azurewebsites.net
+    ttl: 300
+  - name: hmi-apim
+    record: hmcts-prod.azurefd.net.
     ttl: 300
