@@ -130,15 +130,21 @@ cname:
   - name: fact-admin
     record: hmcts-aat.azurefd.net.
     ttl: 300
-  - name: "bulkscan"
+  - name: bulkscan
     ttl: 300
-    record: "bulk-scan-v2-aat-frontdoor.azurefd.net"
+    record: hmcts-aat.azurefd.net.
+  - name: bulkscanstg
+    ttl: 300
+    record: hmcts-aat.azurefd.net.
   - name: "v2-bulkscan"
     ttl: 300
     record: "bulk-scan-v2-aat-frontdoor.azurefd.net"
-  - name: "reformscan"
+  - name: reformscan
     ttl: 300
-    record: "reform-scan-v2-aat-frontdoor.azurefd.net"
+    record: hmcts-aat.azurefd.net.
+  - name: reformscanstg
+    ttl: 300
+    record: hmcts-aat.azurefd.net.
   - name: "v2-reformscan"
     ttl: 300
     record: "reform-scan-v2-aat-frontdoor.azurefd.net"
