@@ -40,6 +40,8 @@ vnet_links:
   - link_name: "bastion-sbox-vnet"
     vnet_id: "/subscriptions/b3394340-6c9f-44ca-aa3e-9ff38bd1f9ac/resourceGroups/bastion-sbox-rg/providers/Microsoft.Network/virtualNetworks/bastion-sbox-vnet"
     registration_enabled: true
+  - link_name: "hmi-sharedinfra-vnet-prod"
+    vnet_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/hmi-sharedinfra-prod-rg/providers/Microsoft.Network/virtualNetworks/hmi-sharedinfra-vnet-prod"
 A:
   - name: aat-waf
     record:
