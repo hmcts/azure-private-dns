@@ -231,6 +231,10 @@ A:
     record:
       - 10.10.65.250
     ttl: 300
+  - name: idam-bastion
+    record:
+      - 10.106.79.4
+    ttl: 300
 
 cname:
   - name: www.moneyclaim-legal
