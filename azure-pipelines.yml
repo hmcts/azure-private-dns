@@ -91,6 +91,16 @@ stages:
           backendServiceArm: 'dts-cftptl-intsvc'
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftptlintsvc'
+          
+      - template: pipeline-templates/terraform-plan.yaml
+        parameters:
+          zone: 'privatelink'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
 
       - job: Archive
         pool:
@@ -217,6 +227,21 @@ stages:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
           zone: 'prod'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
+          
+  - stage: PrivateLink_Apply
+    dependsOn: Plan_phase
+    displayName: "Private Link Apply"
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    jobs:
+      - template: pipeline-templates/terraform-apply.yaml
+        parameters:
+          zone: 'privatelink'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}

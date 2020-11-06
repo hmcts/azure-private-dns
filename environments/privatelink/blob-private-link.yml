@@ -1,0 +1,15 @@
+name: "privatelink.blob.core.windows.net"
+vnet_links:
+  - link_name: "core-infra-vnet-ithc-internal"
+    vnet_id: "/subscriptions/7a4e3bd5-ae3a-4d0c-b441-2188fee3ff1c/resourceGroups/core-infra-ithc/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-ithc"
+  - link_name: "core-infra-vnet-idam-ithc-internal"
+    vnet_id: "/subscriptions/7a4e3bd5-ae3a-4d0c-b441-2188fee3ff1c/resourceGroups/core-infra-idam-ithc/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-ithc"
+  - link_name: "core-infra-vnet-mgmt"
+    vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/rg-mgmt/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-mgmt"
+  - link_name: "reform-mgmt-core-vnet"
+    vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformMgmtCoreRG/providers/Microsoft.Network/virtualNetworks/reformMgmtCoreVNet"
+  - link_name: "bastion-prod-vnet"
+    vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/bastion-prod-rg/providers/Microsoft.Network/virtualNetworks/bastion-prod-vnet"  
+
+A: []
+cname: []
