@@ -1,5 +1,5 @@
 data "local_file" "blob-private-link" {
-  filename = "${path.cwd}/../../environments/private-link/blob-private-link.yml"
+  filename = "${path.cwd}/../../environments/privatelink/blob-private-link.yml"
 }
 
 module "blob-private-link" {

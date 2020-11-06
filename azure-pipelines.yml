@@ -94,7 +94,7 @@ stages:
           
       - template: pipeline-templates/terraform-plan.yaml
         parameters:
-          zone: 'private-link'
+          zone: 'privatelink'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
@@ -241,7 +241,7 @@ stages:
     jobs:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
-          zone: 'private-link'
+          zone: 'privatelink'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
