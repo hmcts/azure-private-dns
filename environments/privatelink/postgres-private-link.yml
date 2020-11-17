@@ -1,4 +1,4 @@
-name: "privatelink.blob.core.windows.net"
+name: "privatelink.postgres.database.azure.com"
 vnet_links:
   - link_name: "core-infra-vnet-prod-internal"
     vnet_id: "/subscriptions/8999dec3-0104-4a27-94ee-6588559729d1/resourceGroups/core-infra-prod/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-prod"
