@@ -1,4 +1,4 @@
-name: "privatelink.database.core.windows.net"
+name: "privatelink.database.windows.net"
 vnet_links:
   # staging
   - link_name: "ss-stg-vnet"
