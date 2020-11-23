@@ -181,6 +181,3 @@ cname:
   - name: pcq
     record: hmcts-aat.azurefd.net.
     ttl: 300
-  - name: hmi-apim
-    record: hmcts-aat.azurefd.net.
-    ttl: 300
