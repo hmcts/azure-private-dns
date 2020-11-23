@@ -1,20 +1,5 @@
 name: "privatelink.datafactory.azure.net"
-vnet_links:
-  # staging
-  - link_name: "ss-stg-vnet"
-    vnet_id: "/subscriptions/74dacd4f-a248-45bb-a2f0-af700dc4cf68/resourceGroups/ss-stg-network-rg/providers/Microsoft.Network/virtualNetworks/ss-stg-vnet"
-  # ithc
-  - link_name: "ss-ithc-vnet"
-    vnet_id: "/subscriptions/ba71a911-e0d6-4776-a1a6-079af1df7139/resourceGroups/ss-ithc-network-rg/providers/Microsoft.Network/virtualNetworks/ss-ithc-vnet"
-  # test
-  - link_name: "ss-test-vnet"
-    vnet_id: "/subscriptions/3eec5bde-7feb-4566-bfb6-805df6e10b90/resourceGroups/ss-test-network-rg/providers/Microsoft.Network/virtualNetworks/ss-test-vnet"
-  # dev
-  - link_name: "ss-dev-vnet"
-    vnet_id: "/subscriptions/867a878b-cb68-4de5-9741-361ac9e178b6/resourceGroups/ss-dev-network-rg/providers/Microsoft.Network/virtualNetworks/ss-dev-vnet"
-  # sandbox
-  - link_name: "ss-sbox-vnet"
-    vnet_id: "/subscriptions/a8140a9e-f1b0-481f-a4de-09e2ee23f7ab/resourceGroups/ss-sbox-network-rg/providers/Microsoft.Network/virtualNetworks/ss-sbox-vnet"
+vnet_links: []
 
 A: []
 cname: []
