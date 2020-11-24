@@ -39,7 +39,7 @@ A:
     record:
     - 10.61.32.121
     ttl: 300
-  - name: idam-keycloak-perftest.service.core-compute-perftest.internal
+  - name: idam-keycloak-perftest
     record:
     - 10.61.32.121
     ttl: 300
