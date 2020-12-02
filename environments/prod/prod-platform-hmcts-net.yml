@@ -358,7 +358,7 @@ cname:
     record: 249883f2-b70d-43f4-ad2c-d5100c94b5b9.cloudapp.net.
     ttl: 300
   - name: reformscan
-    record: d6553b20-4667-4120-a499-1e3de9ddce58.cloudapp.net.
+    record: hmcts-prod.azurefd.net.
     ttl: 300
   - name: docmosis-development
     record: proxyin.reform.hmcts.net.
