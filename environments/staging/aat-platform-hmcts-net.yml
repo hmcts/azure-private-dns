@@ -136,18 +136,12 @@ cname:
   - name: bulkscanstg
     ttl: 300
     record: hmcts-aat.azurefd.net.
-  - name: "v2-bulkscan"
-    ttl: 300
-    record: "bulk-scan-v2-aat-frontdoor.azurefd.net"
   - name: reformscan
     ttl: 300
     record: hmcts-aat.azurefd.net.
   - name: reformscanstg
     ttl: 300
     record: hmcts-aat.azurefd.net.
-  - name: "v2-reformscan"
-    ttl: 300
-    record: "reform-scan-v2-aat-frontdoor.azurefd.net"
   - name: jcm
     record: hmcts-jui-webapp-aat.trafficmanager.net.
     ttl: 300
