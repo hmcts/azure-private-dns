@@ -242,6 +242,7 @@ A:
   - name: backstage-api
     record:
     - 10.10.65.250
+    ttl: 300
 
 cname:
   - name: www.moneyclaim-legal
