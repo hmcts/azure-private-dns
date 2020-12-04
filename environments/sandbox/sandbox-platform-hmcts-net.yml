@@ -77,7 +77,7 @@ A:
     record:
     - 10.140.31.250
     ttl: 300
-  - name: toffee-recipe-backend
+  - name: toffee-backend
     record:
     - 10.140.31.250
     ttl: 300
