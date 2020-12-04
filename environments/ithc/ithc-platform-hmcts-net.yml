@@ -98,6 +98,9 @@ cname:
   - name: fact-admin
     record: hmcts-ithc.azurefd.net.
     ttl: 300      
+  - name: nfdiv
+    record: hmcts-ithc.azurefd.net.
+    ttl: 300
   - name: bar
     record: hmcts-ithc.azurefd.net.
     ttl: 300
