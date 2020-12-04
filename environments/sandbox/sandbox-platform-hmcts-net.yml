@@ -77,6 +77,10 @@ A:
     record:
     - 10.140.31.250
     ttl: 300
+  - name: toffee-backend
+    record:
+    - 10.140.31.250
+    ttl: 300
 cname:
   - name: moneyclaim
     record: sandbox-waf.sandbox.platform.hmcts.net.
