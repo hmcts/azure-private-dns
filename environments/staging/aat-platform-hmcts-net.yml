@@ -133,6 +133,12 @@ cname:
   - name: nfdiv
     record: hmcts-aat.azurefd.net.
     ttl: 300
+  - name: nfdiv-cms
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: nfdiv-cos
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
   - name: bulkscan
     ttl: 300
     record: hmcts-aat.azurefd.net.

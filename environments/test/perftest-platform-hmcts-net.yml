@@ -113,6 +113,12 @@ cname:
   - name: nfdiv
     record: hmcts-ithc.azurefd.net.
     ttl: 300
+  - name: nfdiv-cms
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: nfdiv-cos
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
   - name: idam-keycloak
     record: idam-keycloak-perftest.service.core-compute-perftest.internal.
     ttl: 300
