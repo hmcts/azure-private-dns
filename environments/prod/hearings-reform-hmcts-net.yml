@@ -1,0 +1,13 @@
+A: 
+### Dev
+  - name: vh-user-api-dev
+    ttl: 300
+    record:
+      - 10.145.15.250
+
+cname: 
+### Dev
+  - name: vh-user-api-dev
+    ttl: 300
+    record: sdshmcts-sbox.azurefd.net.
+    
