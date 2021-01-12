@@ -29,7 +29,14 @@ A:
     record:
     - 10.145.15.250
     ttl: 300
+  - name: vh-user-api
+    ttl: 300
+    record:
+      - 10.145.15.250
 cname:
   - name: hmi-apim
     record: hmcts-dev.azurefd.net.
     ttl: 300
+  - name: vh-user-api
+    ttl: 300
+    record: sdshmcts-sbox.azurefd.net.
