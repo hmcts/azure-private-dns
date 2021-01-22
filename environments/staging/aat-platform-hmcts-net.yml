@@ -143,6 +143,9 @@ cname:
   - name: nfdiv-cos
     record: hmcts-aat.azurefd.net.
     ttl: 300
+  - name: nfdiv-apply-for-divorce
+    record: hmcts-aat.azurefd.net.
+    ttl: 300  
   - name: bulkscan
     ttl: 300
     record: hmcts-aat.azurefd.net.
