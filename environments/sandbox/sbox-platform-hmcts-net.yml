@@ -15,6 +15,6 @@ vnet_links:
 A:
   - name: vh-user-api
     record:
-    - 10.140.31.250
+    - 10.140.15.250
     ttl: 300
 cname: []
