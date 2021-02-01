@@ -1,5 +1,5 @@
 data "local_file" "sbox-platform-configuration" {
-  filename = "${path.cwd}/../../environments/sbox/sbox-platform-hmcts-net.yml"
+  filename = "${path.cwd}/../../environments/sandbox/sbox-platform-hmcts-net.yml"
 }
 
 module "sbox-platform" {
