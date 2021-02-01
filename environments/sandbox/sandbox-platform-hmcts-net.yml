@@ -80,10 +80,6 @@ A:
   - name: toffee-backend
     record:
     - 10.140.31.250
-    ttl: 300  
-  - name: vh-user-api
-    record:
-    - 10.140.31.250
     ttl: 300
 cname:
   - name: moneyclaim
