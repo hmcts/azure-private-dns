@@ -413,3 +413,12 @@ cname:
   - name: hmi-apim
     record: hmcts-prod.azurefd.net.
     ttl: 300
+  - name: "administer-orgs-ethosldata"
+    ttl: 300
+    record: "hmcts-ldata.azurefd.net"
+  - name: "manage-org-ethosldata"
+    ttl: 300
+    record: "hmcts-ldata.azurefd.net"
+  - name: "manage-case-ethosldata"
+    ttl: 300
+    record: "hmcts-ldata.azurefd.net"
