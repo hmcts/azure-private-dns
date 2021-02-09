@@ -17,4 +17,36 @@ A:
     record:
     - 10.140.15.250
     ttl: 300
+  - name: vh-video-api
+    record:
+    - 10.140.15.250
+    ttl: 300
+  - name: vh-video-web
+    record:
+    - 10.140.15.250
+    ttl: 300
+  - name: vh-bookings-api
+    record:
+    - 10.140.15.250
+    ttl: 300
+  - name: vh-notification-api
+    record:
+    - 10.140.15.250
+    ttl: 300
+  - name: vh-test-api
+    record:
+    - 10.140.15.250
+    ttl: 300
+  - name: vh-admin-web
+    record:
+    - 10.140.15.250
+    ttl: 300
+  - name: vh-service-web
+    record:
+    - 10.140.15.250
+    ttl: 300
+  - name: vh-test-web
+    record:
+    - 10.140.15.250
+    ttl: 300
 cname: []
