@@ -21,14 +21,14 @@ cname:
     record: hmcts-aat.azurefd.net.
     ttl: 300
   - name: neuvector00
-    record: traefik00
+    record: traefik00.staging.platform.hmcts.net
     ttl: 300
   - name: neuvector00-api
-    record: traefik00
+    record: traefik00.staging.platform.hmcts.net
     ttl: 300
   - name: neuvector01
-    record: traefik01
+    record: traefik01.staging.platform.hmcts.net
     ttl: 300
   - name: neuvector01-api
-    record: traefik01
+    record: traefik01.staging.platform.hmcts.net
     ttl: 300
