@@ -6,9 +6,29 @@ vnet_links:
     vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformMgmtCoreRG/providers/Microsoft.Network/virtualNetworks/reformMgmtCoreVNet"
   - link_name: "bastion-nonprod-vnet"
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/bastion-nonprod-rg/providers/Microsoft.Network/virtualNetworks/bastion-nonprod-vnet"
-A: []
+A:
+  - name: traefik00
+    ttl: 300
+    record:
+    - 10.142.15.250
+  - name: traefik01
+    ttl: 300
+    record:
+    - 10.142.31.250
 
 cname: 
   - name: hmi-apim
     record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: neuvector00
+    record: traefik00
+    ttl: 300
+  - name: neuvector00-api
+    record: traefik00
+    ttl: 300
+  - name: neuvector01
+    record: traefik01
+    ttl: 300
+  - name: neuvector01-api
+    record: traefik01
     ttl: 300
