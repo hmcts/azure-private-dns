@@ -15,8 +15,32 @@ A:
     ttl: 300
     record:
     - 10.142.31.250
+  - name: civil-damages-service-staging-camunda
+    record:
+    - 10.10.24.121
+    ttl: 300
+  - name: civil-damages-service-staging-xui-webapp
+    record:
+    - 10.10.24.121
+    ttl: 300
+  - name: civil-damages-ccd-staging-camunda
+    record:
+    - 10.10.24.121
+    ttl: 300
+  - name: civil-damages-ccd-staging-xui-webapp
+    record:
+    - 10.10.24.121
+    ttl: 300
+  - name: civil-damages-camunda-staging-camunda
+    record:
+    - 10.10.24.121
+    ttl: 300
+  - name: civil-damages-camunda-staging-xui-webapp
+    record:
+    - 10.10.24.121
+    ttl: 300
 
-cname: 
+cname:
   - name: hmi-apim
     record: hmcts-aat.azurefd.net.
     ttl: 300
