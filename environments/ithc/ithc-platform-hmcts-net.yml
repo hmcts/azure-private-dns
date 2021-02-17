@@ -37,6 +37,15 @@ A:
     record:
     - 10.10.36.121
     ttl: 300
+  - name: traefik-sds-00
+    ttl: 300
+    record:
+    - 10.143.15.250
+  - name: traefik-sds-01
+    ttl: 300
+    record:
+    - 10.143.31.250
+
 cname:
   - name: moneyclaims
     record: hmcts-ithc.azurefd.net.
@@ -112,4 +121,16 @@ cname:
     ttl: 300
   - name: idam-web-admin
     record: hmcts-ithc.azurefd.net.
+    ttl: 300
+  - name: sds-neuvector00
+    record: traefik-sds-00.ithc.platform.hmcts.net
+    ttl: 300
+  - name: sds-neuvector00-api
+    record: traefik-sds-00.ithc.platform.hmcts.net
+    ttl: 300
+  - name: sds-neuvector01
+    record: traefik-sds-01.ithc.platform.hmcts.net
+    ttl: 300
+  - name: sds-neuvector01-api
+    record: traefik-sds-01.ithc.platform.hmcts.net
     ttl: 300

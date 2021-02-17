@@ -7,11 +7,11 @@ vnet_links:
   - link_name: "bastion-nonprod-vnet"
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/bastion-nonprod-rg/providers/Microsoft.Network/virtualNetworks/bastion-nonprod-vnet"
 A:
-  - name: traefik00
+  - name: traefik-sds-00
     ttl: 300
     record:
     - 10.142.15.250
-  - name: traefik01
+  - name: traefik-sds-01
     ttl: 300
     record:
     - 10.142.31.250
@@ -20,15 +20,15 @@ cname:
   - name: hmi-apim
     record: hmcts-aat.azurefd.net.
     ttl: 300
-  - name: neuvector00
-    record: traefik00.staging.platform.hmcts.net
+  - name: sds-neuvector00
+    record: traefik-sds-00.staging.platform.hmcts.net
     ttl: 300
-  - name: neuvector00-api
-    record: traefik00.staging.platform.hmcts.net
+  - name: sds-neuvector00-api
+    record: traefik-sds-00.staging.platform.hmcts.net
     ttl: 300
-  - name: neuvector01
-    record: traefik01.staging.platform.hmcts.net
+  - name: sds-neuvector01
+    record: traefik-sds-01.staging.platform.hmcts.net
     ttl: 300
-  - name: neuvector01-api
-    record: traefik01.staging.platform.hmcts.net
+  - name: sds-neuvector01-api
+    record: traefik-sds-01.staging.platform.hmcts.net
     ttl: 300
