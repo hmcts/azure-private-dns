@@ -31,19 +31,11 @@ A:
     record:
     - 10.10.24.121
     ttl: 300
-  - name: civil-damages-service-gateway-staging-aat
-    record:
-    - 10.10.24.121
-    ttl: 300
   - name: civil-damages-service-data-store-staging-aat
     record:
     - 10.10.24.121
     ttl: 300
   - name: civil-damages-service-definition-store-staging-aat
-    record:
-    - 10.10.24.121
-    ttl: 300
-  - name: civil-damages-service-user-profile-staging-aat
     record:
     - 10.10.24.121
     ttl: 300
@@ -55,19 +47,11 @@ A:
     record:
     - 10.10.24.121
     ttl: 300
-  - name: civil-damages-ccd-gateway-staging-aat
-    record:
-      - 10.10.24.121
-    ttl: 300
   - name: civil-damages-ccd-data-store-staging-aat
     record:
       - 10.10.24.121
     ttl: 300
   - name: civil-damages-ccd-definition-store-staging-aat
-    record:
-      - 10.10.24.121
-    ttl: 300
-  - name: civil-damages-ccd-user-profile-staging-aat
     record:
       - 10.10.24.121
     ttl: 300
@@ -79,19 +63,11 @@ A:
     record:
     - 10.10.24.121
     ttl: 300
-  - name: civil-damages-camunda-gateway-staging-aat
-    record:
-      - 10.10.24.121
-    ttl: 300
   - name: civil-damages-camunda-data-store-staging-aat
     record:
       - 10.10.24.121
     ttl: 300
   - name: civil-damages-camunda-definition-store-staging-aat
-    record:
-      - 10.10.24.121
-    ttl: 300
-  - name: civil-damages-camunda-user-profile-staging-aat
     record:
       - 10.10.24.121
     ttl: 300
