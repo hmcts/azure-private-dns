@@ -23,27 +23,27 @@ A:
     record:
     - 10.10.24.121
     ttl: 300
-  - name: civil-damages-service-xui-staging
+  - name: civil-damages-service-xui-staging-aat
     record:
     - 10.10.24.121
     ttl: 300
-  - name: civil-damages-service-camunda-staging
+  - name: civil-damages-service-camunda-staging-aat
     record:
     - 10.10.24.121
     ttl: 300
-  - name: civil-damages-ccd-xui-staging
+  - name: civil-damages-ccd-xui-staging-aat
     record:
     - 10.10.24.121
     ttl: 300
-  - name: civil-damages-ccd-camunda-staging
+  - name: civil-damages-ccd-camunda-staging-aat
     record:
     - 10.10.24.121
     ttl: 300
-  - name: civil-damages-camunda-xui-staging
+  - name: civil-damages-camunda-xui-staging-aat
     record:
     - 10.10.24.121
     ttl: 300
-  - name: civil-damages-camunda-camunda-staging
+  - name: civil-damages-camunda-camunda-staging-aat
     record:
     - 10.10.24.121
     ttl: 300
