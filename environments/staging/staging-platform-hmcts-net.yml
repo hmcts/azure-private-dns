@@ -16,7 +16,7 @@ A:
     record:
     - 10.142.31.250
 
-cname: 
+cname:
   - name: hmi-apim
     record: hmcts-aat.azurefd.net.
     ttl: 300
