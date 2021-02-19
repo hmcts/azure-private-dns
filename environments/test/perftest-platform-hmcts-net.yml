@@ -43,7 +43,7 @@ A:
     record:
     - 10.61.32.121
     ttl: 300
-  - name: docmosis-base
+  - name: docmosis
     record:
     - 10.61.32.121
     ttl: 300
