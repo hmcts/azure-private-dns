@@ -43,6 +43,10 @@ A:
     record:
     - 10.61.32.121
     ttl: 300
+  - name: docmosis-base
+    record:
+    - 10.61.32.121
+    ttl: 300
 cname:
   - name: moneyclaims-legal
     record: hmcts-perftest.azurefd.net.
@@ -108,9 +112,6 @@ cname:
     record: hmcts-perftest.azurefd.net.
     ttl: 300
   - name: fact-admin
-    record: hmcts-perftest.azurefd.net.
-    ttl: 300
-  - name: docmosis-base
     record: hmcts-perftest.azurefd.net.
     ttl: 300
   - name: nfdiv

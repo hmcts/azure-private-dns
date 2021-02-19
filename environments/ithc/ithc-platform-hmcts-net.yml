@@ -37,6 +37,10 @@ A:
     record:
     - 10.10.36.121
     ttl: 300
+  - name: docmosis-base
+    record:
+    - 10.10.36.121
+    ttl: 300
   - name: traefik-sds-00
     ttl: 300
     record:
@@ -120,9 +124,6 @@ cname:
     record: hmcts-ithc.azurefd.net.
     ttl: 300
   - name: idam-web-admin
-    record: hmcts-ithc.azurefd.net.
-    ttl: 300
-  - name: docmosis-base
     record: hmcts-ithc.azurefd.net.
     ttl: 300
   - name: sds-neuvector00

@@ -57,6 +57,10 @@ A:
     record:
     - 10.10.24.121
     ttl: 300
+  - name: docmosis-base
+    record:
+    - 10.10.24.121
+    ttl: 300
   - name: cvp-recording
     record:
     - 10.50.11.41
@@ -192,8 +196,5 @@ cname:
     record: hmcts-aat.azurefd.net.
     ttl: 300
   - name: pcq
-    record: hmcts-aat.azurefd.net.
-    ttl: 300
-  - name: docmosis-base
     record: hmcts-aat.azurefd.net.
     ttl: 300
