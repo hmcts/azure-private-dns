@@ -122,6 +122,9 @@ cname:
   - name: idam-web-admin
     record: hmcts-ithc.azurefd.net.
     ttl: 300
+  - name: docmosis-base
+    record: hmcts-ithc.azurefd.net.
+    ttl: 300
   - name: sds-neuvector00
     record: traefik-sds-00.ithc.platform.hmcts.net
     ttl: 300
