@@ -57,6 +57,10 @@ A:
     record:
     - 10.10.24.121
     ttl: 300
+  - name: docmosis
+    record:
+    - 10.10.24.121
+    ttl: 300
   - name: cvp-recording
     record:
     - 10.50.11.41
