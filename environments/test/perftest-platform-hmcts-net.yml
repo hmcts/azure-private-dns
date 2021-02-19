@@ -110,7 +110,7 @@ cname:
   - name: fact-admin
     record: hmcts-perftest.azurefd.net.
     ttl: 300
-  - name: idam-web-admin
+  - name: docmosis-base
     record: hmcts-perftest.azurefd.net.
     ttl: 300
   - name: nfdiv
