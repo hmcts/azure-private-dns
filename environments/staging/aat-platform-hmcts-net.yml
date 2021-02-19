@@ -194,3 +194,6 @@ cname:
   - name: pcq
     record: hmcts-aat.azurefd.net.
     ttl: 300
+  - name: docmosis-base
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
