@@ -69,3 +69,15 @@ cname:
   - name: hmi-apim
     record: hmcts-dev.azurefd.net.
     ttl: 300
+  - name: sds-neuvector00
+    record: traefik-sds-00.dev.platform.hmcts.net
+    ttl: 300
+  - name: sds-neuvector00-api
+    record: traefik-sds-00.dev.platform.hmcts.net
+    ttl: 300
+  - name: sds-neuvector01
+    record: traefik-sds-01.dev.platform.hmcts.net
+    ttl: 300
+  - name: sds-neuvector01-api
+    record: traefik-sds-01.dev.platform.hmcts.net
+    ttl: 300    
