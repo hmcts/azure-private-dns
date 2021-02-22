@@ -69,11 +69,11 @@ A:
     record:
     - 10.140.15.250
     ttl: 300
-  - name: traefik-ss-00
+  - name: traefik-sds-00
     record:
     - 10.140.15.250
     ttl: 300
-  - name: traefik-ss-01
+  - name: traefik-sds-01
     record:
     - 10.140.31.250
     ttl: 300
