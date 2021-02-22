@@ -9,11 +9,11 @@ vnet_links:
   - link_name: "hmi-sharedinfra-vnet-dev"
     vnet_id: "/subscriptions/867a878b-cb68-4de5-9741-361ac9e178b6/resourceGroups/hmi-sharedinfra-dev-rg/providers/Microsoft.Network/virtualNetworks/hmi-sharedinfra-vnet-dev"
 A:
-  - name: traefik-ss-01
+  - name: traefik-sds-01
     record:
     - 10.145.31.250
     ttl: 300
-  - name: traefik-ss-00
+  - name: traefik-sds-00
     record:
     - 10.145.15.250
     ttl: 300
