@@ -15,7 +15,7 @@ vnet_links:
 A:
   - name: camunda-api-ithc
     record:
-    - 10.10.36.121
+    - 10.10.40.121
     ttl: 300
   - name: ia-home-office-integration-api-ithc
     record:
