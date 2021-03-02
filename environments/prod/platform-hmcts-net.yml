@@ -380,15 +380,6 @@ cname:
   - name: reformscan
     record: hmcts-prod.azurefd.net.
     ttl: 300
-  - name: docmosis-development
-    record: proxyin.reform.hmcts.net.
-    ttl: 300
-  - name: docmosis-testing
-    record: proxyin.reform.hmcts.net.
-    ttl: 300
-  - name: docmosis-ithc
-    record: proxyin.reform.hmcts.net.
-    ttl: 300
   - name: docmosis
     record: proxyin.reform.hmcts.net.
     ttl: 300
