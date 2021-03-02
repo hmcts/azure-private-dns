@@ -247,6 +247,14 @@ A:
     record:
     - 10.99.19.15
     ttl: 300
+  - name: traefik-sds-00
+    record:
+    - 10.144.15.250
+    ttl: 300
+  - name: traefik-sds-01
+    record:
+    - 10.144.31.250
+    ttl: 300    
 
 cname:
   - name: www.moneyclaim-legal
@@ -426,3 +434,15 @@ cname:
   - name: "manage-case-ethosldata"
     ttl: 300
     record: "hmcts-ldata.azurefd.net"
+  - name: sds-neuvector00
+    record: traefik-sds-00.platform.hmcts.net
+    ttl: 300
+  - name: sds-neuvector00-api
+    record: traefik-sds-00.platform.hmcts.net
+    ttl: 300
+  - name: sds-neuvector01
+    record: traefik-sds-01.platform.hmcts.net
+    ttl: 300
+  - name: sds-neuvector01-api
+    record: traefik-sds-01.platform.hmcts.net
+    ttl: 300
