@@ -255,11 +255,11 @@ A:
     record:
     - 10.144.31.250
     ttl: 300
-  - name: hmcts-hub-prod-int-nic-mgmt-0
+  - name: hub-prod-palo-vm-0
     record:
     - 10.11.8.69
     ttl: 300
-  - name: hmcts-hub-prod-int-nic-mgmt-1
+  - name: hub-prod-palo-vm-1
     record:
     - 10.11.8.70
     ttl: 300
