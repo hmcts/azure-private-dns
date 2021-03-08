@@ -65,6 +65,22 @@ A:
     record:
     - 10.145.32.134
     ttl: 300
+  - name: sds-prometheus-00
+    record:
+    - 10.145.15.250
+    ttl: 300
+  - name: sds-alertmanager-00
+    record:
+    - 10.145.15.250
+    ttl: 300
+  - name: sds-prometheus-01
+    record:
+    - 10.145.31.250
+    ttl: 300
+  - name: sds-alertmanager-01
+    record:
+    - 10.145.31.250
+    ttl: 300
 cname:
   - name: hmi-apim
     record: hmcts-dev.azurefd.net.
