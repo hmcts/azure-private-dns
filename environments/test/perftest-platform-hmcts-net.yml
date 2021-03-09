@@ -126,3 +126,15 @@ cname:
   - name: idam-keycloak
     record: idam-keycloak-perftest.service.core-compute-perftest.internal.
     ttl: 300
+  - name: decree-absolute-aks
+    ttl: 300
+    record: hmcts-perftest.azurefd.net
+  - name: decree-nisi-aks
+    ttl: 300
+    record: hmcts-perftest.azurefd.net
+  - name: petitioner-frontend-aks
+    ttl: 300
+    record: hmcts-perftest.azurefd.net
+  - name: respond-divorce-aks
+    ttl: 300
+    record: hmcts-perftest.azurefd.net
