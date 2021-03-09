@@ -51,6 +51,9 @@ cname:
   - name: moneyclaims-legal
     record: hmcts-perftest.azurefd.net.
     ttl: 300
+  - name: moneyclaims
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
   - name: benefit-appeal
     record: hmcts-perftest.azurefd.net.
     ttl: 300
