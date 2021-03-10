@@ -29,6 +29,42 @@ A:
     record:
     - 10.141.31.250
     ttl: 300
+  - name: vh-user-api
+    record:
+    - 10.141.32.134
+    ttl: 300
+  - name: vh-video-api
+    record:
+    - 10.141.32.134
+    ttl: 300
+  - name: vh-video-web
+    record:
+    - 10.141.32.134
+    ttl: 300
+  - name: vh-bookings-api
+    record:
+    - 10.141.32.134
+    ttl: 300
+  - name: vh-notification-api
+    record:
+    - 10.141.32.134
+    ttl: 300
+  - name: vh-test-api
+    record:
+    - 10.141.32.134
+    ttl: 300
+  - name: vh-admin-web
+    record:
+    - 10.141.32.134
+    ttl: 300
+  - name: vh-service-web
+    record:
+    - 10.141.32.134
+    ttl: 300
+  - name: vh-test-web
+    record:
+    - 10.141.32.134
+    ttl: 300
 cname:
   - name: hmi-apim
     record: hmcts-perftest.azurefd.net.
