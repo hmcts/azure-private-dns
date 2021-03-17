@@ -85,7 +85,10 @@ A:
     record:
     - 10.143.32.136
     ttl: 300
-
+  - name: toffee-recipe-backend
+    record:
+    - 10.143.32.136
+    ttl: 300
 cname:
   - name: moneyclaims
     record: hmcts-ithc.azurefd.net.
