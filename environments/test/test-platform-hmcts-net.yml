@@ -67,7 +67,7 @@ A:
     ttl: 300
   - name: toffee-recipe-backend
     record:
-      - 10.141.32.134
+    - 10.141.32.134
     ttl: 300
 cname:
   - name: hmi-apim
