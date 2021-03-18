@@ -263,6 +263,10 @@ A:
     record:
     - 10.11.8.70
     ttl: 300
+  - name: sftp
+    record:
+    - 51.132.40.106
+    ttl: 300
 
 cname:
   - name: www.moneyclaim-legal
