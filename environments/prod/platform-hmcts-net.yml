@@ -219,6 +219,10 @@ A:
     record:
     - 192.173.127.250
     ttl: 300
+  - name: docmosis
+    record:
+    - 10.13.32.120
+    ttl: 300
   - name: camunda-bpm
     ttl: 300
     record:
@@ -391,9 +395,6 @@ cname:
     ttl: 300
   - name: reformscan
     record: hmcts-prod.azurefd.net.
-    ttl: 300
-  - name: docmosis
-    record: proxyin.reform.hmcts.net.
     ttl: 300
   - name: sslmon
     record: proxyin.reform.hmcts.net.
