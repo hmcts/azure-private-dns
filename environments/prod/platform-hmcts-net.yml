@@ -265,7 +265,7 @@ A:
     ttl: 300
   - name: sftp
     record:
-    - 51.132.40.106
+    - 10.197.196.4
     ttl: 300
 
 cname:
