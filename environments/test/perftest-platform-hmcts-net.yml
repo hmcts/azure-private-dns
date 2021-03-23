@@ -120,9 +120,6 @@ cname:
   - name: nfdiv
     record: hmcts-perftest.azurefd.net.
     ttl: 300
-  - name: nfdiv-case-api
-    record: hmcts-perftest.azurefd.net.
-    ttl: 300
   - name: nfdiv-apply-for-divorce
     record: hmcts-perftest.azurefd.net.
     ttl: 300
