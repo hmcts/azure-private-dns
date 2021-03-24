@@ -85,14 +85,6 @@ A:
     record:
     - 10.145.31.250
     ttl: 300
-  - name: vhinfrawowzadev
-    record:
-    - 10.145.33.5
-    ttl: 300
-  - name: vh-wowza-sds
-    record:
-    - 10.145.33.4
-    ttl: 300
 cname:
   - name: hmi-apim
     record: hmcts-dev.azurefd.net.
