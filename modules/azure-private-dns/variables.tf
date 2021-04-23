@@ -38,3 +38,5 @@ variable "a_recordsets" {
 }
 
 variable "env" {}
+variable "builtFrom" {}
+variable "product" {}

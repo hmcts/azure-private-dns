@@ -2,7 +2,7 @@ resource "azurerm_private_dns_zone" "zone" {
   name                = var.zone_name
   resource_group_name = var.resource_group_name
 
-  tags = local.common_tags
+  tags = module.ctags.common_tags
 }
 
 resource "azurerm_private_dns_zone_virtual_network_link" "vnet_link" {
@@ -13,4 +13,11 @@ resource "azurerm_private_dns_zone_virtual_network_link" "vnet_link" {
   private_dns_zone_name = azurerm_private_dns_zone.zone.name
   virtual_network_id    = each.value.vnet_id
   registration_enabled = contains(keys(each.value), "registration_enabled") ? each.value.registration_enabled : false
+}
+
+module "ctags" {
+  source      = "git::https://github.com/hmcts/terraform-module-common-tags.git?ref=master"
+  environment = var.env
+  product     = var.product
+  builtFrom   = var.builtFrom
 }
