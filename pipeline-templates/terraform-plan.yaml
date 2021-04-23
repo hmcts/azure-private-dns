@@ -22,7 +22,7 @@ jobs:
         displayName: Plan - ${{ parameters.zone }}
         inputs:
           command: 'plan'
-          commandOptions: '-out=${{ parameters.zone }}${{ parameters.build }}plan -var builtFrom=$(Build.Repository.Name) -var product=${{ parameters.product }}'
+          commandOptions: '-out=${{ parameters.zone }}${{ parameters.build }}plan'
           workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}'
           environmentServiceName: ${{ parameters.backendServiceArm }}
       - task: Bash@3
