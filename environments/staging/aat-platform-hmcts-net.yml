@@ -27,19 +27,19 @@ A:
     - 127.0.0.1
   - name: prometheus-00
     record:
-    - 10.10.19.250
+    - 10.10.15.250
     ttl: 300
   - name: prometheus-01
     record:
-    - 10.10.23.250
+    - 10.10.31.250
     ttl: 300
   - name: alertmanager-00
     record:
-    - 10.10.19.250
+    - 10.10.15.250
     ttl: 300
   - name: alertmanager-01
     record:
-    - 10.10.23.250
+    - 10.10.31.250
     ttl: 300
   - name: ccd-admin-web
     record:
