@@ -23,18 +23,18 @@ vnet_links:
 A:
   - name: camunda-api-aat
     record:
-    - 10.10.32.121
+    - 10.10.24.121
     ttl: 300
   - name: civil-damages-service-camunda-staging-aat
     record:
-    - 10.10.32.121
+    - 10.10.24.121
     ttl: 300
   - name: civil-damages-ccd-camunda-staging-aat
     record:
-    - 10.10.32.121
+    - 10.10.24.121
     ttl: 300
   - name: civil-damages-camunda-camunda-staging-aat
     record:
-    - 10.10.32.121
+    - 10.10.24.121
     ttl: 300
 cname: []
