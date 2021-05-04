@@ -38,3 +38,11 @@ variable "a_recordsets" {
 }
 
 variable "env" {}
+
+variable "builtFrom" {
+  default = "hmcts/azure-private-dns"
+}
+
+variable "product" {
+  default = "cft-platform"
+}

@@ -19,19 +19,19 @@ A:
     ttl: 300
   - name: prometheus-00
     record:
-    - 10.10.33.250
+    - 10.10.35.250
     ttl: 300
   - name: prometheus-01
     record:
-    - 10.10.37.250
+    - 10.10.39.250
     ttl: 300
   - name: alertmanager-00
     record:
-    - 10.10.33.250
+    - 10.10.35.250
     ttl: 300
   - name: alertmanager-01
     record:
-    - 10.10.37.250
+    - 10.10.39.250
     ttl: 300
   - name: camunda-bpm
     record:
@@ -85,7 +85,10 @@ A:
     record:
     - 10.143.32.136
     ttl: 300
-
+  - name: toffee-recipe-backend
+    record:
+    - 10.143.32.136
+    ttl: 300
 cname:
   - name: moneyclaims
     record: hmcts-ithc.azurefd.net.
