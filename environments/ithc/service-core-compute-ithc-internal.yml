@@ -45,4 +45,8 @@ A:
     record:
     - 10.10.37.250
     ttl: 300
+  - name: ccd-data-0
+    record:
+    - 10.48.0.36
+    ttl: 300
 cname: []
