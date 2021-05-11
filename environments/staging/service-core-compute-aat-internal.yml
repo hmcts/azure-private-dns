@@ -37,16 +37,4 @@ A:
     record:
     - 10.10.24.121
     ttl: 300
-  - name: civil-service-camunda-staging-aat
-    record:
-    - 10.10.24.121
-    ttl: 300
-  - name: civil-ccd-camunda-staging-aat
-    record:
-    - 10.10.24.121
-    ttl: 300
-  - name: civil-camunda-camunda-staging-aat
-    record:
-    - 10.10.24.121
-    ttl: 300
 cname: []
