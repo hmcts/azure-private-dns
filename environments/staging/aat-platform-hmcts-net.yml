@@ -79,15 +79,15 @@ A:
     ttl: 300
   - name: civil-service-xui-staging
     record:
-    - 10.10.24.121
+    - 10.10.24.125
     ttl: 300
   - name: civil-ccd-xui-staging
     record:
-    - 10.10.24.121
+    - 10.10.24.125
     ttl: 300
   - name: civil-camunda-xui-staging
     record:
-    - 10.10.24.121
+    - 10.10.24.125
     ttl: 300
 cname:
   - name: adoption
