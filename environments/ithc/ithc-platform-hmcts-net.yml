@@ -37,6 +37,10 @@ A:
     record:
     - 10.10.40.121
     ttl: 300
+  - name: camunda-optimize
+    record:
+    - 10.10.40.121
+    ttl: 300
   - name: docmosis
     record:
     - 10.10.40.121

@@ -227,6 +227,10 @@ A:
     ttl: 300
     record:
       - "10.13.32.120"
+  - name: camunda-optimize
+    record:
+    - 10.13.32.120
+    ttl: 300
   - name: artifactory
     record:
     - 10.10.65.250
