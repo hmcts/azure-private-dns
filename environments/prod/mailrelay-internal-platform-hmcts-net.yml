@@ -36,4 +36,3 @@ cname:
   - name: prod-in
     record: prod-in-uks.mailrelay.internal.platform.hmcts.net.
     ttl: 300
-
