@@ -1,4 +1,4 @@
-name: "mailrelay.platform.hmcts.internal"
+name: "mailrelay.internal.platform.hmcts.net"
 vnet_links:
   - link_name: "core-infra-vnet-ithc-internal"
     vnet_id: "/subscriptions/7a4e3bd5-ae3a-4d0c-b441-2188fee3ff1c/resourceGroups/core-infra-ithc/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-ithc"
@@ -31,9 +31,9 @@ A:
     ttl: 300
 cname:
   - name: dev-in
-    record: dev-in-uks.mailrelay.platform.hmcts.internal.
+    record: dev-in-uks.mailrelay.internal.platform.hmcts.net.
     ttl: 300
   - name: prod-in
-    record: prod-in-uks.mailrelay.platform.hmcts.internal.
+    record: prod-in-uks.mailrelay.internal.platform.hmcts.net.
     ttl: 300
 
