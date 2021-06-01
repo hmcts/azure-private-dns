@@ -14,13 +14,5 @@ vnet_links:
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/bastion-nonprod-rg/providers/Microsoft.Network/virtualNetworks/bastion-nonprod-vnet"
   - link_name: "pet-dev-vnet"
     vnet_id: "/subscriptions/58a2ce36-4e09-467b-8330-d164aa559c68/resourceGroups/pet_dev_network_resource_group/providers/Microsoft.Network/virtualNetworks/pet_dev_network"
-A:
-  - name: camunda-api-demo
-    record:
-      - 10.51.32.121
-    ttl: 300
-  - name: xui-terms-and-conditions-int-demo
-    record:
-      - 10.51.32.121
-    ttl: 300
+A: []
 cname: []
