@@ -79,6 +79,10 @@ A:
     record:
     - 40.120.54.64
     ttl: 300
+  - name: "sds-sandbox-build"
+    ttl: 300
+    record: 
+      - "51.104.212.71"
   - name: sandbox-build-beta
     record:
     - 40.120.54.64
