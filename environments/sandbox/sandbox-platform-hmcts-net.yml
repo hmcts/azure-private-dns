@@ -25,6 +25,14 @@ A:
     record:
     - 10.10.3.250
     ttl: 300
+  - name: sds-prometheus-00-ptl
+    record:
+    - 10.147.15.250
+    ttl: 300
+  - name: sds-alertmanager-00-ptl
+    record:
+    - 10.147.15.250
+    ttl: 300
   - name: alertmanager-00
     record:
     - 10.10.1.250
