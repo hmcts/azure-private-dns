@@ -1,0 +1,37 @@
+name: "mailrelay.platform.hmcts.net"
+vnet_links:
+  - link_name: "core-infra-vnet-ithc-internal"
+    vnet_id: "/subscriptions/7a4e3bd5-ae3a-4d0c-b441-2188fee3ff1c/resourceGroups/core-infra-ithc/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-ithc"
+  - link_name: "core-infra-vnet-idam-ithc-internal"
+    vnet_id: "/subscriptions/7a4e3bd5-ae3a-4d0c-b441-2188fee3ff1c/resourceGroups/core-infra-idam-ithc/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-ithc"
+  - link_name: "core-infra-vnet-mgmt"
+    vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/rg-mgmt/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-mgmt"
+  - link_name: "reform-mgmt-core-vnet"
+    vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformMgmtCoreRG/providers/Microsoft.Network/virtualNetworks/reformMgmtCoreVNet"
+  - link_name: "bastion-prod-vnet"
+    vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/bastion-prod-rg/providers/Microsoft.Network/virtualNetworks/bastion-prod-vnet"
+  - link_name: "core-aad-domain-services-mgmt-vnet"
+    vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/core-aad-domain-services-mgmt-rg/providers/Microsoft.Network/virtualNetworks/core-aad-domain-services-mgmt-vnet"
+A:
+  - name: "prod"
+    ttl: 60
+    record:
+      - "20.50.108.242"
+      - "20.50.109.148"
+      - "51.11.124.205"
+      - "51.11.124.216"
+  - name: "prod-in"
+    ttl: 60
+    record:
+      - "51.132.173.173"
+  - name: "dev"
+    ttl: 60
+    record:
+      - "20.49.168.141"
+      - "20.49.168.17"
+      - "51.11.124.149"
+      - "51.11.124.158"
+cname:
+  - name: "dev-in"
+    ttl: 60
+    record: "ss-dev-mailrelay.trafficmanager.net"
