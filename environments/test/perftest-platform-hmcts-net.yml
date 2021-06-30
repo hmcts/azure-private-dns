@@ -145,3 +145,6 @@ cname:
   - name: respond-divorce-aks
     ttl: 300
     record: hmcts-perftest.azurefd.net
+  - name: immigration-appeal
+    ttl: 300
+    record: hmcts-perftest.azurefd.net
