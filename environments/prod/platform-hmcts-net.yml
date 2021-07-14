@@ -478,3 +478,6 @@ cname:
   - name: sds-neuvector01-api
     record: traefik-sds-01.platform.hmcts.net
     ttl: 300
+  - name: immigration-appeal
+    ttl: 300
+    record: hmcts-perftest.azurefd.net
