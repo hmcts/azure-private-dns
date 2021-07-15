@@ -480,4 +480,4 @@ cname:
     ttl: 300
   - name: immigration-appeal
     ttl: 300
-    record: hmcts-perftest.azurefd.net
+    record: hmcts-prod.azurefd.net
