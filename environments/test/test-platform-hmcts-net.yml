@@ -85,3 +85,6 @@ cname:
   - name: sds-neuvector01-api
     record: traefik-sds-01.test.platform.hmcts.net
     ttl: 300
+  - name: toffee
+    record: sdshmcts-test.azurefd.net.
+    ttl: 300

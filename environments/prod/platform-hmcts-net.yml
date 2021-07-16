@@ -299,6 +299,14 @@ A:
     record:
     - 10.144.31.250
     ttl: 300
+  - name: sds-alertmanager-00-ptl
+    record:
+    - 10.147.79.250
+    ttl: 300
+  - name: sds-prometheus-00-ptl
+    record:
+    - 10.147.79.250
+    ttl: 300
 
 cname:
   - name: www.moneyclaim-legal
