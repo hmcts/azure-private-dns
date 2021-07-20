@@ -15,10 +15,4 @@ A:
     record:
     - 10.72.1.211
     ttl: 300
-cname:
-  - name: juror-api
-    record: juror-api.dom1.infra.int
-    ttl: 300
-  - name: juror-api-nle
-    record: juror-api-nle.dom1.infra.int
-    ttl: 300   
+cname: []
