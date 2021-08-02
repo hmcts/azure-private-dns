@@ -51,7 +51,7 @@ A:
     ttl: 300
   - name: netbox
     record:
-    - 51.145.47.4
+    - 10.147.15.250
     ttl: 300
   - name: camunda-bpm
     record:
