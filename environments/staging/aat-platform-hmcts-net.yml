@@ -27,23 +27,23 @@ A:
     - 127.0.0.1
   - name: prometheus-00
     record:
-    - 10.10.19.250
+    - 10.10.143.250
     ttl: 300
   - name: prometheus-01
     record:
-    - 10.10.23.250
+    - 10.10.159.250
     ttl: 300
   - name: alertmanager-00
     record:
-    - 10.10.19.250
+    - 10.10.143.250
     ttl: 300
   - name: alertmanager-01
     record:
-    - 10.10.23.250
+    - 10.10.159.250
     ttl: 300
   - name: ccd-admin-web
     record:
-    - 10.10.24.121
+    - 10.10.161.121
     ttl: 300
   - name: dm-store-aat.service
     record:
@@ -55,7 +55,7 @@ A:
     ttl: 300
   - name: camunda-bpm
     record:
-    - 10.10.24.121
+    - 10.10.161.121
     ttl: 300
   - name: camunda-optimize
     record:
@@ -63,7 +63,7 @@ A:
     ttl: 300
   - name: docmosis
     record:
-    - 10.10.24.121
+    - 10.10.161.121
     ttl: 300
   - name: cvp-recording
     record:
@@ -71,15 +71,15 @@ A:
     ttl: 300
   - name: civil-damages-service-xui-staging
     record:
-    - 10.10.24.121
+    - 10.10.161.121
     ttl: 300
   - name: civil-damages-ccd-xui-staging
     record:
-    - 10.10.24.121
+    - 10.10.161.121
     ttl: 300
   - name: civil-damages-camunda-xui-staging
     record:
-    - 10.10.24.121
+    - 10.10.161.121
     ttl: 300
   - name: civil-service-xui-staging
     record:
