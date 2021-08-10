@@ -490,9 +490,3 @@ cname:
   - name: sds-neuvector01-api
     record: traefik-sds-01.platform.hmcts.net
     ttl: 300
-  - name: jdbureau-dev
-    record: sdshmcts-dev.azurefd.net.
-    ttl: 300
-  - name: jdfrontend-dev
-    record: sdshmcts-dev.azurefd.net.
-    ttl: 300
