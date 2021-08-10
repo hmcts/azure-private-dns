@@ -104,3 +104,9 @@ cname:
   - name: toffee
     record: sdshmcts-dev.azurefd.net.
     ttl: 300
+  - name: jdbureau
+    record: sdshmcts-dev.azurefd.net.
+    ttl: 300
+  - name: jdfrontend
+    record: sdshmcts-dev.azurefd.net.
+    ttl: 300
