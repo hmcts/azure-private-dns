@@ -22,9 +22,11 @@ vnet_links:
     vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/bastion-prod-rg/providers/Microsoft.Network/virtualNetworks/bastion-prod-vnet"
 A:
   - name: neuvector00
-    record: 10.10.143.250
+    record:
+    - 10.10.143.250
     ttl: 300
   - name: neuvector01
-    record: 10.10.159.251
+    record:
+    - 10.10.159.251
     ttl: 300
 cname: []
