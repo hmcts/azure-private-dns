@@ -17,4 +17,12 @@ A:
     record:
     - 10.112.53.5
     ttl: 300
+  - name: neuvector00
+    record:
+    - 10.10.35.250
+    ttl: 300
+  - name: neuvector01
+    record:
+    - 10.10.39.250
+    ttl: 300
 cname: []
