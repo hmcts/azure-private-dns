@@ -105,6 +105,10 @@ A:
     record:
     - 10.140.31.250
     ttl: 300
+  - name: netbox
+    record:
+    - 10.147.15.250
+    ttl: 300
 cname:
   - name: moneyclaim
     record: sandbox-waf.sandbox.platform.hmcts.net.
