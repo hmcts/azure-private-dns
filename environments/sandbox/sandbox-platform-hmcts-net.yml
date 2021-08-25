@@ -109,6 +109,10 @@ A:
     record:
     - 10.147.15.250
     ttl: 300
+  - name: portal
+    record:
+    - 51.132.209.233
+    ttl: 300
 cname:
   - name: moneyclaim
     record: sandbox-waf.sandbox.platform.hmcts.net.
