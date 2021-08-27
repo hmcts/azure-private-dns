@@ -490,3 +490,6 @@ cname:
   - name: sds-neuvector01-api
     record: traefik-sds-01.platform.hmcts.net
     ttl: 300
+  - name: bastion-dev-sbox
+    record: 10.48.0.101
+    ttl: 300
