@@ -311,6 +311,10 @@ A:
     record:
     - 10.147.79.250
     ttl: 300
+  - name: bastion-dev-sbox
+    record:
+    - 10.48.0.101
+    ttl: 300
 
 cname:
   - name: www.moneyclaim-legal
@@ -489,7 +493,4 @@ cname:
     ttl: 300
   - name: sds-neuvector01-api
     record: traefik-sds-01.platform.hmcts.net
-    ttl: 300
-  - name: bastion-dev-sbox
-    record: 10.48.0.101
     ttl: 300
