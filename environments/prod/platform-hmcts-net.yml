@@ -491,5 +491,5 @@ cname:
     record: traefik-sds-01.platform.hmcts.net
     ttl: 300
   - name: bastion-dev-sbox
-    record: 10.48.0.101
+    record: bastion-sbox.platform.hmcts.net
     ttl: 300
