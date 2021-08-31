@@ -493,3 +493,9 @@ cname:
   - name: bastion-dev-sbox
     record: bastion-sbox.platform.hmcts.net
     ttl: 300
+  - name: bastion-dev-nonprod
+    record: bastion-nonprod.platform.hmcts.net
+    ttl: 300
+  - name: bastion-devops-prod
+    record: bastion-prod.platform.hmcts.net
+    ttl: 300
