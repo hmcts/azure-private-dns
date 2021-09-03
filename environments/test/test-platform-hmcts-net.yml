@@ -88,3 +88,6 @@ cname:
   - name: toffee
     record: sdshmcts-test.azurefd.net.
     ttl: 300
+  - name: pip-frontend
+    record: sdshmcts-test.azurefd.net
+    ttl: 300

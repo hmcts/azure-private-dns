@@ -49,4 +49,7 @@ A:
     record:
     - 10.140.15.250
     ttl: 300
-cname: []
+cname:
+  - name: pip-frontend
+    record: sdshmcts-sbox.azurefd.net
+    ttl: 300
