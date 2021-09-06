@@ -113,6 +113,10 @@ A:
     record:
     - 51.132.209.233
     ttl: 300
+  - name: core-api-mgmt
+    record:
+    - 10.100.161.10
+    ttl: 300
 cname:
   - name: moneyclaim
     record: sandbox-waf.sandbox.platform.hmcts.net.
