@@ -13,6 +13,10 @@ vnet_links:
   - link_name: "bastion-prod-vnet"
     vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/bastion-prod-rg/providers/Microsoft.Network/virtualNetworks/bastion-prod-vnet"
 A:
+  - name: ccd-admin-web
+    record:
+    - 10.10.40.121
+    ttl: 300
   - name: prometheus-00
     record:
     - 10.10.35.250
@@ -28,6 +32,18 @@ A:
   - name: alertmanager-01
     record:
     - 10.10.39.250
+    ttl: 300
+  - name: camunda-bpm
+    record:
+    - 10.10.40.121
+    ttl: 300
+  - name: camunda-optimize
+    record:
+    - 10.10.40.121
+    ttl: 300
+  - name: docmosis
+    record:
+    - 10.10.40.121
     ttl: 300
   - name: traefik-sds-00
     ttl: 300
