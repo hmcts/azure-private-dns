@@ -217,7 +217,7 @@ A:
     ttl: 300
   - name: netbox
     record:
-    - 20.49.156.148
+    - 10.147.79.250
     ttl: 300
   - name: traefik-int-stg
     record:
