@@ -287,6 +287,10 @@ A:
     record:
     - 10.197.196.4
     ttl: 300
+  - name: sds-grafana
+    record:
+    - 10.144.15.250
+    ttl: 300
   - name: sds-prometheus-00
     record:
     - 10.144.15.250
