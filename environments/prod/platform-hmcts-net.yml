@@ -121,7 +121,7 @@ A:
     ttl: 300
   - name: aks-mgmt-sandbox-proxyin
     record:
-    - 10.10.9.250
+    - 10.70.25.250
     ttl: 300
   - name: aks-mgmt-prod-proxyin
     record:
