@@ -15,7 +15,7 @@ vnet_links:
 A:
   - name: grafana
     record:
-    - 10.70.25.250
+    - 10.10.9.250
     ttl: 300
   - name: prometheus-00
     record:
@@ -47,27 +47,27 @@ A:
     ttl: 300
   - name: prometheus-mgmt-sbox
     record:
-    - 10.70.25.250
+    - 10.10.9.250
     ttl: 300
   - name: alertmanager-mgmt-sbox
     record:
-    - 10.70.25.250
+    - 10.10.9.250
     ttl: 300
   - name: backstage
     record:
-    - 10.70.25.250
+    - 10.10.9.250
     ttl: 300
   - name: backstage-api
     record:
-    - 10.70.25.250
+    - 10.10.9.250
     ttl: 300
   - name: artifactory
     record:
-    - 10.70.25.250
+    - 10.10.9.250
     ttl: 300
   - name: pact-broker
     record:
-    - 10.70.25.250
+    - 10.10.9.250
     ttl: 300
   - name: hmi-wiremock
     record:
