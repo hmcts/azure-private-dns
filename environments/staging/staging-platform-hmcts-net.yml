@@ -47,3 +47,18 @@ cname:
   - name: pip-business-rules
     record: sdshmcts-stg.azurefd.net
     ttl: 300
+  - name: pip-publication-services
+    record: sdshmcts-stg.azurefd.net
+    ttl: 300
+  - name: pip-data-management
+    record: sdshmcts-stg.azurefd.net
+    ttl: 300
+  - name: pip-channel-management
+    record: sdshmcts-stg.azurefd.net
+    ttl: 300
+  - name: pip-subscription-management
+    record: sdshmcts-stg.azurefd.net
+    ttl: 300
+  - name: pip-account-management
+    record: sdshmcts-stg.azurefd.net
+    ttl: 300
