@@ -29,46 +29,6 @@ A:
     record:
     - 10.145.15.250
     ttl: 300
-  - name: vh-user-api
-    record:
-    - 10.145.32.134
-    ttl: 300
-  - name: vh-video-api
-    record:
-    - 10.145.32.134
-    ttl: 300
-  - name: vh-video-web
-    record:
-    - 10.145.32.134
-    ttl: 300
-  - name: vh-bookings-api
-    record:
-    - 10.145.32.134
-    ttl: 300
-  - name: vh-notification-api
-    record:
-    - 10.145.32.134
-    ttl: 300
-  - name: vh-test-api
-    record:
-    - 10.145.32.134
-    ttl: 300
-  - name: vh-admin-web
-    record:
-    - 10.145.32.134
-    ttl: 300
-  - name: vh-service-web
-    record:
-    - 10.145.32.134
-    ttl: 300
-  - name: vh-test-web
-    record:
-    - 10.145.32.134
-    ttl: 300
-  - name: toffee-recipe-backend
-    record:
-    - 10.145.32.134
-    ttl: 300
   - name: sds-prometheus-00
     record:
     - 10.145.15.250
@@ -100,7 +60,7 @@ cname:
     ttl: 300
   - name: sds-neuvector01-api
     record: traefik-sds-01.dev.platform.hmcts.net
-    ttl: 300    
+    ttl: 300
   - name: toffee
     record: sdshmcts-dev.azurefd.net.
     ttl: 300

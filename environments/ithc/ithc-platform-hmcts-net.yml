@@ -53,46 +53,6 @@ A:
     ttl: 300
     record:
     - 10.143.31.250
-  - name: vh-user-api
-    record:
-    - 10.143.32.136
-    ttl: 300
-  - name: vh-video-api
-    record:
-    - 10.143.32.136
-    ttl: 300
-  - name: vh-video-web
-    record:
-    - 10.143.32.136
-    ttl: 300
-  - name: vh-bookings-api
-    record:
-    - 10.143.32.136
-    ttl: 300
-  - name: vh-notification-api
-    record:
-    - 10.143.32.136
-    ttl: 300
-  - name: vh-test-api
-    record:
-    - 10.143.32.136
-    ttl: 300
-  - name: vh-admin-web
-    record:
-    - 10.143.32.136
-    ttl: 300
-  - name: vh-service-web
-    record:
-    - 10.143.32.136
-    ttl: 300
-  - name: vh-test-web
-    record:
-    - 10.143.32.136
-    ttl: 300
-  - name: toffee-recipe-backend
-    record:
-    - 10.143.32.136
-    ttl: 300
 cname:
   - name: moneyclaims
     record: hmcts-ithc.azurefd.net.
@@ -150,10 +110,10 @@ cname:
     ttl: 300
   - name: fact
     record: hmcts-ithc.azurefd.net.
-    ttl: 300    
+    ttl: 300
   - name: fact-admin
     record: hmcts-ithc.azurefd.net.
-    ttl: 300      
+    ttl: 300
   - name: nfdiv
     record: hmcts-ithc.azurefd.net.
     ttl: 300

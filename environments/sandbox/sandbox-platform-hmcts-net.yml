@@ -89,11 +89,6 @@ A:
     record:
     - 10.140.31.250
     ttl: 300
-  - name: toffee-recipe-backend
-    record:
-    - 10.140.32.134
-    ttl: 300
-
   - name: sds-prometheus-00
     record:
     - 10.140.15.250
