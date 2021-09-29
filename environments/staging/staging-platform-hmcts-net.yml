@@ -15,10 +15,6 @@ A:
     ttl: 300
     record:
     - 10.148.31.250
-  - name: toffee-recipe-backend
-    ttl: 300
-    record:
-    - 10.148.32.138
 cname:
   - name: hmi-apim
     record: hmcts-aat.azurefd.net.
