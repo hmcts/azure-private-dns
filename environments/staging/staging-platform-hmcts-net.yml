@@ -19,6 +19,30 @@ A:
     ttl: 300
     record:
     - 10.148.32.138
+  - name: pip-business-rules
+    ttl: 300
+    record:
+    - 10.148.32.138
+  - name: pip-publication-services
+    ttl: 300
+    record:
+    - 10.148.32.138
+  - name: pip-data-management
+    ttl: 300
+    record:
+    - 10.148.32.138
+  - name: pip-channel-management
+    ttl: 300
+    record:
+    - 10.148.32.138
+  - name: pip-subscription-management
+    ttl: 300
+    record:
+    - 10.148.32.138
+  - name: pip-account-management
+    ttl: 300
+    record:
+    - 10.148.32.138
 cname:
   - name: hmi-apim
     record: hmcts-aat.azurefd.net.
@@ -42,23 +66,5 @@ cname:
     record: sdshmcts-stg.azurefd.net
     ttl: 300
   - name: hmi-case-hq-emulator
-    record: sdshmcts-stg.azurefd.net
-    ttl: 300
-  - name: pip-business-rules
-    record: sdshmcts-stg.azurefd.net
-    ttl: 300
-  - name: pip-publication-services
-    record: sdshmcts-stg.azurefd.net
-    ttl: 300
-  - name: pip-data-management
-    record: sdshmcts-stg.azurefd.net
-    ttl: 300
-  - name: pip-channel-management
-    record: sdshmcts-stg.azurefd.net
-    ttl: 300
-  - name: pip-subscription-management
-    record: sdshmcts-stg.azurefd.net
-    ttl: 300
-  - name: pip-account-management
     record: sdshmcts-stg.azurefd.net
     ttl: 300
