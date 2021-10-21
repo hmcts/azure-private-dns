@@ -13,7 +13,7 @@ variable "zone_name" {
 }
 
 variable "vnet_links" {
-  type = list
+  type    = list(any)
   default = []
 }
 
@@ -45,4 +45,8 @@ variable "builtFrom" {
 
 variable "product" {
   default = "cft-platform"
+}
+
+variable "create_zone" {
+  default = true
 }

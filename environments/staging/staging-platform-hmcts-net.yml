@@ -15,10 +15,6 @@ A:
     ttl: 300
     record:
     - 10.148.31.250
-  - name: toffee-recipe-backend
-    ttl: 300
-    record:
-    - 10.148.32.138
 cname:
   - name: hmi-apim
     record: hmcts-aat.azurefd.net.
@@ -41,3 +37,7 @@ cname:
   - name: pip-frontend
     record: sdshmcts-stg.azurefd.net
     ttl: 300
+  - name: hmi-case-hq-emulator
+    record: sdshmcts-stg.azurefd.net
+    ttl: 300
+

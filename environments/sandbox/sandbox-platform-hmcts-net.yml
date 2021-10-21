@@ -15,7 +15,7 @@ vnet_links:
 A:
   - name: grafana
     record:
-    - 10.10.9.250
+    - 10.70.25.250
     ttl: 300
   - name: prometheus-00
     record:
@@ -24,6 +24,10 @@ A:
   - name: prometheus-01
     record:
     - 10.10.3.250
+    ttl: 300
+  - name: sds-grafana
+    record:
+    - 10.147.15.250
     ttl: 300
   - name: sds-prometheus-00-ptl
     record:
@@ -43,27 +47,27 @@ A:
     ttl: 300
   - name: prometheus-mgmt-sbox
     record:
-    - 10.10.9.250
+    - 10.70.25.250
     ttl: 300
   - name: alertmanager-mgmt-sbox
     record:
-    - 10.10.9.250
+    - 10.70.25.250
     ttl: 300
   - name: backstage
     record:
-    - 10.10.9.250
+    - 10.70.25.250
     ttl: 300
   - name: backstage-api
     record:
-    - 10.10.9.250
+    - 10.70.25.250
     ttl: 300
   - name: artifactory
     record:
-    - 10.10.9.250
+    - 10.70.25.250
     ttl: 300
   - name: pact-broker
     record:
-    - 10.10.9.250
+    - 10.70.25.250
     ttl: 300
   - name: hmi-wiremock
     record:
@@ -84,10 +88,6 @@ A:
   - name: traefik-sds-01
     record:
     - 10.140.31.250
-    ttl: 300
-  - name: toffee-recipe-backend
-    record:
-    - 10.140.32.134
     ttl: 300
   - name: sds-prometheus-00
     record:
