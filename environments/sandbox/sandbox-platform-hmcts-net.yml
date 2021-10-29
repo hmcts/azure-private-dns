@@ -113,6 +113,10 @@ A:
     record:
     - 51.132.209.233
     ttl: 300
+  - name: sds-api-mgmt
+    record:
+    - 10.140.33.133
+    ttl: 300
 cname:
   - name: moneyclaim
     record: sandbox-waf.sandbox.platform.hmcts.net.
