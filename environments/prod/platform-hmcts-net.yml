@@ -315,6 +315,10 @@ A:
     record:
     - 10.147.79.250
     ttl: 300
+  - name: tenable
+    record:
+    - 10.146.5.4
+    ttl: 300
 
 cname:
   - name: www.moneyclaim-legal
