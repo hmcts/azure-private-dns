@@ -117,6 +117,10 @@ A:
     record:
     - 10.140.33.133
     ttl: 300
+  - name: tenable
+    record:
+    - 10.0.17.132
+    ttl: 300
 cname:
   - name: moneyclaim
     record: sandbox-waf.sandbox.platform.hmcts.net.
