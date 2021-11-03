@@ -78,7 +78,7 @@ A:
     - 10.10.161.125
     ttl: 300
 cname:
-  - name: adoption
+  - name: adoption-web
     record: hmcts-aat.azurefd.net.
     ttl: 300
   - name: moneyclaims
