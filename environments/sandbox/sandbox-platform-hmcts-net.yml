@@ -168,3 +168,9 @@ cname:
   - name: toffee
     record: sdshmcts-sbox.azurefd.net.
     ttl: 300
+  - name: labs-mokainos
+    record: sdshmcts-sbox.azurefd.net.
+    ttl: 300
+  - name: labs-cftmokainos
+    record: hmcts-sbox.azurefd.net.
+    ttl: 300
