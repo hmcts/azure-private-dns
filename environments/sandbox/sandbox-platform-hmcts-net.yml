@@ -125,6 +125,10 @@ A:
     record:
     - 10.2.14.5
     ttl: 300
+  - name: cvp-recording
+    record:
+    - 10.50.11.10
+    ttl: 300
 cname:
   - name: moneyclaim
     record: sandbox-waf.sandbox.platform.hmcts.net.
