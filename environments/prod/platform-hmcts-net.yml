@@ -255,10 +255,6 @@ A:
     record:
     - 10.10.65.250
     ttl: 300
-  - name: backstage-api
-    record:
-    - 10.10.65.250
-    ttl: 300
   - name: vpn
     record:
     - 10.99.19.15

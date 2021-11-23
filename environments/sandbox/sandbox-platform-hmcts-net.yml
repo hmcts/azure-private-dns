@@ -57,10 +57,6 @@ A:
     record:
     - 10.70.25.250
     ttl: 300
-  - name: backstage-api
-    record:
-    - 10.70.25.250
-    ttl: 300
   - name: artifactory
     record:
     - 10.70.25.250
