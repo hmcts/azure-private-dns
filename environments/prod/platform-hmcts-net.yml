@@ -125,7 +125,7 @@ A:
     ttl: 300
   - name: aks-mgmt-prod-proxyin
     record:
-    - 10.10.73.250
+    - 10.10.65.250
     ttl: 300
   - name: sandbox-build-failure-analyzer
     record:
@@ -137,15 +137,15 @@ A:
     ttl: 300
   - name: grafana-ptl
     record:
-    - 10.10.73.250
+    - 10.10.65.250
     ttl: 300
   - name: prometheus-ptl
     record:
-    - 10.10.73.250
+    - 10.10.65.250
     ttl: 300
   - name: alertmanager-ptl
     record:
-    - 10.10.73.250
+    - 10.10.65.250
     ttl: 300
   - name: prometheus-00
     record:
@@ -213,7 +213,7 @@ A:
     ttl: 300
   - name: response-api
     record:
-    - 10.10.73.250
+    - 10.10.65.250
     ttl: 300
   - name: netbox
     record:
@@ -241,11 +241,11 @@ A:
     ttl: 300
   - name: artifactory
     record:
-    - 10.10.73.250
+    - 10.10.65.250
     ttl: 300
   - name: pact-broker
     record:
-      - 10.10.73.250
+      - 10.10.65.250
     ttl: 300
   - name: idam-bastion
     record:
@@ -253,11 +253,7 @@ A:
     ttl: 300
   - name: backstage
     record:
-    - 10.10.73.250
-    ttl: 300
-  - name: backstage-api
-    record:
-    - 10.10.73.250
+    - 10.10.65.250
     ttl: 300
   - name: vpn
     record:
