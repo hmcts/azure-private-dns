@@ -125,6 +125,14 @@ A:
     record:
     - 10.50.11.10
     ttl: 300
+  - name: panorama-uks-0
+    record:
+    - 10.48.0.68
+    ttl: 300
+  - name: panorama-ukw-0
+    record:
+    - 10.100.198.164
+    ttl: 300
 cname:
   - name: moneyclaim
     record: sandbox-waf.sandbox.platform.hmcts.net.
