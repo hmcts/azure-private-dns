@@ -2,7 +2,7 @@ data "local_file" "servicebus-private-link" {
   filename = "${path.cwd}/../../environments/privatelink/servicebus-private-link.yml"
 }
 
-module "postgres-private-link" {
+module "servicebus-private-link" {
   source              = "../../modules/azure-private-dns/"
   cname_records       = yamldecode(data.local_file.servicebus-private-link.content).cname
   a_recordsets        = yamldecode(data.local_file.servicebus-private-link.content).A
