@@ -39,6 +39,12 @@ vnet_links:
     vnet_id: "/subscriptions/b3394340-6c9f-44ca-aa3e-9ff38bd1f9ac/resourceGroups/bastion-sbox-rg/providers/Microsoft.Network/virtualNetworks/bastion-sbox-vnet"
   - link_name: "hmi-sharedinfra-vnet-prod"
     vnet_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/hmi-sharedinfra-prod-rg/providers/Microsoft.Network/virtualNetworks/hmi-sharedinfra-vnet-prod"
+  - link_name: "pet_stg_network"
+    vnet_id: "/subscriptions/58a2ce36-4e09-467b-8330-d164aa559c68/resourceGroups/pet_stg_network_resource_group/providers/Microsoft.Network/virtualNetworks/pet_stg_network"
+  - link_name: "pet_prod_network"
+    vnet_id: "/subscriptions/58a2ce36-4e09-467b-8330-d164aa559c68/resourceGroups/pet_prod_network_resource_group/providers/Microsoft.Network/virtualNetworks/pet_prod_network"
+  - link_name: "pet_dev_network"
+    vnet_id: "/subscriptions/58a2ce36-4e09-467b-8330-d164aa559c68/resourceGroups/pet_dev_network_resource_group/providers/Microsoft.Network/virtualNetworks/pet_dev_network"
 
 A: []
 cname: []
