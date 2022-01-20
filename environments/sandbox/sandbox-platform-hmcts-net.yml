@@ -39,11 +39,11 @@ A:
     ttl: 300
   - name: alertmanager-00
     record:
-    - 10.10.1.250
+    - 10.2.9.250
     ttl: 300
   - name: alertmanager-01
     record:
-    - 10.10.3.250
+    - 10.2.11.250
     ttl: 300
   - name: prometheus-mgmt-sbox
     record:
