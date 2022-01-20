@@ -19,19 +19,19 @@ A:
     ttl: 300
   - name: prometheus-00
     record:
-    - 10.10.35.250
+    - 10.11.207.250
     ttl: 300
   - name: prometheus-01
     record:
-    - 10.10.39.250
+    - 10.11.223.250
     ttl: 300
   - name: alertmanager-00
     record:
-    - 10.10.35.250
+    - 10.11.207.250
     ttl: 300
   - name: alertmanager-01
     record:
-    - 10.10.39.250
+    - 10.11.223.250
     ttl: 300
   - name: camunda-bpm
     record:
