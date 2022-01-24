@@ -155,3 +155,6 @@ cname:
   - name: immigration-appeal
     ttl: 300
     record: hmcts-perftest.azurefd.net
+  - name: lau
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
