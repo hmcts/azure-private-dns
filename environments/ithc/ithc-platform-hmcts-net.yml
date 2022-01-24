@@ -72,6 +72,9 @@ cname:
   - name: idam-web-public
     record: hmcts-ithc.azurefd.net.
     ttl: 300
+  - name: idam-user-dashboard
+    record: hmcts-ithc.azurefd.net.
+    ttl: 300  
   - name: petitioner-frontend-aks
     record: hmcts-ithc.azurefd.net.
     ttl: 300
