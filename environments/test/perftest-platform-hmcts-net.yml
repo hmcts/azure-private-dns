@@ -110,6 +110,9 @@ cname:
   - name: idam-web-public
     record: hmcts-perftest.azurefd.net.
     ttl: 300
+  - name: idam-user-dashboard
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
   - name: bulkscan
     ttl: 300
     record: hmcts-perftest.azurefd.net.
@@ -152,3 +155,6 @@ cname:
   - name: immigration-appeal
     ttl: 300
     record: hmcts-perftest.azurefd.net
+  - name: lau
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
