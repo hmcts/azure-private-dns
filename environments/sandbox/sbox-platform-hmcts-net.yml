@@ -12,41 +12,17 @@ vnet_links:
     vnet_id: "/subscriptions/b3394340-6c9f-44ca-aa3e-9ff38bd1f9ac/resourceGroups/bastion-sbox-rg/providers/Microsoft.Network/virtualNetworks/bastion-sbox-vnet"
   - link_name: "hmi-sharedinfra-vnet-sbox"
     vnet_id: "/subscriptions/a8140a9e-f1b0-481f-a4de-09e2ee23f7ab/resourceGroups/hmi-sharedinfra-sbox-rg/providers/Microsoft.Network/virtualNetworks/hmi-sharedinfra-vnet-sbox"
-A:
-  - name: vh-user-api
-    record:
-    - 10.140.15.250
-    ttl: 300
-  - name: vh-video-api
-    record:
-    - 10.140.15.250
-    ttl: 300
+A: []
+cname: 
   - name: vh-video-web
-    record:
-    - 10.140.15.250
-    ttl: 300
-  - name: vh-bookings-api
-    record:
-    - 10.140.15.250
-    ttl: 300
-  - name: vh-notification-api
-    record:
-    - 10.140.15.250
-    ttl: 300
-  - name: vh-test-api
-    record:
-    - 10.140.15.250
+    record: sdshmcts-sbox.azurefd.net
     ttl: 300
   - name: vh-admin-web
-    record:
-    - 10.140.15.250
+    record: sdshmcts-sbox.azurefd.net
     ttl: 300
   - name: vh-service-web
-    record:
-    - 10.140.15.250
+    record: sdshmcts-sbox.azurefd.net
     ttl: 300
   - name: vh-test-web
-    record:
-    - 10.140.15.250
+    record: sdshmcts-sbox.azurefd.net
     ttl: 300
-cname: []
