@@ -52,14 +52,14 @@ cname:
     record: sdshmcts-test.azurefd.net
     ttl: 300
   - name: vh-video-web
-    record: sdshmcts-sbox.azurefd.net
+    record: sdshmcts-test.azurefd.net
     ttl: 300
   - name: vh-admin-web
-    record: sdshmcts-sbox.azurefd.net
+    record: sdshmcts-test.azurefd.net
     ttl: 300
   - name: vh-service-web
-    record: sdshmcts-sbox.azurefd.net
+    record: sdshmcts-test.azurefd.net
     ttl: 300
   - name: vh-test-web
-    record: sdshmcts-sbox.azurefd.net
+    record: sdshmcts-test.azurefd.net
     ttl: 300
