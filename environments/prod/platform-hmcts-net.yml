@@ -389,6 +389,9 @@ cname:
   - name: idam-web-admin
     record: hmcts-prod.azurefd.net.
     ttl: 60
+  - name: idam-user-dashboard
+    record: hmcts-prod.azurefd.net.
+    ttl: 300
   - name: payment
     record: prod-waf-additional.platform.hmcts.net.
     ttl: 300
