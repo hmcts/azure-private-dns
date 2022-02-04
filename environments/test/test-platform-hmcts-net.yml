@@ -17,10 +17,6 @@ A:
     record:
     - 10.141.15.250
     ttl: 300
-  - name: hmi-casehqemulator
-    record:
-    - 10.141.15.250
-    ttl: 300
   - name: traefik-sds-00
     record:
     - 10.141.15.250
