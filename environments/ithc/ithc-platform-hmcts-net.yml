@@ -88,7 +88,7 @@ cname:
     record: hmcts-ithc.azurefd.net.
     ttl: 300
   - name: probate
-    record: hmcts-ithc.azurefd.net.ithc.platform.hmcts.net.
+    record: hmcts-ithc.azurefd.net.
     ttl: 300
   - name: register-org
     record: hmcts-ithc.azurefd.net.
