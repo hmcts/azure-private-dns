@@ -21,10 +21,6 @@ A:
     record:
     - 10.145.15.250
     ttl: 300
-  - name: hmi-casehqemulator
-    record:
-    - 10.145.15.250
-    ttl: 300
   - name: hmi-pact
     record:
     - 10.145.15.250
