@@ -23,6 +23,34 @@ A:
     record:
       - 10.145.15.250
     ttl: 300
+  - name: pip-frontend
+    record:
+      - 20.108.232.218
+    ttl: 300
+  - name: pip-business-rules
+    record:
+      - 20.108.232.218
+    ttl: 300
+  - name: pip-publication-services
+    record:
+      - 20.108.232.218
+    ttl: 300
+  - name: pip-data-management
+    record:
+      - 20.108.232.218
+    ttl: 300
+  - name: pip-channel-management
+    record:
+      - 20.108.232.218
+    ttl: 300
+  - name: pip-subscription-management
+    record:
+      - 20.108.232.218
+    ttl: 300
+  - name: pip-account-management
+    record:
+      - 20.108.232.218
+    ttl: 300
 cname:
   - name: bulk-scanning
     record: 3644b292-ae3f-4055-ba68-4a9500e43659.cloudapp.net.
@@ -30,9 +58,6 @@ cname:
   - name: reformscan
     ttl: 300
     record: hmcts-demo.azurefd.net
-  - name: pip-frontend
-    record: sdshmcts-demo.azurefd.net
-    ttl: 300
   - name: vh-video-web
     record: sdshmcts-demo.azurefd.net
     ttl: 300
