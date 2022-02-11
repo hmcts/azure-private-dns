@@ -51,6 +51,11 @@ A:
     record:
       - 20.108.232.218
     ttl: 300
+  - name: toffee-recipe-backend
+    record:
+      - 10.51.64.106
+    ttl: 300
+
 cname:
   - name: bulk-scanning
     record: 3644b292-ae3f-4055-ba68-4a9500e43659.cloudapp.net.
