@@ -2,5 +2,13 @@ name: "privatelink.service.signalr.net"
 vnet_links:
   - link_name: "core-infra-vnet-ithc-internal"
     vnet_id: "/subscriptions/7a4e3bd5-ae3a-4d0c-b441-2188fee3ff1c/resourceGroups/core-infra-ithc/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-ithc"
+  - link_name: "ssdev"
+    vnet_id: "/subscriptions/867a878b-cb68-4de5-9741-361ac9e178b6/resourceGroups/ss-dev-network-rg/providers/Microsoft.Network/virtualNetworks/ss-dev-vnet"
+  - link_name: "sssbox"
+    vnet_id: "/subscriptions/a8140a9e-f1b0-481f-a4de-09e2ee23f7ab/resourceGroups/ss-sbox-network-rg/providers/Microsoft.Network/virtualNetworks/ss-sbox-vnet"
+  - link_name: "ssstg"
+    vnet_id: "/subscriptions/74dacd4f-a248-45bb-a2f0-af700dc4cf68/resourceGroups/ss-stg-network-rg/providers/Microsoft.Network/virtualNetworks/ss-stg-vnet"
+  - link_name: "sstest"
+    vnet_name: "/subscriptions/3eec5bde-7feb-4566-bfb6-805df6e10b90/resourceGroups/ss-test-network-rg/providers/Microsoft.Network/virtualNetworks/ss-test-vnet"
 A: []
 cname: []
