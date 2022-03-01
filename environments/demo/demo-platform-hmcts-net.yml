@@ -55,6 +55,10 @@ A:
     record:
       - 10.51.64.106
     ttl: 300
+  - name: cft-api-mgmt
+    record:
+    - 10.50.97.133
+    ttl: 300
 
 cname:
   - name: bulk-scanning
