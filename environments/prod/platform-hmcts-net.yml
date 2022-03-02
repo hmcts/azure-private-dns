@@ -476,6 +476,9 @@ cname:
   - name: hmi-apim
     record: hmcts-prod.azurefd.net.
     ttl: 300
+  - name: log-and-audit
+    record: hmcts-prod.azurefd.net.
+    ttl: 300
   - name: "administer-orgs-ethosldata"
     ttl: 300
     record: "hmcts-ldata.azurefd.net"
@@ -507,5 +510,17 @@ cname:
     record: bastion-prod.platform.hmcts.net
     ttl: 300
   - name: pip-frontend
+    record: sdshmcts-prod.azurefd.net
+    ttl: 300
+  - name: vh-video-web
+    record: sdshmcts-prod.azurefd.net
+    ttl: 300
+  - name: vh-admin-web
+    record: sdshmcts-prod.azurefd.net
+    ttl: 300
+  - name: vh-service-web
+    record: sdshmcts-prod.azurefd.net
+    ttl: 300
+  - name: vh-test-web
     record: sdshmcts-prod.azurefd.net
     ttl: 300

@@ -21,10 +21,6 @@ A:
     record:
     - 10.145.15.250
     ttl: 300
-  - name: hmi-casehqemulator
-    record:
-    - 10.145.15.250
-    ttl: 300
   - name: hmi-pact
     record:
     - 10.145.15.250
@@ -69,4 +65,16 @@ cname:
     ttl: 300
   - name: jdfrontend
     record: sdshmcts-dev.azurefd.net.
+    ttl: 300
+  - name: vh-video-web
+    record: sdshmcts-dev.azurefd.net
+    ttl: 300
+  - name: vh-admin-web
+    record: sdshmcts-dev.azurefd.net
+    ttl: 300
+  - name: vh-service-web
+    record: sdshmcts-dev.azurefd.net
+    ttl: 300
+  - name: vh-test-web
+    record: sdshmcts-dev.azurefd.net
     ttl: 300

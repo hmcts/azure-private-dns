@@ -73,10 +73,6 @@ A:
     record:
     - 10.140.15.250
     ttl: 300
-  - name: hmi-casehqemulator
-    record:
-    - 10.140.15.250
-    ttl: 300
   - name: traefik-sds-00
     record:
     - 10.140.15.250
@@ -168,6 +164,9 @@ cname:
   - name: toffee
     record: sdshmcts-sbox.azurefd.net.
     ttl: 300
-  - name: "labs-louisehuyton-nodejs"
+  - name: "labs-louisehuyton-walkthrough"
+    ttl: 300
+    record: "hmcts-sbox.azurefd.net"
+  - name: "labs-zchmcts-nodejs"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"

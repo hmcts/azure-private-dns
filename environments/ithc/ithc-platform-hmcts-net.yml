@@ -88,7 +88,7 @@ cname:
     record: hmcts-ithc.azurefd.net.
     ttl: 300
   - name: probate
-    record: hmcts-ithc.azurefd.net.ithc.platform.hmcts.net.
+    record: hmcts-ithc.azurefd.net.
     ttl: 300
   - name: register-org
     record: hmcts-ithc.azurefd.net.
@@ -149,4 +149,16 @@ cname:
     ttl: 300
   - name: toffee
     record: sdshmcts-ithc.azurefd.net.
+    ttl: 300
+  - name: vh-video-web
+    record: sdshmcts-ithc.azurefd.net
+    ttl: 300
+  - name: vh-admin-web
+    record: sdshmcts-ithc.azurefd.net
+    ttl: 300
+  - name: vh-service-web
+    record: sdshmcts-ithc.azurefd.net
+    ttl: 300
+  - name: vh-test-web
+    record: sdshmcts-ithc.azurefd.net
     ttl: 300
