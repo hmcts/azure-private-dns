@@ -168,6 +168,9 @@ cname:
   - name: nfdiv-end-civil-partnership
     record: hmcts-aat.azurefd.net.
     ttl: 300
+  - name: et-sya
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
   - name: bulkscan
     ttl: 300
     record: hmcts-aat.azurefd.net.
