@@ -77,6 +77,10 @@ A:
     record:
     - 10.10.161.125
     ttl: 300
+  - name: cft-api-mgmt
+    record:
+    - 10.10.161.133
+    ttl: 300
 cname:
   - name: adoption-web
     record: hmcts-aat.azurefd.net.
