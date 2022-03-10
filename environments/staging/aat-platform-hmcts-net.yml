@@ -157,6 +157,9 @@ cname:
   - name: fact-admin
     record: hmcts-aat.azurefd.net.
     ttl: 300
+  - name: rpts
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
   - name: nfdiv
     record: hmcts-aat.azurefd.net.
     ttl: 300
