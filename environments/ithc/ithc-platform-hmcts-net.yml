@@ -165,3 +165,6 @@ cname:
   - name: rpts
     record: hmcts-ithc.azurefd.net.
     ttl: 300
+  - name: adoption-web
+    record: hmcts-ithc.azurefd.net.
+    ttl: 300

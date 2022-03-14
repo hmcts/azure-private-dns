@@ -158,3 +158,6 @@ cname:
   - name: lau
     record: hmcts-perftest.azurefd.net.
     ttl: 300
+  - name: adoption-web
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
