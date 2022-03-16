@@ -15,6 +15,10 @@ A:
     ttl: 300
     record:
     - 10.148.31.250
+  - name: sds-api-mgmt
+    record:
+    - 10.148.33.133
+    ttl: 300
 cname:
   - name: hmi-apim
     record: hmcts-aat.azurefd.net.
