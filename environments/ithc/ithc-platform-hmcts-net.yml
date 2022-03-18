@@ -170,4 +170,4 @@ cname:
     ttl: 300
   - name: paymentoutcome-web
     ttl: 300
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-ithc.azurefd.net"
