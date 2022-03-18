@@ -168,3 +168,6 @@ cname:
   - name: adoption-web
     record: hmcts-ithc.azurefd.net.
     ttl: 300
+  - name: paymentoutcome-web
+    ttl: 300
+    record: "hmcts-ithc.azurefd.net"
