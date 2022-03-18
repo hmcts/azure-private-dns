@@ -161,3 +161,9 @@ cname:
   - name: adoption-web
     record: hmcts-perftest.azurefd.net.
     ttl: 300
+  - name: "paymentoutcome-web"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+  - name: "www.paymentoutcome-web"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
