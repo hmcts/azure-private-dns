@@ -528,3 +528,6 @@ cname:
   - name: vh-test-web
     record: sdshmcts-prod.azurefd.net
     ttl: 300
+  - name: nfdiv
+    record: hmcts-prod.azurefd.net.
+    ttl: 300
