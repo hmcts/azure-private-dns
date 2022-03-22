@@ -531,3 +531,6 @@ cname:
   - name: nfdiv
     record: hmcts-prod.azurefd.net.
     ttl: 300
+  - name: nfdiv-end-civil-partnership
+    record: hmcts-prod.azurefd.net.
+    ttl: 300
