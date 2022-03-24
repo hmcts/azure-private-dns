@@ -79,6 +79,10 @@ A:
     record:
     - 40.120.54.64
     ttl: 300
+  - name: static-sandbox-build
+    record:
+    - 40.120.54.64
+    ttl: 300
   - name: "sds-sandbox-build"
     ttl: 300
     record: 
@@ -88,6 +92,10 @@ A:
     record: 
       - "51.104.212.71"
   - name: "sds-build"
+    ttl: 60
+    record:
+      - "51.104.210.52"
+  - name: "static-sds-build"
     ttl: 60
     record:
       - "51.104.210.52"
@@ -120,6 +128,10 @@ A:
     - 51.145.50.201
     ttl: 300
   - name: build-beta
+    record:
+    - 51.145.50.201
+    ttl: 300
+  - name: static-build
     record:
     - 51.145.50.201
     ttl: 300
