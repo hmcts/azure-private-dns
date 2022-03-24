@@ -6,6 +6,9 @@ vnet_links:
   #sbox
   - link_name: "soc-sbox-vnet-internal"
     vnet_id: "/subscriptions/2307d175-7e49-434b-9ac2-515529b845f2/resourceGroups/soc-core-infra-sbox-rg/providers/Microsoft.Network/virtualNetworks/soc-sbox-vnet"
+  # VPN
+  - link_name: "core-infra-vnet-mgmt"
+    vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/rg-mgmt/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-mgmt"
 
 A: []
 cname: []
