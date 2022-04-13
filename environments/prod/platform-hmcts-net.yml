@@ -540,3 +540,6 @@ cname:
   - name: vh-test-web
     record: sdshmcts-prod.azurefd.net
     ttl: 300
+  - name: apply-for-adoption
+    record: hmcts-prod.azurefd.net.
+    ttl: 300
