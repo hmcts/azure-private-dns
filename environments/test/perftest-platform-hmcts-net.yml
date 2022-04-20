@@ -164,4 +164,7 @@ cname:
   - name: paymentoutcome-web
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
+  - name: plum
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
 
