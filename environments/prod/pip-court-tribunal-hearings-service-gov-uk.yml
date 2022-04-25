@@ -1,0 +1,14 @@
+ns: []
+
+mx: []
+
+A: []
+
+txt: []
+
+cname:
+  ## PIP Frontend
+  - name: www
+    record: sdshmcts-prod.azurefd.net
+    ttl: 300
+    
