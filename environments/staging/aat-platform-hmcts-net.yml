@@ -118,6 +118,9 @@ cname:
   - name: idam-api
     record: idam-api-aat.service.core-compute-aat.internal.
     ttl: 300
+  - name: idam-testing-support-api
+    record: idam-testing-support-api-aat.service.core-compute-aat.internal.
+    ttl: 300
   - name: idam-web-admin
     record: hmcts-aat.azurefd.net.
     ttl: 300
