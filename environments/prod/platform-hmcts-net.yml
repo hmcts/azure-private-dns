@@ -295,6 +295,14 @@ A:
     record:
     - 10.11.8.70
     ttl: 300
+  - name: ukwest-prod-palo-0
+    record:
+    - 10.49.8.69
+    ttl: 300
+  - name: ukwest-prod-palo-1
+    record:
+    - 10.49.8.70
+    ttl: 300
   - name: sftp
     record:
     - 10.197.196.4
