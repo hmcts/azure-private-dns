@@ -53,7 +53,7 @@ A:
     ttl: 300
   - name: toffee-recipe-backend
     record:
-      - 10.51.64.106
+      - 10.51.79.250
     ttl: 300
   - name: cft-api-mgmt
     record:
