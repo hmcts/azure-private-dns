@@ -23,34 +23,6 @@ A:
     record:
       - 10.145.15.250
     ttl: 300
-  - name: pip-frontend
-    record:
-      - 20.108.232.218
-    ttl: 300
-  - name: pip-business-rules
-    record:
-      - 20.108.232.218
-    ttl: 300
-  - name: pip-publication-services
-    record:
-      - 20.108.232.218
-    ttl: 300
-  - name: pip-data-management
-    record:
-      - 20.108.232.218
-    ttl: 300
-  - name: pip-channel-management
-    record:
-      - 20.108.232.218
-    ttl: 300
-  - name: pip-subscription-management
-    record:
-      - 20.108.232.218
-    ttl: 300
-  - name: pip-account-management
-    record:
-      - 20.108.232.218
-    ttl: 300
   - name: toffee-recipe-backend
     record:
       - 10.51.79.250

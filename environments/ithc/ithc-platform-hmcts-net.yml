@@ -175,9 +175,6 @@ cname:
   - name: paymentoutcome-web
     ttl: 300
     record: "hmcts-ithc.azurefd.net"
-  - name: pip-frontend
-    record: sdshmcts-ithc.azurefd.net
-    ttl: 300
   - name: plum
     record: hmcts-ithc.azurefd.net.
     ttl: 300
