@@ -25,6 +25,10 @@ A:
     record:
     - 10.141.31.250
     ttl: 300
+  - name: sds-api-mgmt
+    record:
+    - 10.141.33.133
+    ttl: 300
 cname:
   - name: hmi-apim
     record: hmcts-perftest.azurefd.net.
