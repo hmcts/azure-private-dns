@@ -57,6 +57,10 @@ A:
     record:
     - 10.11.225.133
     ttl: 300
+  - name: sds-api-mgmt
+    record:
+    - 10.143.33.133
+    ttl: 300
 cname:
   - name: moneyclaims
     record: hmcts-ithc.azurefd.net.

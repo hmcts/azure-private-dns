@@ -31,7 +31,10 @@ A:
     record:
     - 10.50.97.133
     ttl: 300
-
+  - name: sds-api-mgmt
+    record:
+    - 10.51.97.133
+    ttl: 300
 cname:
   - name: bulk-scanning
     record: 3644b292-ae3f-4055-ba68-4a9500e43659.cloudapp.net.
