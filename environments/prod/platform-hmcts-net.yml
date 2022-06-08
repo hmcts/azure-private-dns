@@ -342,7 +342,8 @@ A:
   - name: cft-api-mgmt
     record:
     - 10.90.96.132
-
+    ttl: 300
+    
 cname:
   - name: www.moneyclaim-legal
     record: hmcts-prod.azurefd.net.
