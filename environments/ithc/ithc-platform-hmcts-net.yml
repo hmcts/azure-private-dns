@@ -15,7 +15,7 @@ vnet_links:
 A:
   - name: ccd-admin-web
     record:
-    - 10.11.225.121
+    - 10.11.225.111
     ttl: 300
   - name: prometheus-00
     record:
@@ -35,15 +35,15 @@ A:
     ttl: 300
   - name: camunda-bpm
     record:
-    - 10.11.225.121
+    - 10.11.225.111
     ttl: 300
   - name: camunda-optimize
     record:
-    - 10.11.225.121
+    - 10.11.225.111
     ttl: 300
   - name: docmosis
     record:
-    - 10.11.225.121
+    - 10.11.225.111
     ttl: 300
   - name: traefik-sds-00
     ttl: 300
