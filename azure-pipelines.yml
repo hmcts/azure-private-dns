@@ -5,7 +5,7 @@ trigger:
       - master
 
 variables:
-  terraformVersion: 1.2.2
+  terraformVersion: 0.12.23
   agentPool: 'ubuntu-18.04'
   product: 'cft-platform'  
 
