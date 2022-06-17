@@ -89,16 +89,16 @@ stages:
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftptlintsvc'
           
-      - template: pipeline-templates/terraform-plan.yaml
-        parameters:
-          zone: 'privatelink'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
-          backendServiceArm: 'dts-cftptl-intsvc'
-          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
-          backendAzureRmStorageAccountName: 'cftptlintsvc'
-          product: $(product)
+#       - template: pipeline-templates/terraform-plan.yaml
+#         parameters:
+#           zone: 'privatelink'
+#           build: $(Build.BuildNumber)
+#           agentPool: ${{ variables.agentPool }}
+#           terraformVersion: ${{ variables.terraformVersion }}
+#           backendServiceArm: 'dts-cftptl-intsvc'
+#           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+#           backendAzureRmStorageAccountName: 'cftptlintsvc'
+#           product: $(product)
 
       - job: Archive
         pool:
@@ -217,17 +217,17 @@ stages:
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftptlintsvc'
           
-  - stage: PrivateLink_Apply
-    dependsOn: Plan_phase
-    displayName: "Private Link Apply"
-    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
-    jobs:
-      - template: pipeline-templates/terraform-apply.yaml
-        parameters:
-          zone: 'privatelink'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
-          backendServiceArm: 'dts-cftptl-intsvc'
-          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
-          backendAzureRmStorageAccountName: 'cftptlintsvc'
+#   - stage: PrivateLink_Apply
+#     dependsOn: Plan_phase
+#     displayName: "Private Link Apply"
+#     condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+#     jobs:
+#       - template: pipeline-templates/terraform-apply.yaml
+#         parameters:
+#           zone: 'privatelink'
+#           build: $(Build.BuildNumber)
+#           agentPool: ${{ variables.agentPool }}
+#           terraformVersion: ${{ variables.terraformVersion }}
+#           backendServiceArm: 'dts-cftptl-intsvc'
+#           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+#           backendAzureRmStorageAccountName: 'cftptlintsvc'
