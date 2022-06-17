@@ -5,7 +5,7 @@ trigger:
       - master
 
 variables:
-  terraformVersion: 1.2.2
+  terraformVersion: 0.12.23
   agentPool: 'ubuntu-18.04'
   product: 'cft-platform'  
 
@@ -24,81 +24,70 @@ stages:
           backendAzureRmStorageAccountName: 'cftsboxintsvc'
           product: $(product)
 
-  #     - template: pipeline-templates/terraform-plan.yaml
-  #       parameters:
-  #         zone: 'dev'
-  #         build: $(Build.BuildNumber)
-  #         agentPool: ${{ variables.agentPool }}
-  #         terraformVersion: ${{ variables.terraformVersion }}
-  #         backendServiceArm: 'dts-cftptl-intsvc'
-  #         backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
-  #         backendAzureRmStorageAccountName: 'cftptlintsvc'
-  #         product: $(product)
+      - template: pipeline-templates/terraform-plan.yaml
+        parameters:
+          zone: 'dev'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
+          product: $(product)
 
-  #     - template: pipeline-templates/terraform-plan.yaml
-  #       parameters:
-  #         zone: 'staging'
-  #         build: $(Build.BuildNumber)
-  #         agentPool: ${{ variables.agentPool }}
-  #         terraformVersion: ${{ variables.terraformVersion }}
-  #         backendServiceArm: 'dts-cftptl-intsvc'
-  #         backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
-  #         backendAzureRmStorageAccountName: 'cftptlintsvc'
-  #         product: $(product)
+      - template: pipeline-templates/terraform-plan.yaml
+        parameters:
+          zone: 'staging'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
+          product: $(product)
 
-  #     - template: pipeline-templates/terraform-plan.yaml
-  #       parameters:
-  #         zone: 'test'
-  #         build: $(Build.BuildNumber)
-  #         agentPool: ${{ variables.agentPool }}
-  #         terraformVersion: ${{ variables.terraformVersion }}
-  #         backendServiceArm: 'dts-cftptl-intsvc'
-  #         backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
-  #         backendAzureRmStorageAccountName: 'cftptlintsvc'
-  #         product: $(product)
+      - template: pipeline-templates/terraform-plan.yaml
+        parameters:
+          zone: 'test'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
+          product: $(product)
 
-  #     - template: pipeline-templates/terraform-plan.yaml
-  #       parameters:
-  #         zone: 'ithc'
-  #         build: $(Build.BuildNumber)
-  #         agentPool: ${{ variables.agentPool }}
-  #         terraformVersion: ${{ variables.terraformVersion }}
-  #         backendServiceArm: 'dts-cftptl-intsvc'
-  #         backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
-  #         backendAzureRmStorageAccountName: 'cftptlintsvc'
-  #         product: $(product)
+      - template: pipeline-templates/terraform-plan.yaml
+        parameters:
+          zone: 'ithc'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
+          product: $(product)
 
-  #     - template: pipeline-templates/terraform-plan.yaml
-  #       parameters:
-  #         zone: 'demo'
-  #         build: $(Build.BuildNumber)
-  #         agentPool: ${{ variables.agentPool }}
-  #         terraformVersion: ${{ variables.terraformVersion }}
-  #         backendServiceArm: 'dts-cftptl-intsvc'
-  #         backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
-  #         backendAzureRmStorageAccountName: 'cftptlintsvc'
-  #         product: $(product)
+      - template: pipeline-templates/terraform-plan.yaml
+        parameters:
+          zone: 'demo'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
+          product: $(product)
 
-  #     - template: pipeline-templates/terraform-plan.yaml
-  #       parameters:
-  #         zone: 'ethosldata'
-  #         build: $(Build.BuildNumber)
-  #         agentPool: ${{ variables.agentPool }}
-  #         terraformVersion: ${{ variables.terraformVersion }}
-  #         backendServiceArm: 'dts-cftptl-intsvc'
-  #         backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
-  #         backendAzureRmStorageAccountName: 'cftptlintsvc'
-  #         product: $(product)
-
-  #     - template: pipeline-templates/terraform-plan.yaml
-  #       parameters:
-  #         zone: 'prod'
-  #         build: $(Build.BuildNumber)
-  #         agentPool: ${{ variables.agentPool }}
-  #         terraformVersion: ${{ variables.terraformVersion }}
-  #         backendServiceArm: 'dts-cftptl-intsvc'
-  #         backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
-  #         backendAzureRmStorageAccountName: 'cftptlintsvc'
+      - template: pipeline-templates/terraform-plan.yaml
+        parameters:
+          zone: 'prod'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
           
       - template: pipeline-templates/terraform-plan.yaml
         parameters:
@@ -126,7 +115,7 @@ stages:
   - stage: Sandbox_Apply
     dependsOn: Plan_phase
     displayName: "Sandbox Apply"
-    condition: succeeded()
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
     jobs:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
@@ -138,122 +127,107 @@ stages:
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftsboxintsvc'
 
-  # - stage: Dev_Apply
-  #   dependsOn: Plan_phase
-  #   displayName: "Dev Apply"
-  #   condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
-  #   jobs:
-  #     - template: pipeline-templates/terraform-apply.yaml
-  #       parameters:
-  #         zone: 'dev'
-  #         build: $(Build.BuildNumber)
-  #         agentPool: ${{ variables.agentPool }}
-  #         terraformVersion: ${{ variables.terraformVersion }}
-  #         backendServiceArm: 'dts-cftptl-intsvc'
-  #         backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
-  #         backendAzureRmStorageAccountName: 'cftptlintsvc'
+  - stage: Dev_Apply
+    dependsOn: Plan_phase
+    displayName: "Dev Apply"
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    jobs:
+      - template: pipeline-templates/terraform-apply.yaml
+        parameters:
+          zone: 'dev'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
 
-  # - stage: Stg_Apply
-  #   dependsOn: Plan_phase
-  #   displayName: "Staging Apply"
-  #   condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
-  #   jobs:
-  #     - template: pipeline-templates/terraform-apply.yaml
-  #       parameters:
-  #         zone: 'staging'
-  #         build: $(Build.BuildNumber)
-  #         agentPool: ${{ variables.agentPool }}
-  #         terraformVersion: ${{ variables.terraformVersion }}
-  #         backendServiceArm: 'dts-cftptl-intsvc'
-  #         backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
-  #         backendAzureRmStorageAccountName: 'cftptlintsvc'
+  - stage: Stg_Apply
+    dependsOn: Plan_phase
+    displayName: "Staging Apply"
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    jobs:
+      - template: pipeline-templates/terraform-apply.yaml
+        parameters:
+          zone: 'staging'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
 
-  # - stage: Test_Apply
-  #   dependsOn: Plan_phase
-  #   displayName: "Test Apply"
-  #   condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
-  #   jobs:
-  #     - template: pipeline-templates/terraform-apply.yaml
-  #       parameters:
-  #         zone: 'test'
-  #         build: $(Build.BuildNumber)
-  #         agentPool: ${{ variables.agentPool }}
-  #         terraformVersion: ${{ variables.terraformVersion }}
-  #         backendServiceArm: 'dts-cftptl-intsvc'
-  #         backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
-  #         backendAzureRmStorageAccountName: 'cftptlintsvc'
+  - stage: Test_Apply
+    dependsOn: Plan_phase
+    displayName: "Test Apply"
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    jobs:
+      - template: pipeline-templates/terraform-apply.yaml
+        parameters:
+          zone: 'test'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
 
-  # - stage: Ithc_Apply
-  #   dependsOn: Plan_phase
-  #   displayName: "ITHC Apply"
-  #   condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
-  #   jobs:
-  #     - template: pipeline-templates/terraform-apply.yaml
-  #       parameters:
-  #         zone: 'ithc'
-  #         build: $(Build.BuildNumber)
-  #         agentPool: ${{ variables.agentPool }}
-  #         terraformVersion: ${{ variables.terraformVersion }}
-  #         backendServiceArm: 'dts-cftptl-intsvc'
-  #         backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
-  #         backendAzureRmStorageAccountName: 'cftptlintsvc'
+  - stage: Ithc_Apply
+    dependsOn: Plan_phase
+    displayName: "ITHC Apply"
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    jobs:
+      - template: pipeline-templates/terraform-apply.yaml
+        parameters:
+          zone: 'ithc'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
 
-  # - stage: Demo_Apply
-  #   dependsOn: Plan_phase
-  #   displayName: "Demo Apply"
-  #   condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
-  #   jobs:
-  #     - template: pipeline-templates/terraform-apply.yaml
-  #       parameters:
-  #         zone: 'demo'
-  #         build: $(Build.BuildNumber)
-  #         agentPool: ${{ variables.agentPool }}
-  #         terraformVersion: ${{ variables.terraformVersion }}
-  #         backendServiceArm: 'dts-cftptl-intsvc'
-  #         backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
-  #         backendAzureRmStorageAccountName: 'cftptlintsvc'
+  - stage: Demo_Apply
+    dependsOn: Plan_phase
+    displayName: "Demo Apply"
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    jobs:
+      - template: pipeline-templates/terraform-apply.yaml
+        parameters:
+          zone: 'demo'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
 
-  # - stage: EthosLdata_Apply
-  #   dependsOn: Plan_phase
-  #   displayName: "EthosLdata Apply"
-  #   condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
-  #   jobs:
-  #     - template: pipeline-templates/terraform-apply.yaml
-  #       parameters:
-  #         zone: 'ethosldata'
-  #         build: $(Build.BuildNumber)
-  #         agentPool: ${{ variables.agentPool }}
-  #         terraformVersion: ${{ variables.terraformVersion }}
-  #         backendServiceArm: 'dts-cftptl-intsvc'
-  #         backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
-  #         backendAzureRmStorageAccountName: 'cftptlintsvc'
-
-  # - stage: Prod_Apply
-  #   dependsOn: Plan_phase
-  #   displayName: "Prod Apply"
-  #   condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
-  #   jobs:
-  #     - template: pipeline-templates/terraform-apply.yaml
-  #       parameters:
-  #         zone: 'prod'
-  #         build: $(Build.BuildNumber)
-  #         agentPool: ${{ variables.agentPool }}
-  #         terraformVersion: ${{ variables.terraformVersion }}
-  #         backendServiceArm: 'dts-cftptl-intsvc'
-  #         backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
-  #         backendAzureRmStorageAccountName: 'cftptlintsvc'
+  - stage: Prod_Apply
+    dependsOn: Plan_phase
+    displayName: "Prod Apply"
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    jobs:
+      - template: pipeline-templates/terraform-apply.yaml
+        parameters:
+          zone: 'prod'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
           
-  # - stage: PrivateLink_Apply
-  #   dependsOn: Plan_phase
-  #   displayName: "Private Link Apply"
-  #   condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
-  #   jobs:
-  #     - template: pipeline-templates/terraform-apply.yaml
-  #       parameters:
-  #         zone: 'privatelink'
-  #         build: $(Build.BuildNumber)
-  #         agentPool: ${{ variables.agentPool }}
-  #         terraformVersion: ${{ variables.terraformVersion }}
-  #         backendServiceArm: 'dts-cftptl-intsvc'
-  #         backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
-  #         backendAzureRmStorageAccountName: 'cftptlintsvc'
+  - stage: PrivateLink_Apply
+    dependsOn: Plan_phase
+    displayName: "Private Link Apply"
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    jobs:
+      - template: pipeline-templates/terraform-apply.yaml
+        parameters:
+          zone: 'privatelink'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+          backendServiceArm: 'dts-cftptl-intsvc'
+          backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
+          backendAzureRmStorageAccountName: 'cftptlintsvc'
