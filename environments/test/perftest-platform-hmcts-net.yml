@@ -167,4 +167,7 @@ cname:
   - name: plum
     record: hmcts-perftest.azurefd.net.
     ttl: 300
+  - name: prl-citizen-frontend
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
 
