@@ -5,7 +5,7 @@ trigger:
       - master
 
 variables:
-  terraformVersion: 0.12.23
+  terraformVersion: 1.2.3
   agentPool: 'ubuntu-18.04'
   product: 'cft-platform'  
 
@@ -122,14 +122,9 @@ stages:
 
           - task: PublishBuildArtifacts@1
             displayName: 'Publish Artifact: drop'
-  
-          - name: Setup Script
-            run: |
-              chmod +x cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh
-          - name: Setup Terraform
-            run: ./cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh
-            working-directory: ./
-            shell: bash
+
+
+      - template: pipeline-templates/terraform-update.yaml
 
   - stage: Sandbox_Apply
     dependsOn: Plan_phase
