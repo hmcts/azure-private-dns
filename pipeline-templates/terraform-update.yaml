@@ -1,7 +1,8 @@
 jobs:
-- job: "terraform"
-  agentPool: 'ubuntu-18.04'
-  steps:
+  - job: "terraform"
+    pool:
+      vmImage: ${{ parameters.agentPool }}
+    steps:
     - displayName: Checkout
       uses: actions/checkout@v3
 
