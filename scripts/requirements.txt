@@ -1,2 +1,0 @@
-azure-mgmt-privatedns==1.0.0
-
