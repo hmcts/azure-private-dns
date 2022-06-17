@@ -1,5 +1,5 @@
 jobs:
-  name: "terraform"
+- job: "terraform"
   runs-on: ubuntu-latest
   steps:
     - name: Checkout
