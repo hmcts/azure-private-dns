@@ -1,31 +1,31 @@
 jobs:
 - job: "terraform"
-  runs-on: ubuntu-latest
+  agentPool: 'ubuntu-18.04'
   steps:
-    - name: Checkout
+    - displayName: Checkout
       uses: actions/checkout@v3
 
-    - name: Checkout
+    - displayName: Checkout
       uses: actions/checkout@v3
       with:
         repository: hmcts/cnp-azuredevops-libraries
         path: cnp-azuredevops-libraries
 
-    - name: Setup Script
+    - displayName: Setup Script
       run: |
         chmod +x cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh
-    - name: Setup Terraform
+    - displayName: Setup Terraform
       run: ./cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh
       working-directory: ./
       shell: bash
 
-    - name: Terraform Init
+    - displayName: Terraform Init
       run: terraform init
       working-directory: example
 
-    - name: Terraform validate
+    - displayName: Terraform validate
       run: terraform validate
       working-directory: example
 
-    - name: Terraform format
+    - displayName: Terraform format
       run: terraform fmt -check
