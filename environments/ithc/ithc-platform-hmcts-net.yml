@@ -182,3 +182,6 @@ cname:
   - name: plum
     record: hmcts-ithc.azurefd.net.
     ttl: 300
+  - name: prl-citizen-frontend
+    record: hmcts-ithc.azurefd.net.
+    ttl: 300
