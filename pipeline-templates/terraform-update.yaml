@@ -14,16 +14,16 @@ jobs:
     #     repository: hmcts/cnp-azuredevops-libraries
     #     path: cnp-azuredevops-libraries
 
-    - task: Setup Script
+    - task: Bash@3
       displayName: Setup Script
       script: |
         chmod +x cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh
       
-    - task: Setup Script
+    - task: Bash@3
       displayName: Setup Terraform
-      script: ./cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh
       workingDirectory: ./
-      shell: bash
+      script: |
+       ./cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh
 
     # - task: Terraform Init
     #   displayName: Terraform Init
