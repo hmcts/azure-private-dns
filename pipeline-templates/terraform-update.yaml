@@ -3,38 +3,38 @@ jobs:
     pool:
       vmImage: ${{ parameters.agentPool }}
     steps:
-    - task: Checkout
-      displayName: Checkout
-      uses: actions/checkout@v3
+    # - task: Checkout
+    #   displayName: Checkout
+    #   uses: actions/checkout@v3
 
-    - task: Checkout
-      displayName: Checkout
-      uses: actions/checkout@v3
-      with:
-        repository: hmcts/cnp-azuredevops-libraries
-        path: cnp-azuredevops-libraries
+    # - task: Checkout
+    #   displayName: Checkout
+    #   uses: actions/checkout@v3
+    #   with:
+    #     repository: hmcts/cnp-azuredevops-libraries
+    #     path: cnp-azuredevops-libraries
 
     - task: Setup Script
       displayName: Setup Script
-      run: |
+      script: |
         chmod +x cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh
       
     - task: Setup Script
       displayName: Setup Terraform
-      run: ./cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh
-      working-directory: ./
+      script: ./cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh
+      workingDirectory: ./
       shell: bash
 
-    - task: Terraform Init
-      displayName: Terraform Init
-      run: terraform init
-      working-directory: example
+    # - task: Terraform Init
+    #   displayName: Terraform Init
+    #   run: terraform init
+    #   working-directory: example
 
-    - task: Terraform validate
-      displayName: Terraform validate
-      run: terraform validate
-      working-directory: example
+    # - task: Terraform validate
+    #   displayName: Terraform validate
+    #   run: terraform validate
+    #   working-directory: example
 
-    - task: Terraform format
-    - displayName: Terraform format
-      run: terraform fmt -check
+    # - task: Terraform format
+    # - displayName: Terraform format
+    #   run: terraform fmt -check
