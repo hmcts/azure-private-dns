@@ -16,14 +16,16 @@ jobs:
 
     - task: Bash@3
       displayName: Setup Script
-      script: |
-        chmod +x cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh
+      inputs:
+        script: |
+          chmod +x cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh
       
     - task: Bash@3
       displayName: Setup Terraform
-      workingDirectory: ./
-      script: |
-       ./cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh
+      inputs:
+        workingDirectory: ./
+        script: |
+         ./cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh
 
     # - task: Terraform Init
     #   displayName: Terraform Init
