@@ -336,6 +336,7 @@ A:
   - name: sds-api-mgmt
     record:
     - 10.144.33.132
+    ttl: 300
     
 cname:
   - name: www.moneyclaim-legal
