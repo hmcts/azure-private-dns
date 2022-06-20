@@ -4,9 +4,6 @@ jobs:
       vmImage: ${{ parameters.agentPool }}
     steps:
       - checkout: cnp-azuredevops-libraries
-      - task: TerraformInstaller@0
-        inputs:
-          terraformVersion: ${{ parameters.terraformVersion }}
       - task: Bash@3
         displayName: Terraform install (tfenv)
         inputs:

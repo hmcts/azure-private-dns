@@ -13,7 +13,6 @@ resources:
     endpoint: 'hmcts (1)'
 
 variables:
-  terraformVersion: 1.2.3
   agentPool: 'ubuntu-18.04'
   product: 'cft-platform'
 
@@ -26,7 +25,6 @@ stages:
           zone: 'sandbox'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
           backendServiceArm: 'dts-cftsbox-intsvc'
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftsboxintsvc'
@@ -37,7 +35,6 @@ stages:
           zone: 'dev'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
           backendServiceArm: 'dts-cftptl-intsvc'
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftptlintsvc'
@@ -48,7 +45,6 @@ stages:
           zone: 'staging'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
           backendServiceArm: 'dts-cftptl-intsvc'
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftptlintsvc'
@@ -59,7 +55,6 @@ stages:
           zone: 'test'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
           backendServiceArm: 'dts-cftptl-intsvc'
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftptlintsvc'
@@ -70,7 +65,6 @@ stages:
           zone: 'ithc'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
           backendServiceArm: 'dts-cftptl-intsvc'
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftptlintsvc'
@@ -81,7 +75,6 @@ stages:
           zone: 'demo'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
           backendServiceArm: 'dts-cftptl-intsvc'
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftptlintsvc'
@@ -92,7 +85,6 @@ stages:
           zone: 'prod'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
           backendServiceArm: 'dts-cftptl-intsvc'
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftptlintsvc'
@@ -102,7 +94,6 @@ stages:
           zone: 'privatelink'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
           backendServiceArm: 'dts-cftptl-intsvc'
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftptlintsvc'
@@ -130,7 +121,6 @@ stages:
           zone: 'sandbox'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
           backendServiceArm: 'dts-cftsbox-intsvc'
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftsboxintsvc'
@@ -145,7 +135,6 @@ stages:
           zone: 'dev'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
           backendServiceArm: 'dts-cftptl-intsvc'
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftptlintsvc'
@@ -160,7 +149,6 @@ stages:
           zone: 'staging'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
           backendServiceArm: 'dts-cftptl-intsvc'
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftptlintsvc'
@@ -175,7 +163,6 @@ stages:
           zone: 'test'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
           backendServiceArm: 'dts-cftptl-intsvc'
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftptlintsvc'
@@ -190,7 +177,6 @@ stages:
           zone: 'ithc'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
           backendServiceArm: 'dts-cftptl-intsvc'
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftptlintsvc'
@@ -205,7 +191,6 @@ stages:
           zone: 'demo'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
           backendServiceArm: 'dts-cftptl-intsvc'
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftptlintsvc'
@@ -220,7 +205,6 @@ stages:
           zone: 'prod'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
           backendServiceArm: 'dts-cftptl-intsvc'
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftptlintsvc'
@@ -235,7 +219,6 @@ stages:
           zone: 'privatelink'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
           backendServiceArm: 'dts-cftptl-intsvc'
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftptlintsvc'
