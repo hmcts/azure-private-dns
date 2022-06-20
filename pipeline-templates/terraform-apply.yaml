@@ -7,6 +7,7 @@ jobs:
       runOnce:
         deploy:
           steps:
+            - checkout: self
             - checkout: cnp-azuredevops-libraries
             - download: current
               displayName: 'Download artifacts'
