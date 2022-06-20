@@ -8,7 +8,7 @@ resources:
   repositories:
   - repository: cnp-azuredevops-libraries
     type: github
-    ref: DTSPO-2880_sds_ptl
+    ref: master
     name: hmcts/cnp-azuredevops-libraries
     endpoint: 'hmcts (1)'
 
