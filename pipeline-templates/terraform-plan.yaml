@@ -3,6 +3,8 @@ jobs:
     pool:
       vmImage: ${{ parameters.agentPool }}
     steps:
+      - checkout: self
+      - checkout: cnp-azuredevops-libraries
       - task: Bash@3
         displayName: Terraform install (tfenv)
         inputs:
