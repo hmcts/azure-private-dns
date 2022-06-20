@@ -6,6 +6,7 @@ jobs:
       - checkout: cnp-azuredevops-libraries
       - task: Bash@3
         displayName: Terraform install (tfenv)
+        checkout: cnp-azuredevops-libraries
         inputs:
           filePath: $(System.DefaultWorkingDirectory)/cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh
           workingDirectory: $(System.DefaultWorkingDirectory)
