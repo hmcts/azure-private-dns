@@ -15,6 +15,7 @@ resources:
 variables:
   agentPool: 'ubuntu-18.04'
   product: 'cft-platform'
+  template: vars/input-variables.yaml@cnp-azuredevops-libraries
 
 stages:
   - stage: Plan_phase
