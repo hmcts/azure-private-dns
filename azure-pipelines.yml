@@ -31,10 +31,6 @@ stages:
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftsboxintsvc'
           product: $(product)
-          task: CmdLine@2
-          displayName: Setup Terraform
-          inputs:
-            script: 'curl https://github.com/hmcts/cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh'
 
       - template: pipeline-templates/terraform-plan.yaml
         parameters:
