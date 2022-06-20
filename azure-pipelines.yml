@@ -4,10 +4,18 @@ trigger:
     include:
       - master
 
+resources:
+  repositories:
+  - repository: cnp-azuredevops-libraries
+    type: github
+    ref: DTSPO-2880_sds_ptl
+    name: hmcts/cnp-azuredevops-libraries
+    endpoint: 'hmcts (1)'
+
 variables:
   terraformVersion: 1.2.3
   agentPool: 'ubuntu-18.04'
-  product: 'cft-platform'  
+  product: 'cft-platform'
 
 stages:
   - stage: Plan_phase
@@ -23,6 +31,10 @@ stages:
           backendAzureRmResourceGroupName: 'core-infra-intsvc-rg'
           backendAzureRmStorageAccountName: 'cftsboxintsvc'
           product: $(product)
+          task: CmdLine@2
+          displayName: Setup Terraform
+          inputs:
+            script: 'curl https://github.com/hmcts/cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh'
 
       - template: pipeline-templates/terraform-plan.yaml
         parameters:
@@ -111,16 +123,7 @@ stages:
 
           - task: PublishBuildArtifacts@1
             displayName: 'Publish Artifact: drop'
-   
-      - job: Terraform
-        pool:
-          vmImage: ${{ variables.agentPool }}
-        steps:
-        - task: CmdLine@2
-          displayName: Setup Terraform
-          inputs:
-            script: 'curl https://github.com/hmcts/cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh'
-      
+
   - stage: Sandbox_Apply
     dependsOn: Plan_phase
     displayName: "Sandbox Apply"
