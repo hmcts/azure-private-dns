@@ -333,6 +333,10 @@ A:
     record:
     - 10.90.96.132
     ttl: 300
+  - name: sds-api-mgmt
+    record:
+    - 10.144.33.132
+    ttl: 300
     
 cname:
   - name: www.moneyclaim-legal
