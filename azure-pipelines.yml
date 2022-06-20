@@ -111,7 +111,16 @@ stages:
 
           - task: PublishBuildArtifacts@1
             displayName: 'Publish Artifact: drop'
-
+   
+      - job: Terraform
+        pool:
+          vmImage: ${{ variables.agentPool }}
+        steps:
+        - task: CmdLine@2
+          displayName: Setup Terraform
+          inputs:
+            script: 'curl https://github.com/hmcts/cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh'
+      
   - stage: Sandbox_Apply
     dependsOn: Plan_phase
     displayName: "Sandbox Apply"
