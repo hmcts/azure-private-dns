@@ -29,11 +29,11 @@ jobs:
 
       - name: Terraform Init
         run: terraform init
-        working-directory: example
+        working-directory: ./
 
       - name: Terraform validate
         run: terraform validate
-        working-directory: example
+        working-directory: ./
 
       - name: Terraform format
         run: terraform fmt -check
