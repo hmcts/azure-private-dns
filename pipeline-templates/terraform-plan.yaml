@@ -17,7 +17,7 @@ jobs:
         displayName: Init - ${{ parameters.zone }}
         inputs:
           command: 'init'
-          commandOptions: ['-reconfigure', '-lock=false']  # don't lock on PRs / validate phase
+          commandOptions: '-reconfigure' #'-lock=false'  don't lock on PRs / validate phase
           backendType: 'azurerm'
           backendServiceArm: ${{ parameters.backendServiceArm }}
           backendAzureRmResourceGroupName: ${{ parameters.backendAzureRmResourceGroupName }}
