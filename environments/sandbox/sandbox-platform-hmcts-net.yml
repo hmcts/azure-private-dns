@@ -15,7 +15,7 @@ vnet_links:
 A:
   - name: grafana
     record:
-    - 10.70.25.250
+    - 10.70.25.251
     ttl: 300
   - name: prometheus-00
     record:
