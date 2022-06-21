@@ -25,7 +25,7 @@ A:
     record:
     - 10.2.11.250
     ttl: 300
-  - name: sds-grafana
+  - name: sds-grafana2
     record:
     - 10.147.15.250
     ttl: 300
