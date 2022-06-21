@@ -16,13 +16,14 @@ jobs:
         displayName: Init - ${{ parameters.zone }}
         inputs:
           command: 'init'
-          commandOptions: '-reconfigure' #'-lock=false'  don't lock on PRs / validate phase
+          commandOptions: '-lock=false' #'-lock=false'  don't lock on PRs / validate phase
           backendType: 'azurerm'
           backendServiceArm: ${{ parameters.backendServiceArm }}
           backendAzureRmResourceGroupName: ${{ parameters.backendAzureRmResourceGroupName }}
           backendAzureRmStorageAccountName: ${{ parameters.backendAzureRmStorageAccountName }}
           backendAzureRmContainerName: 'tfstate'
           backendAzureRmKey: 'private-dns/${{ parameters.zone }}.tfstate'
+          ensureBackend: false
           workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}'
       - task: TerraformCLI@0
         displayName: Plan - ${{ parameters.zone }}
