@@ -7,7 +7,6 @@ jobs:
       runOnce:
         deploy:
           steps:
-            - checkout: self
             - checkout: cnp-azuredevops-libraries
             - download: current
               displayName: 'Download artifacts'
@@ -24,6 +23,7 @@ jobs:
               inputs:
                 filePath: $(System.DefaultWorkingDirectory)/cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh
                 workingDirectory: $(System.DefaultWorkingDirectory)
+            - checkout: self
             - task: TerraformCLI@0
               displayName: Init - ${{ parameters.zone }}
               inputs:
