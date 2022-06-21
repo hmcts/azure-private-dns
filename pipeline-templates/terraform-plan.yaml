@@ -3,13 +3,13 @@ jobs:
     pool:
       vmImage: ${{ parameters.agentPool }}
     steps:
+      - checkout: self
       - checkout: cnp-azuredevops-libraries
       - task: Bash@3
         displayName: Terraform install (tfenv)
         inputs:
           filePath: $(System.DefaultWorkingDirectory)/cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh
           workingDirectory: $(System.DefaultWorkingDirectory)
-      - checkout: self
       - task: TerraformCLI@0
         displayName: Init - ${{ parameters.zone }}
         inputs:
