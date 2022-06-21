@@ -45,6 +45,6 @@ jobs:
         inputs:
           scriptType: bash
           scriptLocation: scriptPath
-          azureSubscription: ${{ parameters.serviceConnection }}
+          azureSubscription: ${{ parameters.backendServiceArm }}
           scriptPath: $(System.DefaultWorkingDirectory)/cnp-azuredevops-libraries/scripts/unlock-tf-state.sh
           arguments: ${{ parameters.backendAzureRmStorageAccountName }} "private-dns/${{ parameters.zone }}.tfstate"
