@@ -3,9 +3,13 @@ jobs:
     pool:
       vmImage: ${{ parameters.agentPool }}
     steps:
-      - task: TerraformInstaller@0
+      - checkout: self
+      - checkout: cnp-azuredevops-libraries
+      - template: steps/set-build-repo-suffix-env-var.yaml@cnp-azuredevops-libraries
+      - task: Bash@3
+        displayName: Terraform install (tfenv)
         inputs:
-          terraformVersion: ${{ parameters.terraformVersion }}
+          filePath: $(System.DefaultWorkingDirectory)/cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh
       - task: TerraformCLI@0
         displayName: Init - ${{ parameters.zone }}
         inputs:
@@ -17,20 +21,30 @@ jobs:
           backendAzureRmStorageAccountName: ${{ parameters.backendAzureRmStorageAccountName }}
           backendAzureRmContainerName: 'tfstate'
           backendAzureRmKey: 'private-dns/${{ parameters.zone }}.tfstate'
-          workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}'
+          workingDirectory: '$(System.DefaultWorkingDirectory)/$(buildRepoSuffix)/components/${{ parameters.zone }}'
       - task: TerraformCLI@0
         displayName: Plan - ${{ parameters.zone }}
         inputs:
           command: 'plan'
           commandOptions: '-out=${{ parameters.zone }}${{ parameters.build }}plan'
-          workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}'
+          workingDirectory: '$(System.DefaultWorkingDirectory)/$(buildRepoSuffix)/components/${{ parameters.zone }}'
           environmentServiceName: ${{ parameters.backendServiceArm }}
+          publishPlanResults: '${{ parameters.zone }}'
       - task: Bash@3
         displayName: "Remove local tfstate"
         inputs:
           targetType: 'inline'
-          workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}'
+          workingDirectory: '$(System.DefaultWorkingDirectory)/$(buildRepoSuffix)/components/${{ parameters.zone }}'
           script: |
             rm -f terraform.tfstate* && rm -rf .terraform/
-      - publish: $(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}/${{ parameters.zone }}${{ parameters.build }}plan
+      - publish: $(System.DefaultWorkingDirectory)/$(buildRepoSuffix)/components/${{ parameters.zone }}/${{ parameters.zone }}${{ parameters.build }}plan
         artifact: ${{ parameters.zone }}${{ parameters.build }}plan
+      - task: AzureCLI@2
+        displayName: 'Unlock TF state if required'
+        condition: always()
+        inputs:
+          scriptType: bash
+          scriptLocation: scriptPath
+          azureSubscription: ${{ parameters.backendServiceArm }}
+          scriptPath: $(System.DefaultWorkingDirectory)/cnp-azuredevops-libraries/scripts/unlock-tf-state.sh
+          arguments: ${{ parameters.backendAzureRmStorageAccountName }} "private-dns/${{ parameters.zone }}.tfstate" ${{ parameters.backendServiceArm }} tfstate
