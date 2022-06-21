@@ -12,6 +12,8 @@ jobs:
       - script: |
           which terraform
           terraform --version
+          ls -lash
+          tree
       - task: TerraformCLI@0
         displayName: Init - ${{ parameters.zone }}
         inputs:
