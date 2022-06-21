@@ -5,7 +5,7 @@ jobs:
     steps:
       - checkout: self
       - checkout: cnp-azuredevops-libraries
-      - template: ./set-build-repo-suffix-env-var.yaml
+      - template: steps/set-build-repo-suffix-env-var.yaml@cnp-azuredevops-libraries
       - task: Bash@3
         displayName: Terraform install (tfenv)
         inputs:
