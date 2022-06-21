@@ -9,9 +9,9 @@ jobs:
         inputs:
           filePath: $(System.DefaultWorkingDirectory)/cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh
           workingDirectory: $(System.DefaultWorkingDirectory)
-      - checkout: self
       - task: TerraformCLI@0
         displayName: Init - ${{ parameters.zone }}
+        checkout: self
         inputs:
           command: 'init'
           commandOptions: '-lock=false' # don't lock on PRs / validate phase
