@@ -3,7 +3,6 @@ jobs:
     pool:
       vmImage: ${{ parameters.agentPool }}
     steps:
-      - checkout: cnp-azuredevops-libraries
       - task: Bash@3
         displayName: Terraform install (tfenv)
         inputs:
@@ -11,7 +10,6 @@ jobs:
           workingDirectory: $(System.DefaultWorkingDirectory)
       - task: TerraformCLI@0
         displayName: Init - ${{ parameters.zone }}
-        checkout: self
         inputs:
           command: 'init'
           commandOptions: '-lock=false' # don't lock on PRs / validate phase
