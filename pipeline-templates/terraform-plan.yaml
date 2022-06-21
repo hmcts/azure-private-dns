@@ -9,7 +9,6 @@ jobs:
         displayName: Terraform install (tfenv)
         inputs:
           filePath: $(System.DefaultWorkingDirectory)/cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh
-          workingDirectory: $(System.DefaultWorkingDirectory)
       - task: TerraformCLI@0
         displayName: Init - ${{ parameters.zone }}
         inputs:
