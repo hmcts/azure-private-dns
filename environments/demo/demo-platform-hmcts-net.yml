@@ -35,13 +35,13 @@ A:
     record:
     - 10.51.97.133
     ttl: 300
-  - name: sds-api-mgmt2
+- name: tax-tribunals
     record:
-    - 10.51.97.133
+    - 51.145.96.41
     ttl: 300
-  - name: sds-api-mgmt3
+  - name: tax-tribunals-downloader
     record:
-    - 10.51.97.133
+    - 51.145.96.41
     ttl: 300
 cname:
   - name: bulk-scanning
