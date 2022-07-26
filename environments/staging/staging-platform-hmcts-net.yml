@@ -21,6 +21,14 @@ A:
     ttl: 300
     record:
     - 10.148.33.133
+  - name: tax-tribunals
+    record:
+    - 52.151.100.245
+    ttl: 300
+  - name: tax-tribunals-downloader
+    record:
+    - 52.151.100.245
+    ttl: 300
 cname:
   - name: hmi-apim
     record: hmcts-aat.azurefd.net.
