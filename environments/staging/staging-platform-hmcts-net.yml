@@ -29,6 +29,10 @@ A:
     record:
     - 52.151.100.245
     ttl: 300
+  - name: vh-wowza
+    record:
+    - 10.50.10.117
+    ttl: 300
 cname:
   - name: hmi-apim
     record: hmcts-aat.azurefd.net.
