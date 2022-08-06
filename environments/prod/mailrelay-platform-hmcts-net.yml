@@ -35,3 +35,6 @@ cname:
   - name: "dev-in"
     ttl: 60
     record: "ss-dev-mailrelay.trafficmanager.net"
+  - name: "prod-in"
+    ttl: 60
+    record: "ss-prod-mailrelay.trafficmanager.net"
