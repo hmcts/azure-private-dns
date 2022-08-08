@@ -13,7 +13,7 @@ resources:
     endpoint: 'hmcts'
 
 variables:
-  agentPool: 'ubuntu-20.04'
+  agentPool: 'ubuntu-latest'
   product: 'cft-platform'
 
 stages:
