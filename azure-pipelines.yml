@@ -29,6 +29,14 @@ variables:
   - template: vars/input-variables.yaml@cnp-azuredevops-libraries
 
 parameters:
+  - name: overrideAction
+    type: string
+    default: plan
+    values:
+      - plan
+      - apply
+      - destroy
+      
   - name: environment_components
     type: object
     default:
