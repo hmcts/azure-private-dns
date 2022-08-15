@@ -50,34 +50,33 @@ parameters:
 
 # precheck stage
 stages:
-- stage: Precheck
-  jobs:
-    - job:
-      pool:
-        vmImage: ${{ variables.agentPool }}
-      timeoutInMinutes: ${{ variables.timeoutInMinutes }}
-      steps:
-        - template: steps/terraform-precheck.yaml@cnp-azuredevops-libraries
-          parameters:
-            keyvaultName: 'infra-vault-nonprod'
-            keyvaultSecret: 'azure-devops-token'
-            serviceConnection: 'DCD-CFT-Sandbox'
+  - stage: Precheck
+    jobs:
+      - job:
+        pool:
+          vmImage: ${{ variables.agentPool }}
+        timeoutInMinutes: ${{ variables.timeoutInMinutes }}
+        steps:
+          - template: steps/terraform-precheck.yaml@cnp-azuredevops-libraries
+            parameters:
+              keyvaultName: 'infra-vault-nonprod'
+              keyvaultSecret: 'azure-devops-token'
+              serviceConnection: 'DCD-CFT-Sandbox'
 
-- ${{ each deployment in parameters.environment_components }}:
-
-- stage: Terraform_Run
-  displayName: "Terraform Plan and Apply"
-  jobs:
-    - job: TerraformPlanApply
-      pool:
-        vmImage: ${{ variables.agentPool }}
-      timeoutInMinutes: ${{ variables.timeoutInMinutes }}
-      steps:
-      - template: steps/terraform.yaml@cnp-azuredevops-libraries
-        parameters:
-          product: ${{ variables.product }}
-          overrideAction: ${{ parameters.overrideAction }}
-          environment: ${{ deployment.environment }}
-          component: ${{ deployment.component }}
-          serviceConnection: ${{ deployment.service_connection }}
-          terraformInitSubscription: ${{ variables.terraformInitSubscription }}
+  - ${{ each deployment in parameters.environment_components }}:
+    - stage: Terraform_Run
+      displayName: "Terraform Plan and Apply"
+      jobs:
+        - job: TerraformPlanApply
+          pool:
+            vmImage: ${{ variables.agentPool }}
+          timeoutInMinutes: ${{ variables.timeoutInMinutes }}
+          steps:
+          - template: steps/terraform.yaml@cnp-azuredevops-libraries
+            parameters:
+              product: ${{ variables.product }}
+              overrideAction: ${{ parameters.overrideAction }}
+              environment: ${{ deployment.environment }}
+              component: ${{ deployment.component }}
+              serviceConnection: ${{ deployment.service_connection }}
+              terraformInitSubscription: ${{ variables.terraformInitSubscription }}
