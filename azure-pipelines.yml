@@ -73,7 +73,7 @@ stages:
 
   - ${{ each deployment in parameters.environment_components }}:
     - stage: Terraform_Run
-      displayName: "Terraform Plan and Apply"
+      displayName: "Terraform Plan and Apply ${{ deployment.environment }}"
       jobs:
         - job: TerraformPlanApply
           pool:
