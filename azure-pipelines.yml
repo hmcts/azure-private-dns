@@ -37,6 +37,7 @@ parameters:
       - apply
       - destroy
 
+
   - name: environment_components
     type: object
     default:
