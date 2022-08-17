@@ -161,18 +161,6 @@ cname:
   - name: toffee
     record: sdshmcts-ithc.azurefd.net.
     ttl: 300
-  - name: vh-video-web
-    record: sdshmcts-ithc.azurefd.net
-    ttl: 300
-  - name: vh-admin-web
-    record: sdshmcts-ithc.azurefd.net
-    ttl: 300
-  - name: vh-service-web
-    record: sdshmcts-ithc.azurefd.net
-    ttl: 300
-  - name: vh-test-web
-    record: sdshmcts-ithc.azurefd.net
-    ttl: 300
   - name: rpts
     record: hmcts-ithc.azurefd.net.
     ttl: 300
