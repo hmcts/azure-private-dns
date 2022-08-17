@@ -17,13 +17,13 @@ resources:
 # cnp-azuredevops-libraries
 variables:
   - name: timeoutInMinutes
-    value: 60
+    value: "60"
   - name: agentPool
-    value: ubuntu-18.04
+    value: "ubuntu-latest"
   - name: build
     value: $(Build.BuildNumber)
   - name: product
-    value: cft-platform
+    value: "cft-platform"
   - name: terraformInitSubscription
     value: 04d27a32-7a07-48b3-95b8-3c8691e1a263
   - template: vars/input-variables.yaml@cnp-azuredevops-libraries
@@ -41,7 +41,7 @@ parameters:
     type: object
     default:
     - deployment: 'sandbox'
-      environment: 'sandbox'
+      environment: 'sbox'
       component: 'sandbox'
       service_connection: 'dts-cftsbox-intsvc'
       dependsOn: 'Precheck'
