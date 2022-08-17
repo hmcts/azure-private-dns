@@ -74,15 +74,3 @@ cname:
   - name: jdfrontend
     record: sdshmcts-dev.azurefd.net.
     ttl: 300
-  - name: vh-video-web
-    record: sdshmcts-dev.azurefd.net
-    ttl: 300
-  - name: vh-admin-web
-    record: sdshmcts-dev.azurefd.net
-    ttl: 300
-  - name: vh-service-web
-    record: sdshmcts-dev.azurefd.net
-    ttl: 300
-  - name: vh-test-web
-    record: sdshmcts-dev.azurefd.net
-    ttl: 300

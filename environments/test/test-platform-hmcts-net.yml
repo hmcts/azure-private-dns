@@ -48,15 +48,3 @@ cname:
   - name: toffee
     record: sdshmcts-test.azurefd.net.
     ttl: 300
-  - name: vh-video-web
-    record: sdshmcts-test.azurefd.net
-    ttl: 300
-  - name: vh-admin-web
-    record: sdshmcts-test.azurefd.net
-    ttl: 300
-  - name: vh-service-web
-    record: sdshmcts-test.azurefd.net
-    ttl: 300
-  - name: vh-test-web
-    record: sdshmcts-test.azurefd.net
-    ttl: 300
