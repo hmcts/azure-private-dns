@@ -19,7 +19,7 @@ variables:
   - name: timeoutInMinutes
     value: "60"
   - name: agentPool
-    value: "ubuntu-latest"
+    value: "ubuntu-18.04"
   - name: build
     value: $(Build.BuildNumber)
   - name: product
@@ -36,7 +36,6 @@ parameters:
       - plan
       - apply
       - destroy
-
 
   - name: environment_components
     type: object
