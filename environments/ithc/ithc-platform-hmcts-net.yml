@@ -83,6 +83,9 @@ cname:
   - name: idam-user-dashboard
     record: hmcts-ithc.azurefd.net.
     ttl: 300  
+  - name: idam-testing-support-api
+    record: idam-testing-support-api-ithc.service.core-compute-ithc.internal.
+    ttl: 300
   - name: petitioner-frontend-aks
     record: hmcts-ithc.azurefd.net.
     ttl: 300
@@ -157,18 +160,6 @@ cname:
     ttl: 300
   - name: toffee
     record: sdshmcts-ithc.azurefd.net.
-    ttl: 300
-  - name: vh-video-web
-    record: sdshmcts-ithc.azurefd.net
-    ttl: 300
-  - name: vh-admin-web
-    record: sdshmcts-ithc.azurefd.net
-    ttl: 300
-  - name: vh-service-web
-    record: sdshmcts-ithc.azurefd.net
-    ttl: 300
-  - name: vh-test-web
-    record: sdshmcts-ithc.azurefd.net
     ttl: 300
   - name: rpts
     record: hmcts-ithc.azurefd.net.
