@@ -41,7 +41,7 @@ parameters:
     type: object
     default:
     - deployment: 'sandbox'
-      environment: 'sbox'
+      environment: 'sandbox'
       component: 'sandbox'
       service_connection: 'dts-cftsbox-intsvc'
       dependsOn: 'Precheck'
