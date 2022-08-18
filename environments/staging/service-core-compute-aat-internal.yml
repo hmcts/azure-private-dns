@@ -27,6 +27,6 @@ A:
     ttl: 300
   - name: neuvector01
     record:
-    - 10.10.159.251
+    - 10.10.159.250
     ttl: 300
 cname: []
