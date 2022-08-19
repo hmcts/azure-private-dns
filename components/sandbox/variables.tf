@@ -7,3 +7,9 @@ variable "resource_group_name" {
 variable "env" {
   default = "sbox"
 }
+
+variable "product" {
+}
+
+variable "builtFrom" {
+}
