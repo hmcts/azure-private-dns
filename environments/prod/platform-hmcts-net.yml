@@ -337,6 +337,10 @@ A:
     record:
     - 10.144.33.132
     ttl: 300
+  - name: vh-wowza
+    record:
+    - 10.50.11.21
+    ttl: 300
     
 cname:
   - name: www.moneyclaim-legal
