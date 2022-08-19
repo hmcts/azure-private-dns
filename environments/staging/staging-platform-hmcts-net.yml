@@ -33,6 +33,10 @@ A:
     record:
     - 10.50.10.117
     ttl: 300
+  - name: c100-application
+    ttl: 300
+    record:
+    - 10.148.15.250
 cname:
   - name: hmi-apim
     record: hmcts-aat.azurefd.net.
