@@ -1,3 +1,4 @@
+current_aat_cluster: 10.10.159.250
 name: "service.core-compute-aat.internal"
 vnet_links:
   - link_name: "core-infra-vnet-preview-internal"
@@ -27,46 +28,46 @@ A:
     ttl: 300
   - name: neuvector01
     record:
-    - 10.10.159.250
+    - ${current_aat_cluster}
     ttl: 300
   - name: civil-ga-camunda-staging-aat
     record:
-    - 10.10.159.250
+    - ${current_aat_cluster}
     ttl: 300
   - name: civil-ga-ccd-camunda-staging-aat
     record:
-    - 10.10.159.250
+    - 
     ttl: 300
   - name: civil-ga-ccd-civil-service-staging-aat
     record:
-    - 10.10.159.250
+    - ${current_aat_cluster}
     ttl: 300
   - name: civil-ga-ccd-data-store-staging-aat
     record:
-    - 10.10.159.250
+    - ${current_aat_cluster}
     ttl: 300
   - name: civil-ga-ccd-definition-store-staging-aat
     record:
-    - 10.10.159.250
+    - ${current_aat_cluster}
     ttl: 300
   - name: civil-ga-ccd-xui-staging-aat
     record:
-    - 10.10.159.250
+    - ${current_aat_cluster}
     ttl: 300
   - name: civil-ga-civil-service-staging-aat
     record:
-    - 10.10.159.250
+    - ${current_aat_cluster}
     ttl: 300
   - name: civil-ga-data-store-staging-aat
     record:
-    - 10.10.159.250
+    - ${current_aat_cluster}
     ttl: 300
   - name: civil-ga-definition-store-staging-aat
     record:
-    - 10.10.159.250
+    - ${current_aat_cluster}
     ttl: 300
   - name: civil-ga-xui-staging-aat
     record:
-    - 10.10.159.250
+    - ${current_aat_cluster}
     ttl: 300
 cname: []
