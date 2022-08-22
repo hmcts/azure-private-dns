@@ -28,7 +28,7 @@ A:
     ttl: 300
   - name: neuvector01
     record:
-    - ${current_aat_cluster}
+    - 10.10.159.250
     ttl: 300
   - name: civil-ga-camunda-staging-aat
     record:
