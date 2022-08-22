@@ -34,6 +34,9 @@ A:
     - 10.50.10.117
     ttl: 300
 cname:
+  - name: c100-application
+    ttl: 300
+    record: sdshmcts-stg.azurefd.net
   - name: hmi-apim
     record: hmcts-aat.azurefd.net.
     ttl: 300
@@ -67,7 +70,3 @@ cname:
   - name: vh-test-web
     record: sdshmcts-stg.azurefd.net
     ttl: 300
-  - name: c100-application
-    record: sdshmcts-stg.azurefd.net
-    ttl: 300
-
