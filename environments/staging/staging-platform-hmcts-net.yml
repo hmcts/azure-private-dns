@@ -70,7 +70,3 @@ cname:
   - name: vh-test-web
     record: sdshmcts-stg.azurefd.net
     ttl: 300
-  - name: c100-application
-    record: sdshmcts-stg.azurefd.net
-    ttl: 300
-
