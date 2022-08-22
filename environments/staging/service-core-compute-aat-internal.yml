@@ -33,7 +33,7 @@ A:
     record:
     - 10.10.159.250
     ttl: 300
-cname: []
+cname:
   - name: civil-ga-camunda-staging-aat
     record:
     - jenkins-cluster.service.core-compute-aat.internal.
