@@ -62,6 +62,9 @@ A:
     - 10.143.33.133
     ttl: 300
 cname:
+  - name: c100-application
+    ttl: 300
+    record: sdshmcts-ithc.azurefd.net
   - name: moneyclaims
     record: hmcts-ithc.azurefd.net.
     ttl: 300
