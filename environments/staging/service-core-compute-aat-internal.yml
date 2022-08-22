@@ -36,7 +36,7 @@ A:
     ttl: 300
   - name: civil-ga-ccd-camunda-staging-aat
     record:
-    - 
+    - ${current_aat_cluster}
     ttl: 300
   - name: civil-ga-ccd-civil-service-staging-aat
     record:
