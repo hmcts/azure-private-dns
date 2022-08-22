@@ -343,6 +343,12 @@ A:
     ttl: 300
     
 cname:
+  - name: cdnverify.c100-application
+    ttl: 300
+    record: cdnverify.sdshmcts-c100-application-shutter-prod.azureedge.net
+  - name: c100-application
+    ttl: 300
+    record: hmcts-prod.azurefd.net
   - name: www.moneyclaim-legal
     record: hmcts-prod.azurefd.net.
     ttl: 300
