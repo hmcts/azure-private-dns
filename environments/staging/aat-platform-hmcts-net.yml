@@ -85,6 +85,14 @@ A:
     record:
     - 10.10.159.250
     ttl: 300
+  - name: civil-ga-ccd-xui-staging
+    record:
+    - 10.10.159.250
+    ttl: 300
+  - name: civil-ga-xui-staging
+    record:
+    - 10.10.159.250
+    ttl: 300
 cname:
   - name: adoption-web
     record: hmcts-aat.azurefd.net.
