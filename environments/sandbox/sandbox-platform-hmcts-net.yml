@@ -155,6 +155,9 @@ cname:
   - name: idam-web-admin
     record: hmcts-sbox.azurefd.net.
     ttl: 300
+  - name: idam-user-dashboard
+    record: hmcts-sbox.azurefd.net.
+    ttl: 300
   - name: hmi-apim
     record: hmcts-sbox.azurefd.net.
     ttl: 300
