@@ -345,7 +345,7 @@ A:
 cname:
   - name: c100-application
     ttl: 300
-    record: hmcts-prod.azurefd.net
+    record: sdshmcts-prod.azurefd.net
   - name: www.moneyclaim-legal
     record: hmcts-prod.azurefd.net.
     ttl: 300
