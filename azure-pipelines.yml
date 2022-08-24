@@ -1,11 +1,9 @@
- # trigger master branch
 trigger:
   batch: true
   branches:
     include:
       - master
 
-# repo to use - cnp
 resources:
   repositories:
   - repository: cnp-azuredevops-libraries
@@ -14,7 +12,6 @@ resources:
     name: hmcts/cnp-azuredevops-libraries
     endpoint: 'hmcts'
 
-# cnp-azuredevops-libraries
 variables:
   - name: timeoutInMinutes
     value: "60"
