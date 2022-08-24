@@ -46,7 +46,7 @@ parameters:
     #   service_connection: 'dts-cftsbox-intsvc'
       # dependsOn: 'Precheck'
     - deployment: 'dev'
-      environment: 'dev'
+      environment: 'ptl'
       component: 'dev'
       service_connection: 'dts-cftptl-intsvc'
       dependsOn: 'Precheck'
