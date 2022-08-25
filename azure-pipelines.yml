@@ -37,11 +37,16 @@ parameters:
   - name: environment_components
     type: object
     default:
-    # - deployment: 'sandbox'
-    #   environment: 'sbox'
-    #   component: 'sandbox'
-    #   service_connection: 'dts-cftsbox-intsvc'
-      # dependsOn: 'Precheck'
+    - deployment: 'sandbox'
+      environment: 'sbox'
+      component: 'sandbox'
+      service_connection: 'dts-cftsbox-intsvc'
+      subscription_id: 1baf5470-1c3e-40d3-a6f7-74bfbce4b348
+      resource_group_name: 'core-infra-intsvc-rg'
+      storage_account_name: 'cftptlintsvc'
+      container_name: 'tfstate'
+      key: 'private-dns/test.tfstate'
+      dependsOn: 'Precheck'
     # - deployment: 'dev'
     #   environment: 'preview'
     #   component: 'dev'
@@ -52,17 +57,16 @@ parameters:
     #   container_name: 'tfstate'
     #   key: 'private-dns/dev.tfstate'
     #   dependsOn: 'Precheck'
-     - deployment: 'test'
-       environment: 'perftest'
-       component: 'test'
-       service_connection: 'dts-cftptl-intsvc'
-       subscription_id: 1baf5470-1c3e-40d3-a6f7-74bfbce4b348
-       resource_group_name: core-infra-intsvc-rg
-       storage_account_name: cftptlintsvc
-       container_name: 'tfstate'
-       key: "private-dns/test.tfstate"
-       dependsOn: 'Precheck'
-
+    # - deployment: 'test'
+    #   environment: 'perftest'
+    #   component: 'test'
+    #   service_connection: 'dts-cftptl-intsvc'
+    #   subscription_id: 1baf5470-1c3e-40d3-a6f7-74bfbce4b348
+    #   resource_group_name: core-infra-intsvc-rg
+    #   storage_account_name: cftptlintsvc
+    #   container_name: 'tfstate'
+    #   key: "private-dns/test.tfstate"
+    #   dependsOn: 'Precheck'
 
 stages:
   - stage: Precheck
