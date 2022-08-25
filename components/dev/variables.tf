@@ -7,3 +7,8 @@ variable "resource_group_name" {
 variable "env" {
   default = "preview"
 }
+variable "product" {
+}
+
+variable "builtFrom" {
+}
