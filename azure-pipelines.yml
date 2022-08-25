@@ -22,7 +22,7 @@ variables:
   - name: product
     value: "cft-platform"
   - name: terraformInitSubscription
-    value: 04d27a32-7a07-48b3-95b8-3c8691e1a263
+    value: 1baf5470-1c3e-40d3-a6f7-74bfbce4b348
   - template: vars/input-variables.yaml@cnp-azuredevops-libraries
   
 parameters:
@@ -46,6 +46,7 @@ parameters:
       environment: 'ptl'
       component: 'dev'
       service_connection: 'dts-cftptl-intsvc'
+      subscription_id: 1baf5470-1c3e-40d3-a6f7-74bfbce4b348
       resource_group_name: 'core-infra-intsvc-rg'
       storage_account_name: 'cftptlintsvc'
       container_name: 'tfstate'
@@ -94,3 +95,4 @@ stages:
                 -backend-config storage_account_name=${{ deployment.storage_account_name }}
                 -backend-config container_name=${{ deployment.container_name }}
                 -backend-config key=${{ deployment.key }}
+                -backend-config subscription_id=${{ deployment.subscription_id }}
