@@ -7,3 +7,8 @@ variable "resource_group_name" {
 variable "env" {
   default = "perftest"
 }
+variable "product" {
+}
+
+variable "builtFrom" {
+}
