@@ -43,9 +43,13 @@ parameters:
     #   service_connection: 'dts-cftsbox-intsvc'
       # dependsOn: 'Precheck'
     - deployment: 'dev'
-      environment: 'preview'
+      environment: 'ptl'
       component: 'dev'
       service_connection: 'dts-cftptl-intsvc'
+      resource_group_name: 'core-infra-intsvc-rg'
+      storage_account_name: 'cftptlintsvc'
+      container_name: 'tfstate'
+      key: 'private-dns/dev.tfstate'
       dependsOn: 'Precheck'
     # - deployment: 'test'
     #   environment: 'test'
@@ -85,3 +89,8 @@ stages:
               component: ${{ deployment.component }}
               serviceConnection: ${{ deployment.service_connection }}
               terraformInitSubscription: ${{ variables.terraformInitSubscription }}
+              initCommandOptions: >
+                -backend-config resource_group_name=${{ deployment.resource_group_name }}
+                -backend-config storage_account_name=${{ deployment.storage_account_name }}
+                -backend-config container_name=${{ deployment.container_name }}
+                -backend-config key=${{ deployment.key }}
