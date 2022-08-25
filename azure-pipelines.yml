@@ -96,3 +96,16 @@ stages:
                 -backend-config container_name=${{ deployment.container_name }}
                 -backend-config key=${{ deployment.key }}
                 -backend-config subscription_id=${{ deployment.subscription_id }}
+              planCommandOptions: >
+                -backend-config resource_group_name=${{ deployment.resource_group_name }}
+                -backend-config storage_account_name=${{ deployment.storage_account_name }}
+                -backend-config container_name=${{ deployment.container_name }}
+                -backend-config key=${{ deployment.key }}
+                -backend-config subscription_id=${{ deployment.subscription_id }}
+              applyCommandOptions: >
+                -backend-config resource_group_name=${{ deployment.resource_group_name }}
+                -backend-config storage_account_name=${{ deployment.storage_account_name }}
+                -backend-config container_name=${{ deployment.container_name }}
+                -backend-config key=${{ deployment.key }}
+                -backend-config subscription_id=${{ deployment.subscription_id }}
+               
