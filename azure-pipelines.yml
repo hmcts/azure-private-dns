@@ -23,13 +23,6 @@ variables:
     value: "cft-platform"
   - name: terraformInitSubscription
     value: 04d27a32-7a07-48b3-95b8-3c8691e1a263
-  - name: env-variable
-    ${{ if eq( environment_components['environment'], 'sbox') }}:
-      value: "sbox"
-    ${{ elseif eq( environment_components['environment'], 'ptl' ) }}:
-      value: "dev"
-    ${{ else }}:
-      value: "test"
   - template: vars/input-variables.yaml@cnp-azuredevops-libraries
   
 parameters:
@@ -50,7 +43,7 @@ parameters:
     #   service_connection: 'dts-cftsbox-intsvc'
       # dependsOn: 'Precheck'
     - deployment: 'dev'
-      environment: 'ptl'
+      environment: 'preview'
       component: 'dev'
       service_connection: 'dts-cftptl-intsvc'
       dependsOn: 'Precheck'
