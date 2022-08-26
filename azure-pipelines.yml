@@ -84,7 +84,7 @@ stages:
 
   - ${{ each deployment in parameters.environment_components }}:
     - stage: Terraform_Run
-      displayName: "Terraform Plan and Apply ${{ deployment.environment }}"
+      displayName: "Terraform Plan and Apply"
       jobs:
         - job: TerraformPlanApply
           pool:
@@ -105,5 +105,3 @@ stages:
                 -backend-config container_name=${{ deployment.container_name }}
                 -backend-config key=${{ deployment.key }}
                 -backend-config subscription_id=${{ deployment.subscription_id }}
-            
-               
