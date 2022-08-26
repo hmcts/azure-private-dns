@@ -41,11 +41,11 @@ parameters:
       environment: 'sbox'
       component: 'sandbox'
       service_connection: 'dts-cftsbox-intsvc'
-      subscription_id: 1baf5470-1c3e-40d3-a6f7-74bfbce4b348
+      subscription_id: 1497c3d7-ab6d-4bb7-8a10-b51d03189ee3
       resource_group_name: 'core-infra-intsvc-rg'
-      storage_account_name: 'cftptlintsvc'
+      storage_account_name: 'cftsboxintsvc'
       container_name: 'tfstate'
-      key: 'private-dns/test.tfstate'
+      key: 'private-dns/sandbox.tfstate'
       dependsOn: 'Precheck'
     # - deployment: 'dev'
     #   environment: 'preview'
