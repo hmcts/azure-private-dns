@@ -58,6 +58,12 @@ cname:
   - name: pip-frontend
     record: sdshmcts-stg.azurefd.net
     ttl: 300
+  - name: sign-in.pip-frontend
+    record: sdshmcts-stg.azurefd.net
+    ttl: 300  
+  - name: staff.pip-frontend
+    record: sdshmcts-stg.azurefd.net
+    ttl: 300  
   - name: vh-video-web
     record: sdshmcts-stg.azurefd.net
     ttl: 300
