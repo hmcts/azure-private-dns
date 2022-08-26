@@ -83,7 +83,7 @@ stages:
               serviceConnection: 'DCD-CFTAPPS-SBOX'
 
   - ${{ each deployment in parameters.environment_components }}:
-    - stage: Terraform_Run
+    - stage: ${{ deployment.deployment }}
       displayName: "Terraform Plan and Apply"
       jobs:
         - job: TerraformPlanApply
@@ -105,4 +105,3 @@ stages:
                 -backend-config container_name=${{ deployment.container_name }}
                 -backend-config key=${{ deployment.key }}
                 -backend-config subscription_id=${{ deployment.subscription_id }}
-                
