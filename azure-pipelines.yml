@@ -37,35 +37,92 @@ parameters:
   - name: environment_components
     type: object
     default:
-    - deployment: 'sandbox'
-      environment: 'sbox'
-      component: 'sandbox'
+    - deployment: 'demo'
+      environment: 'demo'
+      component: 'demo'
       service_connection: 'dts-cftsbox-intsvc'
       subscription_id: 1497c3d7-ab6d-4bb7-8a10-b51d03189ee3
       resource_group_name: 'core-infra-intsvc-rg'
       storage_account_name: 'cftsboxintsvc'
       container_name: 'tfstate'
-      key: 'private-dns/sandbox.tfstate'
+      key: 'private-dns/demo'
       dependsOn: 'Precheck'
-    - deployment: 'dev'
-      environment: 'preview'
-      component: 'dev'
-      service_connection: 'dts-cftptl-intsvc'
-      subscription_id: 1baf5470-1c3e-40d3-a6f7-74bfbce4b348
+
+    # - deployment: 'dev'
+    #   environment: 'preview'
+    #   component: 'dev'
+    #   service_connection: 'dts-cftptl-intsvc'
+    #   subscription_id: 1baf5470-1c3e-40d3-a6f7-74bfbce4b348
+    #   resource_group_name: 'core-infra-intsvc-rg'
+    #   storage_account_name: 'cftptlintsvc'
+    #   container_name: 'tfstate'
+    #   key: 'private-dns/dev.tfstate'
+    #   dependsOn: 'Precheck'  
+    
+    - deployment: 'ithc'
+      environment: 'ithc'
+      component: 'ithc'
+      service_connection: 'dts-cftsbox-intsvc'
+      subscription_id: 1497c3d7-ab6d-4bb7-8a10-b51d03189ee3
       resource_group_name: 'core-infra-intsvc-rg'
-      storage_account_name: 'cftptlintsvc'
+      storage_account_name: 'cftsboxintsvc'
       container_name: 'tfstate'
-      key: 'private-dns/dev.tfstate'
+      key: 'private-dns/ithc'
       dependsOn: 'Precheck'
-    - deployment: 'test'
-      environment: 'perftest'
-      component: 'test'
+    
+    # - deployment: 'test'
+    #   environment: 'perftest'
+    #   component: 'test'
+    #   service_connection: 'dts-cftptl-intsvc'
+    #   subscription_id: 1baf5470-1c3e-40d3-a6f7-74bfbce4b348
+    #   resource_group_name: core-infra-intsvc-rg
+    #   storage_account_name: cftptlintsvc
+    #   container_name: 'tfstate'
+    #   key: "private-dns/test.tfstate"
+    #   dependsOn: 'Precheck'
+
+    - deployment: 'privatelink'
+      environment: 'privatelink'
+      component: 'privatelink'
       service_connection: 'dts-cftptl-intsvc'
       subscription_id: 1baf5470-1c3e-40d3-a6f7-74bfbce4b348
       resource_group_name: core-infra-intsvc-rg
       storage_account_name: cftptlintsvc
       container_name: 'tfstate'
       key: "private-dns/test.tfstate"
+      dependsOn: 'Precheck'
+     
+    - deployment: 'prod'
+      environment: 'prod'
+      component: 'prod'
+      service_connection: 'dts-cftsbox-intsvc'
+      subscription_id: 1497c3d7-ab6d-4bb7-8a10-b51d03189ee3
+      resource_group_name: 'core-infra-intsvc-rg'
+      storage_account_name: 'cftsboxintsvc'
+      container_name: 'tfstate'
+      key: 'private-dns/prod'
+      dependsOn: 'Precheck'
+
+    # - deployment: 'sandbox'
+    #   environment: 'sbox'
+    #   component: 'sandbox'
+    #   service_connection: 'dts-cftsbox-intsvc'
+    #   subscription_id: 1497c3d7-ab6d-4bb7-8a10-b51d03189ee3
+    #   resource_group_name: 'core-infra-intsvc-rg'
+    #   storage_account_name: 'cftsboxintsvc'
+    #   container_name: 'tfstate'
+    #   key: 'private-dns/sandbox.tfstate'
+    #   dependsOn: 'Precheck'
+    
+    - deployment: 'staging'
+      environment: 'staging'
+      component: 'staging'
+      service_connection: 'dts-cftsbox-intsvc'
+      subscription_id: 1497c3d7-ab6d-4bb7-8a10-b51d03189ee3
+      resource_group_name: 'core-infra-intsvc-rg'
+      storage_account_name: 'cftsboxintsvc'
+      container_name: 'tfstate'
+      key: 'private-dns/staging'
       dependsOn: 'Precheck'
 
 stages:
