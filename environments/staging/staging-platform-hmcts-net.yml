@@ -37,6 +37,12 @@ cname:
   - name: c100-application
     ttl: 300
     record: sdshmcts-stg.azurefd.net
+  - name: makeaplea-application
+    ttl: 300
+    record: sdshmcts-stg.azurefd.net
+  - name: mirrorgateway-application
+    ttl: 300
+    record: sdshmcts-stg.azurefd.net
   - name: hmi-apim
     record: hmcts-aat.azurefd.net.
     ttl: 300

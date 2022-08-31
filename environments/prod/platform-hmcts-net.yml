@@ -346,6 +346,12 @@ cname:
   - name: c100-application
     ttl: 300
     record: sdshmcts-prod.azurefd.net
+  - name:  makeaplea-application
+    ttl: 300
+    record: sdshmcts-prod.azurefd.net 
+  - name: mirrorgateway-application
+    ttl: 300
+    record: sdshmcts-stg.azurefd.net
   - name: www.moneyclaim-legal
     record: hmcts-prod.azurefd.net.
     ttl: 300
