@@ -10,4 +10,6 @@ module "dfs-private-link" {
   vnet_links          = yamldecode(data.local_file.dfs-private-link.content).vnet_links
   resource_group_name = var.resource_group_name
   env                 = var.env
+  builtFrom           = var.builtFrom
+  product             = var.product
 }

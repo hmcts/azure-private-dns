@@ -22,7 +22,7 @@ variables:
   - name: product
     value: "cft-platform"
   - name: terraformInitSubscription
-    value: 1baf5470-1c3e-40d3-a6f7-74bfbce4b348
+    value: 04d27a32-7a07-48b3-95b8-3c8691e1a263
   - template: vars/input-variables.yaml@cnp-azuredevops-libraries
   
 parameters:
@@ -40,90 +40,43 @@ parameters:
     - deployment: 'demo'
       environment: 'demo'
       component: 'demo'
-      service_connection: 'dts-cftsbox-intsvc'
-      subscription_id: 1497c3d7-ab6d-4bb7-8a10-b51d03189ee3
-      resource_group_name: 'core-infra-intsvc-rg'
-      storage_account_name: 'cftsboxintsvc'
-      container_name: 'tfstate'
-      key: 'private-dns/demo'
-      dependsOn: 'Precheck'
-
-    # - deployment: 'dev'
-    #   environment: 'preview'
-    #   component: 'dev'
-    #   service_connection: 'dts-cftptl-intsvc'
-    #   subscription_id: 1baf5470-1c3e-40d3-a6f7-74bfbce4b348
-    #   resource_group_name: 'core-infra-intsvc-rg'
-    #   storage_account_name: 'cftptlintsvc'
-    #   container_name: 'tfstate'
-    #   key: 'private-dns/dev.tfstate'
-    #   dependsOn: 'Precheck'  
-    
+      dependsOn:
+        - Precheck
+    - deployment: 'dev'
+      environment: 'preview'
+      component: 'dev'
+      dependsOn:
+        - Precheck
     - deployment: 'ithc'
       environment: 'ithc'
       component: 'ithc'
-      service_connection: 'dts-cftsbox-intsvc'
-      subscription_id: 1497c3d7-ab6d-4bb7-8a10-b51d03189ee3
-      resource_group_name: 'core-infra-intsvc-rg'
-      storage_account_name: 'cftsboxintsvc'
-      container_name: 'tfstate'
-      key: 'private-dns/ithc'
-      dependsOn: 'Precheck'
-    
-    # - deployment: 'test'
-    #   environment: 'perftest'
-    #   component: 'test'
-    #   service_connection: 'dts-cftptl-intsvc'
-    #   subscription_id: 1baf5470-1c3e-40d3-a6f7-74bfbce4b348
-    #   resource_group_name: core-infra-intsvc-rg
-    #   storage_account_name: cftptlintsvc
-    #   container_name: 'tfstate'
-    #   key: "private-dns/test.tfstate"
-    #   dependsOn: 'Precheck'
-
+      dependsOn:
+        - Precheck
+    - deployment: 'test'
+      environment: 'perftest'
+      component: 'test'
+      dependsOn:
+        - Precheck
     - deployment: 'privatelink'
       environment: 'privatelink'
       component: 'privatelink'
-      service_connection: 'dts-cftptl-intsvc'
-      subscription_id: 1baf5470-1c3e-40d3-a6f7-74bfbce4b348
-      resource_group_name: core-infra-intsvc-rg
-      storage_account_name: cftptlintsvc
-      container_name: 'tfstate'
-      key: "private-dns/test.tfstate"
-      dependsOn: 'Precheck'
-     
+      dependsOn:
+        - Precheck
     - deployment: 'prod'
       environment: 'prod'
       component: 'prod'
-      service_connection: 'dts-cftsbox-intsvc'
-      subscription_id: 1497c3d7-ab6d-4bb7-8a10-b51d03189ee3
-      resource_group_name: 'core-infra-intsvc-rg'
-      storage_account_name: 'cftsboxintsvc'
-      container_name: 'tfstate'
-      key: 'private-dns/prod'
-      dependsOn: 'Precheck'
-
-    # - deployment: 'sandbox'
-    #   environment: 'sbox'
-    #   component: 'sandbox'
-    #   service_connection: 'dts-cftsbox-intsvc'
-    #   subscription_id: 1497c3d7-ab6d-4bb7-8a10-b51d03189ee3
-    #   resource_group_name: 'core-infra-intsvc-rg'
-    #   storage_account_name: 'cftsboxintsvc'
-    #   container_name: 'tfstate'
-    #   key: 'private-dns/sandbox.tfstate'
-    #   dependsOn: 'Precheck'
-    
+      dependsOn:
+        - Precheck
+    - deployment: 'sandbox'
+      environment: 'sbox'
+      component: 'sandbox'
+      dependsOn:
+        - Precheck
     - deployment: 'staging'
       environment: 'staging'
       component: 'staging'
-      service_connection: 'dts-cftsbox-intsvc'
-      subscription_id: 1497c3d7-ab6d-4bb7-8a10-b51d03189ee3
-      resource_group_name: 'core-infra-intsvc-rg'
-      storage_account_name: 'cftsboxintsvc'
-      container_name: 'tfstate'
-      key: 'private-dns/staging'
-      dependsOn: 'Precheck'
+      dependsOn:
+        - Precheck
 
 stages:
   - stage: Precheck
@@ -137,7 +90,7 @@ stages:
             parameters:
               keyvaultName: 'infra-vault-nonprod'
               keyvaultSecret: 'azure-devops-token'
-              serviceConnection: 'DCD-CFTAPPS-SBOX'
+              serviceConnection: 'DCD-CFTAPPS-Sandbox'
 
   - ${{ each deployment in parameters.environment_components }}:
     - stage: ${{ deployment.deployment }}
@@ -156,9 +109,3 @@ stages:
               component: ${{ deployment.component }}
               serviceConnection: ${{ deployment.service_connection }}
               terraformInitSubscription: ${{ variables.terraformInitSubscription }}
-              initCommandOptions: >
-                -backend-config resource_group_name=${{ deployment.resource_group_name }}
-                -backend-config storage_account_name=${{ deployment.storage_account_name }}
-                -backend-config container_name=${{ deployment.container_name }}
-                -backend-config key=${{ deployment.key }}
-                -backend-config subscription_id=${{ deployment.subscription_id }}

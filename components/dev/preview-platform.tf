@@ -10,4 +10,6 @@ module "preview-platform" {
   vnet_links          = yamldecode(data.local_file.preview-platform-configuration.content).vnet_links
   resource_group_name = var.resource_group_name
   env                 = var.env
+  builtFrom           = var.builtFrom
+  product             = var.product
 }

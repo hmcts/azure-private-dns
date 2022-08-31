@@ -10,4 +10,6 @@ module "ithc-idam-internal" {
   vnet_links          = yamldecode(data.local_file.ithc-idam-internal-configuration.content).vnet_links
   resource_group_name = var.resource_group_name
   env                 = var.env
+  builtFrom           = var.builtFrom
+  product             = var.product
 }
