@@ -67,7 +67,7 @@ A:
     ttl: 300
   - name: civil-service-xui-staging
     record:
-    - 10.10.161.125
+    - 10.10.159.250
     ttl: 300
   - name: civil-ccd-xui-staging
     record:
