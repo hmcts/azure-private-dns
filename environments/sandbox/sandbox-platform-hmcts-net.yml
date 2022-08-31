@@ -173,3 +173,9 @@ cname:
   - name: "labs-zcwalkthrough-nodejs"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
+  - name:  makeaplea-application
+    ttl: 300
+    record: sdshmcts-prod.azurefd.net
+  - name: mirrorgateway-application
+    ttl: 300
+    record: sdshmcts-stg.azurefd.net
