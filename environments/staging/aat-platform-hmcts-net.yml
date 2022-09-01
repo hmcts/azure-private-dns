@@ -71,7 +71,7 @@ A:
     ttl: 300
   - name: civil-ccd-xui-staging
     record:
-    - 10.10.161.125
+    - 10.10.159.250
     ttl: 300
   - name: civil-camunda-xui-staging
     record:
