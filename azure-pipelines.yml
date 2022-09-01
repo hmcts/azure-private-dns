@@ -52,7 +52,7 @@ parameters:
     - deployment: ithc
       environment: ithc
       component: ithc
-      serviceConnection: dts-cftptl-intsvc
+      serviceConnection: dcd-cftapps-ithc
       dependsOn:
         - Precheck
     - deployment: test
