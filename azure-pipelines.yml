@@ -90,7 +90,7 @@ stages:
             parameters:
               keyvaultName: 'infra-vault-nonprod'
               keyvaultSecret: 'azure-devops-token'
-              serviceConnection: 'DCD-CFTAPPS-Sandbox'
+              serviceConnection: 'DCD-CFTAPPS-SBOX'
 
   - ${{ each deployment in parameters.environment_components }}:
     - stage: ${{ deployment.deployment }}
