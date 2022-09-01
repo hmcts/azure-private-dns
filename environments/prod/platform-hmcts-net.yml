@@ -527,3 +527,6 @@ cname:
   - name: apply-for-adoption
     record: hmcts-prod.azurefd.net.
     ttl: 300
+  - name: plum
+    record: hmcts-prod.azurefd.net.
+    ttl: 300
