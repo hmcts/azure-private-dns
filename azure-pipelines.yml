@@ -37,44 +37,52 @@ parameters:
   - name: environment_components
     type: object
     default:
-    - deployment: 'demo'
-      environment: 'demo'
-      component: 'demo'
+    - deployment: demo
+      environment: demo
+      component: demo
+      serviceConnection: dts-cftsbox-intsvc
       dependsOn:
         - Precheck
-    - deployment: 'dev'
-      environment: 'preview'
-      component: 'dev'
+    - deployment: dev
+      environment: preview
+      component: dev
+      serviceConnection: dts-cftptl-intsvc
       dependsOn:
         - Precheck
-    - deployment: 'ithc'
-      environment: 'ithc'
-      component: 'ithc'
+    - deployment: ithc
+      environment: ithc
+      component: ithc
+      serviceConnection: dts-cftptl-intsvc
       dependsOn:
         - Precheck
-    - deployment: 'test'
-      environment: 'perftest'
-      component: 'test'
+    - deployment: test
+      environment: perftest
+      component: test
+      serviceConnection: dts-cftptl-intsvc
       dependsOn:
         - Precheck
-    - deployment: 'privatelink'
-      environment: 'privatelink'
-      component: 'privatelink'
+    - deployment: privatelink
+      environment: privatelink
+      component: privatelink
+      serviceConnection: dts-cftptl-intsvc
       dependsOn:
         - Precheck
-    - deployment: 'prod'
-      environment: 'prod'
-      component: 'prod'
+    - deployment: prod
+      environment: prod
+      component: prod
+      serviceConnection: dts-cftptl-intsvc
       dependsOn:
         - Precheck
-    - deployment: 'sandbox'
-      environment: 'sbox'
-      component: 'sandbox'
+    - deployment: sandbox
+      environment: sbox
+      component: sandbox
+      serviceConnection: dts-cftptl-intsvc
       dependsOn:
         - Precheck
-    - deployment: 'staging'
-      environment: 'staging'
-      component: 'staging'
+    - deployment: staging
+      environment: staging
+      component: staging
+      serviceConnection: dts-cftptl-intsvc
       dependsOn:
         - Precheck
 
@@ -107,5 +115,5 @@ stages:
               overrideAction: ${{ parameters.overrideAction }}
               environment: ${{ deployment.environment }}
               component: ${{ deployment.component }}
-              serviceConnection: ${{ deployment.service_connection }}
+              serviceConnection: ${{ deployment.serviceConnection }}
               terraformInitSubscription: ${{ variables.terraformInitSubscription }}
