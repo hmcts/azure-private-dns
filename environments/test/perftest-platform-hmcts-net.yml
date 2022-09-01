@@ -55,6 +55,10 @@ A:
     record:
     - 10.48.96.133
     ttl: 300
+  - name: idam-web-admin
+    record:
+    - 10.48.96.111
+    ttl: 300
 cname:
   - name: moneyclaims-legal
     record: hmcts-perftest.azurefd.net.
@@ -103,9 +107,6 @@ cname:
     ttl: 300
   - name: idam-api
     record: idam-api-perftest.service.core-compute-perftest.internal.
-    ttl: 300
-  - name: idam-web-admin
-    record: hmcts-perftest.azurefd.net.
     ttl: 300
   - name: idam-web-public
     record: hmcts-perftest.azurefd.net.
