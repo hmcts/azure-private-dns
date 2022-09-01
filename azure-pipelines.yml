@@ -40,7 +40,7 @@ parameters:
     - deployment: demo
       environment: demo
       component: demo
-      serviceConnection: dts-cftsbox-intsvc
+      serviceConnection: dts-cftptl-intsvc
       dependsOn:
         - Precheck
     - deployment: dev
@@ -76,7 +76,7 @@ parameters:
     - deployment: sandbox
       environment: sbox
       component: sandbox
-      serviceConnection: dts-cftptl-intsvc
+      serviceConnection: dts-cftsbox-intsvc
       dependsOn:
         - Precheck
     - deployment: staging
@@ -102,7 +102,7 @@ stages:
 
   - ${{ each deployment in parameters.environment_components }}:
     - stage: ${{ deployment.deployment }}
-      displayName: "Terraform Plan and Apply"
+      dependsOn: ${{ deployment.dependsOn }}
       jobs:
         - job: TerraformPlanApply
           pool:
