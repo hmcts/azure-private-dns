@@ -76,3 +76,27 @@ cname:
   - name: civil-service-xui-staging-aat
     record: jenkins-cluster.service.core-compute-aat.internal.
     ttl: 300
+  - name: civil-ccd-xui-staging-aat
+    record: jenkins-cluster.service.core-compute-aat.internal.
+    ttl: 300
+  - name: civil-ccd-camunda-staging-aat
+    record: jenkins-cluster.service.core-compute-aat.internal.
+    ttl: 300
+  - name: civil-ccd-data-store-staging-aat
+    record: jenkins-cluster.service.core-compute-aat.internal.
+    ttl: 300
+  - name: civil-ccd-definition-store-staging-aat
+    record: jenkins-cluster.service.core-compute-aat.internal.
+    ttl: 300
+  - name: civil-camunda-xui-staging-aat
+    record: jenkins-cluster.service.core-compute-aat.internal.
+    ttl: 300
+  - name: civil-camunda-camunda-staging-aat
+    record: jenkins-cluster.service.core-compute-aat.internal.
+    ttl: 300
+  - name: civil-camunda-data-store-staging-aat
+    record: jenkins-cluster.service.core-compute-aat.internal.
+    ttl: 300
+  - name: civil-camunda-definition-store-staging-aat
+    record: jenkins-cluster.service.core-compute-aat.internal.
+    ttl: 300
