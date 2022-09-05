@@ -113,7 +113,6 @@ stages:
         - job: TerraformPlanApply
           pool:
             vmImage: ${{ variables.agentPool }}
-          timeoutInMinutes: ${{ variables.timeoutInMinutes }}
           steps:
           - template: steps/terraform.yaml@cnp-azuredevops-libraries
             parameters:
