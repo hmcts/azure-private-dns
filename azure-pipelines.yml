@@ -98,7 +98,6 @@ stages:
       - job:
         pool:
           vmImage: ${{ variables.agentPool }}
-        timeoutInMinutes: ${{ variables.timeoutInMinutes }}
         steps:
           - template: steps/terraform-precheck.yaml@cnp-azuredevops-libraries
             parameters:
