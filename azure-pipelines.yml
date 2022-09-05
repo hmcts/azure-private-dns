@@ -55,7 +55,7 @@ parameters:
       environment: ithc
       component: ithc
       resourceGroupName: azure-control-ptl-rg
-      serviceConnection: dcd-cftapps-ithc
+      serviceConnection: dts-cftptl-intsvc
       dependsOn:
         - Precheck
     - deployment: test
