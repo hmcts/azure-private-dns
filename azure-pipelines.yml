@@ -44,7 +44,7 @@ parameters:
       dependsOn:
         - Precheck
     - deployment: dev
-      environment: preview
+      environment: dev
       component: dev
       serviceConnection: dts-cftptl-intsvc
       dependsOn:
@@ -56,7 +56,7 @@ parameters:
       dependsOn:
         - Precheck
     - deployment: test
-      environment: perftest
+      environment: test
       component: test
       serviceConnection: dts-cftptl-intsvc
       dependsOn:
