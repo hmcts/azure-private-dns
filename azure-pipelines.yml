@@ -13,8 +13,6 @@ resources:
     endpoint: 'hmcts'
 
 variables:
-  - name: timeoutInMinutes
-    value: "60"
   - name: agentPool
     value: "ubuntu-latest" 
   - name: build
