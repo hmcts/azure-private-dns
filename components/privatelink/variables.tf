@@ -5,7 +5,7 @@ variable "resource_group_name" {
 }
 
 variable "env" {
-  default = "ithc"
+  default = "ptl"
 }
 
 variable "product" {
