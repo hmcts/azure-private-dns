@@ -65,18 +65,6 @@ A:
     record:
     - 10.50.11.41
     ttl: 300
-  - name: civil-service-xui-staging
-    record:
-    - 10.10.159.250
-    ttl: 300
-  - name: civil-ccd-xui-staging
-    record:
-    - 10.10.159.250
-    ttl: 300
-  - name: civil-camunda-xui-staging
-    record:
-    - 10.10.161.125
-    ttl: 300
   - name: cft-api-mgmt
     record:
     - 10.10.161.133
@@ -85,13 +73,9 @@ A:
     record:
     - 10.10.159.250
     ttl: 300
-  - name: civil-ga-ccd-xui-staging
+  - name: jenkins-cluster
     record:
-    - 10.10.159.250
-    ttl: 300
-  - name: civil-ga-xui-staging
-    record:
-    - 10.10.159.250
+      - 10.10.159.250
     ttl: 300
 cname:
   - name: adoption-web
@@ -247,3 +231,18 @@ cname:
   - name: www.paymentoutcome-web
     ttl: 300
     record: hmcts-aat.azurefd.net
+  - name: civil-service-xui-staging
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
+  - name: civil-ccd-xui-staging
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
+  - name: civil-camunda-xui-staging
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
+  - name: civil-ga-ccd-xui-staging
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
+  - name: civil-ga-xui-staging
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
