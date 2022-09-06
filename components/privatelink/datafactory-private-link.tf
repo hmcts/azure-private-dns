@@ -10,4 +10,6 @@ module "datafactory-private-link" {
   vnet_links          = yamldecode(data.local_file.datafactory-factory-private-link.content).vnet_links
   resource_group_name = var.resource_group_name
   env                 = var.env
+  builtFrom           = var.builtFrom
+  product             = var.product
 }

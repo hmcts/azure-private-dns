@@ -7,3 +7,13 @@ variable "resource_group_name" {
 variable "env" {
   default = "prod"
 }
+
+variable "product" {
+  type        = string
+  description = "Name of the product. This is used in tags"
+}
+
+variable "builtFrom" {
+  type        = string
+  description = "Name of the deployment pipeline. This is used in tags"
+}
