@@ -173,3 +173,6 @@ cname:
   - name: "labs-zcwalkthrough-nodejs"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
+  - name: signalr
+    record: vh-infra-core-sbox.service.signalr.net
+    ttl: 300
