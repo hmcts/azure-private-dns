@@ -33,6 +33,10 @@ A:
     record:
     - 10.50.10.117
     ttl: 300
+  - name: cloudgobgateway
+    record:
+    - 10.148.32.138
+    ttl: 300 
 cname:
   - name: c100-application
     ttl: 300

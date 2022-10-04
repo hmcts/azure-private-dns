@@ -29,6 +29,10 @@ A:
     record:
     - 10.141.33.133
     ttl: 300
+  - name: cloudgobgateway
+    record:
+    - 10.141.32.134
+    ttl: 300    
 cname:
   - name: hmi-apim
     record: hmcts-perftest.azurefd.net.
