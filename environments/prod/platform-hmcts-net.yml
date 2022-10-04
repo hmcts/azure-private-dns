@@ -341,6 +341,10 @@ A:
     record:
     - 10.50.11.21
     ttl: 300
+  - name: cloudgobgateway
+    record:
+    - 10.144.32.136
+    ttl: 300        
     
 cname:
   - name: c100-application
