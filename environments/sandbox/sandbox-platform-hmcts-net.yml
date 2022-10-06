@@ -121,6 +121,22 @@ A:
     record:
     - 10.50.11.10
     ttl: 300
+  - name: uksouth-palo-0
+    record:
+    - 10.10.200.70
+    ttl: 300
+  - name: uksouth-palo-1
+    record:
+    - 10.10.200.69
+    ttl: 300
+  - name: ukwest-palo-0
+    record:
+    - 10.48.200.70
+    ttl: 300
+  - name: ukwest-palo-1
+    record:
+    - 10.48.200.69
+    ttl: 300
 cname:
   - name: moneyclaim
     record: sandbox-waf.sandbox.platform.hmcts.net.
