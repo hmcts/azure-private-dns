@@ -8,7 +8,7 @@ resources:
   repositories:
   - repository: cnp-azuredevops-libraries
     type: github
-    ref: master
+    ref: refs/heads/DTSPO-9695-make-tf-varfile-configurable
     name: hmcts/cnp-azuredevops-libraries
     endpoint: 'hmcts'
 
