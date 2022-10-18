@@ -43,7 +43,7 @@ A:
     ttl: 300
   - name: ccd-admin-web
     record:
-    - 10.10.161.121
+    - 10.10.161.100
     ttl: 300
   - name: dm-store-aat.service
     record:
@@ -51,7 +51,7 @@ A:
     ttl: 300
   - name: camunda-bpm
     record:
-    - 10.10.161.121
+    - 10.10.161.100
     ttl: 300
   - name: camunda-optimize
     record:
@@ -59,7 +59,7 @@ A:
     ttl: 300
   - name: docmosis
     record:
-    - 10.10.161.121
+    - 10.10.161.100
     ttl: 300
   - name: cvp-recording
     record:
