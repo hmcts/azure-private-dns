@@ -171,7 +171,7 @@ A:
     ttl: 300
   - name: ccd-admin-web
     record:
-    - 10.90.96.120
+    - 10.90.96.20
     ttl: 300
   - name: registration
     record:
@@ -235,15 +235,15 @@ A:
     ttl: 300
   - name: docmosis
     record:
-    - 10.90.96.120
+    - 10.90.96.20
     ttl: 300
   - name: camunda-bpm
     ttl: 300
     record:
-      - 10.90.96.120
+    - 10.90.96.20
   - name: camunda-optimize
     record:
-    - 10.90.96.120
+    - 10.90.96.20
     ttl: 300
   - name: artifactory
     record:
