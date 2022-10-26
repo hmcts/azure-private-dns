@@ -43,10 +43,6 @@ A:
     record:
     - 51.145.96.41
     ttl: 300
-  - name: vh-wowza
-    record:
-    - 10.254.0.228
-    ttl: 300
   - name: cft-oauth-proxy-00
     record:
     - 20.90.254.226
