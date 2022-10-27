@@ -155,23 +155,23 @@ A:
     ttl: 300
   - name: prometheus-00
     record:
-    - 10.13.15.250
+    - 10.90.79.250
     ttl: 300
   - name: prometheus-01
     record:
-    - 10.13.31.250
+    - 10.90.95.250
     ttl: 300
   - name: alertmanager-00
     record:
-    - 10.13.15.250
+    - 10.90.79.250
     ttl: 300
   - name: alertmanager-01
     record:
-    - 10.13.31.250
+    - 10.90.95.250
     ttl: 300
   - name: ccd-admin-web
     record:
-    - 10.90.96.120
+    - 10.90.96.20
     ttl: 300
   - name: registration
     record:
@@ -235,15 +235,15 @@ A:
     ttl: 300
   - name: docmosis
     record:
-    - 10.90.96.120
+    - 10.90.96.20
     ttl: 300
   - name: camunda-bpm
     ttl: 300
     record:
-      - 10.90.96.120
+    - 10.90.96.20
   - name: camunda-optimize
     record:
-    - 10.90.96.120
+    - 10.90.96.20
     ttl: 300
   - name: artifactory
     record:
@@ -293,6 +293,23 @@ A:
     record:
     - 10.49.8.70
     ttl: 300
+  - name: uksouth-nonprod-palo-0
+    record:
+    - 10.11.72.69
+    ttl: 300
+  - name: uksouth-nonprod-palo-1
+    record:
+    - 10.11.72.70
+    ttl: 300
+  - name: ukwest-nonprod-palo-0
+    record:
+    - 10.49.72.70
+    ttl: 300
+  - name: ukwest-nonprod-palo-1
+    record:
+    - 10.49.72.69
+    ttl: 300
+
   - name: sftp
     record:
     - 10.197.196.4
@@ -339,7 +356,7 @@ A:
     ttl: 300
   - name: vh-wowza
     record:
-    - 10.50.11.21
+    - 10.50.11.24
     ttl: 300
   - name: cloudgobgateway
     record:
