@@ -356,7 +356,7 @@ A:
     ttl: 300
   - name: vh-wowza
     record:
-    - 10.50.11.21
+    - 10.50.11.24
     ttl: 300
   - name: cloudgobgateway
     record:
