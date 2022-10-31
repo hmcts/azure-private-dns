@@ -231,6 +231,9 @@ cname:
   - name: www.paymentoutcome-web
     ttl: 300
     record: hmcts-aat.azurefd.net
+  - name: "civil-citizen-ui"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
   - name: civil-service-xui-staging
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
