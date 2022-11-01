@@ -74,9 +74,6 @@ cname:
   - name: vh-admin-web
     record: sdshmcts-stg.azurefd.net
     ttl: 300
-  - name: vh-service-web
-    record: sdshmcts-stg.azurefd.net
-    ttl: 300
   - name: vh-test-web
     record: sdshmcts-stg.azurefd.net
     ttl: 300

@@ -20,9 +20,6 @@ cname:
   - name: vh-admin-web
     record: sdshmcts-sbox.azurefd.net
     ttl: 300
-  - name: vh-service-web
-    record: sdshmcts-sbox.azurefd.net
-    ttl: 300
   - name: vh-test-web
     record: sdshmcts-sbox.azurefd.net
     ttl: 300
