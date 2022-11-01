@@ -539,9 +539,6 @@ cname:
   - name: vh-admin-web
     record: sdshmcts-prod.azurefd.net
     ttl: 300
-  - name: vh-service-web
-    record: sdshmcts-prod.azurefd.net
-    ttl: 300
   - name: vh-test-web
     record: sdshmcts-prod.azurefd.net
     ttl: 300
