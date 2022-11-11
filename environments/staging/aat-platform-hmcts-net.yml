@@ -126,6 +126,9 @@ cname:
   - name: idam-user-dashboard
     record: hmcts-aat.azurefd.net.
     ttl: 300
+  - name: idam-hmcts-access
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
   - name: payment
     record: aat-waf.aat.platform.hmcts.net.
     ttl: 300
