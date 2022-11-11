@@ -33,6 +33,11 @@ vnet_links:
     vnet_id: "/subscriptions/58a2ce36-4e09-467b-8330-d164aa559c68/resourceGroups/pet_prod_network_resource_group/providers/Microsoft.Network/virtualNetworks/pet_prod_network"
   - link_name: "pet_dev_network"
     vnet_id: "/subscriptions/58a2ce36-4e09-467b-8330-d164aa559c68/resourceGroups/pet_dev_network_resource_group/providers/Microsoft.Network/virtualNetworks/pet_dev_network"
-
+  - link_name: "private-dns-resolver-uksouth-vnet-sbox-int"
+    vnet_id: "/subscriptions/ea3a8c1e-af9d-4108-bc86-a7e2d267f49c/resourceGroups/private-dns-resolver-uksouth-sbox-int/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-sbox-int"
+  - link_name: "private-dns-resolver-uksouth-vnet-nonprodi"
+    vnet_id: "/subscriptions/fb084706-583f-4c9a-bdab-949aac66ba5c/resourceGroups/private-dns-resolver-uksouth-nonprodi/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-nonprodi"
+  - link_name: "private-dns-resolver-uksouth-vnet-prod-int"
+    vnet_id: "/subscriptions/0978315c-75fe-4ada-9d11-1eb5e0e0b214/resourceGroups/private-dns-resolver-uksouth-prod-int/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-prod-int"
 A: []
 cname: []
