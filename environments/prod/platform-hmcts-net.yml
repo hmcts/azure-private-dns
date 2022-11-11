@@ -535,15 +535,6 @@ cname:
   - name: pip-frontend
     record: sdshmcts-prod.azurefd.net
     ttl: 300
-  - name: vh-video-web
-    record: sdshmcts-prod.azurefd.net
-    ttl: 300
-  - name: vh-admin-web
-    record: sdshmcts-prod.azurefd.net
-    ttl: 300
-  - name: vh-test-web
-    record: sdshmcts-prod.azurefd.net
-    ttl: 300
   - name: apply-for-adoption
     record: hmcts-prod.azurefd.net.
     ttl: 300
