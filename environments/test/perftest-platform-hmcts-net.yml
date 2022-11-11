@@ -119,6 +119,9 @@ cname:
   - name: idam-testing-support-api
     record: idam-testing-support-api-perftest.service.core-compute-perftest.internal.
     ttl: 300
+  - name: idam-hmcts-access
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
   - name: bulkscan
     ttl: 300
     record: hmcts-perftest.azurefd.net.
