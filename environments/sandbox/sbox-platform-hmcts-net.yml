@@ -14,8 +14,6 @@ vnet_links:
     vnet_id: "/subscriptions/a8140a9e-f1b0-481f-a4de-09e2ee23f7ab/resourceGroups/hmi-sharedinfra-sbox-rg/providers/Microsoft.Network/virtualNetworks/hmi-sharedinfra-vnet-sbox"
   - link_name: "private-dns-resolver-uksouth-vnet-sbox-int"
     vnet_id: "/subscriptions/ea3a8c1e-af9d-4108-bc86-a7e2d267f49c/resourceGroups/private-dns-resolver-uksouth-sbox-int/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-sbox-int"
-  - link_name: "private-dns-resolver-uksouth-vnet-nonprodi"
-    vnet_id: "/subscriptions/fb084706-583f-4c9a-bdab-949aac66ba5c/resourceGroups/private-dns-resolver-uksouth-nonprodi/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-nonprodi"
 A: []
 cname: 
   - name: vh-video-web
