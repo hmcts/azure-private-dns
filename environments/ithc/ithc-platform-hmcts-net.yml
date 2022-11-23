@@ -94,7 +94,7 @@ cname:
   - name: idam-testing-support-api
     record: idam-testing-support-api-ithc.service.core-compute-ithc.internal.
     ttl: 300
-  - name: idam-hmcts-access
+  - name: hmcts-access
     record: hmcts-ithc.azurefd.net.
     ttl: 300
   - name: petitioner-frontend-aks

@@ -174,7 +174,7 @@ cname:
   - name: idam-user-dashboard
     record: hmcts-sbox.azurefd.net.
     ttl: 300
-  - name: idam-hmcts-access
+  - name: hmcts-access
     record: hmcts-sbox.azurefd.net.
     ttl: 300
   - name: hmi-apim
