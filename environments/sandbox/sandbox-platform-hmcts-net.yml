@@ -137,6 +137,10 @@ A:
     record:
     - 10.48.200.69
     ttl: 300
+  - name: pam-bia
+    record:
+    - 4.234.33.219
+    ttl: 300
 cname:
   - name: moneyclaim
     record: sandbox-waf.sandbox.platform.hmcts.net.
