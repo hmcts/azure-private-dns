@@ -139,7 +139,7 @@ A:
     ttl: 300
   - name: pam-bia
     record:
-    - 4.234.33.219
+    - 10.0.16.36
     ttl: 300
 cname:
   - name: moneyclaim
