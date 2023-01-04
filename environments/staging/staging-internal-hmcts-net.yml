@@ -9,5 +9,5 @@ A:
     ttl: 300
 cname:
   - name: smallsystems
-    record: ss01-sqlsrv-stg.database.windows.net
+    record: ss01-sqlsrv-stg.privatelink.database.windows.net
     ttl: 10
