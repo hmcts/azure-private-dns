@@ -7,4 +7,7 @@ A:
     record:
     - 10.25.15.11
     ttl: 300
-cname: []
+cname:
+  - name: smallsystems
+    record: ss01-sqlsrv-stg.privatelink.database.windows.net
+    ttl: 10
