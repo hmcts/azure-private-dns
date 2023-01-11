@@ -252,3 +252,6 @@ cname:
   - name: civil-ga-xui-staging
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
+  - name: privatelaw
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
