@@ -135,6 +135,9 @@ cname:
   - name: fact-admin
     record: hmcts-perftest.azurefd.net.
     ttl: 300
+  - name: rpts
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
   - name: nfdiv
     record: hmcts-perftest.azurefd.net.
     ttl: 300
