@@ -47,7 +47,7 @@ A:
     ttl: 300
   - name: vh-wowza
     record:
-    - 10.100.198.69
+    - 10.100.198.71
     ttl: 300
 cname:
   - name: hmi-apim
