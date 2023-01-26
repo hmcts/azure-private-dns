@@ -51,6 +51,10 @@ A:
     record:
     - 51.142.81.236
     ttl: 300
+  - name: vh-wowza
+    record:
+    - 10.254.0.232
+    ttl: 300
 cname:
   - name: bulk-scanning
     record: 3644b292-ae3f-4055-ba68-4a9500e43659.cloudapp.net.
@@ -58,3 +62,15 @@ cname:
   - name: reformscan
     ttl: 300
     record: hmcts-demo.azurefd.net
+  - name: signalr
+    record: vh-infra-core-demo.service.signalr.net
+    ttl: 300
+  - name: vh-video-web
+    record: sdshmcts-demo.azurefd.net
+    ttl: 300
+  - name: vh-admin-web
+    record: sdshmcts-demo.azurefd.net
+    ttl: 300
+  - name: vh-test-web
+    record: sdshmcts-demo.azurefd.net
+    ttl: 300
