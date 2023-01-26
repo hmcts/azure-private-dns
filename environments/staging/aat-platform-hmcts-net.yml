@@ -126,6 +126,9 @@ cname:
   - name: idam-user-dashboard
     record: hmcts-aat.azurefd.net.
     ttl: 300
+  - name: hmcts-access
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
   - name: payment
     record: aat-waf.aat.platform.hmcts.net.
     ttl: 300
@@ -247,5 +250,17 @@ cname:
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
   - name: civil-ga-xui-staging
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
+  - name: privatelaw
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: civil-ccd-camunda-staging-aat
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
+  - name: civil-ccd-data-store-staging-aat
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
+  - name: civil-ccd-definition-store-staging-aat
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300

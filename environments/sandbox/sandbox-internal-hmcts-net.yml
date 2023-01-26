@@ -1,0 +1,6 @@
+name: "sandbox.internal.hmcts.net"
+vnet_links:
+  - link_name: "private-dns-resolver-uksouth-vnet-sbox-int"
+    vnet_id: "/subscriptions/ea3a8c1e-af9d-4108-bc86-a7e2d267f49c/resourceGroups/private-dns-resolver-uksouth-sbox-int/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-sbox-int"
+A: []
+cname: []

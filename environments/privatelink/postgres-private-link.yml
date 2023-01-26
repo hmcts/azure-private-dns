@@ -10,6 +10,8 @@ vnet_links:
     vnet_id: "/subscriptions/8999dec3-0104-4a27-94ee-6588559729d1/resourceGroups/mgmt-infra-prod/providers/Microsoft.Network/virtualNetworks/mgmt-infra-prod"
   - link_name: "core-infra-vnet-preview"
     vnet_id: "/subscriptions/1c4f0704-a29e-403d-b719-b90c34ef14c9/resourceGroups/core-infra-preview/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-preview"
+  - link_name: "vnet-prod-int-01"
+    vnet_id: "/subscriptions/17390ec1-5a5e-4a20-afb3-38d8d726ae45/resourceGroups/InternalSpoke-rg/providers/Microsoft.Network/virtualNetworks/vnet-prod-int-01"
   # sandbox
   - link_name: "core-infra-vnet-sandbox-internal"
     vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/core-infra-sandbox/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-sandbox"
@@ -33,6 +35,8 @@ vnet_links:
     vnet_id: "/subscriptions/58a2ce36-4e09-467b-8330-d164aa559c68/resourceGroups/pet_prod_network_resource_group/providers/Microsoft.Network/virtualNetworks/pet_prod_network"
   - link_name: "pet_dev_network"
     vnet_id: "/subscriptions/58a2ce36-4e09-467b-8330-d164aa559c68/resourceGroups/pet_dev_network_resource_group/providers/Microsoft.Network/virtualNetworks/pet_dev_network"
+  - link_name: "vnet-nle-int-01"
+    vnet_id: "/subscriptions/ae75b9fb-7d34-4112-82ff-64bd3855ce27/resourceGroups/InternalSpoke-rg/providers/Microsoft.Network/virtualNetworks/vnet-nle-int-01"
 
 A: []
 cname: []
