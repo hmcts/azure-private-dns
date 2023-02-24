@@ -1,5 +1,5 @@
 data "local_file" "staging-hearings-reform-configuration" {
-  filename = "${path.cwd}/../../environments/staging/hearings-reform-hmcts-net.yml"
+  filename = "${path.cwd}/../../environments/staging/staging-hearings-reform-hmcts-net.yml"
 }
 
 module "hearings-reform" {
