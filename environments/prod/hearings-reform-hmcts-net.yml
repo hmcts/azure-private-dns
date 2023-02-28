@@ -4,10 +4,10 @@ vnet_links:
     vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/rg-mgmt/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-mgmt"
 A: []
 cname:
-  - name: video
+  - name: video-sds
     record: sdshmcts-prod.azurefd.net
     ttl: 300
-  - name: admin
+  - name: admin-sds
     record: sdshmcts-prod.azurefd.net
     ttl: 300
   - name: signalr
