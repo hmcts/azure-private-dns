@@ -8,7 +8,6 @@ cname:
     record: sdshmcts-stg.azurefd.net
     ttl: 300
   - name: admin
-    ttl: 300
     record: sdshmcts-stg.azurefd.net
     ttl: 300
   - name: signalr

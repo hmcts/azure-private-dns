@@ -5,11 +5,10 @@ vnet_links:
 A: []
 cname:
   - name: video
-    record: vh-video-web-prod.hearings.reform.hmcts.net
+    record: sdshmcts-prod.azurefd.net
     ttl: 300
   - name: admin
-    ttl: 300
-    record: vh-admin-web-prod.hearings.reform.hmcts.net
+    record: sdshmcts-prod.azurefd.net
     ttl: 300
   - name: signalr
     record: vh-infra-core-prod.service.signalr.net
