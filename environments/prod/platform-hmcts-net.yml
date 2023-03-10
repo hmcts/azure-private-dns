@@ -65,11 +65,11 @@ A:
     ttl: 300
   - name: sandbox-build
     record:
-    - 20.108.187.120
+    - 20.108.187.153
     ttl: 300
   - name: static-sandbox-build
     record:
-    - 20.108.187.120
+    - 20.108.187.153
     ttl: 300
   - name: "sds-sandbox-build"
     ttl: 300
@@ -113,15 +113,15 @@ A:
     ttl: 300
   - name: build
     record:
-    - 20.108.188.3
+    - 20.108.187.167
     ttl: 300
   - name: build-beta
     record:
-    - 20.108.188.3
+    - 20.108.187.167
     ttl: 300
   - name: static-build
     record:
-    - 20.108.188.3
+    - 20.108.187.167
     ttl: 300
   - name: aks-mgmt-sandbox-proxyin
     record:
