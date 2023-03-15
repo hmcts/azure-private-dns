@@ -53,6 +53,10 @@ A:
     record:
     - 10.254.0.232
     ttl: 300
+  - name: docmosis
+    record:
+    - 10.50.97.118
+    ttl: 300
 cname:
   - name: bulk-scanning
     record: 3644b292-ae3f-4055-ba68-4a9500e43659.cloudapp.net.
