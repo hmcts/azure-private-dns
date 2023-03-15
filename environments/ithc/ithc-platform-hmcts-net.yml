@@ -61,6 +61,10 @@ A:
     record:
     - 10.143.33.133
     ttl: 300
+  - name: vh-wowza
+    record:
+    - 10.100.197.219
+    ttl: 300
 cname:
   - name: c100-application
     ttl: 300
@@ -187,8 +191,4 @@ cname:
     ttl: 300
   - name: signalr
     record: vh-infra-core-ithc.service.signalr.net
-    ttl: 300
-  - name: vh-wowza
-    record:
-    - 10.100.197.219
     ttl: 300
