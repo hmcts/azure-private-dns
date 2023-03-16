@@ -262,3 +262,6 @@ cname:
   - name: civil-ccd-definition-store-staging-aat
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
+  - name: dss-update-case
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
