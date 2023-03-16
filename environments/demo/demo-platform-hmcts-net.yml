@@ -63,3 +63,9 @@ cname:
   - name: signalr
     record: vh-infra-core-demo.service.signalr.net
     ttl: 300
+  - name: "vh-admin-web"
+    ttl: 300
+    record: "sdshmcts-demo.azurefd.net"
+  - name: "vh-video-web"
+    ttl: 300
+    record: "sdshmcts-demo.azurefd.net"
