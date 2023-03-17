@@ -287,10 +287,6 @@ A:
     record:
     - 10.49.8.69
     ttl: 300
-  - name: ukwest-prod-palo-1
-    record:
-    - 10.49.8.70
-    ttl: 300
   - name: uksouth-nonprod-palo-0
     record:
     - 10.11.72.69
@@ -302,10 +298,6 @@ A:
   - name: ukwest-nonprod-palo-0
     record:
     - 10.49.72.70
-    ttl: 300
-  - name: ukwest-nonprod-palo-1
-    record:
-    - 10.49.72.69
     ttl: 300
 
   - name: sftp
