@@ -77,3 +77,6 @@ cname:
   - name: "vh-video-web"
     ttl: 300
     record: "sdshmcts-demo.azurefd.net"
+  - name: dss-update-case
+    ttl: 300
+    record: hmcts-demo.azurefd.net

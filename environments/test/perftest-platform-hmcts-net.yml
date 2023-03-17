@@ -181,4 +181,7 @@ cname:
   - name: et-sya
     record: hmcts-perftest.azurefd.net.
     ttl: 300
+  - name: dss-update-case
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
 
