@@ -73,7 +73,18 @@ A:
     record:
     - 10.50.79.221
     ttl: 300
-
+  - name: prometheus-01
+    record:
+    - 10.50.95.221
+    ttl: 300
+  - name: alertmanager-01
+    record:
+    - 10.50.95.221
+    ttl: 300
+  - name: idam-api
+    record:
+    - 10.50.97.118
+    ttl: 300
   
 cname:
   - name: bulk-scanning
