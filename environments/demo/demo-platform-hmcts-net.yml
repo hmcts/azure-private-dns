@@ -108,8 +108,6 @@ cname:
   - name: "afdverify.plum"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
-
-
   - name: "afdverify.decree-nisi-aks"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
