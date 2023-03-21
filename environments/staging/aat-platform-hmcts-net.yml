@@ -27,6 +27,14 @@ A:
     record:
     - 10.10.143.250
     ttl: 300
+  - name: kubecost-00
+    record:
+    - 10.10.143.250
+    ttl: 300
+  - name: kubecost-grafana-00
+    record:
+    - 10.10.143.250
+    ttl: 300
   - name: prometheus-01
     record:
     - 10.10.159.250
@@ -53,7 +61,7 @@ A:
     ttl: 300
   - name: camunda-optimize
     record:
-    - 10.10.24.125 #aks01-aat-agw
+    - 10.10.161.101 #aks01-aat-agw
     ttl: 300
   - name: docmosis
     record:
@@ -101,6 +109,9 @@ cname:
     record: hmcts-aat.azurefd.net.
     ttl: 300
   - name: return-case-doc-ccd
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: em-icp
     record: hmcts-aat.azurefd.net.
     ttl: 300
   - name: fees-register
