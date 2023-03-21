@@ -12,6 +12,8 @@ vnet_links:
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/bastion-nonprod-rg/providers/Microsoft.Network/virtualNetworks/bastion-nonprod-vnet"
   - link_name: "pet-dev-vnet"
     vnet_id: "/subscriptions/58a2ce36-4e09-467b-8330-d164aa559c68/resourceGroups/pet_dev_network_resource_group/providers/Microsoft.Network/virtualNetworks/pet_dev_network"  
+  - link_name: "hmi-sharedinfra-vnet-demo"
+    vnet_id: "/subscriptions/c68a4bed-4c3d-4956-af51-4ae164c1957c/resourceGroups/hmi-sharedinfra-demo-rg/providers/Microsoft.Network/virtualNetworks/hmi-sharedinfra-vnet-demo"
 A:
   - name: traefik-sds-01
     record:
@@ -95,6 +97,9 @@ cname:
     record: hmcts-demo.azurefd.net
   - name: signalr
     record: vh-infra-core-demo.service.signalr.net
+    ttl: 300
+  - name: hmi-apim
+    record: hmcts-demo.azurefd.net.
     ttl: 300
   - name: "vh-admin-web"
     ttl: 300
