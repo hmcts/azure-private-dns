@@ -107,6 +107,9 @@ cname:
   - name: return-case-doc-ccd
     record: hmcts-aat.azurefd.net.
     ttl: 300
+  - name: em-icp
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
   - name: fees-register
     record: hmcts-aat.azurefd.net.
     ttl: 300
