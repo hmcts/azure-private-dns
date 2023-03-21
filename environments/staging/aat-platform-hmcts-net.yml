@@ -31,6 +31,10 @@ A:
     record:
     - 10.10.143.250
     ttl: 300
+  - name: kubecost-grafana-00
+    record:
+    - 10.10.143.250
+    ttl: 300
   - name: prometheus-01
     record:
     - 10.10.159.250
