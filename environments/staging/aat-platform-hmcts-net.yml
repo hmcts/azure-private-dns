@@ -61,7 +61,7 @@ A:
     ttl: 300
   - name: camunda-optimize
     record:
-    - 10.10.24.125 #aks01-aat-agw
+    - 10.10.161.101 #aks01-aat-agw
     ttl: 300
   - name: docmosis
     record:
