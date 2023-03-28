@@ -192,7 +192,7 @@ cname:
   - name: "afdverify.paymentoutcome-web-int"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
-   - name: "fees-register"
+  - name: "fees-register"
     ttl: 300
     record: "hmcts-demo.azurefd.net"
   - name: "afdverify.fees-register"
