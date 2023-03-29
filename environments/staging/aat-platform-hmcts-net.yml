@@ -243,6 +243,9 @@ cname:
   - name: lau
     record: hmcts-aat.azurefd.net.
     ttl: 300
+  - name: judicial-payments
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
   - name: paymentoutcome-web
     ttl: 300
     record: hmcts-aat.azurefd.net
