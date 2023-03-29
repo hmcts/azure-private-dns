@@ -414,7 +414,7 @@ cname:
   - name: "afdverify.manage-case-hearings-int"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
-    - name: "register-org"
+  - name: "register-org"
     ttl: 300
     record: "hmcts-demo.azurefd.net"
   - name: "afdverify.register-org"
