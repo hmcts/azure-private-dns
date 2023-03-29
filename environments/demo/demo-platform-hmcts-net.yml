@@ -354,3 +354,16 @@ cname:
   - name: "afdverify.idam-web-admin"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "ccd-admin-ccd-int"
+    ttl: 300
+    record: "ccd-admin-ccd-int-demo.service.core-compute-demo.internal."
+  - name: "em-anno-ccd-int"
+    ttl: 300
+    record: "em-anno-ccd-int-demo.service.core-compute-demo.internal."
+  - name: "dm-store-ccd-int"
+    ttl: 300
+    record: "dm-store-ccd-int-demo.service.core-compute-demo.internal."
+  - name: "ccd-admin-web"
+    ttl: 300
+    record: "ccd-admin-web-demo.service.core-compute-demo.internal."
+    
