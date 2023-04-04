@@ -13,6 +13,10 @@ vnet_links:
   - link_name: "hmi-sharedinfra-vnet-ithc"
     vnet_id: "/subscriptions/ba71a911-e0d6-4776-a1a6-079af1df7139/resourceGroups/hmi-sharedinfra-ithc-rg/providers/Microsoft.Network/virtualNetworks/hmi-sharedinfra-vnet-ithc"
 A:
+  - name: rpts-web
+    ttl: 300
+    record:
+    - 20.108.187.55
   - name: ccd-admin-web
     record:
     - 10.11.225.111
