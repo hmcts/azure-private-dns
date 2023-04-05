@@ -83,6 +83,14 @@ A:
     record:
       - 10.10.143.250
     ttl: 300
+  - name: neuvector00
+    record:
+    - 10.10.143.250
+    ttl: 300
+  - name: neuvector01 
+    record:
+    - 10.10.159.250
+    ttl: 300
 cname:
   - name: adoption-web
     record: hmcts-aat.azurefd.net.
