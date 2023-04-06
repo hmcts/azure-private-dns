@@ -83,11 +83,11 @@ A:
     record:
       - 10.10.143.250
     ttl: 300
-  - name: neuvector00
+  - name: traefik-cft-00
     record:
     - 10.10.143.250
     ttl: 300
-  - name: neuvector01 
+  - name: traefik-cft-00
     record:
     - 10.10.159.250
     ttl: 300
@@ -289,4 +289,10 @@ cname:
     ttl: 300
   - name: civil-ccd-definition-store-staging-aat
     record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
+  - name: neuvector00
+    record: traefik-cft-00.platform.hmcts.net
+    ttl: 300
+  - name: neuvector01
+    record: traefik-cft-01.platform.hmcts.net
     ttl: 300
