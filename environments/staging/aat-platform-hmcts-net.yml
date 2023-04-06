@@ -291,8 +291,14 @@ cname:
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
   - name: neuvector00
-    record: traefik-cft-00.platform.hmcts.net
+    record: traefik-cft-00.aat.platform.hmcts.net.
+    ttl: 300
+  - name: cft-neuvector00-api
+    record: traefik-cft-00.aat.platform.hmcts.net.
     ttl: 300
   - name: neuvector01
-    record: traefik-cft-01.platform.hmcts.net
+    record: traefik-cft-01.aat.platform.hmcts.net.
+    ttl: 300
+  - name: cft-neuvector00-api
+    record: traefik-cft-01.aat.platform.hmcts.net.
     ttl: 300
