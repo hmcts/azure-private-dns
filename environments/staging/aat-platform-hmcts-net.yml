@@ -25,30 +25,6 @@ A:
     ttl: 300
     record:
     - 127.0.0.1
-  - name: prometheus-00
-    record:
-    - 10.10.143.250
-    ttl: 300
-  - name: kubecost-00
-    record:
-    - 10.10.143.250
-    ttl: 300
-  - name: kubecost-grafana-00
-    record:
-    - 10.10.143.250
-    ttl: 300
-  - name: prometheus-01
-    record:
-    - 10.10.159.250
-    ttl: 300
-  - name: alertmanager-00
-    record:
-    - 10.10.143.250
-    ttl: 300
-  - name: alertmanager-01
-    record:
-    - 10.10.159.250
-    ttl: 300
   - name: ccd-admin-web
     record:
     - 10.10.161.100
@@ -77,13 +53,13 @@ A:
     record:
     - 10.10.161.133
     ttl: 300
-  - name: neuvector01-api
+  - name: traefik-cft-00
+    record:
+    - 10.10.143.250
+    ttl: 300
+  - name: traefik-cft-01
     record:
     - 10.10.159.250
-    ttl: 300
-  - name: jenkins-cluster
-    record:
-      - 10.10.143.250
     ttl: 300
 cname:
   - name: adoption-web
@@ -283,4 +259,37 @@ cname:
     ttl: 300
   - name: civil-ccd-definition-store-staging-aat
     record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
+  - name: cft-neuvector00
+    record: traefik-cft-00.aat.platform.hmcts.net.
+    ttl: 300
+  - name: cft-neuvector00-api
+    record: traefik-cft-00.aat.platform.hmcts.net.
+    ttl: 300
+  - name: cft-neuvector01
+    record: traefik-cft-01.aat.platform.hmcts.net.
+    ttl: 300
+  - name: cft-neuvector01-api
+    record: traefik-cft-01.aat.platform.hmcts.net.
+    ttl: 300
+  - name: prometheus-00
+    record: traefik-cft-00.aat.platform.hmcts.net
+    ttl: 300
+  - name: prometheus-01
+    record: traefik-cft-01.aat.platform.hmcts.net
+    ttl: 300
+  - name: alertmanager-00
+    record: traefik-cft-00.aat.platform.hmcts.net
+    ttl: 300
+  - name: alertmanager-01
+    record: traefik-cft-01.aat.platform.hmcts.net
+    ttl: 300
+  - name: kubecost-00
+    record: traefik-cft-00.aat.platform.hmcts.net
+    ttl: 300
+  - name: kubecost-grafana-00
+    record: traefik-cft-00.aat.platform.hmcts.net
+    ttl: 300
+  - name: jenkins-cluster
+    record: traefik-cft-00.aat.platform.hmcts.net
     ttl: 300
