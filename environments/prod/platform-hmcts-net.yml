@@ -268,7 +268,9 @@ A:
   - name: vpn-ext
     record:
     - 51.141.230.130
-    ttl: 300
+  - name: "vpn-ext-beta"
+    record:
+      - "20.58.20.26"
   - name: traefik-sds-00
     record:
     - 10.144.15.250
