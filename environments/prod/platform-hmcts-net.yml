@@ -197,6 +197,10 @@ A:
     record:
     - 51.145.4.100
     ttl: 300
+  - name: portal-beta
+    record:
+    - 20.58.23.145
+    ttl: 300
   - name: sod-ss
     record:
     - 51.132.42.55
