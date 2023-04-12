@@ -17,20 +17,4 @@ A:
     record:
     - 10.112.53.5
     ttl: 300
-  - name: neuvector00
-    record:
-    - 10.11.207.250
-    ttl: 300
-  - name: neuvector00-api
-    record:
-    - 10.11.207.250
-    ttl: 300
-  - name: neuvector01
-    record:
-    - 10.11.223.250
-    ttl: 300
-  - name: neuvector01-api
-    record:
-    - 10.11.223.250
-    ttl: 300
 cname: []

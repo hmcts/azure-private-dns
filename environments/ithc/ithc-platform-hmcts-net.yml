@@ -19,22 +19,6 @@ A:
     record:
     - 10.11.225.111
     ttl: 300
-  - name: prometheus-00
-    record:
-    - 10.11.207.250
-    ttl: 300
-  - name: prometheus-01
-    record:
-    - 10.11.223.250
-    ttl: 300
-  - name: alertmanager-00
-    record:
-    - 10.11.207.250
-    ttl: 300
-  - name: alertmanager-01
-    record:
-    - 10.11.223.250
-    ttl: 300
   - name: camunda-bpm
     record:
     - 10.11.225.111
@@ -66,6 +50,14 @@ A:
   - name: vh-wowza
     record:
     - 10.100.197.219
+    ttl: 300
+  - name: traefik-cft-00
+    record:
+    - 10.11.207.250
+    ttl: 300
+  - name: traefik-cft-01
+    record:
+    - 10.11.223.250
     ttl: 300
 cname:
   - name: c100-application
@@ -193,4 +185,28 @@ cname:
     ttl: 300
   - name: signalr
     record: vh-infra-core-ithc.service.signalr.net
+    ttl: 300
+  - name: prometheus-00
+    record: traefik-cft-00.ithc.platform.hmcts.net.
+    ttl: 300
+  - name: prometheus-01
+    record: traefik-cft-01.ithc.platform.hmcts.net.
+    ttl: 300
+  - name: alertmanager-00x
+    record: traefik-cft-00.ithc.platform.hmcts.net.
+    ttl: 300
+  - name: alertmanager-01
+    record: traefik-cft-01.ithc.platform.hmcts.net.
+    ttl: 300
+  - name: cft-neuvector00
+    record: traefik-cft-00.ithc.platform.hmcts.net.
+    ttl: 300
+  - name: cft-neuvector00-api
+    record: traefik-cft-00.ithc.platform.hmcts.net.
+    ttl: 300
+  - name: cft-neuvector01
+    record: traefik-cft-01.ithc.platform.hmcts.net.
+    ttl: 300
+  - name: cft-neuvector01-api
+    record: traefik-cft-01.ithc.platform.hmcts.net.
     ttl: 300
