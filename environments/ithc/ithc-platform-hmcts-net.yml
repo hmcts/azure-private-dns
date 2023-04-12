@@ -192,7 +192,7 @@ cname:
   - name: prometheus-01
     record: traefik-cft-01.ithc.platform.hmcts.net.
     ttl: 300
-  - name: alertmanager-00x
+  - name: alertmanager-00
     record: traefik-cft-00.ithc.platform.hmcts.net.
     ttl: 300
   - name: alertmanager-01
