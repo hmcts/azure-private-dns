@@ -196,7 +196,7 @@ cname:
   - name: cft-neuvector01
     record: traefik-cft-00.perftest.platform.hmcts.net.
     ttl: 300
-  - name: cft-neuvector00-api
+  - name: cft-neuvector01-api
     record: traefik-cft-01.perftest.platform.hmcts.net.
     ttl: 300
 
