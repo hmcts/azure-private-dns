@@ -2,17 +2,25 @@ name: "prod.internal.hmcts.net"
 vnet_links:
   - link_name: "private-dns-resolver-uksouth-vnet-prod-int"
     vnet_id: "/subscriptions/0978315c-75fe-4ada-9d11-1eb5e0e0b214/resourceGroups/private-dns-resolver-uksouth-prod-int/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-prod-int"
-A: 
+A:
   - name: familyman
     record:
-    - 10.23.15.11
+      - 10.23.15.11
     ttl: 300
   - name: data-analytics
     record:
-    - 10.23.4.132
+      - 10.23.4.132
     ttl: 300
   - name: xhibitthin
     record:
-    - 10.23.1.253
+      - 10.23.1.253
+    ttl: 300
+  - name: ten-sdae-siem
+    record:
+      - 10.23.4.137
+    ttl: 300
+  - name: spl-sdae-siem
+    record:
+      - 10.23.4.138
     ttl: 300
 cname: []
