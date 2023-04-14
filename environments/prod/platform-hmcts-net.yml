@@ -145,7 +145,7 @@ A:
     record:
     - 10.10.73.250
     ttl: 300
-  - name: loki-ptl
+  - name: loki-00
     record:
     - 10.10.73.250
     ttl: 300
