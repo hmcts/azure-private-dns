@@ -2,6 +2,8 @@ name: "prod.internal.hmcts.net"
 vnet_links:
   - link_name: "private-dns-resolver-uksouth-vnet-prod-int"
     vnet_id: "/subscriptions/0978315c-75fe-4ada-9d11-1eb5e0e0b214/resourceGroups/private-dns-resolver-uksouth-prod-int/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-prod-int"
+  - link_name: "soc-prod-vnet"
+    vnet_id: "/subscriptions/8ae5b3b6-0b12-4888-b894-4cec33c92292/resourceGroups/soc-core-infra-prod-rg/providers/Microsoft.Network/virtualNetworks/soc-prod-vnet"
 A:
   - name: familyman
     record:
@@ -22,5 +24,37 @@ A:
   - name: spl-sdae-siem
     record:
       - 10.23.4.138
+    ttl: 300
+  - name: pih4171sec001
+    record:
+      - 10.23.3.164
+    ttl: 300
+  - name: pih4171sec002
+    record:
+      - 10.23.3.165
+    ttl: 300
+  - name: pih4171sec003
+    record:
+      - 10.23.3.166
+    ttl: 300
+  - name: pih4171sec004
+    record:
+      - 10.23.3.167
+    ttl: 300
+  - name: pih4172sec001
+    record:
+      - 10.25.3.164
+    ttl: 300
+  - name: pih4172sec002
+    record:
+      - 10.25.3.165
+    ttl: 300
+  - name: pih4172sec003
+    record:
+      - 10.25.3.166
+    ttl: 300
+  - name: pih4172sec004
+    record:
+      - 10.25.3.167
     ttl: 300
 cname: []
