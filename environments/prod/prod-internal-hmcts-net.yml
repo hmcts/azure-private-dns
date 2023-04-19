@@ -17,11 +17,11 @@ A:
     record:
       - 10.23.1.253
     ttl: 300
-  - name: ten-sdae-siem
+  - name: sdae-promon
     record:
       - 10.23.4.137
     ttl: 300
-  - name: spl-sdae-siem
+  - name: sdae-siem
     record:
       - 10.23.4.138
     ttl: 300
