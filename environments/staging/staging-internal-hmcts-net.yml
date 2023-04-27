@@ -11,6 +11,10 @@ A:
     record:
     - 10.25.2.253
     ttl: 300
+  - name: martha
+    record:
+    - 10.25.245.12
+    ttl: 300
 cname:
   - name: smallsystems
     record: ss01-sqlsrv-stg.privatelink.database.windows.net
