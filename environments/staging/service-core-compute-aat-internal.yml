@@ -100,6 +100,4 @@ cname:
   - name: civil-camunda-definition-store-staging-aat
     record: jenkins-cluster.service.core-compute-aat.internal.
     ttl: 300
-  - name: wa-workflow-camunda-staging-aat
-    record: jenkins-cluster.service.core-compute-aat.internal.
-    ttl: 300
+    
