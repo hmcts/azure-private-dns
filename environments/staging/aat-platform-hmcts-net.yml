@@ -293,3 +293,6 @@ cname:
   - name: jenkins-cluster
     record: traefik-cft-00.aat.platform.hmcts.net
     ttl: 300
+  - name: wa-workflow-camunda-staging
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
