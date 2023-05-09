@@ -50,7 +50,7 @@ A:
   - name: sds-alertmanager-01
     record:
     - 10.141.31.250
-    ttl: 300   
+    ttl: 300 
 cname:
   - name: hmi-apim
     record: hmcts-perftest.azurefd.net.
