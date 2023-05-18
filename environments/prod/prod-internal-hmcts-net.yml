@@ -61,8 +61,4 @@ A:
     record:
     - 10.24.245.12
     ttl: 300
-  - name: jbox
-    record:
-    - 10.48.2.5
-    ttl: 300
 cname: []

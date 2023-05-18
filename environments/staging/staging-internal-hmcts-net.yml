@@ -15,10 +15,6 @@ A:
     record:
     - 10.25.245.12
     ttl: 300
-  - name: jbox
-    record:
-    - 10.48.0.53
-    ttl: 300
 cname:
   - name: smallsystems
     record: ss01-sqlsrv-stg.privatelink.database.windows.net
