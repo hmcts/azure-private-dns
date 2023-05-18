@@ -195,3 +195,6 @@ cname:
   - name: signalr
     record: vh-infra-core-sbox.service.signalr.net
     ttl: 300
+  - name: "labs-sonny-hmcts-nodejs"
+    ttl: 300
+    record: "hmcts-sbox.azurefd.net"
