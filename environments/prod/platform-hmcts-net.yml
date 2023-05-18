@@ -366,6 +366,14 @@ A:
     record:
     - 10.90.95.250
     ttl: 300
+  - name: jbox-nonprod
+    record:
+    - 10.48.0.53
+    ttl: 300
+  - name: jbox-prod
+    record:
+    - 10.48.2.5
+    ttl: 300
 cname:
   - name: c100-application
     ttl: 300
@@ -565,12 +573,4 @@ cname:
     ttl: 300
   - name: cft-neuvector01-api
     record: traefik-cft-01.platform.hmcts.net.
-    ttl: 300
-  - name: jbox-nonprod
-    record:
-    - 10.48.0.53
-    ttl: 300
-  - name: jbox-prod
-    record:
-    - 10.48.2.5
     ttl: 300
