@@ -138,15 +138,6 @@ A:
     - 10.0.16.36
     ttl: 300
 cname:
-  - name: moneyclaim
-    record: sandbox-waf.sandbox.platform.hmcts.net.
-    ttl: 300
-  - name: moneyclaim-legal
-    record: sandbox-waf.sandbox.platform.hmcts.net.
-    ttl: 300
-  - name: fees-register
-    record: sandbox-waf.sandbox.platform.hmcts.net.
-    ttl: 300
   - name: idam-api
     record: idam-api-sbox.service.core-compute-sandbox.internal.
     ttl: 300
@@ -161,12 +152,6 @@ cname:
     ttl: 300
   - name: idam-web-public-sprod
     record: hmcts-sbox.azurefd.net.
-    ttl: 300
-  - name: payment
-    record: sandbox-waf.sandbox.platform.hmcts.net.
-    ttl: 300
-  - name: bar
-    record: sandbox-waf.sandbox.platform.hmcts.net.
     ttl: 300
   - name: idam-web-admin
     record: hmcts-sbox.azurefd.net.
