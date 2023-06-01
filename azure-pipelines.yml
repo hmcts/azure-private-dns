@@ -8,7 +8,7 @@ resources:
   repositories:
   - repository: cnp-azuredevops-libraries
     type: github
-    ref: fix-pester-module
+    ref: master
     name: hmcts/cnp-azuredevops-libraries
     endpoint: 'hmcts'
 
