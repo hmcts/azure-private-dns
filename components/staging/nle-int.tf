@@ -1,5 +1,5 @@
 data "local_file" "nle-int-hmcts-configuration" {
-  filename = "${path.cwd}/../../environments/staging/nle-int-hmcts-net.yml"
+  filename = "${path.cwd}/../../environments/staging/nle-int-platform-hmcts-net.yml"
 }
 
 module "nle-int-hmcts-net" {
