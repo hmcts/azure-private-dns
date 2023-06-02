@@ -17,14 +17,6 @@ A:
     record:
     - 10.70.25.250
     ttl: 300
-  - name: prometheus-00
-    record:
-    - 10.2.9.250
-    ttl: 300
-  - name: prometheus-01
-    record:
-    - 10.2.11.250
-    ttl: 300
   - name: sds-grafana
     record:
     - 10.147.15.250
@@ -36,14 +28,6 @@ A:
   - name: sds-alertmanager-00-ptl
     record:
     - 10.147.15.250
-    ttl: 300
-  - name: alertmanager-00
-    record:
-    - 10.2.9.250
-    ttl: 300
-  - name: alertmanager-01
-    record:
-    - 10.2.11.250
     ttl: 300
   - name: prometheus-mgmt-sbox
     record:
@@ -138,17 +122,8 @@ A:
     - 10.0.16.36
     ttl: 300
 cname:
-  - name: idam-api
-    record: idam-api-sbox.service.core-compute-sandbox.internal.
-    ttl: 300
   - name: idam-web-public
     record: hmcts-sbox.azurefd.net.
-    ttl: 300
-  - name: idam-api-sprod
-    record: idam-api-sprod-sbox.service.core-compute-sandbox.internal.
-    ttl: 300
-  - name: idam-web-admin-sprod
-    record: idam-api-sprod-sbox.service.core-compute-sandbox.internal.
     ttl: 300
   - name: idam-web-public-sprod
     record: hmcts-sbox.azurefd.net.
