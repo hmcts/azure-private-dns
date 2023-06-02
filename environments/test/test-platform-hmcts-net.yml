@@ -50,6 +50,10 @@ A:
   - name: sds-alertmanager-01
     record:
     - 10.141.31.250
+    ttl: 300
+  - name: vh-wowza
+    record:
+    - 10.23.255.216
     ttl: 300 
 cname:
   - name: hmi-apim
