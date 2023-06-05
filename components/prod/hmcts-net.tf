@@ -2,7 +2,7 @@ data "local_file" "hmcts-net-configuration" {
   filename = "${path.cwd}/../../environments/prod/hmcts-net.yml"
 }
 
-module "prod-int-hmcts-net" {
+module "hmcts-net" {
   source              = "../../modules/azure-private-dns/"
   cname_records       = yamldecode(data.local_file.hmcts-net-configuration.content).cname
   a_recordsets        = yamldecode(data.local_file.hmcts-net-configuration.content).A
