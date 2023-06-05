@@ -1,0 +1,1033 @@
+name: "hmcts.net"
+vnet_links: []
+A:
+  - name: bais-ext-stg.sftp
+    record:
+    - 10.225.251.4
+    ttl: 300
+  - name: bais-in-stg.int.mft
+    record:
+    - 10.225.251.134
+    ttl: 300
+  - name: bais-int-stg-01.int.mft
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: bais-int-stg-02.int.mft
+    record:
+    - 10.225.251.136
+    ttl: 300
+  - name: bais-ext-stg-01.ext.mft
+    record:
+    - 10.225.251.5
+    ttl: 300
+  - name: bais-ext-stg-02.ext.mft
+    record:
+    - 10.225.251.6
+    ttl: 300
+  - name: eruploadstg.ext.mft
+    record:
+    - 10.225.251.7
+    ttl: 300
+  - name: www.eruploadstg.ext.mft
+    record:
+    - 10.225.251.7
+    ttl: 300
+  - name: eucs-mailgw-stg
+    record:
+    - 10.182.71.154
+    ttl: 300
+  - name: cgi-aramismis-stg
+    record:
+    - 10.72.0.113
+    ttl: 300
+  - name: cgi-sups-batch1-stg
+    record:
+    - 10.72.0.51
+    ttl: 300
+  - name: cgi-libra-igs-stg
+    record:
+    - 10.72.2.231
+    ttl: 300
+  - name: libra-atcm-stg
+    record:
+    - 10.25.255.70
+    ttl: 300
+  - name: cpp-ft-stg
+    record:
+    - 10.25.255.69
+    ttl: 300
+  - name: eucs-fap-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: eucs-staging-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: gbgroup-juror-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: indesser-ageddebt-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: laa-xhb-pri-stg
+    record:
+    - 18.168.5.2
+    ttl: 300
+  - name: laa-xhb-sec-stg
+    record:
+    - 35.177.112.168
+    ttl: 300
+  - name: liberata-mo-pri-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: liberata-mo-sec-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: sscl-sop-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: sscs-gaps2-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xerox-bp-pri-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xerox-bp-sec-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-amersham-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-aylesbury-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-basildon-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-birminghamann-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-birminghamcrown-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-blackfriars-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-bolton-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-bournemouth-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-bradford-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-brighton-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-bristol-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-burnley-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-caernarfon-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-cambridge-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-canterbury-stg 
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-cardiff-stg 
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-carlisle-stg 
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-chelmsford-stg 
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-chelmsfordmags-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-chester-stg 
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-coventry-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-croydon-stg 
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-croydonmags-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-derby-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-doncaster-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-durham-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-exeter-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-gloucester-stg 
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-greatgrimsby-stg 
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-guildford-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-guildfordmags-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-harrow-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-hereford-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-hove-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-huntingdon-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-innerlondon-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-ipswich-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-isleworth-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-kingslynn-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-kingstoncombined-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-kingstoncrown-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-kingston-upon-hull-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-lancaster-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-leeds-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-leicester-stg 
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-lewes-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-lincoln-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-liverpool-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-luton-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-maidstone-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-manchestercrown-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-manchesterminshull-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-merthyr-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-mold-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-newcastle-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-newcastle-upon-tyne-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-newportcombined-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-newportcrown-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-northampton-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-norwich-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-nottingham-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-oldbailey-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-oxford-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-peterborough-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-peterboroughmags-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-plymouth-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-portsmouth-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-prestonringway-stg 
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-prestonsessionshse-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-reading-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-readingmags-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-salisbury-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-sheffield-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-shrewsbury-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-snaresbrook-stg 
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-southampton-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-southend-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-southwark-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-stalbans-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-stalbansmags-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-stafford-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-stoke-on-trent-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-swansea-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-swindon-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-taunton-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-teesside-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-truro-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-warrington-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-warwick-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-winchester-stg  
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-wolverhamptoncombined-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-wolverhamptonmags-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-woodgreen-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-woolwich-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-worcester-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: xhb-pubd-york-stg   
+    record:
+    - 10.225.251.135
+    ttl: 300
+  - name: bais-ext.sftp
+    record:
+    - 10.224.251.4
+    ttl: 300
+  - name: bais-int.int.mft
+    record:
+    - 10.224.251.134
+    ttl: 300
+  - name: bais-int-01.int.mft
+    record:
+    - 10.224.251.135
+    ttl: 300
+  - name: bais-int-02.int.mft
+    record:
+    - 10.224.251.136
+    ttl: 300
+  - name: bais-ext-01.ext.mft
+    record:
+    - 10.224.251.5
+    ttl: 300
+  - name: bais-ext-02.ext.mft
+    record:
+    - 10.224.251.6
+    ttl: 300
+  - name: erupload.ext.mft
+    record:
+    - 10.224.251.7
+    ttl: 300
+  - name: www.erupload.ext.mft
+    record:
+    - 10.224.251.7
+    ttl: 300
+  - name: eucs-mailgw01
+    record:
+    - 10.171.71.154
+    ttl: 300
+  - name: eucs-mailgw02
+    record:
+    - 10.172.71.154
+    ttl: 300
+  - name: cgi-aramismis
+    record:
+    - 10.100.198.114
+    ttl: 300
+  - name: cgi-sups-batch1
+    record:
+    - 10.100.196.183
+    ttl: 300
+  - name: cgi-libra-igs
+    record:
+    - 10.100.196.196
+    ttl: 300
+  - name: libra-atcm
+    record:
+    - 10.24.0.134
+    ttl: 300
+  - name: cpp-ft
+    record:
+    - 10.24.0.138
+    ttl: 300
+  - name: eucs-fap
+    record:
+    - 10.100.96.108
+    ttl: 300
+  - name: eucs-staging
+    record:
+    - 10.100.67.31
+    ttl: 300
+  - name: indesser-ageddebt
+    record:
+    - 195.40.87.32
+    ttl: 300
+  - name: laa-xhb-pri
+    record:
+    - 18.170.13.53
+    ttl: 300
+  - name: laa-xhb-sec
+    record:
+    - 157.203.40.154
+    ttl: 300
+  - name: liberata-mo-pri
+    record:
+    - 172.18.19.203
+    ttl: 300
+  - name: liberata-mo-sec
+    record:
+    - 185.154.133.181
+    ttl: 300
+  - name: sscl-sop
+    record:
+    - 51.179.197.20
+    ttl: 300
+  - name: sscs-gaps2
+    record:
+    - 51.140.47.203
+    ttl: 300
+  - name: xerox-bp-pri
+    record:
+    - 51.231.23.242
+    ttl: 300
+  - name: xerox-bp-sec
+    record:
+    - 51.231.23.250
+    ttl: 300
+  - name: xhb-pubd-amersham
+    record:
+    - 10.236.81.60
+    ttl: 300
+  - name: xhb-pubd-aylesbury
+    record:
+    - 10.1.3.246
+    ttl: 300
+  - name: xhb-pubd-basildon
+    record:
+    - 10.1.39.246
+    ttl: 300
+  - name: xhb-pubd-birminghamann
+    record:
+    - 10.8.19.246
+    ttl: 300
+  - name: xhb-pubd-birminghamcrown
+    record:
+    - 10.2.3.246
+    ttl: 300
+  - name: xhb-pubd-blackfriars
+    record:
+    - 10.1.53.246
+    ttl: 300
+  - name: xhb-pubd-bolton
+    record:
+    - 10.5.35.246
+    ttl: 300
+  - name: xhb-pubd-bournemouth
+    record:
+    - 10.236.137.246
+    ttl: 300
+  - name: xhb-pubd-bradford
+    record:
+    - 10.6.13.247
+    ttl: 300
+  - name: xhb-pubd-brighton
+    record:
+    - 10.1.11.246
+    ttl: 300
+  - name: xhb-pubd-bristol
+    record:
+    - 10.4.10.246
+    ttl: 300
+  - name: xhb-pubd-burnley
+    record:
+    - 10.5.36.246
+    ttl: 300
+  - name: xhb-pubd-caernarfon
+    record:
+    - 10.18.140.246
+    ttl: 300
+  - name: xhb-pubd-cambridge
+    record:
+    - 10.1.16.246
+    ttl: 300
+  - name: xhb-pubd-canterbury
+    record:
+    - 10.1.101.246
+    ttl: 300
+  - name: xhb-pubd-cardiff
+    record:
+    - 10.16.64.222
+    ttl: 300
+  - name: xhb-pubd-carlisle
+    record:
+    - 10.5.37.246
+    ttl: 300
+  - name: xhb-pubd-chelmsford
+    record:
+    - 10.1.21.246
+    ttl: 300
+  - name: xhb-pubd-chelmsfordmags
+    record:
+    - 10.142.8.246
+    ttl: 300
+  - name: xhb-pubd-chester
+    record:
+    - 10.3.15.246
+    ttl: 300
+  - name: xhb-pubd-coventry
+    record:
+    - 10.2.30.246
+    ttl: 300
+  - name: xhb-pubd-croydon
+    record:
+    - 10.1.97.247
+    ttl: 300
+  - name: xhb-pubd-croydonmags
+    record:
+    - 10.12.29.246
+    ttl: 300
+  - name: xhb-pubd-derby
+    record:
+    - 10.2.56.246
+    ttl: 300
+  - name: xhb-pubd-doncaster
+    record:
+    - 10.6.9.246
+    ttl: 300
+  - name: xhb-pubd-durham
+    record:
+    - 10.6.11.246
+    ttl: 300
+  - name: xhb-pubd-exeter
+    record:
+    - 10.4.33.246
+    ttl: 300
+  - name: xhb-pubd-gloucester
+    record:
+    - 10.8.23.246
+    ttl: 300
+  - name: xhb-pubd-greatgrimsby
+    record:
+    - 10.2.57.246
+    ttl: 300
+  - name: xhb-pubd-guildford
+    record:
+    - 10.1.34.246
+    ttl: 300
+  - name: xhb-pubd-guildfordmags
+    record:
+    - 10.235.114.246
+    ttl: 300
+  - name: xhb-pubd-harrow
+    record:
+    - 10.1.36.246
+    ttl: 300
+  - name: xhb-pubd-hereford
+    record:
+    - 10.18.13.246
+    ttl: 300
+  - name: xhb-pubd-hove
+    record:
+    - 10.1.102.246
+    ttl: 300
+  - name: xhb-pubd-huntingdon
+    record:
+    - 10.232.164.246
+    ttl: 300
+  - name: xhb-pubd-innerlondon
+    record:
+    - 10.1.46.247
+    ttl: 300
+  - name: xhb-pubd-ipswich
+    record:
+    - 10.1.48.246
+    ttl: 300
+  - name: xhb-pubd-isleworth
+    record:
+    - 10.1.49.246
+    ttl: 300
+  - name: xhb-pubd-kingslynn
+    record:
+    - 10.233.115.246
+    ttl: 300
+  - name: xhb-pubd-kingstoncombined
+    record:
+    - 10.6.35.246
+    ttl: 300
+  - name: xhb-pubd-kingstoncrown
+    record:
+    - 10.1.52.246
+    ttl: 300
+  - name: xhb-pubd-kingston-upon-hull
+    record:
+    - 10.1.52.246
+    ttl: 300
+  - name: xhb-pubd-lancaster
+    record:
+    - 10.6.35.246
+    ttl: 300
+  - name: xhb-pubd-leeds
+    record:
+    - 10.18.2.246
+    ttl: 300
+  - name: xhb-pubd-leicester 
+    record:
+    - 10.6.38.247
+    ttl: 300
+  - name: xhb-pubd-lewes
+    record:
+    - 10.2.21.247
+    ttl: 300
+  - name: xhb-pubd-lincoln
+    record:
+    - 10.1.98.246
+    ttl: 300
+  - name: xhb-pubd-liverpool
+    record:
+    - 10.2.66.246
+    ttl: 300
+  - name: xhb-pubd-luton
+    record:
+    - 10.1.62.246
+    ttl: 300
+  - name: xhb-pubd-maidstone
+    record:
+    - 10.1.62.246
+    ttl: 300
+  - name: xhb-pubd-manchestercrown
+    record:
+    - 10.1.99.246
+    ttl: 300
+  - name: xhb-pubd-manchesterminshull
+    record:
+    - 10.5.18.246
+    ttl: 300
+  - name: xhb-pubd-merthyr
+    record:
+    - 10.236.9.246
+    ttl: 300
+  - name: xhb-pubd-mold
+    record:
+    - 10.236.9.246
+    ttl: 300
+  - name: xhb-pubd-newcastle
+    record:
+    - 10.3.24.246
+    ttl: 300
+  - name: xhb-pubd-newcastle-upon-tyne
+    record:
+    - 10.18.100.246
+    ttl: 300
+  - name: xhb-pubd-newportcombined
+    record:
+    - 10.6.39.246
+    ttl: 300
+  - name: xhb-pubd-newportcrown
+    record:
+    - 10.234.71.246
+    ttl: 300
+  - name: xhb-pubd-northampton
+    record:
+    - 10.3.28.246
+    ttl: 300
+  - name: xhb-pubd-norwich
+    record:
+    - 10.2.58.246
+    ttl: 300
+  - name: xhb-pubd-nottingham
+    record:
+    - 10.1.100.247
+    ttl: 300
+  - name: xhb-pubd-oldbailey
+    record:
+    - 10.2.59.246
+    ttl: 300
+  - name: xhb-pubd-oxford
+    record:
+    - 10.1.18.247
+    ttl: 300
+  - name: xhb-pubd-peterborough
+    record:
+    - 10.2.60.246
+    ttl: 300
+  - name: xhb-pubd-peterboroughmags
+    record:
+    - 10.2.36.246
+    ttl: 300
+  - name: xhb-pubd-plymouth
+    record:
+    - 10.4.35.246
+    ttl: 300
+  - name: xhb-pubd-portsmouth
+    record:
+    - 10.4.35.246
+    ttl: 300
+  - name: xhb-pubd-prestonringway
+    record:
+    - 10.234.66.246
+    ttl: 300
+  - name: xhb-pubd-prestonsessionshse
+    record:
+    - 10.8.17.246
+    ttl: 300
+  - name: xhb-pubd-reading
+    record:
+    - 10.8.17.246
+    ttl: 300
+  - name: xhb-pubd-readingmags
+    record:
+    - 10.1.72.246
+    ttl: 300
+  - name: xhb-pubd-salisbury
+    record:
+    - 10.236.70.246
+    ttl: 300
+  - name: xhb-pubd-sheffield
+    record:
+    - 10.4.37.246
+    ttl: 300
+  - name: xhb-pubd-shrewsbury
+    record:
+    - 10.6.40.246
+    ttl: 300
+  - name: xhb-pubd-snaresbrook 
+    record:
+    - 10.2.41.246
+    ttl: 300
+  - name: xhb-pubd-southampton
+    record:
+    - 10.17.126.56
+    ttl: 300
+  - name: xhb-pubd-southend
+    record:
+    - 10.234.8.246
+    ttl: 300
+  - name: xhb-pubd-southwark
+    record:
+    - 10.234.80.246
+    ttl: 300
+  - name: xhb-pubd-stalbans
+    record:
+    - 10.1.95.247
+    ttl: 300
+  - name: xhb-pubd-stalbansmags
+    record:
+    - 10.1.77.246
+    ttl: 300
+  - name: xhb-pubd-stafford
+    record:
+    - 10.233.216.246
+    ttl: 300
+  - name: xhb-pubd-stoke-on-trent
+    record:
+    - 10.2.62.246
+    ttl: 300
+  - name: xhb-pubd-swansea
+    record:
+    - 10.3.35.246
+    ttl: 300
+  - name: xhb-pubd-swindon
+    record:
+    - 10.234.74.246
+    ttl: 300
+  - name: xhb-pubd-taunton
+    record:
+    - 10.4.40.246
+    ttl: 300
+  - name: xhb-pubd-teesside
+    record:
+    - 10.6.41.246
+    ttl: 300
+  - name: xhb-pubd-truro
+    record:
+    - 10.4.41.246
+    ttl: 300
+  - name: xhb-pubd-warrington
+    record:
+    - 10.3.39.246
+    ttl: 300
+  - name: xhb-pubd-warwick
+    record:
+    - 10.2.65.246
+    ttl: 300
+  - name: xhb-pubd-winchester
+    record:
+    - 10.4.43.246
+    ttl: 300
+  - name: xhb-pubd-wolverhamptoncombined
+    record:
+    - 10.2.63.246
+    ttl: 300
+  - name: xhb-pubd-wolverhamptonmags
+    record:
+    - 10.232.80.246
+    ttl: 300
+  - name: xhb-pubd-woodgreen
+    record:
+    - 10.1.91.246
+    ttl: 300
+  - name: xhb-pubd-woolwich
+    record:
+    - 10.1.93.246
+    ttl: 300
+  - name: xhb-pubd-worcester
+    record:
+    - 10.2.64.246
+    ttl: 300
+  - name: xhb-pubd-york
+    record:
+    - 10.6.37.246 
+    ttl: 300
+  - name: baisweb-stg.mft
+    record:
+    - 10.225.251.7
+    ttl: 300
+  - name: www.baisweb-stg.mft
+    record:
+    - 10.225.251.7
+    ttl: 300
+  - name: baisweb.mft
+    record:
+    - 10.224.251.7
+    ttl: 300
+  - name: www.baisweb.mft
+    record:
+    - 10.224.251.7
+    ttl: 300
+  - name: cgi-dss-stg
+    record:
+    - 10.72.3.4
+    ttl: 300
+  - name: cgi-dss
+    record:
+    - 10.100.198.11
+    ttl: 300
+  - name: noag-oud-vm01
+    record:
+    - 10.225.249.164
+    ttl: 300
+  - name: noag-web-vm01
+    record:
+    - 10.225.249.4
+    ttl: 300
+  - name: noag-web-vm02
+    record:
+    - 10.225.249.5
+    ttl: 300
+  - name: poag-oud-vm01
+    record:
+    - 10.224.249.164
+    ttl: 300
+  - name: poag-web-vm01
+    record:
+    - 10.224.249.4
+    ttl: 300
+  - name: poag-web-vm02
+    record:
+    - 10.224.249.5
+    ttl: 300
+  - name: eckoh-stg
+    record:
+    - 10.225.251.135
+    ttl: 300
+
+cname: []
