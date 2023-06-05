@@ -1,0 +1,13 @@
+name: "prod.ext.hmcts.net"
+vnet_links:
+  - link_name: "core-aad-domain-services-mgmt-vnet"
+    vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/core-aad-domain-services-mgmt-rg/providers/Microsoft.Network/virtualNetworks/core-aad-domain-services-mgmt-vnet"
+  - link_name: "prod.platform.hmcts.net-vnet-prod-ext-01"
+    vnet_id: "/subscriptions/c170c61a-f00f-4295-a718-634e27af1597/resourceGroups/ExternalSpoke-rg/providers/Microsoft.Network/virtualNetworks/vnet-prod-ext-01"
+    registration_enabled: true
+A:
+  - name: pcol.db
+    record:
+    - 10.24.248.196
+    ttl: 3600
+cname: []

@@ -1,0 +1,476 @@
+name: "prod.int.hmcts.net"
+vnet_links:
+  - link_name: "core-aad-domain-services-mgmt-vnet"
+    vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/core-aad-domain-services-mgmt-rg/providers/Microsoft.Network/virtualNetworks/core-aad-domain-services-mgmt-vnet"
+  - link_name: "prod.int.hmcts.net-vnet-nle-ext-01"
+    vnet_id: "/subscriptions/17390ec1-5a5e-4a20-afb3-38d8d726ae45/resourceGroups/InternalSpoke-rg/providers/Microsoft.Network/virtualNetworks/vnet-prod-int-01"
+    registration_enabled: true
+A:
+  - name: eucw4171prn004
+    record:
+    - 10.172.69.16
+    ttl: 300
+  - name: eucw4171prn001
+    record:
+    - 10.172.69.19
+    ttl: 300
+  - name: eucw4171prn003
+    record:
+    - 10.172.69.18
+    ttl: 300
+  - name: eucw4171prn002
+    record:
+    - 10.172.69.17
+    ttl: 300
+  - name: eucw4172prn004
+    record:
+    - 10.171.69.16
+    ttl: 300
+  - name: eucw4172prn001
+    record:
+    - 10.171.69.17
+    ttl: 300
+  - name: eucw4172prn002
+    record:
+    - 10.171.69.19
+    ttl: 300
+  - name: eucw4172prn003
+    record:
+    - 10.171.69.18
+    ttl: 300
+  - name: eucw4171prn005
+    record:
+    - 10.172.69.13
+    ttl: 300
+  - name: eucw4172prn005
+    record:
+    - 10.171.69.13
+    ttl: 300
+  - name: caps.db
+    record:
+    - 10.24.242.4
+    ttl: 300
+cname:
+  - name: prn0000
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0006a
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0023
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0027
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0040
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0041
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0049
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0051
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0053
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0069
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0078
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0083
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0095
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0098
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0099
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0101
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0102
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0104
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0105
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0106
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0107
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0108
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0109
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0119
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0123
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0136
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0139
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0140
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0143
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0144
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0150
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0158
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0159
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0163
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0166
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0169
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0172
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0174
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0175
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0177
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0224
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0236
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0246
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0253
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0256
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0260
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0281
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0291
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0297
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0323
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0327
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0328
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0544
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0557
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0559
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0561
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0564
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0565
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0567
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0571
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0577
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0592
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0698
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0709
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0713
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0719
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0724
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0731
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0733
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0753
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0761
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0772
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0773
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0781
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0782
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0786
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0787
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0789
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0791
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0793
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0794
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0823
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0831
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0939
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1098
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1107
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1149
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1154
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1226
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1247
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1249
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1274
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1275
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1288
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1302
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1307
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1393
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1396
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1400
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1403
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1409
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1418
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1425
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1428
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1429
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1444
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1450
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1452
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1462
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1463
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1481
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1512
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1516
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1551
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1556
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1559
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1565
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1567
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1569
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1579
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1604
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1628
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1637
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1658
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1676
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1729
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1746
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn1966
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn2097
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn2664
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn2991
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn3383
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn3385
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn3395
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn3585a
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn3807
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn3927
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn3962
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn3965
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn4225
+    record: eucw4172prn004.prod.int.hmcts.net
+    ttl: 300
+  - name: prn4260
+    record: eucw4171prn004.prod.int.hmcts.net
+    ttl: 300

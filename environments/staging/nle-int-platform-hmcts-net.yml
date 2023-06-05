@@ -1,0 +1,21 @@
+name: "nle.int.hmcts.net"
+vnet_links:
+  - link_name: "core-aad-domain-services-mgmt-vnet"
+    vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/core-aad-domain-services-mgmt-rg/providers/Microsoft.Network/virtualNetworks/core-aad-domain-services-mgmt-vnet"
+  - link_name: "nle.int.hmcts.net-vnet-nle-ext-01"
+    vnet_id: "/subscriptions/ae75b9fb-7d34-4112-82ff-64bd3855ce27/resourceGroups/InternalSpoke-rg/providers/Microsoft.Network/virtualNetworks/vnet-nle-int-01"
+    registration_enabled: true
+A:
+  - name: cs0663
+    record:
+    - 10.182.69.16
+    ttl: 3600
+  - name: caps.db
+    record:
+    - 10.25.242.4
+    ttl: 3600
+  - name: prn001
+    record:
+    - 10.182.69.19
+    ttl: 3600
+cname: []
