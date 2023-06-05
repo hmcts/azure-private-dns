@@ -25,21 +25,9 @@ A:
     ttl: 300
     record:
     - 127.0.0.1
-  - name: ccd-admin-web
-    record:
-    - 10.10.161.100
-    ttl: 300
   - name: dm-store-aat.service
     record:
     - 51.145.48.139
-    ttl: 300
-  - name: camunda-bpm
-    record:
-    - 10.10.161.100
-    ttl: 300
-  - name: camunda-optimize
-    record:
-    - 10.10.161.101 #aks01-aat-agw
     ttl: 300
   - name: docmosis
     record:
@@ -52,14 +40,6 @@ A:
   - name: cft-api-mgmt
     record:
     - 10.10.161.133
-    ttl: 300
-  - name: traefik-cft-00
-    record:
-    - 10.10.143.250
-    ttl: 300
-  - name: traefik-cft-01
-    record:
-    - 10.10.159.250
     ttl: 300
 cname:
   - name: adoption-web
@@ -271,18 +251,6 @@ cname:
     ttl: 300
   - name: cft-neuvector01-api
     record: traefik-cft-01.aat.platform.hmcts.net.
-    ttl: 300
-  - name: prometheus-00
-    record: traefik-cft-00.aat.platform.hmcts.net
-    ttl: 300
-  - name: prometheus-01
-    record: traefik-cft-01.aat.platform.hmcts.net
-    ttl: 300
-  - name: alertmanager-00
-    record: traefik-cft-00.aat.platform.hmcts.net
-    ttl: 300
-  - name: alertmanager-01
-    record: traefik-cft-01.aat.platform.hmcts.net
     ttl: 300
   - name: kubecost-00
     record: traefik-cft-00.aat.platform.hmcts.net

@@ -39,14 +39,6 @@ A:
     record:
     - 10.100.197.219
     ttl: 300
-  - name: traefik-cft-00
-    record:
-    - 10.11.207.250
-    ttl: 300
-  - name: traefik-cft-01
-    record:
-    - 10.11.223.250
-    ttl: 300
   - name: sds-prometheus-00
     record:
     - 10.143.15.250
