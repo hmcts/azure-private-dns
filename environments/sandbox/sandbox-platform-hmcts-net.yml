@@ -29,6 +29,10 @@ A:
     record:
     - 10.147.15.250
     ttl: 300
+  - name: sds-build
+    record:
+    - 10.147.15.250
+    ttl: 300
   - name: sds-prometheus-00-ptl
     record:
     - 10.147.15.250
