@@ -2,7 +2,7 @@ data "local_file" "lncs-hmcs-configuration" {
   filename = "${path.cwd}/../../environments/prod/lncs-hmcs.yml"
 }
 
-module "reform" {
+module "lncs-hmcs" {
   source              = "../../modules/azure-private-dns/"
   cname_records       = yamldecode(data.local_file.reform-configuration.content).cname
   a_recordsets        = yamldecode(data.local_file.reform-configuration.content).A
