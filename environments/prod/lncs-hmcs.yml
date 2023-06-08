@@ -1,0 +1,14 @@
+name: "lncs.hmcs"
+vnet_links:
+  - link_name: "ss-test-vnet"
+    vnet_id: "/subscriptions/3eec5bde-7feb-4566-bfb6-805df6e10b90/resourceGroups/ss-test-network-rg/providers/Microsoft.Network/virtualNetworks/ss-test-vnet"
+  - link_name: "ss-prod-vnet"
+    vnet_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/ss-prod-network-rg/providers/Microsoft.Network/virtualNetworks/ss-prod-vnet"
+A:
+  - name: lncs-onpremisegobgateway-uat
+    record:
+      - 10.72.1.229
+  - name: lncs-onpremisegobgateway
+    record:
+      - 10.100.197.199
+cname: []
