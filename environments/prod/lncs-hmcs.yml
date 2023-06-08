@@ -8,7 +8,9 @@ A:
   - name: lncs-onpremisegobgateway-uat
     record:
       - 10.72.1.229
+    ttl: 300
   - name: lncs-onpremisegobgateway
     record:
       - 10.100.197.199
+    ttl: 300
 cname: []
