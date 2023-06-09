@@ -368,11 +368,11 @@ A:
     ttl: 300
   - name: jbox-nonprod
     record:
-    - 10.48.0.53
+    - 10.25.250.4
     ttl: 300
   - name: jbox-prod
     record:
-    - 10.48.2.5
+    - 10.24.250.4
     ttl: 300
 cname:
   - name: c100-application
