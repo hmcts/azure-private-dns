@@ -211,7 +211,7 @@ A:
     ttl: 300
   - name: response
     record:
-    - 51.141.228.194
+    - 20.108.188.3
     ttl: 300
   - name: response-api
     record:
