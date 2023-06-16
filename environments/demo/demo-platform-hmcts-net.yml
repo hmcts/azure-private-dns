@@ -57,42 +57,6 @@ A:
     record:
     - 10.50.97.118
     ttl: 300
-  - name: ccd-admin-web
-    record:
-    - 10.50.97.119
-    ttl: 300
-  - name: camunda-bpm
-    record:
-    - 10.50.97.119
-    ttl: 300
-  - name: camunda-optimize
-    record:
-    - 10.50.97.118
-    ttl: 300
-  - name: idam-testing-support-api
-    record:
-    - 10.50.97.119
-    ttl: 300
-  - name: alertmanager-00
-    record:
-    - 10.50.79.221
-    ttl: 300
-  - name: prometheus-00
-    record:
-    - 10.50.79.221
-    ttl: 300
-  - name: prometheus-01
-    record:
-    - 10.50.95.221
-    ttl: 300
-  - name: alertmanager-01
-    record:
-    - 10.50.95.221
-    ttl: 300
-  - name: idam-api
-    record:
-    - 10.50.97.118
-    ttl: 300
   
 cname:
   - name: bulk-scanning
