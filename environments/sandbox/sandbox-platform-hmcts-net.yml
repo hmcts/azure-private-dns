@@ -33,7 +33,7 @@ A:
     record:
     - 10.147.15.250
     ttl: 300
-  - name: cft-build
+  - name: build
     record:
     - 10.70.25.250
     ttl: 300
