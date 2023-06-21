@@ -574,3 +574,6 @@ cname:
   - name: cft-neuvector01-api
     record: traefik-cft-01.platform.hmcts.net.
     ttl: 300
+  - name: darts-portal
+    record: sdshmcts-prod.azurefd.net.
+    ttl: 300
