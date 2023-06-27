@@ -84,3 +84,6 @@ cname:
   - name: staff.pip-frontend
     record: sdshmcts-stg.azurefd.net
     ttl: 300
+  - name: darts-portal
+    record: sdshmcts-stg.azurefd.net
+    ttl: 300
