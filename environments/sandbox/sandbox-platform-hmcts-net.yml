@@ -206,3 +206,6 @@ cname:
   - name: "labs-rhodrif-nodejs"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
+  - name: darts-portal
+    record: sdshmcts-sbox.azurefd.net
+    ttl: 300
