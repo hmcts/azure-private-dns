@@ -372,7 +372,7 @@ A:
     ttl: 300
   - name: jbox-prod
     record:
-    - 10.24.250.4
+    - 10.24.250.5
     ttl: 300
 cname:
   - name: c100-application
