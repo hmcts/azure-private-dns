@@ -212,7 +212,7 @@ A:
     ttl: 300
   - name: response
     record:
-    - 20.108.188.3
+    - 10.10.73.250
     ttl: 300
   - name: response-api
     record:
@@ -375,6 +375,7 @@ A:
     record:
     - 10.24.250.5
     ttl: 300
+
 cname:
   - name: c100-application
     ttl: 300
