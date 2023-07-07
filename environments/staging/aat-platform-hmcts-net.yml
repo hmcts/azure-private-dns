@@ -61,6 +61,10 @@ A:
     record:
     - 10.10.159.250
     ttl: 300
+  - name: jenkins-cluster
+    record:
+    - 10.10.143.250
+    ttl: 300
 cname:
   - name: adoption-web
     record: hmcts-aat.azurefd.net.
@@ -75,16 +79,16 @@ cname:
     record: hmcts-aat.azurefd.net.
     ttl: 300
   - name: civil-orch-camunda-staging
-    record: hmcts-aat.azurefd.net.
+    record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
   - name: civil-orch-civil-service-staging
-    record: hmcts-aat.azurefd.net.
+    record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
   - name: civil-orch-data-store-staging
-    record: hmcts-aat.azurefd.net.
+    record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
   - name: civil-orch-definition-store-staging
-    record: hmcts-aat.azurefd.net.
+    record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
   - name: civil-orch-xui-staging
     record: hmcts-aat.azurefd.net.
