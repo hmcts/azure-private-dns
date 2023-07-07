@@ -34,21 +34,6 @@ A:
     - 10.10.143.250
     ttl: 300
 cname:
-  - name: civil-orch-camunda-staging-aat
-    record: jenkins-cluster.service.core-compute-aat.internal.
-    ttl: 300
-  - name: civil-orch-civil-service-staging-aat
-    record: jenkins-cluster.service.core-compute-aat.internal.
-    ttl: 300
-  - name: civil-orch-data-store-staging-aat
-    record: jenkins-cluster.service.core-compute-aat.internal.
-    ttl: 300
-  - name: civil-orch-definition-store-staging-aat
-    record: jenkins-cluster.service.core-compute-aat.internal.
-    ttl: 300
-  - name: civil-orch-xui-staging-aat
-    record: jenkins-cluster.service.core-compute-aat.internal.
-    ttl: 300
   - name: civil-ga-camunda-staging-aat
     record: jenkins-cluster.service.core-compute-aat.internal.
     ttl: 300

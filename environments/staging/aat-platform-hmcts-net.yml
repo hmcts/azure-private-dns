@@ -74,6 +74,21 @@ cname:
   - name: benefit-appeal
     record: hmcts-aat.azurefd.net.
     ttl: 300
+  - name: civil-orch-camunda-staging
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: civil-orch-civil-service-staging
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: civil-orch-data-store-staging
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: civil-orch-definition-store-staging
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: civil-orch-xui-staging
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
   - name: track-appeal
     record: hmcts-aat.azurefd.net.
     ttl: 300
