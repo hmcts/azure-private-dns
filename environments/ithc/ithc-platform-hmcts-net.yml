@@ -185,10 +185,10 @@ cname:
     record: sdshmcts-ithc.azurefd.net.
     ttl: 300
   - name: toffee2
-    record: hmcts-test1-sbox.azurefd.net.
+    record: sdshmcts-new-test-ithc-gua7aqh4eybzcdgd.z01.azurefd.net.
     ttl: 300
   - name: toffee3
-    record: hmcts-test1-sbox.azurefd.net.
+    record: sdshmcts-new-test-ithc-gua7aqh4eybzcdgd.z01.azurefd.net.
     ttl: 300
   - name: rpts
     record: hmcts-ithc.azurefd.net.
