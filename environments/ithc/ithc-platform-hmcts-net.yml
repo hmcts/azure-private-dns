@@ -184,6 +184,9 @@ cname:
   - name: toffee
     record: sdshmcts-ithc.azurefd.net.
     ttl: 300
+  - name: toffee3
+    record: sdshmcts-new-test-ithc-gua7aqh4eybzcdgd.z01.azurefd.net.
+    ttl: 300
   - name: rpts
     record: hmcts-ithc.azurefd.net.
     ttl: 300
