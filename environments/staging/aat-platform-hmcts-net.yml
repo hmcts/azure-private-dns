@@ -91,7 +91,7 @@ cname:
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
   - name: civil-orch-xui-staging
-    record: hmcts-aat.azurefd.net.
+    record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
   - name: track-appeal
     record: hmcts-aat.azurefd.net.
