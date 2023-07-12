@@ -93,9 +93,6 @@ cname:
   - name: civil-ga-ccd-definition-store-staging
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
-  - name: civil-ga-ccd-xui-staging
-    record: jenkins-cluster.aat.platform.hmcts.net.
-    ttl: 300
   - name: civil-ga-civil-service-staging
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
@@ -103,9 +100,6 @@ cname:
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
   - name: civil-ga-definition-store-staging
-    record: jenkins-cluster.aat.platform.hmcts.net.
-    ttl: 300
-  - name: civil-ga-xui-staging
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
   - name: civil-orch-camunda-staging
