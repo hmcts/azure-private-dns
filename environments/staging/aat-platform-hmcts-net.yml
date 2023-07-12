@@ -78,34 +78,34 @@ cname:
   - name: benefit-appeal
     record: hmcts-aat.azurefd.net.
     ttl: 300
-  - name: civil-ga-camunda-staging-aat
+  - name: civil-ga-camunda-staging
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
-  - name: civil-ga-ccd-camunda-staging-aat
+  - name: civil-ga-ccd-camunda-staging
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
-  - name: civil-ga-ccd-civil-service-staging-aat
+  - name: civil-ga-ccd-civil-service-staging
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
-  - name: civil-ga-ccd-data-store-staging-aat
+  - name: civil-ga-ccd-data-store-staging
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
-  - name: civil-ga-ccd-definition-store-staging-aat
+  - name: civil-ga-ccd-definition-store-staging
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
-  - name: civil-ga-ccd-xui-staging-aat
+  - name: civil-ga-ccd-xui-staging
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
-  - name: civil-ga-civil-service-staging-aat
+  - name: civil-ga-civil-service-staging
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
-  - name: civil-ga-data-store-staging-aat
+  - name: civil-ga-data-store-staging
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
-  - name: civil-ga-definition-store-staging-aat
+  - name: civil-ga-definition-store-staging
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
-  - name: civil-ga-xui-staging-aat
+  - name: civil-ga-xui-staging
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
   - name: civil-orch-camunda-staging
