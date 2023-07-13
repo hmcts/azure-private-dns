@@ -78,6 +78,30 @@ cname:
   - name: benefit-appeal
     record: hmcts-aat.azurefd.net.
     ttl: 300
+  - name: civil-ga-camunda-staging
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
+  - name: civil-ga-ccd-camunda-staging
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
+  - name: civil-ga-ccd-civil-service-staging
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
+  - name: civil-ga-ccd-data-store-staging
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
+  - name: civil-ga-ccd-definition-store-staging
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
+  - name: civil-ga-civil-service-staging
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
+  - name: civil-ga-data-store-staging
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
+  - name: civil-ga-definition-store-staging
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
   - name: civil-orch-camunda-staging
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
