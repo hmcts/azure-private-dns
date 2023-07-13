@@ -137,10 +137,6 @@ A:
     record:
     - 10.10.200.69
     ttl: 300
-  - name: ukwest-palo-0
-    record:
-    - 10.48.200.70
-    ttl: 300
   - name: pam-bia
     record:
     - 10.0.16.36
