@@ -61,10 +61,6 @@ A:
     record:
     - 10.10.159.250
     ttl: 300
-  - name: jenkins-cluster
-    record:
-    - 10.10.143.250
-    ttl: 300
 cname:
   - name: adoption-web
     record: hmcts-aat.azurefd.net.
