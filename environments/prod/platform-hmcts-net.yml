@@ -552,6 +552,9 @@ cname:
   - name: plum
     record: hmcts-prod.azurefd.net.
     ttl: 300
+  - name: dtsse-ardoq-adapter
+    record: hmcts-prod.azurefd.net.
+    ttl: 300  
   - name: prometheus-00
     record: traefik-cft-00.platform.hmcts.net.
     ttl: 300
