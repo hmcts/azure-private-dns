@@ -79,7 +79,7 @@ parameters:
     - deployment: sandbox
       environment: sbox
       component: sandbox
-      resourceGroupName: azure-control-sbox-rg
+      resourceGroupName: azure-control-ptlsbox-rg
       serviceConnection: dts-cftsbox-intsvc
       dependsOn:
         - Precheck
