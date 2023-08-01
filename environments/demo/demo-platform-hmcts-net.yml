@@ -119,6 +119,9 @@ cname:
   - name: "afdverify.plum"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "toffee"
+    ttl: 300
+    record: "sdshmcts-demo.azurefd.net"
   - name: "dss-update-case"
     ttl: 300
     record: "hmcts-demo.azurefd.net"
