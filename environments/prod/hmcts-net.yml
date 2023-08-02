@@ -1,5 +1,8 @@
 name: "hmcts.net"
-vnet_links: []
+vnet_links:
+  - link_name: "vpn"
+    vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/mgmt-vpn-2-mgmt/providers/Microsoft.Network/virtualNetworks/mgmt-vpn-2-vnet"
+    registration_enabled: true
 A:
   - name: bais-ext-stg.sftp
     record:
@@ -1033,5 +1036,12 @@ A:
     record:
     - 10.70.25.250
     ttl: 300
-
+  - name: tools
+    ttl: 600
+    record:
+      - 51.104.17.168
+  - name: tools.prp
+    ttl: 600
+    record:
+      - 51.132.220.208
 cname: []
