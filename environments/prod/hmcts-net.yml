@@ -1029,5 +1029,9 @@ A:
     record:
     - 10.225.251.135
     ttl: 300
+  - name: sandbox-build
+    record:
+    - 10.70.25.250
+    ttl: 300
 
 cname: []
