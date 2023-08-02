@@ -1045,4 +1045,8 @@ A:
     ttl: 600
     record:
       - 51.132.220.208
+  - name: static-sandbox-build
+    record:
+      - 10.70.25.250
+    ttl: 300
 cname: []

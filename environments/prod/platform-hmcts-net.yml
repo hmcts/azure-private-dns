@@ -74,10 +74,6 @@ A:
     record:
     - 13.87.65.149
     ttl: 300
-  - name: static-sandbox-build
-    record:
-    - 13.87.65.149
-    ttl: 300
   - name: "sds-sandbox-build"
     ttl: 300
     record: 
