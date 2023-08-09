@@ -58,6 +58,9 @@ cname:
   - name: moneyclaims
     record: hmcts-perftest.azurefd.net.
     ttl: 300
+  - name: civil-citizen-ui
+    record: hmcts-perftest.azurefd.net.
+    ttl: 300
   - name: benefit-appeal
     record: hmcts-perftest.azurefd.net.
     ttl: 300

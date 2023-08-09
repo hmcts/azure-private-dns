@@ -75,6 +75,10 @@ A:
     record:
     - 10.143.31.250
     ttl: 300
+  - name: civil-citizen-ui
+    record:
+      - 10.143.31.250
+    ttl: 300
 cname:
   - name: c100-application
     ttl: 300
