@@ -73,6 +73,14 @@ A:
     record:
       - 10.23.5.132
     ttl: 300
+  - name: PIHW4172DFS001
+    record:
+      - 10.25.3.150
+    ttl: 300
+  - name: PIHW4171DFS001
+    record:
+      - 10.25.3.150
+    ttl: 300
   - name: martha
     record:
     - 10.24.245.12
