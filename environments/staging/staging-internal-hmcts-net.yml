@@ -15,6 +15,18 @@ A:
     record:
     - 10.25.245.12
     ttl: 300
+  - name: NIHW4172RDP001
+    record:
+    - 10.25.3.133
+    ttl: 300
+  - name: NIHW4172RDP021
+    record:
+    - 10.25.5.133
+    ttl: 300
+  - name: NIHW4171RDP001
+    record:
+    - 10.23.3.133
+    ttl: 300
 cname:
   - name: smallsystems
     record: ss01-sqlsrv-stg.privatelink.database.windows.net
