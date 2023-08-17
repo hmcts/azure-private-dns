@@ -15,19 +15,19 @@ A:
     record:
     - 10.25.245.12
     ttl: 300
-  - name: NIHW4172RDP001
+  - name: nihw4172rdp001
     record:
     - 10.25.3.133
     ttl: 300
-  - name: NIHW4172RDP021
+  - name: nihw4172rdp021
     record:
     - 10.25.5.133
     ttl: 300
-  - name: NIHW4171RDP001
+  - name: nihw4171rdp001
     record:
     - 10.23.3.133
     ttl: 300
-  - name: NIHW4171DFS001
+  - name: nihw4171dfs001
     record:
     - 10.25.3.151
     ttl: 300
