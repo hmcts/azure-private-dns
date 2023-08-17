@@ -57,6 +57,30 @@ A:
     record:
       - 10.25.3.167
     ttl: 300
+  - name: pihw4172rdp001
+    record:
+      - 10.25.3.132
+    ttl: 300
+  - name: pihw4172rdp021
+    record:
+      - 10.25.5.132
+    ttl: 300
+  - name: pihw4171rdp001
+    record:
+      - 10.23.3.132
+    ttl: 300
+  - name: pihw4171rdp021
+    record:
+      - 10.23.5.132
+    ttl: 300
+  - name: pihw4172dfs001
+    record:
+      - 10.25.3.150
+    ttl: 300
+  - name: pihw4171dfs001
+    record:
+      - 10.25.3.150
+    ttl: 300
   - name: martha
     record:
     - 10.24.245.12
