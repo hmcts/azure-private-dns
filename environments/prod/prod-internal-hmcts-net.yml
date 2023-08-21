@@ -79,7 +79,7 @@ A:
     ttl: 300
   - name: pihw4171dfs001
     record:
-      - 10.25.3.150
+      - 10.23.3.150
     ttl: 300
   - name: martha
     record:
