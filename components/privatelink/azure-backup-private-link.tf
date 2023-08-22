@@ -1,4 +1,4 @@
-data "local_file" "azuremediaservices-private-link" {
+data "local_file" "azure-backup-private-link" {
   filename = "${path.cwd}/../../environments/privatelink/azure-backup-private-link.yml"
 }
 
