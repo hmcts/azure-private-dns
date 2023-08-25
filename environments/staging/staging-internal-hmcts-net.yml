@@ -31,6 +31,10 @@ A:
     record:
     - 10.23.3.151
     ttl: 300
+  - name: nihw4172DFS001
+    record:
+    - 10.25.3.151
+    ttl: 300
 cname:
   - name: smallsystems
     record: ss01-sqlsrv-stg.privatelink.database.windows.net
