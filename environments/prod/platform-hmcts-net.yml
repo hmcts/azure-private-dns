@@ -1,5 +1,7 @@
 name: "platform.hmcts.net"
 vnet_links:
+  - link_name: "core-aad-domain-services-mgmt-vnet"
+    vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/core-aad-domain-services-mgmt-rg/providers/Microsoft.Network/virtualNetworks/core-aad-domain-services-mgmt-vnet"
   - link_name: "core-infra-vnet-prod-internal"
     vnet_id: "/subscriptions/8999dec3-0104-4a27-94ee-6588559729d1/resourceGroups/core-infra-prod/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-prod"
   - link_name: "core-infra-vnet-idam-prod"
