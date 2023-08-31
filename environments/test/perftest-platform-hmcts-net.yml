@@ -112,6 +112,9 @@ cname:
   - name: idam-testing-support-api
     record: idam-testing-support-api-perftest.service.core-compute-perftest.internal.
     ttl: 300
+  - name: idam-user-profile-bridge
+    record: idam-user-profile-bridge-perftest.service.core-compute-perftest.internal.
+    ttl: 300
   - name: hmcts-access
     record: hmcts-perftest.azurefd.net.
     ttl: 300
