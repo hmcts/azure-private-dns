@@ -152,6 +152,9 @@ cname:
   - name: idam-user-dashboard
     record: hmcts-aat.azurefd.net.
     ttl: 300
+  - name: idam-user-profille-bridge
+    record: idam-user-profile-bridge-aat.service.core-compute-aat.internal.
+    ttl: 300
   - name: plum
     record: hmcts-aat.azurefd.net.
     ttl: 300
