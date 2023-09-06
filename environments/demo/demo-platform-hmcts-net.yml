@@ -474,6 +474,4 @@ cname:
   - name: pip-frontend
     record: sdshmcts-demo.azurefd.net
     ttl: 300
-  - name: pre-portal
-    record: sdshmcts-demo.azurefd.net
-    ttl: 300 
+    
