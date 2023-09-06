@@ -87,3 +87,6 @@ cname:
   - name: darts-portal
     record: sdshmcts-stg.azurefd.net
     ttl: 300
+  - name: pre-portal
+    record: sdshmcts-stg.azurefd.net
+    ttl: 300
