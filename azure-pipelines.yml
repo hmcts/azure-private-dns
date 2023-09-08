@@ -8,7 +8,7 @@ resources:
   repositories:
   - repository: cnp-azuredevops-libraries
     type: github
-    ref: master
+    ref: test_branch
     name: hmcts/cnp-azuredevops-libraries
     endpoint: 'hmcts'
 
