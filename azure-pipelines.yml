@@ -31,6 +31,11 @@ parameters:
       - plan
       - apply
 
+  - name: forcePreventParallelJobRun
+    displayName: Always force prevent parallem run job
+    type: boolean
+    default: true
+
   - name: environment_components
     type: object
     default:
@@ -104,6 +109,7 @@ stages:
               keyvaultSecret: 'azure-devops-sp-token'
               serviceConnection: 'DCD-CFTAPPS-SBOX'
               overrideAction: ${{ parameters.overrideAction }}
+              forcePreventParallelJobRun: ${{ forcePreventParallelJobRun }}
 
   - ${{ each deployment in parameters.environment_components }}:
     - stage: ${{ deployment.deployment }}
