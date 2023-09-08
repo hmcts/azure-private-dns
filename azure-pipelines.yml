@@ -109,7 +109,7 @@ stages:
               keyvaultSecret: 'azure-devops-sp-token'
               serviceConnection: 'DCD-CFTAPPS-SBOX'
               overrideAction: ${{ parameters.overrideAction }}
-              forcePreventParallelJobRun: ${{ forcePreventParallelJobRun }}
+              forcePreventParallelJobRun: ${{ parameters.forcePreventParallelJobRun }}
 
   - ${{ each deployment in parameters.environment_components }}:
     - stage: ${{ deployment.deployment }}
