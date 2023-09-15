@@ -474,4 +474,15 @@ cname:
   - name: pip-frontend
     record: sdshmcts-demo.azurefd.net
     ttl: 300
-    
+  - name: et-pet-admin
+    record: hmcts-demo.azurefd.net.
+    ttl: 300
+  - name: et-pet-et1
+    record: hmcts-demo.azurefd.net.
+    ttl: 300
+  - name: et-pet-et3
+    record: hmcts-demo.azurefd.net.
+    ttl: 300
+  - name: tax-tribunals-datacapture
+    record: hmcts-demo.azurefd.net.
+    ttl: 300    

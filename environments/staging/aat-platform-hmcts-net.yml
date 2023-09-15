@@ -338,3 +338,15 @@ cname:
   - name: wa-workflow-camunda-staging
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
+  - name: et-pet-admin
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: et-pet-et1
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: et-pet-et3
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: tax-tribunals-datacapture
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
