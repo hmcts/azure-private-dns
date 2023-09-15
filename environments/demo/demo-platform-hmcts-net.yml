@@ -486,3 +486,9 @@ cname:
   - name: tax-tribunals-datacapture
     record: hmcts-demo.azurefd.net.
     ttl: 300    
+  - name: hwf-publicapp
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
+  - name: hwf-staffapp
+    record: hmcts-aat.azurefd.net.
+    ttl: 300
