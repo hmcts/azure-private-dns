@@ -198,6 +198,12 @@ cname:
   - name: toffee3
     record: sdshmcts-new-test-sbox-dab3b4ftaxf4fjbv.z01.azurefd.net. 
     ttl: 300
+  - name: toffee4
+    record: sdshmcts-test1-sbox.azurefd.net. 
+    ttl: 300
+  - name: toffee5
+    record: sdshmcts-test2-sbox.azurefd.net. 
+    ttl: 300
   - name: "labs-louisehuyton-walkthrough"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
