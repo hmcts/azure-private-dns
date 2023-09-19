@@ -143,6 +143,10 @@ A:
     record:
     - 10.0.16.36
     ttl: 300
+  - name: clamav-mirror
+    record:
+    - 10.70.25.250
+    ttl: 300
 cname:
   - name: moneyclaim
     record: sandbox-waf.sandbox.platform.hmcts.net.
