@@ -1053,4 +1053,12 @@ A:
     record:
       - 10.70.25.250
     ttl: 300
+  - name: sds-sonarqube-webhook
+    record:
+      - 10.147.79.250
+    ttl: 300
+  - name: sds-sandbox-sonarqube-webhook
+    record:
+      - 10.147.15.250
+    ttl: 300
 cname: []
