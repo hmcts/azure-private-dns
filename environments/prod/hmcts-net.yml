@@ -1045,6 +1045,10 @@ A:
     ttl: 600
     record:
       - 51.132.220.208
+  - name: cft-sonarqube-webhook
+    record:
+      - 10.10.73.250
+    ttl: 300
   - name: static-sandbox-build
     record:
       - 10.70.25.250
