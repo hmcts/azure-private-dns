@@ -2,7 +2,7 @@ data "local_file" "adf-private-link" {
   filename = "${path.cwd}/../../environments/privatelink/adf-private-link.yml"
 }
 
-module "datafactory-private-link" {
+module "adf-private-link" {
   source              = "../../modules/azure-private-dns/"
   cname_records       = yamldecode(data.local_file.adf-private-link.content).cname
   a_recordsets        = yamldecode(data.local_file.adf-private-link.content).A
