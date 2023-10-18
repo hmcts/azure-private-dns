@@ -66,7 +66,7 @@ cname:
     record: traefik-sds-01.dev.platform.hmcts.net
     ttl: 300
   - name: toffee
-    record: sdshmcts-dev.azurefd.net.
+    record: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net.
     ttl: 300
   - name: signalr
     record: vh-infra-core-dev.service.signalr.net
