@@ -7,10 +7,10 @@ vnet_links:
 A: []
 cname:
   - name: video
-    record: sdshmcts-stg.azurefd.net
+    record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
     ttl: 300
   - name: admin
-    record: sdshmcts-stg.azurefd.net
+    record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
     ttl: 300
   - name: signalr
     record: vh-infra-core-stg.service.signalr.net

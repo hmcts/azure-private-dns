@@ -63,16 +63,16 @@ A:
     ttl: 300
 cname:
   - name: adoption-web
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: moneyclaims
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: moneyclaims-legal
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: benefit-appeal
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: civil-service-manage-case-assignment-staging
     record: jenkins-cluster.aat.platform.hmcts.net.
@@ -117,25 +117,25 @@ cname:
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
   - name: track-appeal
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: sscs-cor
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: www-ccd
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: gateway-ccd
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: return-case-doc-ccd
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: em-icp
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: fees-register
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: fees-register-api
     record: aat-waf.aat.platform.hmcts.net.
@@ -147,89 +147,89 @@ cname:
     record: idam-testing-support-api-aat.service.core-compute-aat.internal.
     ttl: 300
   - name: idam-web-admin
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: idam-web-public
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: idam-user-dashboard
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: idam-user-profile-bridge
     record: idam-user-profile-bridge-aat.service.core-compute-aat.internal.
     ttl: 300
   - name: plum
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: dtsse-ardoq-adapter
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: hmcts-access
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: payment
     record: aat-waf.aat.platform.hmcts.net.
     ttl: 300
   - name: paybubble
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: bar
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: petitioner-frontend-aks
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: respond-divorce-aks
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: decree-nisi-aks
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: decree-absolute-aks
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: probate
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: fact
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: fact-admin
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: rpts
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: nfdiv
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: nfdiv-cms
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: nfdiv-cos
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: nfdiv-apply-for-divorce
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: nfdiv-end-civil-partnership
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: et-sya
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: bulkscan
     ttl: 300
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
   - name: bulkscanstg
     ttl: 300
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
   - name: reformscan
     ttl: 300
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
   - name: reformscanstg
     ttl: 300
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
   - name: jcm
     record: hmcts-jui-webapp-aat.trafficmanager.net.
     ttl: 300
@@ -243,41 +243,41 @@ cname:
     record: sscs-tya-frontend-aat-shutter.azurewebsites.net.aat.platform.hmcts.net.
     ttl: 300
   - name: register-org
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: manage-org
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: administer-orgs
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: manage-case
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: immigration-appeal
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: wa-proto-frontend
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: pcq
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: lau
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: judicial-payments
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: paymentoutcome-web
     ttl: 300
-    record: hmcts-aat.azurefd.net
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net
   - name: www.paymentoutcome-web
     ttl: 300
-    record: hmcts-aat.azurefd.net
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net
   - name: "civil-citizen-ui"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: civil-service-xui-staging
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
@@ -294,7 +294,7 @@ cname:
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
   - name: privatelaw
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: civil-ccd-camunda-staging-aat
     record: jenkins-cluster.aat.platform.hmcts.net.
@@ -342,23 +342,23 @@ cname:
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
   - name: et-pet-admin
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: et-pet-et1
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: et-pet-et3
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: tax-tribunals-datacapture
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: hwf-publicapp
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: hwf-staffapp
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: cui-ra
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300

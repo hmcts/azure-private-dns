@@ -57,7 +57,7 @@ A:
     ttl: 300 
 cname:
   - name: hmi-apim
-    record: hmcts-perftest.azurefd.net.
+    record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
     ttl: 300
   - name: sds-neuvector00
     record: traefik-sds-00.test.platform.hmcts.net
@@ -72,17 +72,17 @@ cname:
     record: traefik-sds-01.test.platform.hmcts.net
     ttl: 300
   - name: toffee
-    record: sdshmcts-test.azurefd.net.
+    record: sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net.
     ttl: 300
   - name: signalr
     record: vh-infra-core-test.service.signalr.net
     ttl: 300
   - name: vh-video-web
-    record: sdshmcts-test.azurefd.net
+    record: sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net
     ttl: 300
   - name: vh-admin-web
-    record: sdshmcts-test.azurefd.net
+    record: sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net
     ttl: 300
   - name: vh-test-web
-    record: sdshmcts-test.azurefd.net
+    record: sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net
     ttl: 300
