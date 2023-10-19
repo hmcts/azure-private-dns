@@ -37,6 +37,10 @@ A:
     record:
     - 10.25.3.151
     ttl: 300
+  - name: gaps2
+    record:
+    - 10.25.15.107
+    ttl: 300
 cname:
   - name: smallsystems
     record: ss01-sqlsrv-stg.privatelink.database.windows.net
