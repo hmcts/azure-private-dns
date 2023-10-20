@@ -1065,4 +1065,8 @@ A:
     record:
       - 10.147.15.250
     ttl: 300
+  - name: sds-sandbox-build
+    record:
+    - 10.147.15.250
+    ttl: 300
 cname: []
