@@ -76,10 +76,6 @@ A:
     record:
     - 13.87.65.149
     ttl: 300
-  - name: "sds-sandbox-build"
-    ttl: 300
-    record: 
-      - "51.104.212.71"
   - name: "static-sds-sandbox-build"
     ttl: 300
     record: 
@@ -580,3 +576,9 @@ cname:
   - name: darts-portal
     record: sdshmcts-prod.azurefd.net.
     ttl: 300
+  - name: "sds-sandbox-build"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+  - name: "afdverify.sds-sandbox-build"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
