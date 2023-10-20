@@ -373,6 +373,10 @@ A:
     record:
     - 10.24.250.5
     ttl: 300
+  - name: clamav-mirror
+    record:
+    - 10.10.73.250
+    ttl: 300
 
 cname:
   - name: c100-application
