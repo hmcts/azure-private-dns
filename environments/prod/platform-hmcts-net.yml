@@ -80,10 +80,6 @@ A:
     ttl: 300
     record: 
       - "51.104.212.71"
-  - name: "sds-build"
-    ttl: 60
-    record:
-      - "13.87.65.228"
   - name: "static-sds-build"
     ttl: 60
     record:
@@ -584,5 +580,11 @@ cname:
     ttl: 300
     record: "sdshmcts-prod.azurefd.net"
   - name: "afdverify.sds-sandbox-build"
+    ttl: 3600
+    record: "afdverify.sdshmcts-prod.azurefd.net"
+  - name: "sds-build"
+    ttl: 300
+    record: "sdshmcts-prod.azurefd.net"
+  - name: "afdverify.sds-build"
     ttl: 3600
     record: "afdverify.sdshmcts-prod.azurefd.net"
