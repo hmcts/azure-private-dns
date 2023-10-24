@@ -76,14 +76,6 @@ A:
     record:
     - 13.87.65.149
     ttl: 300
-  - name: "static-sds-sandbox-build"
-    ttl: 300
-    record: 
-      - "51.104.212.71"
-  - name: "static-sds-build"
-    ttl: 60
-    record:
-      - "13.87.65.228"
   - name: sandbox-build-beta
     record:
     - 40.120.54.64
@@ -582,9 +574,21 @@ cname:
   - name: "afdverify.sds-sandbox-build"
     ttl: 3600
     record: "afdverify.sdshmcts-prod.azurefd.net"
+  - name: "static-sds-sandbox-build"
+    ttl: 300
+    record: "sdshmcts-prod.azurefd.net"
+  - name: "afdverify.static-sds-sandbox-build"
+    ttl: 3600
+    record: "afdverify.sdshmcts-prod.azurefd.net"
   - name: "sds-build"
     ttl: 300
     record: "sdshmcts-prod.azurefd.net"
   - name: "afdverify.sds-build"
+    ttl: 3600
+    record: "afdverify.sdshmcts-prod.azurefd.net"
+  - name: "static-sds-build"
+    ttl: 300
+    record: "sdshmcts-prod.azurefd.net"
+  - name: "afdverify.static-sds-build"
     ttl: 3600
     record: "afdverify.sdshmcts-prod.azurefd.net"
