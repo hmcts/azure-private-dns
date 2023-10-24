@@ -1,5 +1,6 @@
 name: "privatelink.purview.azure.com"
-vnet_links: []
-
+vnet_links:
+- link_name: "core-infra-vnet-mgmt"
+    vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/rg-mgmt/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-mgmt"
 A: []
 cname: []
