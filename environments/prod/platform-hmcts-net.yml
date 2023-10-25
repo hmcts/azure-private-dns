@@ -582,9 +582,33 @@ cname:
   - name: "afdverify.sds-sandbox-build"
     ttl: 3600
     record: "afdverify.sdshmcts-prod.azurefd.net"
+  - name: "static-sds-sandbox-build"
+    ttl: 300
+    record: "sdshmcts-prod.azurefd.net"
+  - name: "afdverify.static-sds-sandbox-build"
+    ttl: 3600
+    record: "afdverify.sdshmcts-prod.azurefd.net"
   - name: "sds-build"
     ttl: 300
     record: "sdshmcts-prod.azurefd.net"
   - name: "afdverify.sds-build"
     ttl: 3600
     record: "afdverify.sdshmcts-prod.azurefd.net"
+  - name: "static-sds-build"
+    ttl: 300
+    record: "sdshmcts-prod.azurefd.net"
+  - name: "afdverify.static-sds-build"
+    ttl: 3600
+    record: "afdverify.sdshmcts-prod.azurefd.net"
+  - name: "build"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+  - name: "afdverify.build"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "static-build"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+  - name: "afdverify.static-build"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
