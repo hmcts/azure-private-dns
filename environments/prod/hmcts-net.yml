@@ -1081,4 +1081,12 @@ A:
     record:
     - 10.147.79.250
     ttl: 300
+  - name: build
+    record:
+    - 10.10.73.250
+    ttl: 300
+  - name: static-build
+    record:
+    - 10.10.73.250
+    ttl: 300
 cname: []
