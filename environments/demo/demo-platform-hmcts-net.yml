@@ -73,6 +73,10 @@ A:
     record:
     - 10.50.97.119
     ttl: 300
+  - name: idam-user-profile-bridge
+    record:
+    - 10.50.97.119
+    ttl: 300
   - name: alertmanager-00
     record:
     - 10.50.79.221
