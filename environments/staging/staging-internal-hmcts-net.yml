@@ -109,6 +109,10 @@ A:
     record:
     - 10.25.15.93
     ttl: 300
+    - name: gaps2wap
+    record:
+    - 10.25.15.108
+    ttl: 300
 cname:
   - name: smallsystems
     record: ss01-sqlsrv-stg.privatelink.database.windows.net
