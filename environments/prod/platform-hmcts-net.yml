@@ -72,18 +72,6 @@ A:
     record:
     - 10.99.196.9
     ttl: 300
-  - name: sandbox-build
-    record:
-    - 13.87.65.149
-    ttl: 300
-  - name: "static-sds-sandbox-build"
-    ttl: 300
-    record: 
-      - "51.104.212.71"
-  - name: "static-sds-build"
-    ttl: 60
-    record:
-      - "13.87.65.228"
   - name: sandbox-build-beta
     record:
     - 40.120.54.64
@@ -108,15 +96,7 @@ A:
     record:
     - 10.96.4.10
     ttl: 300
-  - name: build
-    record:
-    - 13.87.65.183
-    ttl: 300
   - name: build-beta
-    record:
-    - 13.87.65.183
-    ttl: 300
-  - name: static-build
     record:
     - 13.87.65.183
     ttl: 300
@@ -576,10 +556,22 @@ cname:
   - name: darts-portal
     record: sdshmcts-prod.azurefd.net.
     ttl: 300
+  - name: "sandbox-build"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+  - name: "afdverify.sandbox-build"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
   - name: "sds-sandbox-build"
     ttl: 300
     record: "sdshmcts-prod.azurefd.net"
   - name: "afdverify.sds-sandbox-build"
+    ttl: 3600
+    record: "afdverify.sdshmcts-prod.azurefd.net"
+  - name: "static-sds-sandbox-build"
+    ttl: 300
+    record: "sdshmcts-prod.azurefd.net"
+  - name: "afdverify.static-sds-sandbox-build"
     ttl: 3600
     record: "afdverify.sdshmcts-prod.azurefd.net"
   - name: "sds-build"
@@ -588,3 +580,21 @@ cname:
   - name: "afdverify.sds-build"
     ttl: 3600
     record: "afdverify.sdshmcts-prod.azurefd.net"
+  - name: "static-sds-build"
+    ttl: 300
+    record: "sdshmcts-prod.azurefd.net"
+  - name: "afdverify.static-sds-build"
+    ttl: 3600
+    record: "afdverify.sdshmcts-prod.azurefd.net"
+  - name: "build"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+  - name: "afdverify.build"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "static-build"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+  - name: "afdverify.static-build"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
