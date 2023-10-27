@@ -37,6 +37,8 @@ vnet_links:
     vnet_id: "/subscriptions/58a2ce36-4e09-467b-8330-d164aa559c68/resourceGroups/pet_dev_network_resource_group/providers/Microsoft.Network/virtualNetworks/pet_dev_network"
   - link_name: "vnet-nle-int-01"
     vnet_id: "/subscriptions/ae75b9fb-7d34-4112-82ff-64bd3855ce27/resourceGroups/InternalSpoke-rg/providers/Microsoft.Network/virtualNetworks/vnet-nle-int-01"
+  - link_name: "darts-prod-vnet"
+    vnet_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/darts-migration-prod-rg/providers/Microsoft.Network/virtualNetworks/migration-vnet"
 
 A: []
 cname: []
