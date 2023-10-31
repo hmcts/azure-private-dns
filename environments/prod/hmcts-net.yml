@@ -1093,4 +1093,8 @@ A:
     record: 
     - 10.147.15.250
     ttl: 300
+  - name: netbox
+    record:
+    - 10.147.79.250
+    ttl: 300
 cname: []
