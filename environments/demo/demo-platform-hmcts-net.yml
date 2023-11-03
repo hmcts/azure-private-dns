@@ -11,7 +11,7 @@ vnet_links:
   - link_name: "vpn"
     vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/mgmt-vpn-2-mgmt/providers/Microsoft.Network/virtualNetworks/mgmt-vpn-2-vnet"
   - link_name: "bastion-nonprod-vnet"
-    vnet_id: "/subscriptions/58a2ce36-4e09-467b-8330-d164aa559c68/resourceGroups/pet_dev_network_resource_group/providers/Microsoft.Network/virtualNetworks/pet_dev_network"  
+    vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/bastion-nonprod-rg/providers/Microsoft.Network/virtualNetworks/bastion-nonprod-vnet"
   - link_name: "hmi-sharedinfra-vnet-demo"
     vnet_id: "/subscriptions/c68a4bed-4c3d-4956-af51-4ae164c1957c/resourceGroups/hmi-sharedinfra-demo-rg/providers/Microsoft.Network/virtualNetworks/hmi-sharedinfra-vnet-demo"
 A:
