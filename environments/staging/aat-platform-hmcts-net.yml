@@ -77,6 +77,9 @@ cname:
   - name: civil-service-manage-case-assignment-staging
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
+  - name: civil-camunda-manage-case-assignment-staging
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
   - name: civil-ga-camunda-staging
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
