@@ -351,33 +351,33 @@ A:
 cname:
   - name: c100-application
     ttl: 300
-    record: sdshmcts-prod.azurefd.net
+    record: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
   - name: www.moneyclaim-legal
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
   - name: www.ccd
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
   - name: gateway.ccd
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
   - name: return-case-doc.ccd
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
   - name: equality-and-diversity
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
   - name: www.equality-and-diversity
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
   - name: tmequality-and-diversity
     record: prod-waf-additional.platform.hmcts.net.
     ttl: 300  
   - name: fees-register
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
   - name: www.fees-register
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
   - name: tmwww.fees-register
     record: prod-waf-additional.platform.hmcts.net.
@@ -401,22 +401,22 @@ cname:
     record: idam-api-prod.service.core-compute-prod.internal.
     ttl: 60
   - name: idam-web-admin
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 60
   - name: idam-user-dashboard
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
   - name: payment
     record: prod-waf-additional.platform.hmcts.net.
     ttl: 300
   - name: www.paybubble
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
   - name: tmpaybubble
     record: ccpay-waf.platform.hmcts.net.
     ttl: 300
   - name: paybubble
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
   - name: bar
     record: prod-waf.platform.hmcts.net.
@@ -425,10 +425,10 @@ cname:
     record: prod-waf.platform.hmcts.net.
     ttl: 300
   - name: www.manage-payments
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
   - name: manage-payments
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
   - name: tmwww.manage-payments
     record: prod-waf-additional.platform.hmcts.net.
@@ -455,22 +455,22 @@ cname:
     record: 249883f2-b70d-43f4-ad2c-d5100c94b5b9.cloudapp.net.
     ttl: 300
   - name: reformscan
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
   - name: sslmon
     record: proxyin.reform.hmcts.net.
     ttl: 300
   - name: manage-org
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
   - name: administer-orgs
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
   - name: register-org
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
   - name: manage-case
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
   - name: tmmanage-case
     record: 3ea55565-0202-4fa4-a74b-e9b0bccdefd5.cloudapp.net.
@@ -488,10 +488,10 @@ cname:
     record: sscs-tya-frontend-prod-shutter.azurewebsites.net
     ttl: 300
   - name: hmi-apim
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
   - name: log-and-audit
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
     record: "hmcts-ldata.azurefd.net"
   - name: sds-neuvector00
@@ -516,16 +516,16 @@ cname:
     record: bastion-prod.platform.hmcts.net
     ttl: 300
   - name: apply-for-adoption
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
   - name: plum
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
   - name: toffee
-    record: sdshmcts-prod.azurefd.net.
+    record: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net.
     ttl: 300
   - name: dtsse-ardoq-adapter
-    record: hmcts-prod.azurefd.net.
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300  
   - name: prometheus-00
     record: traefik-cft-00.platform.hmcts.net.
@@ -552,47 +552,47 @@ cname:
     record: traefik-cft-01.platform.hmcts.net.
     ttl: 300
   - name: darts-portal
-    record: sdshmcts-prod.azurefd.net.
+    record: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net.
     ttl: 300
   - name: "sandbox-build"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.sandbox-build"
     ttl: 3600
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "sds-sandbox-build"
     ttl: 300
-    record: "sdshmcts-prod.azurefd.net"
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "afdverify.sds-sandbox-build"
     ttl: 3600
-    record: "afdverify.sdshmcts-prod.azurefd.net"
+    record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "static-sds-sandbox-build"
     ttl: 300
-    record: "sdshmcts-prod.azurefd.net"
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "afdverify.static-sds-sandbox-build"
     ttl: 3600
-    record: "afdverify.sdshmcts-prod.azurefd.net"
+    record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "sds-build"
     ttl: 300
-    record: "sdshmcts-prod.azurefd.net"
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "afdverify.sds-build"
     ttl: 3600
-    record: "afdverify.sdshmcts-prod.azurefd.net"
+    record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "static-sds-build"
     ttl: 300
-    record: "sdshmcts-prod.azurefd.net"
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "afdverify.static-sds-build"
     ttl: 3600
-    record: "afdverify.sdshmcts-prod.azurefd.net"
+    record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "build"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.build"
     ttl: 3600
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "static-build"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.static-build"
     ttl: 3600
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
