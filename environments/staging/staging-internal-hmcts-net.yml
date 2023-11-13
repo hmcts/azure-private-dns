@@ -109,6 +109,14 @@ A:
     record:
     - 10.25.15.93
     ttl: 300
+  - name: libra-gob
+    record:
+    - 10.25.15.68
+    ttl: 300
+  - name: libra-sat-gob
+    record:
+    - 10.25.15.94
+    ttl: 300
 cname:
   - name: smallsystems
     record: ss01-sqlsrv-stg.privatelink.database.windows.net
