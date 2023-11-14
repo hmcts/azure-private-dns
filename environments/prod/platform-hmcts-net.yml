@@ -600,3 +600,12 @@ cname:
   - name: "afdverify.static-build"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+  - name: "paymentoutcome-web"
+    ttl: 3600
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+  - name: "www.paymentoutcome-web"
+    ttl: 3600
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+  - name: "pre-portal"
+    ttl: 300
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
