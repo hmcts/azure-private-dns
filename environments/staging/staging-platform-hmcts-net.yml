@@ -56,9 +56,9 @@ A:
 cname:
   - name: c100-application
     ttl: 300
-    record: sdshmcts-stg.azurefd.net
+    record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
   - name: hmi-apim
-    record: hmcts-aat.azurefd.net.
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: sds-neuvector00
     record: traefik-sds-00.staging.platform.hmcts.net
@@ -73,17 +73,17 @@ cname:
     record: traefik-sds-01.staging.platform.hmcts.net
     ttl: 300
   - name: toffee
-    record: sdshmcts-stg.azurefd.net.
+    record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net.
     ttl: 300
   - name: pip-frontend
-    record: sdshmcts-stg.azurefd.net
+    record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
     ttl: 300
   - name: sign-in.pip-frontend
-    record: sdshmcts-stg.azurefd.net
+    record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
     ttl: 300  
   - name: staff.pip-frontend
-    record: sdshmcts-stg.azurefd.net
+    record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
     ttl: 300
   - name: darts-portal
-    record: sdshmcts-stg.azurefd.net
+    record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
     ttl: 300

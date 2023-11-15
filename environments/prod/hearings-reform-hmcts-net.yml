@@ -4,14 +4,23 @@ vnet_links:
     vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/rg-mgmt/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-mgmt"
   - link_name: "vpn"
     vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/mgmt-vpn-2-mgmt/providers/Microsoft.Network/virtualNetworks/mgmt-vpn-2-vnet"
+  - link_name: "cftptl"
+    vnet_id: "/subscriptions/1baf5470-1c3e-40d3-a6f7-74bfbce4b348/resourceGroups/cft-ptl-network-rg/providers/Microsoft.Network/virtualNetworks/cft-ptl-vnet"
+
 A: []
 cname:
   - name: video-sds
-    record: sdshmcts-prod.azurefd.net
+    record: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
     ttl: 300
   - name: admin-sds
-    record: sdshmcts-prod.azurefd.net
+    record: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
     ttl: 300
   - name: signalr
     record: vh-infra-core-prod.service.signalr.net
+    ttl: 300
+  - name: video
+    record: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
+    ttl: 300
+  - name: admin
+    record: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
     ttl: 300

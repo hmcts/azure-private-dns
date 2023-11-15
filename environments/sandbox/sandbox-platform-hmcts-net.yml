@@ -161,7 +161,7 @@ cname:
     record: idam-api-sbox.service.core-compute-sandbox.internal.
     ttl: 300
   - name: idam-web-public
-    record: hmcts-sbox.azurefd.net.
+    record: hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net.
     ttl: 300
   - name: idam-api-sprod
     record: idam-api-sprod-sbox.service.core-compute-sandbox.internal.
@@ -170,7 +170,7 @@ cname:
     record: idam-api-sprod-sbox.service.core-compute-sandbox.internal.
     ttl: 300
   - name: idam-web-public-sprod
-    record: hmcts-sbox.azurefd.net.
+    record: hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net.
     ttl: 300
   - name: payment
     record: sandbox-waf.sandbox.platform.hmcts.net.
@@ -179,40 +179,40 @@ cname:
     record: sandbox-waf.sandbox.platform.hmcts.net.
     ttl: 300
   - name: idam-web-admin
-    record: hmcts-sbox.azurefd.net.
+    record: hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net.
     ttl: 300
   - name: idam-user-dashboard
-    record: hmcts-sbox.azurefd.net.
+    record: hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net.
     ttl: 300
   - name: hmcts-access
-    record: hmcts-sbox.azurefd.net.
+    record: hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net.
     ttl: 300
   - name: hmi-apim
-    record: hmcts-sbox.azurefd.net.
+    record: hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net.
     ttl: 300
   - name: plum
-    record: hmcts-sbox.azurefd.net.
+    record: hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net.
     ttl: 300
   - name: toffee
-    record: sdshmcts-sbox.azurefd.net.
+    record: sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net.
     ttl: 300
   - name: "labs-louisehuyton-walkthrough"
     ttl: 300
-    record: "hmcts-sbox.azurefd.net"
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: "labs-zcwalkthrough-nodejs"
     ttl: 300
-    record: "hmcts-sbox.azurefd.net"
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: signalr
     record: vh-infra-core-sbox.service.signalr.net
     ttl: 300
   - name: "labs-rhodrif-nodejs"
     ttl: 300
-    record: "hmcts-sbox.azurefd.net"
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: darts-portal
-    record: sdshmcts-sbox.azurefd.net
+    record: sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net
     ttl: 300
   - name: pip-frontend
-    record: sdshmcts-sbox.azurefd.net
+    record: sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net
     ttl: 300
   - name: plumclassic
     record: cnphmcts-classic-sbox.azurefd.net. 

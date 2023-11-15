@@ -37,6 +37,86 @@ A:
     record:
     - 10.25.3.151
     ttl: 300
+  - name: gaps2
+    record:
+    - 10.25.15.107
+    ttl: 300
+  - name: xhibitsupc
+    record:
+    - 10.25.15.46
+    ttl: 300
+  - name: xhibitsupt
+    record:
+    - 10.25.15.47
+    ttl: 300
+  - name: xhibitdisplay
+    record:
+    - 10.25.2.253
+    ttl: 300
+  - name: libra-gateway
+    record:
+    - 10.25.15.75
+    ttl: 300
+  - name: libra
+    record:
+    - 10.25.15.76
+    ttl: 300
+  - name: libra-preview
+    record:
+    - 10.25.15.77
+    ttl: 300
+  - name: libra-cpp-gob-gateway
+    record:
+    - 10.25.15.78
+    ttl: 300
+  - name: libra-onpremise-gob-gateway
+    record:
+    - 10.25.15.79
+    ttl: 300
+  - name: libra-dmu
+    record:
+    - 10.25.15.80
+    ttl: 300
+  - name: libra-appreg
+    record:
+    - 10.25.15.81
+    ttl: 300
+  - name: libra-selfservice
+    record:
+    - 10.25.15.82
+    ttl: 300
+  - name: libra-docportal
+    record:
+    - 10.25.15.83
+    ttl: 300
+  - name: libra-proving
+    record:
+    - 10.25.15.84
+    ttl: 300
+  - name: libra-sdrs-gateway
+    record:
+    - 10.25.15.85
+    ttl: 300
+  - name: libra-crimeportal-gateway
+    record:
+    - 10.25.15.86
+    ttl: 300
+  - name: libra-mis
+    record:
+    - 10.25.15.87
+    ttl: 300
+  - name: libra-sat
+    record:
+    - 10.25.15.93
+    ttl: 300
+  - name: libra-gob
+    record:
+    - 10.25.15.68
+    ttl: 300
+  - name: libra-sat-gob
+    record:
+    - 10.25.15.94
+    ttl: 300
 cname:
   - name: smallsystems
     record: ss01-sqlsrv-stg.privatelink.database.windows.net

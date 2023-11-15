@@ -82,30 +82,30 @@ A:
 cname:
   - name: c100-application
     ttl: 300
-    record: sdshmcts-ithc.azurefd.net
+    record: sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
   - name: moneyclaims
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: www-ccd
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: gateway-ccd
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: hmi-apim
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: return-case-doc-ccd
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: idam-api
     record: idam-api-ithc.service.core-compute-ithc.internal.
     ttl: 300
   - name: idam-web-public
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: idam-user-dashboard
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300  
   - name: idam-testing-support-api
     record: idam-testing-support-api-ithc.service.core-compute-ithc.internal.
@@ -114,67 +114,67 @@ cname:
     record: idam-user-profile-bridge-ithc.service.core-compute-ithc.internal.
     ttl: 300
   - name: hmcts-access
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: petitioner-frontend-aks
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: respond-divorce-aks
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: decree-nisi-aks
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: decree-absolute-aks
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: probate
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: register-org
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: manage-org
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: manage-case
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: administer-orgs
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: immigration-appeal
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: paybubble
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: fees-register
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: fact
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: fact-admin
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: nfdiv
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: nfdiv-cms
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: nfdiv-cos
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: bar
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: idam-web-admin
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: lau
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: sds-neuvector00
     record: traefik-sds-00.ithc.platform.hmcts.net
@@ -189,7 +189,7 @@ cname:
     record: traefik-sds-01.ithc.platform.hmcts.net
     ttl: 300
   - name: toffee
-    record: sdshmcts-ithc.azurefd.net.
+    record: sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net.
     ttl: 300
   - name: toffee2
     record: sdshmcts-new-test-ithc-gua7aqh4eybzcdgd.z01.azurefd.net.
@@ -198,19 +198,19 @@ cname:
     record: sdshmcts-new-test-ithc-gua7aqh4eybzcdgd.z01.azurefd.net.
     ttl: 300
   - name: rpts
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: adoption-web
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: paymentoutcome-web
     ttl: 300
-    record: "hmcts-ithc.azurefd.net"
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: plum
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: privatelaw
-    record: hmcts-ithc.azurefd.net.
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: signalr
     record: vh-infra-core-ithc.service.signalr.net
@@ -238,4 +238,7 @@ cname:
     ttl: 300
   - name: cft-neuvector01-api
     record: traefik-cft-01.ithc.platform.hmcts.net.
+    ttl: 300
+  - name: cui-ra
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
