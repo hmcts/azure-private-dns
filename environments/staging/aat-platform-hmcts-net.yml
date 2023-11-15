@@ -164,6 +164,9 @@ cname:
   - name: plum
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
+  - name: plum-frontend-staging
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
+    ttl: 300
   - name: dtsse-ardoq-adapter
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
