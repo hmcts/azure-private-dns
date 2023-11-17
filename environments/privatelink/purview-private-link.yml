@@ -1,9 +1,9 @@
 name: "privatelink.purview.azure.com"
 vnet_links:
-  - link_name: "ss-dev-vnet"
-    vnet_id: "/subscriptions/867a878b-cb68-4de5-9741-361ac9e178b6/resourceGroups/ss-dev-network-rg/providers/Microsoft.Network/virtualNetworks/ss-dev-vnet"
-  - link_name: "ss-prod-vnet"
-    vnet_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/ss-prod-network-rg/providers/Microsoft.Network/virtualNetworks/ss-prod-vnet"
+  - link_name: "hmcts-hub-nonprodi"
+    vnet_id: "/subscriptions/fb084706-583f-4c9a-bdab-949aac66ba5c/resourceGroups/hmcts-hub-nonprodi/providers/Microsoft.Network/virtualNetworks/hmcts-hub-nonprodi"
+  - link_name: "hmcts-hub-prod-int"
+    vnet_id: "/subscriptions/0978315c-75fe-4ada-9d11-1eb5e0e0b214/resourceGroups/hmcts-hub-prod-int/providers/Microsoft.Network/virtualNetworks/hmcts-hub-prod-int"
   - link_name: "core-infra-vnet-mgmt"
     vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/rg-mgmt/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-mgmt"
   - link_name: "vpn"
