@@ -1,5 +1,9 @@
 name: "privatelink.purviewstudio.azure.com"
 vnet_links:
+  - link_name: "ss-dev-vnet"
+    vnet_id: "/subscriptions/867a878b-cb68-4de5-9741-361ac9e178b6/resourceGroups/ss-dev-network-rg/providers/Microsoft.Network/virtualNetworks/ss-dev-vnet"
+  - link_name: "ss-prod-vnet"
+    vnet_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/ss-prod-network-rg/providers/Microsoft.Network/virtualNetworks/ss-prod-vnet"
   - link_name: "core-infra-vnet-mgmt"
     vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/rg-mgmt/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-mgmt"
   - link_name: "vpn"
