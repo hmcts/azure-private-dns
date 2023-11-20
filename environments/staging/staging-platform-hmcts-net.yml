@@ -75,6 +75,9 @@ cname:
   - name: toffee
     record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net.
     ttl: 300
+  - name: toffee-frontend-staging
+    record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net.
+    ttl: 300
   - name: pip-frontend
     record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
     ttl: 300
