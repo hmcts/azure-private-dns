@@ -61,6 +61,10 @@ A:
     record:
     - 10.10.159.250
     ttl: 300
+  - name: grafana
+    record:
+    - 10.10.143.250
+    ttl: 300
 cname:
   - name: adoption-web
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
