@@ -1097,4 +1097,8 @@ A:
     record:
     - 10.147.79.250
     ttl: 300
+  - name: nessus
+    record:
+    - 10.146.5.4
+    ttl: 300
 cname: []
