@@ -242,3 +242,6 @@ cname:
   - name: cui-ra
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
+  - name: darts-portal
+    record: sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
+    ttl: 300
