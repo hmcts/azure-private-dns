@@ -87,4 +87,8 @@ A:
     record:
     - 10.24.245.12
     ttl: 300
+  - name: tec
+    record:
+    - 10.23.15.139
+    ttl: 300
 cname: []
