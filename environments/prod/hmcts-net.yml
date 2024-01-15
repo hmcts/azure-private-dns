@@ -1097,4 +1097,7 @@ A:
     record:
     - 10.147.79.250
     ttl: 300
-cname: []
+cname: 
+  - name: panorama-sandbox
+    record: panorama-sbox-uks-0.sandbox.platform.hmcts.net.
+    ttl: 300
