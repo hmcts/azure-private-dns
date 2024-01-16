@@ -41,14 +41,6 @@ A:
     record:
     - 10.25.15.107
     ttl: 300
-  - name: xhibitsupc
-    record:
-    - 10.25.15.46
-    ttl: 300
-  - name: xhibitsupt
-    record:
-    - 10.25.15.47
-    ttl: 300
   - name: xhibitdisplay
     record:
     - 10.25.2.253
@@ -120,6 +112,26 @@ A:
   - name: tec
     record:
     - 10.25.15.139
+    ttl: 300
+  - name: xhibitTC1
+    record:
+    - 10.25.12.76
+    ttl: 300
+  - name: xhibitTC2
+    record:
+    - 10.25.12.77
+    ttl: 300
+  - name: xhibitTC3
+    record:
+    - 10.25.12.78
+    ttl: 300
+  - name: xhibitTC4
+    record:
+    - 10.25.12.79
+    ttl: 300
+  - name: xhibitTC5
+    record:
+    - 10.25.12.80
     ttl: 300
 cname:
   - name: smallsystems
