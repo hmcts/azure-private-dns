@@ -151,4 +151,28 @@ A:
     record:
     - 10.23.15.107
     ttl: 300
+  - name: xhibitdisplay
+    record:
+    - 10.23.1.253
+    ttl: 300
+  - name: xhibitTC1
+    record:
+    - 10.23.12.76
+    ttl: 300
+  - name: xhibitTC2
+    record:
+    - 10.23.12.77
+    ttl: 300
+  - name: xhibitTC3
+    record:
+    - 10.23.12.78
+    ttl: 300
+  - name: xhibitTC4
+    record:
+    - 10.23.12.79
+    ttl: 300
+  - name: xhibitTC5
+    record:
+    - 10.23.12.80
+    ttl: 300
 cname: []
