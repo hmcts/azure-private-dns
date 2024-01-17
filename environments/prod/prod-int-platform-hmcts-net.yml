@@ -8,47 +8,47 @@ vnet_links:
 A:
   - name: eucw4171prn004
     record:
-      - 10.172.69.16
+    - 10.172.69.16
     ttl: 300
   - name: eucw4171prn001
     record:
-      - 10.172.69.19
+    - 10.172.69.19
     ttl: 300
   - name: eucw4171prn003
     record:
-      - 10.172.69.18
+    - 10.172.69.18
     ttl: 300
   - name: eucw4171prn002
     record:
-      - 10.172.69.17
+    - 10.172.69.17
     ttl: 300
   - name: eucw4172prn004
     record:
-      - 10.171.69.16
+    - 10.171.69.16
     ttl: 300
   - name: eucw4172prn001
     record:
-      - 10.171.69.17
+    - 10.171.69.17
     ttl: 300
   - name: eucw4172prn002
     record:
-      - 10.171.69.19
+    - 10.171.69.19
     ttl: 300
   - name: eucw4172prn003
     record:
-      - 10.171.69.18
+    - 10.171.69.18
     ttl: 300
   - name: eucw4171prn005
     record:
-      - 10.172.69.13
+    - 10.172.69.13
     ttl: 300
   - name: eucw4172prn005
     record:
-      - 10.171.69.13
+    - 10.171.69.13
     ttl: 300
   - name: caps.db
     record:
-      - 10.24.242.4
+    - 10.24.242.4
     ttl: 300
 cname:
   - name: prn0000
