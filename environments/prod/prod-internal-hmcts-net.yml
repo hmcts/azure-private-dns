@@ -151,4 +151,8 @@ A:
     record:
     - 10.23.15.107
     ttl: 300
+  - name: crimeportal-libra-gw
+    record:
+    - 10.24.246.4
+    ttl: 300
 cname: []
