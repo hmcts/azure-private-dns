@@ -85,70 +85,70 @@ A:
     ttl: 300
   - name: martha
     record:
-      - 10.24.245.12
+    - 10.24.245.12
     ttl: 300
   - name: tec
     record:
-      - 10.23.15.139
+    - 10.23.15.139
     ttl: 300
   - name: libra-preview
     record:
-      - 10.23.15.90
+    - 10.23.15.90
     ttl: 300
   - name: libra-gateway
     record:
-      - 10.23.15.71
+    - 10.23.15.71
     ttl: 300
   - name: libra
     record:
-      - 10.23.15.89
+    - 10.23.15.89
     ttl: 300
   - name: libra-gob
     record:
-      - 10.23.15.68
+    - 10.23.15.68
     ttl: 300
   - name: libra-cpp-gob-gateway
     record:
-      - 10.23.15.72
+    - 10.23.15.72
     ttl: 300
   - name: libra-onpremise-gob-gateway
     record:
-      - 10.23.15.79
+    - 10.23.15.79
     ttl: 300
   - name: libra-dmu
     record:
-      - 10.23.15.91
+    - 10.23.15.91
     ttl: 300
   - name: libra-appreg
     record:
-      - 10.23.15.92
+    - 10.23.15.92
     ttl: 300
   - name: libra-selfservice
     record:
-      - 10.23.15.93
+    - 10.23.15.93
     ttl: 300
   - name: libra-docportal
     record:
-      - 10.23.15.94
+    - 10.23.15.94
     ttl: 300
   - name: libra-proving
     record:
-      - 10.23.15.73
+    - 10.23.15.73
     ttl: 300
   - name: libra-sdrs-gateway
     record:
-      - 10.23.15.85
+    - 10.23.15.85
     ttl: 300
   - name: libra-crimeportal-gateway
     record:
-      - 10.23.15.86
+    - 10.23.15.86
     ttl: 300
   - name: libra-mis
     record:
-      - 10.23.15.74
+    - 10.23.15.74
     ttl: 300
   - name: gaps2
     record:
-      - 10.23.15.107
+    - 10.23.15.107
     ttl: 300
 cname: []
