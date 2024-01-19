@@ -7,7 +7,7 @@ vnet_links:
 A:
   - name: lncs-onpremisegobgateway-uat
     record:
-      - 10.72.1.229
+      - 10.25.15.79
     ttl: 300
   - name: lncs-onpremisegobgateway
     record:
