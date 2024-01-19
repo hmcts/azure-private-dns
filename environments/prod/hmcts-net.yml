@@ -1101,3 +1101,6 @@ cname:
   - name: panorama-sandbox
     record: panorama-sbox-uks-0.sandbox.platform.hmcts.net.
     ttl: 300
+  - name: panorama
+    record: panorama-prod-uks-0.platform.hmcts.net.
+    ttl: 300
