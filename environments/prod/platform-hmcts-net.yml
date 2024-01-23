@@ -351,6 +351,22 @@ A:
     record:
     - 10.10.73.250
     ttl: 300
+  - name: dyn-ag-nonprod
+    record:
+    - 10.10.80.4
+    ttl: 300
+  - name: dyn-ag-private-nonprod
+    record:
+    - 10.10.80.9
+    ttl: 300
+  - name: dyn-ag-prod
+    record:
+    - 10.10.81.8
+    ttl: 300
+  - name: dyn-ag-private-prod
+    record:
+    - 10.10.81.5
+    ttl: 300
 
 cname:
   - name: c100-application
