@@ -121,6 +121,10 @@ A:
     record:
     - 10.25.15.139
     ttl: 300
+  - name: crimeportal-libra-gw
+    record:
+    - 10.25.246.4
+    ttl: 300
 cname:
   - name: smallsystems
     record: ss01-sqlsrv-stg.privatelink.database.windows.net
