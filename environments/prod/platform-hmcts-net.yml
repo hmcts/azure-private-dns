@@ -361,7 +361,7 @@ A:
     ttl: 300
   - name: dyn-ag-prod
     record:
-    - 10.10.81.8
+    - 10.10.81.10
     ttl: 300
   - name: dyn-ag-private-prod
     record:
