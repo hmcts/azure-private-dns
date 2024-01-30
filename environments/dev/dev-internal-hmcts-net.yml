@@ -3,4 +3,10 @@ vnet_links:
   - link_name: "private-dns-resolver-uksouth-vnet-nonprodi"
     vnet_id: "/subscriptions/fb084706-583f-4c9a-bdab-949aac66ba5c/resourceGroups/private-dns-resolver-uksouth-nonprodi/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-nonprodi"
 A: []
-cname: []
+cname:
+  - name: dc-purview-dev
+    record: dc-purview-dev.privatelink.purview.azure.com
+    ttl: 10
+  - name: web
+    record: web.privatelink.purviewstudio.azure.com
+    ttl: 10
