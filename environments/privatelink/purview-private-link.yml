@@ -6,8 +6,6 @@ vnet_links:
     vnet_id: "/subscriptions/0978315c-75fe-4ada-9d11-1eb5e0e0b214/resourceGroups/hmcts-hub-prod-int/providers/Microsoft.Network/virtualNetworks/hmcts-hub-prod-int"
   - link_name: "core-infra-vnet-mgmt"
     vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/rg-mgmt/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-mgmt"
-  - link_name: "vpn"
-    vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/mgmt-vpn-2-mgmt/providers/Microsoft.Network/virtualNetworks/mgmt-vpn-2-vnet"
   - link_name: "bastion-nonprod-vnet"
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/bastion-nonprod-rg/providers/Microsoft.Network/virtualNetworks/bastion-nonprod-vnet"
   - link_name: "bastion-prod-vnet"
