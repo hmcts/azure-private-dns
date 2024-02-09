@@ -199,9 +199,6 @@ cname:
   - name: "labs-louisehuyton-walkthrough"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "labs-hub-ngfw-poc"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: "labs-zcwalkthrough-nodejs"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
