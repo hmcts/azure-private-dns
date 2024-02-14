@@ -464,13 +464,13 @@ cname:
     record: eucw4172prn004.prod.int.hmcts.net
     ttl: 300
   - name: prn3927
-    record: eucw4171prn004.prod.int.hmcts.net
+    record: eucw4171prn009.prod.int.hmcts.net
     ttl: 300
   - name: prn3962
     record: eucw4171prn004.prod.int.hmcts.net
     ttl: 300
   - name: prn3965
-    record: eucw4172prn004.prod.int.hmcts.net
+    record: eucw4172prn009.prod.int.hmcts.net
     ttl: 300
   - name: prn4225
     record: eucw4172prn004.prod.int.hmcts.net
