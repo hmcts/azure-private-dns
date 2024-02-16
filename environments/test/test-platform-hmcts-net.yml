@@ -92,3 +92,6 @@ cname:
   - name: vh-test-web
     record: sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net
     ttl: 300
+  - name: darts-portal
+    record: sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net
+    ttl: 300
