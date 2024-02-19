@@ -155,4 +155,8 @@ A:
     record:
     - 10.24.246.4
     ttl: 300
+  - name: cloudsdrs-libra-gw
+    record:
+    - 10.24.246.180
+    ttl: 300
 cname: []

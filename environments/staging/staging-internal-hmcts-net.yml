@@ -125,6 +125,10 @@ A:
     record:
     - 10.25.246.4
     ttl: 300
+  - name: cloudsdrs-libra-gw
+    record:
+    - 10.25.246.180
+    ttl: 300
 cname:
   - name: smallsystems
     record: ss01-sqlsrv-stg.privatelink.database.windows.net
