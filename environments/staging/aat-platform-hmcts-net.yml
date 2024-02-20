@@ -288,6 +288,24 @@ cname:
   - name: "civil-citizen-ui"
     ttl: 300
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: civil-cui-camunda-staging
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
+  - name: civil-cui-civil-service-staging
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
+  - name: civil-cui-data-store-staging
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
+  - name: civil-cui-definition-store-staging
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
+  - name: civil-cui-xui-staging
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
+  - name: civil-cui-manage-case-assignment-staging
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
   - name: civil-service-xui-staging
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
