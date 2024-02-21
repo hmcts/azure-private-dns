@@ -622,6 +622,3 @@ cname:
   - name: "www.paymentoutcome-web"
     ttl: 3600
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-  - name: "pre-portal"
-    ttl: 300
-    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
