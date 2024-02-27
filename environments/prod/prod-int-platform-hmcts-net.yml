@@ -233,13 +233,13 @@ cname:
     record: eucw4171prn009.prod.int.hmcts.net
     ttl: 300
   - name: prn0571
-    record: eucw4171prn004.prod.int.hmcts.net
+    record: eucw4171prn009.prod.int.hmcts.net
     ttl: 300
   - name: prn0577
     record: eucw4171prn009.prod.int.hmcts.net
     ttl: 300
   - name: prn0592
-    record: eucw4171prn004.prod.int.hmcts.net
+    record: eucw4171prn009.prod.int.hmcts.net
     ttl: 300
   - name: prn0698
     record: eucw4171prn009.prod.int.hmcts.net
