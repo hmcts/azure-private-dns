@@ -196,24 +196,12 @@ cname:
   - name: toffee
     record: sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net.
     ttl: 300
-  - name: "labs-louisehuyton-walkthrough"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "labs-zcwalkthrough-nodejs"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "labs-hub-ngfw-poc"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: "labs-apps-njs"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: signalr
     record: vh-infra-core-sbox.service.signalr.net
     ttl: 300
-  - name: "labs-rhodrif-nodejs"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: darts-portal
     record: sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net
     ttl: 300
