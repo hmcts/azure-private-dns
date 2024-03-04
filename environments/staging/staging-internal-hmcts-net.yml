@@ -140,7 +140,11 @@ A:
   - name: xhibitTC5
     record:
     - 10.25.12.80
-    ttl: 300    
+    ttl: 300   
+  - name: glimr
+    record:
+    - 10.25.246.134
+    ttl: 300 
 cname:
   - name: smallsystems
     record: ss01-sqlsrv-stg.privatelink.database.windows.net
