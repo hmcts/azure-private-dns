@@ -159,4 +159,8 @@ A:
     record:
     - 10.24.246.180
     ttl: 300
+  - name: glimr
+    record:
+      - 10.24.246.134
+    ttl: 300
 cname: []
