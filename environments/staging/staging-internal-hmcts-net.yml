@@ -4,6 +4,8 @@ vnet_links:
     vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/core-aad-domain-services-mgmt-rg/providers/Microsoft.Network/virtualNetworks/core-aad-domain-services-mgmt-vnet"
   - link_name: "private-dns-resolver-uksouth-vnet-nonprodi"
     vnet_id: "/subscriptions/fb084706-583f-4c9a-bdab-949aac66ba5c/resourceGroups/private-dns-resolver-uksouth-nonprodi/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-nonprodi"
+  - link_name: "cft-aat-vnet"
+    vnet_id: "/subscriptions/96c274ce-846d-4e48-89a7-d528432298a7/resourceGroups/cft-aat-network-rg/providers/Microsoft.Network/virtualNetworks/cft-aat-vnet"
 A:
   - name: familyman
     record:
@@ -140,7 +142,11 @@ A:
   - name: xhibitTC5
     record:
     - 10.25.12.80
-    ttl: 300    
+    ttl: 300   
+  - name: glimr
+    record:
+    - 10.25.246.134
+    ttl: 300 
 cname:
   - name: smallsystems
     record: ss01-sqlsrv-stg.privatelink.database.windows.net

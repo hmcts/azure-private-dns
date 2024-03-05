@@ -2,7 +2,13 @@ name: "dev.internal.hmcts.net"
 vnet_links:
   - link_name: "private-dns-resolver-uksouth-vnet-nonprodi"
     vnet_id: "/subscriptions/fb084706-583f-4c9a-bdab-949aac66ba5c/resourceGroups/private-dns-resolver-uksouth-nonprodi/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-nonprodi"
-A: []
+  - link_name: "cft-preview-vnet"
+    vnet_id: "/subscriptions/8b6ea922-0862-443e-af15-6056e1c9b9a4/resourceGroups/cft-preview-network-rg/providers/Microsoft.Network/virtualNetworks/cft-preview-vnet"
+A:
+  - name: glimr
+    record:
+    - 10.124.246.134
+    ttl: 300
 cname:
   - name: dc-purview-dev
     record: dc-purview-dev.privatelink.purview.azure.com
