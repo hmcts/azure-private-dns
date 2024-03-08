@@ -57,6 +57,7 @@ A:
   - name: eucw4172prn009
     record:
       - 10.171.69.8
+    ttl: 300
 cname:
   - name: prn0000
     record: eucw4171prn004.prod.int.hmcts.net
