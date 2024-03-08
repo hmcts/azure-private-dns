@@ -45,7 +45,7 @@ A:
     ttl: 300
   - name: xhibitdisplay
     record:
-    - 10.25.2.253
+    - 10.25.15.43
     ttl: 300
   - name: libra-gateway
     record:
