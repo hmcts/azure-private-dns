@@ -72,9 +72,6 @@ cname:
   - name: sds-neuvector01-api
     record: traefik-sds-01.staging.platform.hmcts.net
     ttl: 300
-  - name: idam-web-public-staging
-    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
-    ttl: 300
   - name: toffee
     record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net.
     ttl: 300
