@@ -13,7 +13,7 @@ A:
     ttl: 300
   - name: xhibitthin
     record:
-    - 10.25.2.253
+    - 10.23.2.253
     ttl: 300
   - name: martha
     record:
