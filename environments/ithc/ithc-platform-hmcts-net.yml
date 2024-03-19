@@ -95,6 +95,12 @@ cname:
   - name: hmi-apim
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
+  - name: sign-in.pip-frontend
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
+    ttl: 300
+  - name: staff.pip-frontend
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
+    ttl: 300
   - name: return-case-doc-ccd
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
