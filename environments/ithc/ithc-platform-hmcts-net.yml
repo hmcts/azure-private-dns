@@ -95,6 +95,9 @@ cname:
   - name: hmi-apim
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
+  - name: pip-frontend
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
+    ttl: 300
   - name: sign-in.pip-frontend
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300

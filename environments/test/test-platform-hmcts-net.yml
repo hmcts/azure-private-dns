@@ -77,6 +77,9 @@ cname:
   - name: signalr
     record: vh-infra-core-test.service.signalr.net
     ttl: 300
+  - name: pip-frontend
+    record: sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net
+    ttl: 300
   - name: sign-in.pip-frontend
     record: sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net
     ttl: 300
