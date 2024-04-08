@@ -20,6 +20,8 @@ vnet_links:
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/bastion-nonprod-rg/providers/Microsoft.Network/virtualNetworks/bastion-nonprod-vnet"
   - link_name: "hmi-sharedinfra-vnet-stg"
     vnet_id: "/subscriptions/74dacd4f-a248-45bb-a2f0-af700dc4cf68/resourceGroups/hmi-sharedinfra-stg-rg/providers/Microsoft.Network/virtualNetworks/hmi-sharedinfra-vnet-stg"
+  - link_name: "dynatrace-activegate-vnet-prod"
+    vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/dynatrace-activegate-prod/providers/Microsoft.Network/virtualNetworks/dynatrace-activegate-vnet-prod"
 A:
   - name: test-dns-update
     ttl: 300
