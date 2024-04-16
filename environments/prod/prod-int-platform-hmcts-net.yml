@@ -114,7 +114,7 @@ cname:
     record: eucw4171prn009.prod.int.hmcts.net
     ttl: 300
   - name: prn0105
-    record: eucw4172prn004.prod.int.hmcts.net
+    record: eucw4172prn009.prod.int.hmcts.net
     ttl: 300
   - name: prn0106
     record: eucw4171prn009.prod.int.hmcts.net
@@ -265,6 +265,9 @@ cname:
     ttl: 300
   - name: prn0733
     record: eucw4172prn009.prod.int.hmcts.net
+    ttl: 300
+  - name: prn0751
+    record: eucw4171prn009.prod.int.hmcts.net
     ttl: 300
   - name: prn0753
     record: eucw4172prn009.prod.int.hmcts.net
