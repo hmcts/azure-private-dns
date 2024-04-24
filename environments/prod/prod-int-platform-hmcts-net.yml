@@ -321,7 +321,7 @@ cname:
     record: eucw4172prn004.prod.int.hmcts.net
     ttl: 300
   - name: prn1149
-    record: eucw4171prn004.prod.int.hmcts.net
+    record: eucw4171prn009.prod.int.hmcts.net
     ttl: 300
   - name: prn1154
     record: eucw4171prn009.prod.int.hmcts.net
