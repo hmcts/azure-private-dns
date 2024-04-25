@@ -165,4 +165,8 @@ A:
     record:
       - 10.24.246.134
     ttl: 300
+  - name: pihl4171oem001
+    record:
+      - 10.23.5.135
+    ttl: 300
 cname: []
