@@ -147,6 +147,10 @@ A:
     record:
     - 10.25.246.134
     ttl: 300 
+  - name: nihl4172oem001
+    record:
+    - 10.25.5.135
+    ttl: 300
 cname:
   - name: smallsystems
     record: ss01-sqlsrv-stg.privatelink.database.windows.net
