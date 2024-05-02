@@ -56,6 +56,12 @@ A:
     record:
     - 10.225.251.135
     ttl: 300
+  - name: sip.test.hearings
+    ttl: 3600
+    record:
+      - 35.189.119.254
+      - 25.242.168.200
+      - 35.246.101.131
   - name: bais-int-stg-02.int.mft
     record:
     - 10.225.251.136
