@@ -66,6 +66,10 @@ A:
     record:
     - 10.225.251.136
     ttl: 300
+  - name: test.hearings
+    record:
+    - 34.89.124.46
+    ttl: 300
   - name: bais-ext-stg-01.ext.mft
     record:
     - 10.225.251.5
