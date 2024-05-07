@@ -1,0 +1,90 @@
+name: "apps.hmcts.net"
+vnet_links:
+  - link_name: "core-aad-domain-services-mgmt-vnet"
+    vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/core-aad-domain-services-mgmt-rg/providers/Microsoft.Network/virtualNetworks/core-aad-domain-services-mgmt-vnet"
+  - link_name: "vpn"
+    vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/mgmt-vpn-2-mgmt/providers/Microsoft.Network/virtualNetworks/mgmt-vpn-2-vnet"
+    registration_enabled: false
+  - link_name: "bastion-prod-vnet"
+    vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/bastion-prod-rg/providers/Microsoft.Network/virtualNetworks/bastion-prod-vnet"
+    registration_enabled: false
+  - link_name: "bastion-nonprod-vnet"
+    vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/bastion-nonprod-rg/providers/Microsoft.Network/virtualNetworks/bastion-nonprod-vnet"
+    registration_enabled: false
+  - link_name: "bastion-sbox-vnet"
+    vnet_id: "/subscriptions/b3394340-6c9f-44ca-aa3e-9ff38bd1f9ac/resourceGroups/bastion-sbox-rg/providers/Microsoft.Network/virtualNetworks/bastion-sbox-vnet"
+    registration_enabled: false
+  - link_name: "private-dns-resolver-uksouth-vnet-prod-int"
+    vnet_id: "/subscriptions/0978315c-75fe-4ada-9d11-1eb5e0e0b214/resourceGroups/private-dns-resolver-uksouth-prod-int/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-prod-int"
+  - link_name: "private-dns-resolver-uksouth-vnet-nonprodi"
+    vnet_id: "/subscriptions/fb084706-583f-4c9a-bdab-949aac66ba5c/resourceGroups/private-dns-resolver-uksouth-nonprodi/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-nonprodi"
+  - link_name: "ss-test-vnet"
+    vnet_id: "/subscriptions/3eec5bde-7feb-4566-bfb6-805df6e10b90/resourceGroups/ss-test-network-rg/providers/Microsoft.Network/virtualNetworks/ss-test-vnet"
+  - link_name: "ss-prod-vnet"
+    vnet_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/ss-prod-network-rg/providers/Microsoft.Network/virtualNetworks/ss-prod-vnet"
+  - link_name: "ss-stg-vnet"
+    vnet_id: "/subscriptions/74dacd4f-a248-45bb-a2f0-af700dc4cf68/resourceGroups/ss-stg-network-rg/providers/Microsoft.Network/virtualNetworks/ss-stg-vnet"
+  - link_name: "ss-ptl-vnet"
+    vnet_id: "/subscriptions/6c4d2513-a873-41b4-afdd-b05a33206631/resourceGroups/ss-ptl-network-rg/providers/Microsoft.Network/virtualNetworks/ss-ptl-vnet"
+A: []
+cname:
+  - name: "juror"
+    ttl: 300
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
+  - name: "juror-public"
+    ttl: 300
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
+  - name: "juror.staging"
+    ttl: 300
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
+  - name: "juror-public.staging"
+    ttl: 300
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
+  - name: "juror.demo"
+    ttl: 300
+    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+  - name: "juror-public.demo"
+    ttl: 300
+    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+  - name: "juror.ithc"
+    ttl: 300
+    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
+  - name: "juror-public.ithc"
+    ttl: 300
+    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
+  - name: "juror.test"
+    ttl: 300
+    record: "sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net"
+  - name: "juror-public.test"
+    ttl: 300
+    record: "sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net"
+  - name: "juror.sandbox"
+    ttl: 300
+    record: "sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
+  - name: "juror-public.sandbox"
+    ttl: 300
+    record: "sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
+  - name: "darts"
+    ttl: 300
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
+    shutter: false
+  - name: "darts.staging"
+    ttl: 300
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
+    shutter: false
+  - name: "darts.dev"
+    ttl: 300
+    record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
+  - name: "darts.demo"
+    ttl: 300
+    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+    shutter: false
+  - name: "darts.sandbox"
+    ttl: 300
+    record: "sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
+  - name: "darts.ithc"
+    ttl: 300
+    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
+  - name: "darts.test"
+    ttl: 300
+    record: "sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net"
