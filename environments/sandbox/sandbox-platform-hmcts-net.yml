@@ -166,9 +166,6 @@ cname:
   - name: idam-api-sprod
     record: idam-api-sprod-sbox.service.core-compute-sandbox.internal.
     ttl: 300
-  - name: idam-web-admin-sprod
-    record: idam-api-sprod-sbox.service.core-compute-sandbox.internal.
-    ttl: 300
   - name: idam-web-public-sprod
     record: hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net.
     ttl: 300
