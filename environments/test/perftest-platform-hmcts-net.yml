@@ -37,10 +37,6 @@ A:
     record:
     - 10.48.96.133
     ttl: 300
-  - name: idam-web-admin
-    record:
-    - 10.48.96.111
-    ttl: 300
   - name: traefik-cft-00
     record:
     - 10.48.79.250
