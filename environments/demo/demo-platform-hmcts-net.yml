@@ -371,12 +371,6 @@ cname:
   - name: "afdverify.idam-web-public"
     ttl: 300
     record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
-  - name: "idam-web-admin"
-    ttl: 300
-    record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
-  - name: "afdverify.idam-web-admin"
-    ttl: 300
-    record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
   - name: "ccd-admin-ccd-int"
     ttl: 300
     record: "ccd-admin-ccd-int-demo.service.core-compute-demo.internal."
