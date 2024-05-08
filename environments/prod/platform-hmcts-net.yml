@@ -417,17 +417,11 @@ cname:
   - name: idam-api.preview
     record: idam-api.service.core-compute-preview.internal.
     ttl: 300
-  - name: idam-web-admin.preview
-    record: idam-web-admin.service.core-compute-preview.internal.
-    ttl: 300
   - name: idam-web-public.preview
     record: idam-web-public.service.core-compute-preview.internal.
     ttl: 300
   - name: idam-api
     record: idam-api-prod.service.core-compute-prod.internal.
-    ttl: 60
-  - name: idam-web-admin
-    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 60
   - name: idam-user-dashboard
     record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
