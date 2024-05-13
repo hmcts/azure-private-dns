@@ -71,6 +71,18 @@ A:
       - 34.89.12.220
       - 35.242.170.50
       - 35.234.148.105
+  - name: sip.self-test.hearings
+    ttl: 3600
+    record:
+      - 35.197.254.119
+      - 35.234.138.149
+      - 35.242.187.24
+  - name: sip.preprod.self-test
+    ttl: 3600
+    record:
+      - 35.189.96.55
+      - 35.189.110.25
+      - 35.189.74.149
   - name: bais-int-stg-02.int.mft
     record:
     - 10.225.251.136
