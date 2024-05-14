@@ -77,7 +77,7 @@ A:
       - 35.197.254.119
       - 35.234.138.149
       - 35.242.187.24
-  - name: sip.preprod.self-test
+  - name: sip.preprod.self-test.hearings
     ttl: 3600
     record:
       - 35.189.96.55
