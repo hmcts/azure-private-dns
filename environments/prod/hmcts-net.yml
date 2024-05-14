@@ -59,6 +59,10 @@ A:
     record:
     - 10.225.251.135
     ttl: 300
+  - name: px03.preprod.hearings
+    ttl: 3600
+    record:
+      - 35.189.86.106
   - name: sip.test.hearings
     ttl: 3600
     record:
