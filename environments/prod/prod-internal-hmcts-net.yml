@@ -21,14 +21,6 @@ A:
     record:
       - 10.23.1.253
     ttl: 300
-  - name: sdae-promon
-    record:
-      - 10.23.4.137
-    ttl: 300
-  - name: sdae-siem
-    record:
-      - 10.23.4.138
-    ttl: 300
   - name: pih4171sec001
     record:
       - 10.23.3.164
@@ -168,5 +160,29 @@ A:
   - name: pihl4171oem001
     record:
       - 10.23.5.135
+    ttl: 300
+  - name: xhibitdisplay
+    record:
+      - 10.23.15.43
+    ttl: 300
+  - name: xhibitTC1
+    record:
+      - 10.23.12.76
+    ttl: 300
+  - name: xhibitTC2
+    record:
+      - 10.23.12.77
+    ttl: 300
+  - name: xhibitTC3
+    record:
+      - 10.23.12.78
+    ttl: 300
+  - name: xhibitTC4
+    record:
+      - 10.23.12.79
+    ttl: 300
+  - name: xhibitTC5
+    record:
+      - 10.23.12.80
     ttl: 300
 cname: []

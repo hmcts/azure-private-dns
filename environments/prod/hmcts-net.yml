@@ -43,6 +43,9 @@ vnet_links:
   - link_name: "dynatrace-activegate-vnet-prod"
     vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/dynatrace-activegate-prod/providers/Microsoft.Network/virtualNetworks/dynatrace-activegate-vnet-prod"
     registration_enabled: false
+  - link_name: "cft-ptl-vnet"
+    vnet_id: "/subscriptions/1baf5470-1c3e-40d3-a6f7-74bfbce4b348/resourceGroups/cft-ptl-network-rg/providers/Microsoft.Network/virtualNetworks/cft-ptl-vnet"
+    registration_enabled: false
 A:
   - name: bais-ext-stg.sftp
     record:
@@ -56,12 +59,34 @@ A:
     record:
     - 10.225.251.135
     ttl: 300
+  - name: px03.preprod.hearings
+    ttl: 3600
+    record:
+      - 35.189.86.106
   - name: sip.test.hearings
     ttl: 3600
     record:
       - 35.189.119.254
-      - 25.242.168.200
+      - 35.242.168.200
       - 35.246.101.131
+  - name: sip.test.self-test.hearings
+    ttl: 3600
+    record:
+      - 34.89.12.220
+      - 35.242.170.50
+      - 35.234.148.105
+  - name: sip.self-test.hearings
+    ttl: 3600
+    record:
+      - 35.197.254.119
+      - 35.234.138.149
+      - 35.242.187.24
+  - name: sip.preprod.self-test.hearings
+    ttl: 3600
+    record:
+      - 35.189.96.55
+      - 35.189.110.25
+      - 35.189.74.149
   - name: bais-int-stg-02.int.mft
     record:
     - 10.225.251.136
