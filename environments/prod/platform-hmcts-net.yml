@@ -427,7 +427,7 @@ cname:
     record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
   - name: idam-user-profile-bridge
-    record: idam-user-profile-bridge.service.core-compute-preview.internal.
+    record: idam-user-profile-bridge-prod.service.core-compute-prod.internal.
     ttl: 300
   - name: payment
     record: prod-waf-additional.platform.hmcts.net.
