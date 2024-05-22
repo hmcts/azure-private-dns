@@ -29,7 +29,7 @@ A:
     ttl: 300
   - name: sds-api-mgmt
     record:
-    - 10.51.99.4
+    - 10.51.97.132
     ttl: 300
   - name: tax-tribunals
     record:
