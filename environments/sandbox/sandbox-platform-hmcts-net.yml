@@ -117,7 +117,8 @@ A:
     ttl: 300
   - name: sds-api-mgmt
     record:
-    - 10.140.33.133
+    - 10.140.33.132
+
     ttl: 300
   - name: tenable-sc
     record:
