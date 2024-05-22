@@ -117,7 +117,8 @@ A:
     ttl: 300
   - name: sds-api-mgmt
     record:
-    - 10.140.33.133
+    - 10.140.33.132
+
     ttl: 300
   - name: tenable-sc
     record:
@@ -125,7 +126,7 @@ A:
     ttl: 300
   - name: cft-api-mgmt
     record:
-    - 10.2.14.5
+    - 10.2.14.4
     ttl: 300
   - name: cvp-recording
     record:

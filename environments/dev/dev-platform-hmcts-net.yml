@@ -43,7 +43,7 @@ A:
     ttl: 300
   - name: sds-api-mgmt
     record:
-    - 10.145.33.133
+    - 10.145.33.132
     ttl: 300
   - name: vh-wowza
     record:
