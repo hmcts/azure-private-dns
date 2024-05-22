@@ -408,7 +408,7 @@ cname:
     record: eucw4172prn009.prod.int.hmcts.net
     ttl: 300
   - name: prn1556
-    record: eucw4171prn004.prod.int.hmcts.net
+    record: eucw4171prn009.prod.int.hmcts.net
     ttl: 300
   - name: prn1559
     record: eucw4172prn009.prod.int.hmcts.net
