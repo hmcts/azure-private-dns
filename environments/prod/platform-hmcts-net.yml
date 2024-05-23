@@ -373,6 +373,18 @@ A:
     record:
     - 10.10.81.5
     ttl: 300
+  - name: "dai-prod-dsvm"
+    ttl: 300
+    record:
+      - 10.144.32.12
+  - name: "crime-prod-dsvm"
+    ttl: 300
+    record:
+      - 10.144.32.10
+  - name: "dlrm-prod-dsvm"
+    ttl: 300
+    record:
+      - 10.144.32.11
 
 cname:
   - name: c100-application
