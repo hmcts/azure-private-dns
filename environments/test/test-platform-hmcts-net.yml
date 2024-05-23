@@ -29,7 +29,7 @@ A:
     ttl: 300
   - name: sds-api-mgmt
     record:
-    - 10.141.33.133
+    - 10.141.33.132
     ttl: 300
   - name: cloudgobgateway
     record:
