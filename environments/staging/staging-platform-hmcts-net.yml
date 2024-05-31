@@ -22,7 +22,7 @@ A:
   - name: sds-api-mgmt
     ttl: 300
     record:
-    - 10.148.33.133
+    - 10.148.33.132
   - name: tax-tribunals
     record:
     - 52.151.100.245
