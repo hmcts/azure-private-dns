@@ -192,10 +192,6 @@ A:
     record:
     - 10.10.73.250
     ttl: 300
-  - name: netbox
-    record:
-    - 10.147.79.250
-    ttl: 300
   - name: traefik-int-stg
     record:
     - 192.173.127.250

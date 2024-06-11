@@ -109,10 +109,6 @@ A:
     record:
     - 10.140.31.250
     ttl: 300
-  - name: netbox
-    record:
-    - 10.147.15.250
-    ttl: 300
   - name: portal
     record:
     - 51.132.209.233
