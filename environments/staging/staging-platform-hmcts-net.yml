@@ -57,6 +57,10 @@ A:
     record:
     - 10.148.31.250
     ttl: 300
+  - name: darts-proxy
+    record:
+    - 10.148.42.4
+    ttl: 300 
 cname:
   - name: c100-application
     ttl: 300

@@ -57,6 +57,10 @@ A:
     record:
     - 10.23.255.216
     ttl: 300 
+  - name: darts-proxy
+    record:
+    - 10.141.48.4
+    ttl: 300 
 cname:
   - name: hmi-apim
     record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
