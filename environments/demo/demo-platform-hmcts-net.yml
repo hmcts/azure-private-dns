@@ -517,3 +517,6 @@ cname:
   - name: cui-ra
     record: hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net.
     ttl: 300
+  - name: em-icp
+    record: hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net.
+    ttl: 300
