@@ -198,6 +198,10 @@ A:
     record:
     - 10.10.73.250
     ttl: 300
+  - name: response-api-slack
+    record:
+    - 10.10.73.250
+    ttl: 300
   - name: traefik-int-stg
     record:
     - 192.173.127.250
