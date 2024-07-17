@@ -404,3 +404,6 @@ cname:
   - name: sptribs-dss-update-case-web
     ttl: 300
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net
+  - name: et-syr
+    ttl: 300
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net
