@@ -14,5 +14,9 @@ vnet_links:
     vnet_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/darts-migration-prod-rg/providers/Microsoft.Network/virtualNetworks/migration-vnet"
   - link_name: "pre-prod-vnet"
     vnet_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/pre-prod/providers/Microsoft.Network/virtualNetworks/pre-vnet01-prod"
+  - link_name: "pre-stg-vnet"
+    vnet_id: "/subscriptions/74dacd4f-a248-45bb-a2f0-af700dc4cf68/resourceGroups/pre-stg/providers/Microsoft.Network/virtualNetworks/pre-vnet01-stg"
+  - link_name: "pre-test-vnet"
+    vnet_id: "/subscriptions/3eec5bde-7feb-4566-bfb6-805df6e10b90/resourceGroups/pre-test/providers/Microsoft.Network/virtualNetworks/pre-vnet01-test"
 A: []
 cname: []
