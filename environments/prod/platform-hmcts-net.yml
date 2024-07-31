@@ -41,8 +41,6 @@ vnet_links:
     registration_enabled: true
   - link_name: "hmi-sharedinfra-vnet-prod"
     vnet_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/hmi-sharedinfra-prod-rg/providers/Microsoft.Network/virtualNetworks/hmi-sharedinfra-vnet-prod"
-  - link_name: "private-dns-resolver-uksouth-vnet-prod-int"
-    vnet_id: "/subscriptions/0978315c-75fe-4ada-9d11-1eb5e0e0b214/resourceGroups/private-dns-resolver-uksouth-prod-int/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-prod-int"
   - link_name: "private-dns-resolver-uksouth-vnet-nonprodi"
     vnet_id: "/subscriptions/fb084706-583f-4c9a-bdab-949aac66ba5c/resourceGroups/private-dns-resolver-uksouth-nonprodi/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-nonprodi"
   - link_name: "dynatrace-activegate-vnet-nonprod"
