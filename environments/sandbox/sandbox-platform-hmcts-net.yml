@@ -87,6 +87,18 @@ A:
     record:
     - 10.140.15.250
     ttl: 300
+  - name: response
+    record:
+    - 10.70.25.250
+    ttl: 300
+  - name: response-api
+    record:
+    - 10.70.25.250
+    ttl: 300
+  - name: response-api-slack
+    record:
+    - 10.70.25.250
+    ttl: 300
   - name: traefik-sds-00
     record:
     - 10.140.15.250
