@@ -221,3 +221,6 @@ cname:
   - name: plumclassic2
     record: cnphmcts-classic-sbox.azurefd.net. 
     ttl: 300
+  - name: "labs-endakelly-nodejs"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
