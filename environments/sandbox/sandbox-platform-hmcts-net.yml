@@ -12,8 +12,6 @@ vnet_links:
     vnet_id: "/subscriptions/0978315c-75fe-4ada-9d11-1eb5e0e0b214/resourceGroups/private-dns-resolver-uksouth-prod-int/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-prod-int"
   - link_name: "bastion-sbox-vnet"
     vnet_id: "/subscriptions/b3394340-6c9f-44ca-aa3e-9ff38bd1f9ac/resourceGroups/bastion-sbox-rg/providers/Microsoft.Network/virtualNetworks/bastion-sbox-vnet"
-  - link_name: "hmi-sharedinfra-vnet-sbox"
-    vnet_id: "/subscriptions/a8140a9e-f1b0-481f-a4de-09e2ee23f7ab/resourceGroups/hmi-sharedinfra-sbox-rg/providers/Microsoft.Network/virtualNetworks/hmi-sharedinfra-vnet-sbox"
   - link_name: "cft-ptl-vnet"
     vnet_id: "/subscriptions/1baf5470-1c3e-40d3-a6f7-74bfbce4b348/resourceGroups/cft-ptl-network-rg/providers/Microsoft.Network/virtualNetworks/cft-ptl-vnet"
   - link_name: "dynatrace-activegate-vnet-nonprod"
