@@ -4,6 +4,8 @@ vnet_links:
     vnet_id: "/subscriptions/3eec5bde-7feb-4566-bfb6-805df6e10b90/resourceGroups/ss-test-network-rg/providers/Microsoft.Network/virtualNetworks/ss-test-vnet"
   - link_name: "ss-prod-vnet"
     vnet_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/ss-prod-network-rg/providers/Microsoft.Network/virtualNetworks/ss-prod-vnet"
+  - link_name: "dynatrace-activegate-vnet-prod"
+    vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/dynatrace-activegate-prod/providers/Microsoft.Network/virtualNetworks/dynatrace-activegate-vnet-prod"
 A:
   - name: lncs-onpremisegobgateway-uat
     record:
@@ -12,5 +14,37 @@ A:
   - name: lncs-onpremisegobgateway
     record:
       - 10.100.197.199
+    ttl: 300
+  - name: lncs-libra
+    record:
+      - 10.23.15.76
+    ttl: 300
+  - name: lncs-cws-01
+    record:
+      - 10.23.15.77
+    ttl: 300
+  - name: lncs-dmu
+    record:
+      - 10.23.15.80
+    ttl: 300
+  - name: lncs-appreg
+    record:
+      - 10.23.15.81
+    ttl: 300
+  - name: lncs-selfservice
+    record:
+      - 10.23.15.82
+    ttl: 300
+  - name: lncs-docportal
+    record:
+      - 10.23.15.83
+    ttl: 300
+  - name: lncs-libraprov
+    record:
+      - 10.23.15.84
+    ttl: 300
+  - name: lncs-mis
+    record:
+      - 10.23.15.87
     ttl: 300
 cname: []
