@@ -56,6 +56,9 @@ A:
   - name: cft-api-mgmt
     record:
     - 10.10.161.132
+  - name: cft-mtls-api-mgmt-appgw
+    record:
+    - 10.10.161.132
     ttl: 300
   - name: traefik-cft-00
     record:
