@@ -18,7 +18,7 @@ vnet_links:
     vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/bastion-prod-rg/providers/Microsoft.Network/virtualNetworks/bastion-prod-vnet"
   - link_name: "dynatrace-activegate-vnet-prod"
     vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/dynatrace-activegate-prod/providers/Microsoft.Network/virtualNetworks/dynatrace-activegate-vnet-prod"
- - link_name: "ssprod"
+  - link_name: "ssprod"
     vnet_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/ss-prod-network-rg/providers/Microsoft.Network/virtualNetworks/ss-prod-vnet"
 A: []
 cname: []
