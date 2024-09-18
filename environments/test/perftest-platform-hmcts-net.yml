@@ -215,3 +215,6 @@ cname:
   - name: et-syr
     record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
     ttl: 300
+  - name: em-icp
+    record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
+    ttl: 300
