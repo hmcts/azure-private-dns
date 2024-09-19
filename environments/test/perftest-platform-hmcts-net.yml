@@ -62,6 +62,9 @@ cname:
   - name: benefit-appeal
     record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
     ttl: 300
+  - name: infected-blood-appeal
+    record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
+    ttl: 300
   - name: sscs-cor
     record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
     ttl: 300
