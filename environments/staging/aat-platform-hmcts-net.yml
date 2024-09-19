@@ -86,6 +86,9 @@ cname:
   - name: benefit-appeal
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
+  - name: infected-blood-appeal
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
+    ttl: 300
   - name: civil-service-manage-case-assignment-staging
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
