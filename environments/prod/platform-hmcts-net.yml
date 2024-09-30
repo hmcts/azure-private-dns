@@ -395,6 +395,10 @@ A:
     ttl: 300
     record:
       - 10.144.32.11
+  - name: xsiam-brokervm-prod
+    record:
+      - 10.146.0.36
+    ttl: 300
 
 cname:
   - name: c100-application
