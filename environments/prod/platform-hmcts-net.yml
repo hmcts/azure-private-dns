@@ -662,7 +662,7 @@ cname:
     record: dynatrace-activegate-private-prod-vmss000001.platform.hmcts.net
     ttl: 300
   - name: dynatrace-activegate-nonprod
-    record: dynatrace-activegate-nonprod-vmss000001.platform.hmcts.net
+    record: dynatrace-activegate-nonprod-vmss000002.platform.hmcts.net
     ttl: 300
   - name: dynatrace-activegate-private-nonprod
     record: dynatrace-activegate-private-nonprod-vmss000001.platform.hmcts.net
