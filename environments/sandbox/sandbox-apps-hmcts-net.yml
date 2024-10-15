@@ -7,6 +7,9 @@ vnet_links:
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/dynatrace-activegate-nonprod/providers/Microsoft.Network/virtualNetworks/dynatrace-activegate-vnet-nonprod"
   - link_name: "vpn"
     vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/mgmt-vpn-2-mgmt/providers/Microsoft.Network/virtualNetworks/mgmt-vpn-2-vnet"
+  - link_name: "bastion-sbox-vnet"
+    vnet_id: "/subscriptions/b3394340-6c9f-44ca-aa3e-9ff38bd1f9ac/resourceGroups/bastion-sbox-rg/providers/Microsoft.Network/virtualNetworks/bastion-sbox-vnet"
+    registration_enabled: false
 
 A: []
 
