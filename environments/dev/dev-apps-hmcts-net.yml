@@ -16,6 +16,6 @@ vnet_links:
 A: []
 
 cname:
-  - name: "darts.dev"
+  - name: "darts"
     ttl: 300
     record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"

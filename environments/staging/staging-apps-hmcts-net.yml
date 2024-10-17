@@ -18,12 +18,12 @@ vnet_links:
 A: []
 
 cname:
-  - name: "juror.staging"
+  - name: "juror"
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
-  - name: "juror-public.staging"
+  - name: "juror-public"
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
-  - name: "darts.staging"
+  - name: "darts"
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"

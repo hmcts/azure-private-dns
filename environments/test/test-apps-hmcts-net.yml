@@ -18,12 +18,12 @@ vnet_links:
 A: []
 
 cname:
-  - name: "juror.test"
+  - name: "juror"
     ttl: 300
     record: "sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net"
-  - name: "juror-public.test"
+  - name: "juror-public"
     ttl: 300
     record: "sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net"
-  - name: "darts.test"
+  - name: "darts"
     ttl: 300
     record: "sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net"
