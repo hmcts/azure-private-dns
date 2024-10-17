@@ -5,8 +5,8 @@ vnet_links:
     vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/core-aad-domain-services-mgmt-rg/providers/Microsoft.Network/virtualNetworks/core-aad-domain-services-mgmt-vnet"
   - link_name: "vpn"
     vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/mgmt-vpn-2-mgmt/providers/Microsoft.Network/virtualNetworks/mgmt-vpn-2-vnet"
-  - link_name: "private-dns-resolver-uksouth-vnet-prod-int"
-    vnet_id: "/subscriptions/0978315c-75fe-4ada-9d11-1eb5e0e0b214/resourceGroups/private-dns-resolver-uksouth-prod-int/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-prod-int"
+  - link_name: "private-dns-resolver-uksouth-vnet-nonprodi"
+    vnet_id: "/subscriptions/fb084706-583f-4c9a-bdab-949aac66ba5c/resourceGroups/private-dns-resolver-uksouth-nonprodi/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-nonprodi"
     registration_enabled: false
   - link_name: "bastion-nonprod-vnet"
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/bastion-nonprod-rg/providers/Microsoft.Network/virtualNetworks/bastion-nonprod-vnet"
