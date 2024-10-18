@@ -8,8 +8,9 @@ vnet_links:
   - link_name: "bastion-nonprod-vnet"
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/bastion-nonprod-rg/providers/Microsoft.Network/virtualNetworks/bastion-nonprod-vnet"
     registration_enabled: false
-  - link_name: "private-dns-resolver-uksouth-vnet-nonprodi"
-    vnet_id: "/subscriptions/fb084706-583f-4c9a-bdab-949aac66ba5c/resourceGroups/private-dns-resolver-uksouth-nonprodi/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-nonprodi"
+  - link_name: "private-dns-resolver-uksouth-vnet-prod-int"
+    vnet_id: "/subscriptions/0978315c-75fe-4ada-9d11-1eb5e0e0b214/resourceGroups/private-dns-resolver-uksouth-prod-int/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-prod-int"
+    registration_enabled: false
   - link_name: "ss-stg-vnet"
     vnet_id: "/subscriptions/74dacd4f-a248-45bb-a2f0-af700dc4cf68/resourceGroups/ss-stg-network-rg/providers/Microsoft.Network/virtualNetworks/ss-stg-vnet"
   - link_name: "dynatrace-activegate-vnet-nonprod"
