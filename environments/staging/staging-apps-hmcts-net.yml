@@ -14,6 +14,8 @@ vnet_links:
     vnet_id: "/subscriptions/74dacd4f-a248-45bb-a2f0-af700dc4cf68/resourceGroups/ss-stg-network-rg/providers/Microsoft.Network/virtualNetworks/ss-stg-vnet"
   - link_name: "dynatrace-activegate-vnet-nonprod"
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/dynatrace-activegate-nonprod/providers/Microsoft.Network/virtualNetworks/dynatrace-activegate-vnet-nonprod"
+  - link_name: "ss-ptl-vnet"
+    vnet_id: "/subscriptions/6c4d2513-a873-41b4-afdd-b05a33206631/resourceGroups/ss-ptl-network-rg/providers/Microsoft.Network/virtualNetworks/ss-ptl-vnet"
 
 A: []
 
