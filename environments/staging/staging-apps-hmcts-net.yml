@@ -1,16 +1,17 @@
-name: "ithc.apps.hmcts.net"
+name: "staging.apps.hmcts.net"
 
 vnet_links:
   - link_name: "core-aad-domain-services-mgmt-vnet"
     vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/core-aad-domain-services-mgmt-rg/providers/Microsoft.Network/virtualNetworks/core-aad-domain-services-mgmt-vnet"
   - link_name: "vpn"
     vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/mgmt-vpn-2-mgmt/providers/Microsoft.Network/virtualNetworks/mgmt-vpn-2-vnet"
-  - link_name: "private-dns-resolver-uksouth-vnet-nonprodi"
-    vnet_id: "/subscriptions/fb084706-583f-4c9a-bdab-949aac66ba5c/resourceGroups/private-dns-resolver-uksouth-nonprodi/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-nonprodi"
-    registration_enabled: false
   - link_name: "bastion-nonprod-vnet"
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/bastion-nonprod-rg/providers/Microsoft.Network/virtualNetworks/bastion-nonprod-vnet"
     registration_enabled: false
+  - link_name: "private-dns-resolver-uksouth-vnet-nonprodi"
+    vnet_id: "/subscriptions/fb084706-583f-4c9a-bdab-949aac66ba5c/resourceGroups/private-dns-resolver-uksouth-nonprodi/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-nonprodi"
+  - link_name: "ss-stg-vnet"
+    vnet_id: "/subscriptions/74dacd4f-a248-45bb-a2f0-af700dc4cf68/resourceGroups/ss-stg-network-rg/providers/Microsoft.Network/virtualNetworks/ss-stg-vnet"
   - link_name: "dynatrace-activegate-vnet-nonprod"
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/dynatrace-activegate-nonprod/providers/Microsoft.Network/virtualNetworks/dynatrace-activegate-vnet-nonprod"
 
@@ -19,10 +20,10 @@ A: []
 cname:
   - name: "juror"
     ttl: 300
-    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
   - name: "juror-public"
     ttl: 300
-    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
   - name: "darts"
     ttl: 300
-    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
