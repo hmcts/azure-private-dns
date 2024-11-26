@@ -1171,6 +1171,10 @@ A:
     record:
     - 10.147.79.250
     ttl: 300
+  - name: staging.tools
+    ttl: 600
+    record:
+      - 20.0.64.191
 cname: 
   - name: panorama-sandbox
     record: panorama-sbox-uks-0.sandbox.platform.hmcts.net.
