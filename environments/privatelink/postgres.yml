@@ -40,6 +40,8 @@ vnet_links:
     vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/core-infra-idam-sandbox/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-sandbox"
   - link_name: "core-infra-vnet-idam-saat"
     vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/core-infra-idam-saat/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-saat"
+  - link_name: "darts-prod-vnet"
+    vnet_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/darts-migration-prod-rg/providers/Microsoft.Network/virtualNetworks/migration-vnet"
 
 A: []
 cname: []
