@@ -226,3 +226,6 @@ cname:
   - name: "labs-endakelly-nodejs"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+  - name: "labs-dawidstrozak-nodejs"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
