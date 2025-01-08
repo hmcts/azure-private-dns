@@ -229,6 +229,9 @@ cname:
   - name: "labs-dawidstrozak-nodejs"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+  - name: "labs-ashleigh31-nodejs"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: "labs-jamiemcconnell-nodejs"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
