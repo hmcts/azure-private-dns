@@ -16,21 +16,5 @@ vnet_links:
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/bastion-nonprod-rg/providers/Microsoft.Network/virtualNetworks/bastion-nonprod-vnet"
   - link_name: "dynatrace-activegate-vnet-nonprod"
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/dynatrace-activegate-nonprod/providers/Microsoft.Network/virtualNetworks/dynatrace-activegate-vnet-nonprod"
-A: 
-  - name: ccd-data-0
-    record:
-    - 10.96.216.4
-    ttl: 300
-  - name: ccd-data-1
-    record:
-    - 10.96.216.7
-    ttl: 300
-  - name: ccd-data-2
-    record:
-    - 10.96.216.5
-    ttl: 300
-  - name: ccd-data-3
-    record:
-    - 10.96.216.6
-    ttl: 300
+A: []
 cname: []
