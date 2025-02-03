@@ -155,3 +155,6 @@ cname:
   - name: smallsystems
     record: ss01-sqlsrv-stg.privatelink.database.windows.net
     ttl: 10
+  - name: _DF04DA65E43335B6F5F71B1E0E9BCB45.xhibittc1
+    record: 6B9F6850158F64C9C215408313E10347.4B8BEC8F96865B79D5D52BAC9EC35AE9.401762d71cec6c973aee.sectigo.com
+    ttl: 10800
