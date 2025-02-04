@@ -29,15 +29,15 @@ A:
     record:
     - 10.112.53.5
     ttl: 300
-  - name: ccd-data-0
+  - name: ccd-data-1
     record:
     - 10.112.53.9
     ttl: 300
-  - name: ccd-data-0
+  - name: ccd-data-2
     record:
     - 10.112.53.6
     ttl: 300
-  - name: ccd-data-0
+  - name: ccd-data-3
     record:
     - 10.112.53.7
     ttl: 300
