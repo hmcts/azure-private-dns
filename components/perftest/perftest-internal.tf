@@ -2,7 +2,7 @@ data "local_file" "perftest-internal-configuration" {
   filename = "${path.cwd}/../../environments/perftest/service-core-compute-perftest-internal.yml"
 }
 
-module "ithc-internal" {
+module "perftest-internal" {
   source              = "../../modules/azure-private-dns/"
   cname_records       = yamldecode(data.local_file.perftest-internal-configuration.content).cname
   a_recordsets        = yamldecode(data.local_file.perftest-internal-configuration.content).A
