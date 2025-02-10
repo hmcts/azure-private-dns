@@ -1,20 +1,42 @@
 name: "service.core-compute-perftest.internal"
 vnet_links:
-  - link_name: "core-infra-vnet-perftest-internal"
-    vnet_id: "/subscriptions/7a4e3bd5-ae3a-4d0c-b441-2188fee3ff1c/resourceGroups/core-infra-perftest/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-perftest"
-  - link_name: "core-infra-vnet-idam-perftest-internal"
-    vnet_id: "/subscriptions/7a4e3bd5-ae3a-4d0c-b441-2188fee3ff1c/resourceGroups/core-infra-idam-perftest/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-perftest"
-  - link_name: "mgmt-infra-prod"
-    vnet_id: "/subscriptions/8999dec3-0104-4a27-94ee-6588559729d1/resourceGroups/mgmt-infra-prod/providers/Microsoft.Network/virtualNetworks/mgmt-infra-prod"
-  - link_name: "core-infra-vnet-mgmt"
-    vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/rg-mgmt/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-mgmt"
-  - link_name: "vpn"
-    vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/mgmt-vpn-2-mgmt/providers/Microsoft.Network/virtualNetworks/mgmt-vpn-2-vnet"
-  - link_name: "private-dns-resolver-uksouth-vnet-prod-int"
-    vnet_id: "/subscriptions/0978315c-75fe-4ada-9d11-1eb5e0e0b214/resourceGroups/private-dns-resolver-uksouth-prod-int/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-prod-int"
   - link_name: "bastion-nonprod-vnet"
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/bastion-nonprod-rg/providers/Microsoft.Network/virtualNetworks/bastion-nonprod-vnet"
+  - link_name: "cftperftest"
+    vnet_id: "/subscriptions/8a07fdcd-6abd-48b3-ad88-ff737a4b9e3c/resourceGroups/cft-perftest-network-rg/providers/Microsoft.Network/virtualNetworks/cft-perftest-vnet"
+  - link_name: "cftptl"
+    vnet_id: "/subscriptions/1baf5470-1c3e-40d3-a6f7-74bfbce4b348/resourceGroups/cft-ptl-network-rg/providers/Microsoft.Network/virtualNetworks/cft-ptl-vnet"
+  - link_name: "core-cftptl-intsvc-vnet"
+    vnet_id: "/subscriptions/1baf5470-1c3e-40d3-a6f7-74bfbce4b348/resourceGroups/aks-infra-cftptl-intsvc-rg/providers/Microsoft.Network/virtualNetworks/core-cftptl-intsvc-vnet"
+  - link_name: "core-infra-vnet-idam-perftest-internal"
+    vnet_id: "/subscriptions/7a4e3bd5-ae3a-4d0c-b441-2188fee3ff1c/resourceGroups/core-infra-idam-perftest/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-perftest"
+  - link_name: "core-infra-vnet-mgmt"
+    vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/rg-mgmt/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-mgmt"
+  - link_name: "core-infra-vnet-perftest-internal"
+    vnet_id: "/subscriptions/7a4e3bd5-ae3a-4d0c-b441-2188fee3ff1c/resourceGroups/core-infra-perftest/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-perftest"
   - link_name: "dynatrace-activegate-vnet-nonprod"
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/dynatrace-activegate-nonprod/providers/Microsoft.Network/virtualNetworks/dynatrace-activegate-vnet-nonprod"
-A: []
+  - link_name: "mgmt-infra-prod"
+    vnet_id: "/subscriptions/8999dec3-0104-4a27-94ee-6588559729d1/resourceGroups/mgmt-infra-prod/providers/Microsoft.Network/virtualNetworks/mgmt-infra-prod"
+  - link_name: "private-dns-resolver-uksouth-vnet-prod-int"
+    vnet_id: "/subscriptions/0978315c-75fe-4ada-9d11-1eb5e0e0b214/resourceGroups/private-dns-resolver-uksouth-prod-int/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-prod-int"
+  - link_name: "vpn"
+    vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/mgmt-vpn-2-mgmt/providers/Microsoft.Network/virtualNetworks/mgmt-vpn-2-vnet"
+A: 
+  - name: ccd-data-0
+    record:
+      - 10.112.153.7
+    ttl: 300
+  - name: ccd-data-1
+    record:
+      - 10.112.153.6
+    ttl: 300
+  - name: ccd-data-2
+    record:
+      - 10.112.153.9
+    ttl: 300
+  - name: ccd-data-3
+    record:
+      - 10.112.153.5
+    ttl: 300
 cname: []
