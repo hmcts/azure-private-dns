@@ -90,13 +90,6 @@ parameters:
       serviceConnection: dts-cftptl-intsvc
       dependsOn:
         - Precheck
-    - deployment: perftest
-      environment: perftest
-      component: perftest
-      resourceGroupName: azure-control-ptl-rg
-      serviceConnection: dts-cftptl-intsvc
-      dependsOn:
-        - Precheck
 
 stages:
   - stage: Precheck
