@@ -1,48 +1,24 @@
-name: "service.core-compute-prod.internal" 
+name: "service.core-compute-prod.internal"
 vnet_links:
-  - link_name: "aad-test"
-    vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/core-aad-domain-services-mgmt-rg/providers/Microsoft.Network/virtualNetworks/core-aad-domain-services-mgmt-vnet"
-  - link_name: "bastion-prod-vnet"
-    vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/bastion-prod-rg/providers/Microsoft.Network/virtualNetworks/bastion-prod-vnet"
-  - link_name: "cftprod"
-    vnet_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/resourceGroups/cft-prod-network-rg/providers/Microsoft.Network/virtualNetworks/cft-prod-vnet"
-  - link_name: "cftptl"
-    vnet_id: "/subscriptions/1baf5470-1c3e-40d3-a6f7-74bfbce4b348/resourceGroups/cft-ptl-network-rg/providers/Microsoft.Network/virtualNetworks/cft-ptl-vnet"
-  - link_name: "core-cftptl-intsvc-vnet"
-    vnet_id: "/subscriptions/1baf5470-1c3e-40d3-a6f7-74bfbce4b348/resourceGroups/aks-infra-cftptl-intsvc-rg/providers/Microsoft.Network/virtualNetworks/core-cftptl-intsvc-vnet"
+  - link_name: "core-infra-vnet-prod-internal"
+    vnet_id: "/subscriptions/8999dec3-0104-4a27-94ee-6588559729d1/resourceGroups/core-infra-prod/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-prod"
   - link_name: "core-infra-vnet-idam-prod"
     vnet_id: "/subscriptions/8999dec3-0104-4a27-94ee-6588559729d1/resourceGroups/core-infra-idam-prod/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-prod"
   - link_name: "core-infra-vnet-idam-prod2"
     vnet_id: "/subscriptions/8999dec3-0104-4a27-94ee-6588559729d1/resourceGroups/core-infra-idam-prod2/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-prod2"
-  - link_name: "core-infra-vnet-mgmt"
-    vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/rg-mgmt/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-mgmt"
-  - link_name: "core-infra-vnet-prod-internal"
-    vnet_id: "/subscriptions/8999dec3-0104-4a27-94ee-6588559729d1/resourceGroups/core-infra-prod/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-prod"
-  - link_name: "dynatrace-activegate-vnet-prod"
-    vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/dynatrace-activegate-prod/providers/Microsoft.Network/virtualNetworks/dynatrace-activegate-vnet-prod"
   - link_name: "mgmt-infra-platform"
     vnet_id: "/subscriptions/8999dec3-0104-4a27-94ee-6588559729d1/resourceGroups/mgmt-infra-prod/providers/Microsoft.Network/virtualNetworks/mgmt-infra-prod"
-  - link_name: "private-dns-resolver-uksouth-vnet-prod-int"
-    vnet_id: "/subscriptions/0978315c-75fe-4ada-9d11-1eb5e0e0b214/resourceGroups/private-dns-resolver-uksouth-prod-int/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-prod-int"
-  - link_name: "ssprod"
-    vnet_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/ss-prod-network-rg/providers/Microsoft.Network/virtualNetworks/ss-prod-vnet"
+  - link_name: "core-infra-vnet-mgmt"
+    vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/rg-mgmt/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-mgmt"
   - link_name: "vpn"
     vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/mgmt-vpn-2-mgmt/providers/Microsoft.Network/virtualNetworks/mgmt-vpn-2-vnet"
-A:
-  - name: ccd-data-0
-    record:
-    - 10.96.85.7
-    ttl: 300
-  - name: ccd-data-1
-    record:
-    - 10.96.85.10
-    ttl: 300
-  - name: ccd-data-2
-    record:
-    - 10.96.85.6
-    ttl: 300
-  - name: ccd-data-3
-    record:
-    - 10.96.85.5
-    ttl: 300
+  - link_name: "private-dns-resolver-uksouth-vnet-prod-int"
+    vnet_id: "/subscriptions/0978315c-75fe-4ada-9d11-1eb5e0e0b214/resourceGroups/private-dns-resolver-uksouth-prod-int/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-prod-int"
+  - link_name: "bastion-prod-vnet"
+    vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/bastion-prod-rg/providers/Microsoft.Network/virtualNetworks/bastion-prod-vnet"
+  - link_name: "dynatrace-activegate-vnet-prod"
+    vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/dynatrace-activegate-prod/providers/Microsoft.Network/virtualNetworks/dynatrace-activegate-vnet-prod"
+  - link_name: "ssprod"
+    vnet_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/ss-prod-network-rg/providers/Microsoft.Network/virtualNetworks/ss-prod-vnet"
+A: []
 cname: []
