@@ -89,7 +89,7 @@ A:
     record:
     - 10.143.44.4
     ttl: 300 
-  - name: em-icp-webpubsub
+  - name: em-icp-pubsub
     record:
     - 10.11.228.50
     ttl: 300
