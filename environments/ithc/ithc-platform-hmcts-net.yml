@@ -89,6 +89,10 @@ A:
     record:
     - 10.143.44.4
     ttl: 300 
+  - name: em-icp-webpubsub
+    record:
+    - 4.158.63.145
+    ttl: 300
 cname:
   - name: c100-application
     ttl: 300
