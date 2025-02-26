@@ -15,45 +15,9 @@ A:
     record:
       - 10.23.15.11
     ttl: 300
-  - name: data-analytics
-    record:
-      - 10.23.4.132
-    ttl: 300
   - name: xhibitthin
     record:
       - 10.23.1.253
-    ttl: 300
-  - name: pih4171sec001
-    record:
-      - 10.23.3.164
-    ttl: 300
-  - name: pih4171sec002
-    record:
-      - 10.23.3.165
-    ttl: 300
-  - name: pih4171sec003
-    record:
-      - 10.23.3.166
-    ttl: 300
-  - name: pih4171sec004
-    record:
-      - 10.23.3.167
-    ttl: 300
-  - name: pih4172sec001
-    record:
-      - 10.25.3.164
-    ttl: 300
-  - name: pih4172sec002
-    record:
-      - 10.25.3.165
-    ttl: 300
-  - name: pih4172sec003
-    record:
-      - 10.25.3.166
-    ttl: 300
-  - name: pih4172sec004
-    record:
-      - 10.25.3.167
     ttl: 300
   - name: pihw4172rdp001
     record:
@@ -74,10 +38,6 @@ A:
   - name: pihw4172dfs001
     record:
       - 10.25.3.150
-    ttl: 300
-  - name: pihw4171dfs001
-    record:
-      - 10.23.3.150
     ttl: 300
   - name: martha
     record:
