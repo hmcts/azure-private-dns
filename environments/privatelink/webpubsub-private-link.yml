@@ -24,11 +24,11 @@ A:
     - 10.48.100.5
     ttl: 300
   - name: em-icp-webpubsub-aat
-    ttl: 3600
+    ttl: 300
     record:
       - 10.10.164.5
   - name: em-icp-webpubsub-prod
-    ttl: 3600
+    ttl: 300
     record:
       - 10.90.100.5
 cname: []
