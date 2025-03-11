@@ -1,14 +1,14 @@
 name: "privatelink.webpubsub.azure.com"
 vnet_links:
-  - link_name: "ithc"
+  - link_name: "webpubsub-ithc"
     vnet_id: "/subscriptions/62864d44-5da9-4ae9-89e7-0cf33942fa09/resourceGroups/cft-ithc-network-rg/providers/Microsoft.Network/virtualNetworks/cft-ithc-vnet"
-  - link_name: "demo"
+  - link_name: "webpubsub-demo"
     vnet_id: "/subscriptions/d025fece-ce99-4df2-b7a9-b649d3ff2060/resourceGroups/cft-demo-network-rg/providers/Microsoft.Network/virtualNetworks/cft-demo-vnet"
-  - link_name: "perftest"
+  - link_name: "webpubsub-perftest"
     vnet_id: "/subscriptions/8a07fdcd-6abd-48b3-ad88-ff737a4b9e3c/resourceGroups/cft-perftest-network-rg/providers/Microsoft.Network/virtualNetworks/cft-perftest-vnet"
-  - link_name: "aat"
+  - link_name: "webpubsub-aat"
     vnet_id: "/subscriptions/96c274ce-846d-4e48-89a7-d528432298a7/resourceGroups/cft-aat-network-rg/providers/Microsoft.Network/virtualNetworks/cft-aat-vnet"
-  - link_name: "prod"
+  - link_name: "webpubsub-prod"
     vnet_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/resourceGroups/cft-prod-network-rg/providers/Microsoft.Network/virtualNetworks/cft-prod-vnet"
 A:
   - name: em-icp-webpubsub-ithc
