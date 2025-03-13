@@ -235,6 +235,3 @@ cname:
   - name: "labs-lukaszk-hmcts-nodejs"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "labs-kainosrogery-nodejs"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
