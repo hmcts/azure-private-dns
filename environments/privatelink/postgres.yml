@@ -42,6 +42,7 @@ vnet_links:
     vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/core-infra-idam-saat/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-idam-saat"
   - link_name: "darts-prod-vnet"
     vnet_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/darts-migration-prod-rg/providers/Microsoft.Network/virtualNetworks/migration-vnet"
-
+  - link_name: "baubais-adf-vnet-stg"
+    vnet_id: "/subscriptions/74dacd4f-a248-45bb-a2f0-af700dc4cf68/resourceGroups/baubais-data-factory-rg-stg/providers/Microsoft.Network/virtualNetworks/baubais-adf-vnet-stg"
 A: []
 cname: []
