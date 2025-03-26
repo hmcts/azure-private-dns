@@ -1,4 +1,4 @@
-name: "privatelink.cognitiveservices.azure.com"
+name: "privatelink.api.azureml.ms"
 vnet_links:
   - link_name: "vpn"
     vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/mgmt-vpn-2-mgmt/providers/Microsoft.Network/virtualNetworks/mgmt-vpn-2-vnet"
