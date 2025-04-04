@@ -58,10 +58,6 @@ A:
     record:
     - 51.140.157.202
     ttl: 300
-  - name: em-icp-webpubsub
-    record:
-    - 85.210.29.141
-    ttl: 300
   - name: prod-waf
     record:
     - 51.140.154.148
