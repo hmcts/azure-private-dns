@@ -29,6 +29,6 @@ vnet_links:
 A: 
   - name: emhrsapidemo
     record:
-    - 10.50.100.6
+    - 10.50.100.7
     ttl: 300
 cname: []
