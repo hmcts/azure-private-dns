@@ -2,5 +2,10 @@ name: "demo.internal.hmcts.net"
 vnet_links:
   - link_name: "private-dns-resolver-uksouth-vnet-nonprodi"
     vnet_id: "/subscriptions/fb084706-583f-4c9a-bdab-949aac66ba5c/resourceGroups/private-dns-resolver-uksouth-nonprodi/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-nonprodi"
-A: []
+  - link_name: "cft-demo-vnet"
+    vnet_id: "/subscriptions/d025fece-ce99-4df2-b7a9-b649d3ff2060/resourceGroups/cft-demo-network-rg/providers/Microsoft.Network/virtualNetworks/cft-demo-vnet"
+A:
+  - name: glimr
+    record:
+    - 10.25.246.134
 cname: []
