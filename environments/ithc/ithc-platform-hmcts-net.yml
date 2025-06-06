@@ -53,10 +53,6 @@ A:
     record:
     - 10.143.33.132
     ttl: 300
-  - name: vh-wowza
-    record:
-    - 10.100.197.219
-    ttl: 300
   - name: traefik-cft-00
     record:
     - 10.11.207.250
@@ -231,9 +227,6 @@ cname:
     ttl: 300
   - name: privatelaw
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
-    ttl: 300
-  - name: signalr
-    record: vh-infra-core-ithc.service.signalr.net
     ttl: 300
   - name: prometheus-00
     record: traefik-cft-00.ithc.platform.hmcts.net.
