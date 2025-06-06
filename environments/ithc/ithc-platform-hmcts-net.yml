@@ -228,7 +228,6 @@ cname:
   - name: privatelaw
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
-  - name: signalr
   - name: prometheus-00
     record: traefik-cft-00.ithc.platform.hmcts.net.
     ttl: 300
