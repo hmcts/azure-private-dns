@@ -55,10 +55,6 @@ A:
     record:
     - 10.141.31.250
     ttl: 300
-  - name: vh-wowza
-    record:
-    - 10.23.255.216
-    ttl: 300 
   - name: darts-proxy
     record:
     - 10.141.48.4
@@ -82,21 +78,9 @@ cname:
   - name: toffee
     record: sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net.
     ttl: 300
-  - name: signalr
-    record: vh-infra-core-test.service.signalr.net
-    ttl: 300
   - name: sign-in.pip-frontend
     record: sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net
     ttl: 300
   - name: staff.pip-frontend
-    record: sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net
-    ttl: 300
-  - name: vh-video-web
-    record: sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net
-    ttl: 300
-  - name: vh-admin-web
-    record: sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net
-    ttl: 300
-  - name: vh-test-web
     record: sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net
     ttl: 300
