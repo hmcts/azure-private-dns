@@ -14,6 +14,3 @@ cname:
   - name: admin
     record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
     ttl: 300
-  - name: signalr
-    record: vh-infra-core-stg.service.signalr.net
-    ttl: 300
