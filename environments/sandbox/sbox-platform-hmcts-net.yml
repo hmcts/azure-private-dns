@@ -13,13 +13,4 @@ vnet_links:
   - link_name: "bastion-sbox-vnet"
     vnet_id: "/subscriptions/b3394340-6c9f-44ca-aa3e-9ff38bd1f9ac/resourceGroups/bastion-sbox-rg/providers/Microsoft.Network/virtualNetworks/bastion-sbox-vnet"
 A: []
-cname: 
-  - name: vh-video-web
-    record: sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net
-    ttl: 300
-  - name: vh-admin-web
-    record: sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net
-    ttl: 300
-  - name: vh-test-web
-    record: sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net
-    ttl: 300
+cname: []
