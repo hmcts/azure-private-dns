@@ -39,4 +39,21 @@ A:
     record:
       - 10.96.216.6
     ttl: 300
+ 
+  - name: ccd-data-0-int
+    record:
+      - 10.96.216.100
+    ttl: 300
+  - name: ccd-data-1-int
+    record:
+      - 10.96.216.101
+    ttl: 300
+  - name: ccd-data-2-int
+    record:
+      - 10.96.216.102
+    ttl: 300
+  - name: ccd-data-3-int
+    record:
+      - 10.96.216.103
+    ttl: 300
 cname: []
