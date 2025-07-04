@@ -1171,6 +1171,14 @@ A:
     record:
     - 10.147.79.250
     ttl: 300
+  - name: cft-neuvector-aat00
+    record:
+    - 10.10.143.250
+    ttl: 300
+  - name: cft-neuvector-aat01
+    record:
+    - 10.10.159.250
+    ttl: 300
   - name: staging.tools
     ttl: 600
     record:
@@ -1209,10 +1217,4 @@ cname:
     ttl: 300
   - name: panorama
     record: panorama-prod-uks-0.platform.hmcts.net.
-    ttl: 300
-  - name: cft-neuvector-aat00
-    record: cft-neuvector00.aat.platform.hmcts.net.
-    ttl: 300
-  - name: cft-neuvector-aat01
-    record: cft-neuvector01.aat.platform.hmcts.net.
     ttl: 300
