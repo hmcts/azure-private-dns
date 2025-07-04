@@ -1173,11 +1173,31 @@ A:
     ttl: 300
   - name: cft-neuvector-aat00
     record:
-    - 10.10.143.250
+      - 10.10.143.250
     ttl: 300
   - name: cft-neuvector-aat01
     record:
-    - 10.10.159.250
+      - 10.10.159.250
+    ttl: 300
+  - name: cft-neuvector-ithc00
+    record:
+      - 10.11.207.250
+    ttl: 300
+  - name: cft-neuvector-perftest00
+    record:
+      - 10.48.79.250
+    ttl: 300
+  - name: cft-neuvector-perftest01
+    record:
+      - 10.48.95.250
+    ttl: 300
+  - name: cft-neuvector-prod00
+    record:
+      - 10.90.79.250
+    ttl: 300
+  - name: cft-neuvector-prod01
+    record:
+      - 10.90.95.250
     ttl: 300
   - name: staging.tools
     ttl: 600
