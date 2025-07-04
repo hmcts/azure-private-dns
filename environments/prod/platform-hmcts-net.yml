@@ -342,7 +342,7 @@ A:
   - name: cloudgobgateway
     record:
     - 10.144.32.136
-    ttl: 300        
+    ttl: 300
   - name: traefik-cft-00
     record:
     - 10.90.79.250
@@ -428,7 +428,7 @@ cname:
     ttl: 300
   - name: tmequality-and-diversity
     record: prod-waf-additional.platform.hmcts.net.
-    ttl: 300  
+    ttl: 300
   - name: fees-register
     record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
@@ -550,14 +550,8 @@ cname:
     record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
     ttl: 300
     record: "hmcts-ldata.azurefd.net"
-  - name: sds-neuvector00
-    record: traefik-sds-00.platform.hmcts.net
-    ttl: 300
   - name: sds-neuvector00-api
     record: traefik-sds-00.platform.hmcts.net
-    ttl: 300
-  - name: sds-neuvector01
-    record: traefik-sds-01.platform.hmcts.net
     ttl: 300
   - name: sds-neuvector01-api
     record: traefik-sds-01.platform.hmcts.net
@@ -582,7 +576,7 @@ cname:
     ttl: 300
   - name: dtsse-ardoq-adapter
     record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
-    ttl: 300  
+    ttl: 300
   - name: prometheus-00
     record: traefik-cft-00.platform.hmcts.net.
     ttl: 300
