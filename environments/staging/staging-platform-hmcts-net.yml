@@ -58,7 +58,7 @@ A:
   - name: darts-proxy
     record:
     - 10.148.42.4
-    ttl: 300 
+    ttl: 300
 cname:
   - name: c100-application
     ttl: 300
@@ -66,14 +66,8 @@ cname:
   - name: hmi-apim
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
-  - name: sds-neuvector00
-    record: traefik-sds-00.staging.platform.hmcts.net
-    ttl: 300
   - name: sds-neuvector00-api
     record: traefik-sds-00.staging.platform.hmcts.net
-    ttl: 300
-  - name: sds-neuvector01
-    record: traefik-sds-01.staging.platform.hmcts.net
     ttl: 300
   - name: sds-neuvector01-api
     record: traefik-sds-01.staging.platform.hmcts.net
@@ -89,7 +83,7 @@ cname:
     ttl: 300
   - name: sign-in.pip-frontend
     record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
-    ttl: 300  
+    ttl: 300
   - name: staff.pip-frontend
     record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
     ttl: 300
