@@ -102,6 +102,9 @@ cname:
   - name: gateway-ccd
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
+  - name: reformscan
+    ttl: 300
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
   - name: hmi-apim
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
