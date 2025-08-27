@@ -30,6 +30,3 @@ cname:
   - name: "darts"
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
-  - name: "appreg"
-    ttl: 300
-    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
