@@ -34,6 +34,8 @@ vnet_links:
     vnet_id: "/subscriptions/867a878b-cb68-4de5-9741-361ac9e178b6/resourceGroups/ss-dev-network-rg/providers/Microsoft.Network/virtualNetworks/ss-dev-vnet"
   - link_name: "vpn"
     vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/mgmt-vpn-2-mgmt/providers/Microsoft.Network/virtualNetworks/mgmt-vpn-2-vnet"
+  - link_name: "ingest00-vnet-sbox"
+    vnet_id: "/subscriptions/df72bb30-d6fb-47bd-82ee-5eb87473ddb3/resourceGroups/ingest00-network-sbox/providers/Microsoft.Network/virtualNetworks/ingest00-vnet-sbox"
 A:
   - name: neuvector00
     record:
