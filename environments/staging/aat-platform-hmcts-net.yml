@@ -224,6 +224,9 @@ cname:
   - name: fact-admin
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
+  - name: fact-data-api
+    record: fact-data-api-aat.service.core-compute-aat.internal.
+    ttl: 300
   - name: rpts
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
