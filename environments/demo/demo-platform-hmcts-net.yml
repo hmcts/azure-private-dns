@@ -174,6 +174,9 @@ cname:
   - name: "fact-admin"
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: fact-data-api
+    ttl: 300
+    record: fact-data-api-demo.service.core-compute-demo.internal.
   - name: "afdverify.fact-admin"
     ttl: 300
     record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
