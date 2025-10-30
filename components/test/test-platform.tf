@@ -13,8 +13,3 @@ module "test-platform" {
   builtFrom           = var.builtFrom
   product             = var.product
 }
-
-import {
-  to = module.test-platform.azurerm_private_dns_a_record.this["pip-frontend"]
-  id = "/subscriptions/1baf5470-1c3e-40d3-a6f7-74bfbce4b348/resourceGroups/core-infra-intsvc-rg/providers/Microsoft.Network/privateDnsZones/test.platform.hmcts.net/A/pip-frontend"
-}
