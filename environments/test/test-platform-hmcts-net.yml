@@ -59,10 +59,6 @@ A:
     record:
     - 10.141.48.4
     ttl: 300
-  - name: pip-frontend
-    record:
-    - 10.141.32.134
-    ttl: 300
 cname:
   - name: hmi-apim
     record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
@@ -76,12 +72,9 @@ cname:
   - name: toffee
     record: sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net.
     ttl: 300
-  # Comment out for now because it conflicts with an incorrect A record that is not within the state
-  # Once A record is imported it will then be removed while the correct CNAME below will be uncommeted and applied
-  # Same record as in ITHC, Demo, Staging
-  # - name: pip-frontend
-  #   record: sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net
-  #   ttl: 300
+  - name: pip-frontend
+    record: sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net
+    ttl: 300
   - name: sign-in.pip-frontend
     record: sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net
     ttl: 300
