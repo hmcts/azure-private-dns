@@ -150,6 +150,10 @@ A:
     record:
     - 10.10.200.69
     ttl: 300
+  - name: palo-lb-trusted
+    record:
+    - 10.10.200.36
+    ttl: 300
   - name: pam-bia
     record:
     - 10.0.16.36
