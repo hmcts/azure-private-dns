@@ -166,6 +166,10 @@ A:
     record:
     - 10.0.18.4
     ttl: 300
+  - name: plum-tlse2e
+    record:
+      - 10.2.8.43
+    ttl: 300
 cname:
   - name: moneyclaim
     record: sandbox-waf.sandbox.platform.hmcts.net.
@@ -204,6 +208,9 @@ cname:
     record: hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net.
     ttl: 300
   - name: plum
+    record: hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net.
+    ttl: 300
+  - name: plum-tlse2e
     record: hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net.
     ttl: 300
   - name: toffee
