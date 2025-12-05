@@ -53,10 +53,6 @@ A:
     record:
     - 51.142.81.236
     ttl: 300
-  - name: vh-wowza
-    record:
-    - 10.254.0.232
-    ttl: 300
   - name: docmosis
     record:
     - 10.50.97.118
