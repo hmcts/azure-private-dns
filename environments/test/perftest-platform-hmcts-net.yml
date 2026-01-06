@@ -131,6 +131,9 @@ cname:
   - name: fact
     record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
     ttl: 300
+  - name: fact-public-frontend
+    record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
+    ttl: 300
   - name: fact-admin
     record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
     ttl: 300
