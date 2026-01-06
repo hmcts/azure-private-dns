@@ -221,6 +221,9 @@ cname:
   - name: fact
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
+  - name: fact-public-frontend
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
+    ttl: 300
   - name: fact-admin
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300

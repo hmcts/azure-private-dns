@@ -177,6 +177,9 @@ cname:
   - name: fact
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
+  - name: fact-public-frontend
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
+    ttl: 300
   - name: fact-admin
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
