@@ -252,7 +252,7 @@ A:
     ttl: 300
   - name: vpn-ext
     record:
-    - 51.141.230.130
+    - 10.99.0.4
     ttl: 300
   - name: "vpn-ext-beta"
     record:
