@@ -245,6 +245,6 @@ cname:
   - name: "labs-rebeccahayleypickles-nodejs"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "labs-Kamil-Biegaj-HM-nodejs"
+  - name: "labs-kamil-biegaj-hm-nodejs"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
