@@ -1202,7 +1202,7 @@ A:
   - name: staging.tools
     ttl: 600
     record:
-      - 20.68.218.20
+      - 10.0.8.29
   - name: sds-neuvector-ithc00
     ttl: 300
     record:
