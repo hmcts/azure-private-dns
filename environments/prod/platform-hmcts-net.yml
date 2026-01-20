@@ -403,10 +403,10 @@ A:
     record:
       - 10.144.32.132
     ttl: 300
-  - name: pdda-public-display-manager
-    record:
-      - 10.144.32.132
-    ttl: 300
+  # - name: pdda-public-display-manager
+  #   record:
+  #     - 10.144.32.132
+  #   ttl: 300
 
 cname:
   - name: c100-application
