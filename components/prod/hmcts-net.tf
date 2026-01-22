@@ -15,7 +15,7 @@ module "hmcts-net" {
 }
 
 resource "azurerm_role_assignment" "atlassian_nonprod_reader" {
-  scope                = module.hmcts-net.private_dns_zone_id
+  scope                = module.hmcts-net.vnet_link_ids["atlassian-int-nonprod-vnet"]
   role_definition_name = "Reader"
   principal_id         = "689d247b-3558-4c62-ac72-a834bd3208a5" # DTS Bootstrap (sub:moj dcd atlassian nle)
 }

@@ -1,4 +1,4 @@
-output "private_dns_zone_id" {
-  description = "The ARM resource ID of the Private DNS zone (created or referenced by this module)."
-  value       = azurerm_private_dns_zone.zone[0].id
+output "vnet_link_ids" {
+  description = "Map of Private DNS zone virtual network link resource IDs, keyed by link_name."
+  value       = { for link_name, link in azurerm_private_dns_zone_virtual_network_link.vnet_link : link_name => link.id }
 }
