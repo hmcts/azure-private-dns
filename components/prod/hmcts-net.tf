@@ -13,3 +13,8 @@ module "hmcts-net" {
   builtFrom           = var.builtFrom
   product             = var.product
 }
+
+import {
+  to = module.hmcts-net.azurerm_private_dns_zone_virtual_network_link.vnet_link["atlassian-int-nonprod-vnet"]
+  id = "/subscriptions/1baf5470-1c3e-40d3-a6f7-74bfbce4b348/resourceGroups/core-infra-intsvc-rg/providers/Microsoft.Network/privateDnsZones/hmcts.net/virtualNetworkLinks/atlassian-int-nonprod-vnet"
+}

@@ -46,6 +46,9 @@ vnet_links:
   - link_name: "cft-ptl-vnet"
     vnet_id: "/subscriptions/1baf5470-1c3e-40d3-a6f7-74bfbce4b348/resourceGroups/cft-ptl-network-rg/providers/Microsoft.Network/virtualNetworks/cft-ptl-vnet"
     registration_enabled: false
+  - link_name: "atlassian-int-nonprod-vnet"
+    vnet_id: "/subscriptions/1baf5470-1c3e-40d3-a6f7-74bfbce4b348/resourceGroups/cft-ptl-network-rg/providers/Microsoft.Network/virtualNetworks/atlassian-int-nonprod-vnet"
+    registration_enabled: false
 A:
   - name: bais-ext-stg.sftp
     record:
