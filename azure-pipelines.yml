@@ -121,5 +121,6 @@ stages:
               component: ${{ deployment.component }}
               serviceConnection: ${{ deployment.serviceConnection }}
               terraformInitSubscription: ${{ variables.terraformInitSubscription }}
+              backendAzureRmUseEntraIdForAuthentication: true
               initCommandOptions: >
                 -backend-config resource_group_name=${{ deployment.resourceGroupName }}
