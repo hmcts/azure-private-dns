@@ -37,7 +37,7 @@ parameters:
     - deployment: demo
       environment: demo
       component: demo
-      resourceGroupName: azure-control-ptl-rg
+      resourceGroupName: azure-control-demo-rg
       serviceConnection: dts-cftptl-intsvc
       dependsOn:
         - Precheck
