@@ -37,56 +37,56 @@ parameters:
     - deployment: demo
       environment: demo
       component: demo
-      resourceGroupName: azure-control-ptl-rg
+      backendResourceGroupName: azure-control-ptl-rg
       serviceConnection: dts-cftptl-intsvc
       dependsOn:
         - Precheck
     - deployment: dev
       environment: dev
       component: dev
-      resourceGroupName: azure-control-ptl-rg
+      backendResourceGroupName: azure-control-ptl-rg
       serviceConnection: dts-cftptl-intsvc
       dependsOn:
         - Precheck
     - deployment: ithc
       environment: ithc
       component: ithc
-      resourceGroupName: azure-control-ptl-rg
+      backendResourceGroupName: azure-control-ptl-rg
       serviceConnection: dts-cftptl-intsvc
       dependsOn:
         - Precheck
     - deployment: test
       environment: test
       component: test
-      resourceGroupName: azure-control-ptl-rg
+      backendResourceGroupName: azure-control-ptl-rg
       serviceConnection: dts-cftptl-intsvc
       dependsOn:
         - Precheck
     - deployment: privatelink
       environment: privatelink
       component: privatelink
-      resourceGroupName: azure-control-ptl-rg
+      backendResourceGroupName: azure-control-ptl-rg
       serviceConnection: dts-cftptl-intsvc
       dependsOn:
         - Precheck
     - deployment: prod
       environment: prod
       component: prod
-      resourceGroupName: azure-control-ptl-rg
+      backendResourceGroupName: azure-control-ptl-rg
       serviceConnection: dts-cftptl-intsvc
       dependsOn:
         - Precheck
     - deployment: sandbox
       environment: sbox
       component: sandbox
-      resourceGroupName: azure-control-ptlsbox-rg
+      backendResourceGroupName: azure-control-ptlsbox-rg
       serviceConnection: dts-cftsbox-intsvc
       dependsOn:
         - Precheck
     - deployment: staging
       environment: staging
       component: staging
-      resourceGroupName: azure-control-ptl-rg
+      backendResourceGroupName: azure-control-ptl-rg
       serviceConnection: dts-cftptl-intsvc
       dependsOn:
         - Precheck
@@ -122,4 +122,4 @@ stages:
               serviceConnection: ${{ deployment.serviceConnection }}
               terraformInitSubscription: ${{ variables.terraformInitSubscription }}
               initCommandOptions: >
-                -backend-config resource_group_name=${{ deployment.resourceGroupName }}
+                -backend-config resource_group_name=${{ deployment.backendResourceGroupName }}
