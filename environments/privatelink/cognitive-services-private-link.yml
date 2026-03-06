@@ -6,6 +6,10 @@ vnet_links:
     vnet_id: "/subscriptions/0978315c-75fe-4ada-9d11-1eb5e0e0b214/resourceGroups/private-dns-resolver-uksouth-prod-int/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-prod-int"
   - link_name: "ingest00-vnet-sbox"
     vnet_id: "/subscriptions/df72bb30-d6fb-47bd-82ee-5eb87473ddb3/resourceGroups/ingest00-network-sbox/providers/Microsoft.Network/virtualNetworks/ingest00-vnet-sbox"
+  - link_name: "ss-sbox-vnet"
+    vnet_id: "/subscriptions/a8140a9e-f1b0-481f-a4de-09e2ee23f7ab/resourceGroups/ss-sbox-network-rg/providers/Microsoft.Network/virtualNetworks/ss-sbox-vnet"
+  - link_name: "ss-ptlsbox-vnet"
+    vnet_id: "/subscriptions/64b1c6d6-1481-44ad-b620-d8fe26a2c768/resourceGroups/ss-ptlsbox-network-rg/providers/Microsoft.Network/virtualNetworks/ss-ptlsbox-vnet"
     
 A: []
 cname: []
