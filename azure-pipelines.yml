@@ -8,7 +8,7 @@ resources:
   repositories:
   - repository: cnp-azuredevops-libraries
     type: github
-    ref: master
+    ref: DTSPO-30612/backendServiceConnection
     name: hmcts/cnp-azuredevops-libraries
     endpoint: 'hmcts'
 
