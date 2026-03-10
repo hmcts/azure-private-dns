@@ -6,6 +6,8 @@ vnet_links:
     vnet_id: "/subscriptions/0978315c-75fe-4ada-9d11-1eb5e0e0b214/resourceGroups/private-dns-resolver-uksouth-prod-int/providers/Microsoft.Network/virtualNetworks/private-dns-resolver-uksouth-vnet-prod-int"
   - link_name: "core-aad-domain-services-mgmt-vnet"
     vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/core-aad-domain-services-mgmt-rg/providers/Microsoft.Network/virtualNetworks/core-aad-domain-services-mgmt-vnet"
+  - link_name: "hmcts-transcribe-vnet-dev-main-dev"
+    vnet_id: "/subscriptions/8b6ea922-0862-443e-af15-6056e1c9b9a4/resourceGroups/courtstranscribe-dev-rg/providers/Microsoft.Network/virtualNetworks/hmcts-transcribe-vnet-dev-main-dev"
 
 A: []
 cname: []
