@@ -24,6 +24,8 @@ vnet_links:
     vnet_id: "/subscriptions/c68a4bed-4c3d-4956-af51-4ae164c1957c/resourceGroups/pre-demo/providers/Microsoft.Network/virtualNetworks/pre-vnet01-demo"
   - link_name: "pre-dev-vnet"
     vnet_id: "/subscriptions/867a878b-cb68-4de5-9741-361ac9e178b6/resourceGroups/pre-dev/providers/Microsoft.Network/virtualNetworks/pre-vnet-dev"
+  - link_name: "hmcts-transcribe-vnet-dev-main-dev"
+    vnet_id: "/subscriptions/8b6ea922-0862-443e-af15-6056e1c9b9a4/resourceGroups/courtstranscribe-dev-rg/providers/Microsoft.Network/virtualNetworks/hmcts-transcribe-vnet-dev-main-dev"
 A: 
   - name: emhrsapidemo
     record:
