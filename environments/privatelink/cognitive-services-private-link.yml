@@ -10,6 +10,7 @@ vnet_links:
     vnet_id: "/subscriptions/a8140a9e-f1b0-481f-a4de-09e2ee23f7ab/resourceGroups/ss-sbox-network-rg/providers/Microsoft.Network/virtualNetworks/ss-sbox-vnet"
   - link_name: "ss-ptlsbox-vnet"
     vnet_id: "/subscriptions/64b1c6d6-1481-44ad-b620-d8fe26a2c768/resourceGroups/ss-ptlsbox-network-rg/providers/Microsoft.Network/virtualNetworks/ss-ptlsbox-vnet"
-    
+  - link_name: "hmcts-transcribe-vnet-dev-main-dev"
+    vnet_id: "/subscriptions/8b6ea922-0862-443e-af15-6056e1c9b9a4/resourceGroups/courtstranscribe-dev-rg/providers/Microsoft.Network/virtualNetworks/hmcts-transcribe-vnet-dev-main-dev"    
 A: []
 cname: []
