@@ -13,7 +13,7 @@ vnet_links:
   - link_name: "core-aad-domain-services-mgmt-vnet"
     vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/core-aad-domain-services-mgmt-rg/providers/Microsoft.Network/virtualNetworks/core-aad-domain-services-mgmt-vnet"
   - link_name: "github-runners-vnet"
-    vnet_id: "/subscriptions/0978315c-75fe-4ada-9d11-1eb5e0e0b214/resourceGroups/hmcts-hub-prod-int/providers/Microsoft.Network/virtualNetworks/hmcts-hub-prod-int"
+    vnet_id: "/subscriptions/0978315c-75fe-4ada-9d11-1eb5e0e0b214/resourceGroups/hub-github-network-rg-prod/providers/Microsoft.Network/virtualNetworks/hub-github-network-github-prod"
 A:
   - name: traefik-sds-01
     record:
