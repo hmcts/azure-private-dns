@@ -1,6 +1,7 @@
 provider "azurerm" {
   features {}
   resource_provider_registrations = "none"
+  auxiliary_tenant_ids            = var.auxiliary_tenant_ids
 }
 
 terraform {

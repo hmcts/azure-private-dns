@@ -17,3 +17,9 @@ variable "builtFrom" {
   type        = string
   description = "Name of the deployment pipeline. This is used in tags"
 }
+
+variable "auxiliary_tenant_ids" {
+  type        = list(string)
+  description = "List of auxiliary tenant IDs for cross-tenant private DNS zone VNet links (e.g. crime tenant)"
+  default     = []
+}
