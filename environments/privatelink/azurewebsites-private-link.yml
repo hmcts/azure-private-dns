@@ -13,6 +13,6 @@ vnet_links:
 A:
   - name: hmcts-transcribe-backend-dev
     record:
-    - 10.0.19.13
+    - 10.0.28.36
     ttl: 300
 cname: []
