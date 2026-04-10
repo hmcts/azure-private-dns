@@ -1,0 +1,9 @@
+name: "privatelink.postgres.database.azure.com"
+vnet_links:
+  # Crime IDAM VNets (cross-tenant: crime live tenant 77f54315-6dde-4fe7-9e17-74762c3eb096)
+  - link_name: "crime-idam-prp-vnet"
+    vnet_id: "/subscriptions/e7819cdc-66af-4611-9dba-b9958e5b6d7d/resourceGroups/RG-PRP-IDM1-OPS-01/providers/Microsoft.Network/virtualNetworks/VN-PRP-INT-IDM1-01"
+  - link_name: "crime-idam-prd-vnet"
+    vnet_id: "/subscriptions/e7819cdc-66af-4611-9dba-b9958e5b6d7d/resourceGroups/RG-PRD-IDM1-OPS-01/providers/Microsoft.Network/virtualNetworks/VN-PRD-INT-IDM1-01"
+A: []
+cname: []

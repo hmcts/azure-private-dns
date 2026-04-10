@@ -66,7 +66,7 @@ parameters:
       environment: privatelink
       component: privatelink
       resourceGroupName: azure-control-ptl-rg
-      serviceConnection: dts-cftptl-cross-tenant-dns # Multi-tenant SPN (f4d75ec5) for cross-tenant DNS VNet links
+      serviceConnection: dts-cftptl-intsvc
       dependsOn:
         - Precheck
     - deployment: prod
@@ -113,6 +113,16 @@ stages:
           pool:
             vmImage: ${{ variables.agentPool }}
           steps:
+          # Read cross-tenant SPN secret from central-app-reg Key Vault (auto-rotated).
+          # Requires Key Vault Secrets User RBAC on central-app-reg-kv for the dts-cftptl-intsvc SC.
+          - ${{ if eq(deployment.component, 'privatelink') }}:
+            - task: AzureKeyVault@2
+              displayName: 'Read cross-tenant SPN secret from central-app-reg KV'
+              inputs:
+                connectedServiceName: ${{ deployment.serviceConnection }}
+                keyVaultName: 'central-app-reg-kv'
+                secretsFilter: 'nonlive-crime-idam-cross-tenant-secret'
+                runAsPreJob: false
           - template: steps/terraform.yaml@cnp-azuredevops-libraries
             parameters:
               product: ${{ variables.product }}
@@ -121,6 +131,9 @@ stages:
               component: ${{ deployment.component }}
               serviceConnection: ${{ deployment.serviceConnection }}
               terraformInitSubscription: ${{ variables.terraformInitSubscription }}
+              ${{ if eq(deployment.component, 'privatelink') }}:
+                terraformEnvironmentVariables:
+                  TF_VAR_cross_tenant_client_secret: $(nonlive-crime-idam-cross-tenant-secret)
               backendAzureRmUseEntraIdForAuthentication: true
               initCommandOptions: >
                 -backend-config resource_group_name=${{ deployment.resourceGroupName }}
