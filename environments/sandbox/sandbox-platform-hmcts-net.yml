@@ -248,3 +248,6 @@ cname:
   - name: "labs-kamil-biegaj-hm-nodejs"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+  - name: "labs-njk-debolina-seal"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
