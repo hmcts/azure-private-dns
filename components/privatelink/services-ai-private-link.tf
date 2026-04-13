@@ -1,5 +1,5 @@
 data "local_file" "services-ai-private-link" {
-  filename = "${path.cwd}/../../environments/privatelink/cognitive-services-private-link.yml"
+  filename = "${path.cwd}/../../environments/privatelink/services-ai-private-link.yml"
 }
 
 module "services-ai-private-link" {
