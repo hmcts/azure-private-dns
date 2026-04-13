@@ -154,4 +154,11 @@ A:
       - 10.171.60.11
       - 10.171.60.12
     ttl: 300
-cname: []
+cname:
+  - name: _dnsauth.xhibittc1
+    record: _71f8ochjv86oj40k07req2rocw3srmh.dcv.digicert.com
+    ttl: 10800
+  - name: _dnsauth.www.xhibittc1
+    record: _71f8ochjv86oj40k07req2rocw3srmh.dcv.digicert.com
+    ttl: 10800
+
