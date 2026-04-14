@@ -1,9 +1,11 @@
 name: "privatelink.postgres.database.azure.com"
 vnet_links:
-  # Crime IDAM VNets (cross-tenant: crime live tenant 77f54315-6dde-4fe7-9e17-74762c3eb096)
-  - link_name: "crime-idam-prp-vnet"
-    vnet_id: "/subscriptions/e7819cdc-66af-4611-9dba-b9958e5b6d7d/resourceGroups/RG-PRP-IDM1-OPS-01/providers/Microsoft.Network/virtualNetworks/VN-PRP-INT-IDM1-01"
-  - link_name: "crime-idam-prd-vnet"
-    vnet_id: "/subscriptions/e7819cdc-66af-4611-9dba-b9958e5b6d7d/resourceGroups/RG-PRD-IDM1-OPS-01/providers/Microsoft.Network/virtualNetworks/VN-PRD-INT-IDM1-01"
+  # Crime IDAM VNets (cross-tenant: HMCTS Non-Live Strategic tenant e2995d11-9947-4e78-9de6-d44e0603518e)
+  - link_name: "crime-idam-dev-vnet"
+    vnet_id: "/subscriptions/0511a7fe-771b-4ffa-9348-c59e9c4a87bd/resourceGroups/RG-DEV-IDM1-OPS-01/providers/Microsoft.Network/virtualNetworks/VN-DEV-INT-IDM1-01"
+  - link_name: "crime-idam-nft-vnet"
+    vnet_id: "/subscriptions/0511a7fe-771b-4ffa-9348-c59e9c4a87bd/resourceGroups/RG-NFT-IDM1-OPS-01/providers/Microsoft.Network/virtualNetworks/VN-NFT-INT-IDM1-01"
+  - link_name: "crime-idam-sit-vnet"
+    vnet_id: "/subscriptions/0511a7fe-771b-4ffa-9348-c59e9c4a87bd/resourceGroups/RG-SIT-IDM1-OPS-01/providers/Microsoft.Network/virtualNetworks/VN-SIT-INT-IDM1-01"
 A: []
 cname: []

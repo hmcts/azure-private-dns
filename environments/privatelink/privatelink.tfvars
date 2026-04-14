@@ -7,5 +7,5 @@ cross_tenant_client_id       = "f161cfe9-2788-453f-8821-5203a0a37263"
 
 # Secret sourced from central-app-reg-kv (nonlive-crime-idam-cross-tenant-secret) via AzureKeyVault@2 pipeline task
 
-# Crime tenant ID (cp.cjs.hmcts.net) used as auxiliary tenant for cross-tenant VNet link resolution
-cross_tenant_auxiliary_tenant_ids = ["77f54315-6dde-4fe7-9e17-74762c3eb096"]
+# HMCTS Non-Live (Strategic) tenant used as auxiliary tenant for cross-tenant VNet link resolution
+cross_tenant_auxiliary_tenant_ids = ["e2995d11-9947-4e78-9de6-d44e0603518e"]
