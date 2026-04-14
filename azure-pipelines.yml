@@ -133,7 +133,7 @@ stages:
               terraformInitSubscription: ${{ variables.terraformInitSubscription }}
               ${{ if eq(deployment.component, 'privatelink') }}:
                 terraformEnvironmentVariables:
-                  TF_VAR_cross_tenant_client_secret: $(nonlive-crime-idam-cross-tenant-secret)
+                  TF_VAR_cross_tenant_nonlive_client_secret: $(nonlive-crime-idam-cross-tenant-secret)
               backendAzureRmUseEntraIdForAuthentication: true
               initCommandOptions: >
                 -backend-config resource_group_name=${{ deployment.resourceGroupName }}
