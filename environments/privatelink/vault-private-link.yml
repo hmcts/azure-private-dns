@@ -10,6 +10,7 @@ vnet_links:
     vnet_id: "/subscriptions/8b6ea922-0862-443e-af15-6056e1c9b9a4/resourceGroups/courtstranscribe-dev-rg/providers/Microsoft.Network/virtualNetworks/hmcts-transcribe-vnet-dev-main-dev"
   - link_name: "hmcts-transcribe-vnet-stg-main-stg"
     vnet_id: "/subscriptions/96c274ce-846d-4e48-89a7-d528432298a7/resourceGroups/courtstranscribe-stg-rg/providers/Microsoft.Network/virtualNetworks/hmcts-transcribe-vnet-stg-main-stg"
-
+  - link_name: "hmcts-transcribe-vnet-prod-main-prod"
+    vnet_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/resourceGroups/courtstranscribe-prod-rg/providers/Microsoft.Network/virtualNetworks/hmcts-transcribe-vnet-prod-main-prod"
 A: []
 cname: []

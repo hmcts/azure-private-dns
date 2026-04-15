@@ -17,6 +17,8 @@ vnet_links:
     vnet_id: "/subscriptions/6c4d2513-a873-41b4-afdd-b05a33206631/resourceGroups/ss-ptl-network-rg/providers/Microsoft.Network/virtualNetworks/ss-ptl-vnet"
   - link_name: "dynatrace-activegate-vnet-prod"
     vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/dynatrace-activegate-prod/providers/Microsoft.Network/virtualNetworks/dynatrace-activegate-vnet-prod"
+  - link_name: "hmcts-transcribe-vnet-prod-main-prod"
+    vnet_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/resourceGroups/courtstranscribe-prod-rg/providers/Microsoft.Network/virtualNetworks/hmcts-transcribe-vnet-prod-main-prod"
 
 A: []
 
@@ -34,3 +36,6 @@ cname:
   - name: "juror-er"
     ttl: 300
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
+  - name: "courtstranscribe"
+    ttl: 300
+    record: "hmcts-transcribe-frontend-prod.azurewebsites.net"
