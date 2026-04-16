@@ -23,7 +23,7 @@ A:
     record:
     - 10.0.29.36
     ttl: 300
-  - name: hmcts-transcribe-backend-stg
+  - name: hmcts-transcribe-backend-prod
     record:
     - 10.0.30.36
     ttl: 300
