@@ -30,3 +30,9 @@ cname:
   - name: "darts"
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
+  - name: "juror-er"
+    ttl: 300
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
+  - name: "courtstranscribe"
+    ttl: 300
+    record: "hmcts-transcribe-frontend-stg.azurewebsites.net"

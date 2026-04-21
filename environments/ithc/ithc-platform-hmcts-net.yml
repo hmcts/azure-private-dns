@@ -102,6 +102,9 @@ cname:
   - name: gateway-ccd
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
+  - name: reformscan
+    ttl: 300
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
   - name: hmi-apim
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
@@ -174,8 +177,17 @@ cname:
   - name: fact
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
+  - name: fact-public-frontend
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
+    ttl: 300
+  - name: fact-admin-frontend
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
+    ttl: 300
   - name: fact-admin
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
+    ttl: 300
+  - name: fact-data-api
+    record: fact-data-api-ithc.service.core-compute-ithc.internal.
     ttl: 300
   - name: nfdiv
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.

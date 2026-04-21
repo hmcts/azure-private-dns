@@ -8,7 +8,7 @@ vnet_links:
 A:
   - name: cs0663
     record:
-    - 10.182.69.16
+    - 10.182.69.17
     ttl: 3600
   - name: caps.db
     record:

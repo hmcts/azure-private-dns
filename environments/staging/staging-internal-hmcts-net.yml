@@ -8,6 +8,8 @@ vnet_links:
     vnet_id: "/subscriptions/96c274ce-846d-4e48-89a7-d528432298a7/resourceGroups/cft-aat-network-rg/providers/Microsoft.Network/virtualNetworks/cft-aat-vnet"
   - link_name: "cft-demo-vnet"
     vnet_id: "/subscriptions/d025fece-ce99-4df2-b7a9-b649d3ff2060/resourceGroups/cft-demo-network-rg/providers/Microsoft.Network/virtualNetworks/cft-demo-vnet"
+  - link_name: "cft-ithc-vnet"
+    vnet_id: "/subscriptions/62864d44-5da9-4ae9-89e7-0cf33942fa09/resourceGroups/cft-ithc-network-rg/providers/Microsoft.Network/virtualNetworks/cft-ithc-vnet"
 A:
   - name: familyman
     record:

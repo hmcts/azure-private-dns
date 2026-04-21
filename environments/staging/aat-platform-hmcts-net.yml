@@ -24,6 +24,8 @@ vnet_links:
     vnet_id: "/subscriptions/74dacd4f-a248-45bb-a2f0-af700dc4cf68/resourceGroups/hmi-sharedinfra-stg-rg/providers/Microsoft.Network/virtualNetworks/hmi-sharedinfra-vnet-stg"
   - link_name: "dynatrace-activegate-vnet-prod"
     vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/dynatrace-activegate-prod/providers/Microsoft.Network/virtualNetworks/dynatrace-activegate-vnet-prod"
+  - link_name: "hub-github-network-github-prod"
+    vnet_id: "/subscriptions/0978315c-75fe-4ada-9d11-1eb5e0e0b214/resourceGroups/hub-github-network-rg-prod/providers/Microsoft.Network/virtualNetworks/hub-github-network-github-prod"
 A:
   - name: test-dns-update
     ttl: 300
@@ -221,8 +223,17 @@ cname:
   - name: fact
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
+  - name: fact-public-frontend
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
+    ttl: 300
+  - name: fact-admin-frontend
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
+    ttl: 300
   - name: fact-admin
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
+    ttl: 300
+  - name: fact-data-api
+    record: fact-data-api-aat.service.core-compute-aat.internal.
     ttl: 300
   - name: rpts
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
@@ -350,6 +361,9 @@ cname:
   - name: civil-ccd-definition-store-staging-aat
     record: jenkins-cluster.aat.platform.hmcts.net.
     ttl: 300
+  - name: civil-ccd-wiremock-staging-aat
+    record: jenkins-cluster.aat.platform.hmcts.net.
+    ttl: 300
   - name: cft-neuvector00
     record: traefik-cft-00.aat.platform.hmcts.net.
     ttl: 300
@@ -416,3 +430,6 @@ cname:
   - name: et-syr
     ttl: 300
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net
+  - name: "finrem-citizen-ui"
+    ttl: 300
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"

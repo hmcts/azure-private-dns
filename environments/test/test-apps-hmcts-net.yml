@@ -30,3 +30,6 @@ cname:
   - name: "darts"
     ttl: 300
     record: "sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net"
+  - name: "juror-er"
+    ttl: 300
+    record: "sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net"
