@@ -16,6 +16,8 @@ vnet_links:
     vnet_id: "/subscriptions/1baf5470-1c3e-40d3-a6f7-74bfbce4b348/resourceGroups/cft-ptl-network-rg/providers/Microsoft.Network/virtualNetworks/cft-ptl-vnet"
   - link_name: "dynatrace-activegate-vnet-nonprod"
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/dynatrace-activegate-nonprod/providers/Microsoft.Network/virtualNetworks/dynatrace-activegate-vnet-nonprod"
+  - link_name: "csds-network-csds-sbox"
+    vnet_id: "/subscriptions/b72ab7b7-723f-4b18-b6f6-03b0f2c6a1bb/resourceGroups/csds-semarchy-xdm-sbox-rg/providers/Microsoft.Network/virtualNetworks/csds-network-csds-sbox"
 A:
   - name: grafana
     record:
