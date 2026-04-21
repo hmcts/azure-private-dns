@@ -1183,6 +1183,10 @@ A:
     record:
       - 10.11.207.250
     ttl: 300
+  - name: cft-neuvector-ithc01
+    record:
+      - 10.11.223.250
+    ttl: 300
   - name: cft-neuvector-perftest00
     record:
       - 10.48.79.250
