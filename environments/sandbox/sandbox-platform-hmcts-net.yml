@@ -166,6 +166,10 @@ A:
     record:
     - 10.0.18.4
     ttl: 300
+  - name: pss-test-harness
+    record:
+    - 10.25.236.87
+    ttl: 300
 cname:
   - name: moneyclaim
     record: sandbox-waf.sandbox.platform.hmcts.net.
