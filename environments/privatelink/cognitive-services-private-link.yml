@@ -23,7 +23,7 @@ A:
     ttl: 300
   - name: hmcts-transcribe-ai-stg
     record:
-    - 10.0.29.69
+    - 10.0.31.69
     ttl: 300
   - name: hmcts-transcribe-ai-prod
     record:
