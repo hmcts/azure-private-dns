@@ -1,4 +1,4 @@
-name: "privatelink.postgres.database.azure.com"
+name: "private.postgres.database.azure.com"
 vnet_links:
   # Crime IDAM VNets (cross-tenant: HMCTS Non-Live Strategic tenant e2995d11-9947-4e78-9de6-d44e0603518e)
   - link_name: "crime-idam-dev-vnet"
