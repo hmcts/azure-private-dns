@@ -7,5 +7,8 @@ vnet_links:
     vnet_id: "/subscriptions/0511a7fe-771b-4ffa-9348-c59e9c4a87bd/resourceGroups/RG-NFT-IDM1-OPS-01/providers/Microsoft.Network/virtualNetworks/VN-NFT-INT-IDM1-01"
   - link_name: "crime-idam-sit-vnet"
     vnet_id: "/subscriptions/0511a7fe-771b-4ffa-9348-c59e9c4a87bd/resourceGroups/RG-SIT-IDM1-OPS-01/providers/Microsoft.Network/virtualNetworks/VN-SIT-INT-IDM1-01"
+  # This is the only one required for DNS resolution - the others are in case of future removal of ADDS
+  - link_name: "nlv-adds-vnet"
+    vnet_id: "/subscriptions/e6b5053b-4c38-4475-a835-a025aeb3d8c7/resourceGroups/sp-nlv-adds/providers/Microsoft.Network/virtualNetworks/sp-nlv-adds-net"
 A: []
 cname: []
