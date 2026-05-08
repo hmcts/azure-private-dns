@@ -77,10 +77,6 @@ A:
     record:
     - 10.143.31.250
     ttl: 300
-  - name: civil-citizen-ui
-    record:
-      - 10.143.31.250
-    ttl: 300
   - name: darts-proxy
     record:
     - 10.143.44.4
@@ -268,5 +264,8 @@ cname:
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: pt
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net
+    ttl: 3600
+  - name: civil-citizen-ui
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net
     ttl: 3600
