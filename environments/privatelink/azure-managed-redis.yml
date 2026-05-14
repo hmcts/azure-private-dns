@@ -26,4 +26,8 @@ vnet_links:
   - link_name: "bastion-sbox-vnet"
     vnet_id: "/subscriptions/b3394340-6c9f-44ca-aa3e-9ff38bd1f9ac/resourceGroups/bastion-sbox-rg/providers/Microsoft.Network/virtualNetworks/bastion-sbox-vnet"
 A: []
+<<<<<<< HEAD
 cname: []
+=======
+cname: []
+>>>>>>> 7dd2b8b (add azure managed redis private link (#1018))
