@@ -25,5 +25,9 @@ vnet_links:
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/bastion-nonprod-rg/providers/Microsoft.Network/virtualNetworks/bastion-nonprod-vnet"
   - link_name: "bastion-sbox-vnet"
     vnet_id: "/subscriptions/b3394340-6c9f-44ca-aa3e-9ff38bd1f9ac/resourceGroups/bastion-sbox-rg/providers/Microsoft.Network/virtualNetworks/bastion-sbox-vnet"
-A: []
+A:
+  - name: testredis
+    record:
+    - 10.1.2.4
+    ttl: 300
 cname: []
