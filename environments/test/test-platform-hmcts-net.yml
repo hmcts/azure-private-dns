@@ -16,6 +16,10 @@ vnet_links:
     vnet_id: "/subscriptions/2b1afc19-5ca9-4796-a56f-574a58670244/resourceGroups/core-aad-domain-services-mgmt-rg/providers/Microsoft.Network/virtualNetworks/core-aad-domain-services-mgmt-vnet"
   - link_name: "ss-stg-vnet"
     vnet_id: "/subscriptions/74dacd4f-a248-45bb-a2f0-af700dc4cf68/resourceGroups/ss-stg-network-rg/providers/Microsoft.Network/virtualNetworks/ss-stg-vnet"
+  - link_name: "ss-ithc-vnet"
+    vnet_id: "/subscriptions/ba71a911-e0d6-4776-a1a6-079af1df7139/resourceGroups/ss-ithc-network-rg/providers/Microsoft.Network/virtualNetworks/ss-ithc-vnet"
+  - link_name: "ss-demo-vnet"
+    vnet_id: "/subscriptions/c68a4bed-4c3d-4956-af51-4ae164c1957c/resourceGroups/ss-demo-network-rg/providers/Microsoft.Network/virtualNetworks/ss-demo-vnet"
 A:
   - name: hmi-wiremock
     record:
