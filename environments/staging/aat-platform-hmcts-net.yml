@@ -178,7 +178,7 @@ cname:
   - name: idam-user-dashboard-staging
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
-  - name: hmcts-access-staging
+  - name: idam-hmcts-access-staging
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: idam-user-profile-bridge
