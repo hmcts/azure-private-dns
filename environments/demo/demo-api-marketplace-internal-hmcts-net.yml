@@ -1,4 +1,7 @@
 name: "demo.api.internal.hmcts.net"
-vnet_links: []
+vnet_links: 
+  - link_name: "sps-platform-networking-vnet-demo"
+    vnet_id: "/subscriptions/058bf954-ac1f-462b-bca4-42a30314bd74/resourceGroups/rg-sps-platform-demo/providers/Microsoft.Network/virtualNetworks/sps-platform-networking-vnet-demo"
+    registration_enabled: false
 A: []
 cname: []

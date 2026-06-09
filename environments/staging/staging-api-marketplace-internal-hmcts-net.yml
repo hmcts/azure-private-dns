@@ -1,4 +1,7 @@
 name: "staging.api.internal.hmcts.net"
-vnet_links: []
+vnet_links: 
+  - link_name: "sps-platform-networking-vnet-aat"
+    vnet_id: "/subscriptions/70bea6e3-384f-4cf4-b551-743a78d716cd/resourceGroups/rg-sps-platform-aat/providers/Microsoft.Network/virtualNetworks/sps-platform-networking-vnet-aat"
+    registration_enabled: false
 A: []
 cname: []

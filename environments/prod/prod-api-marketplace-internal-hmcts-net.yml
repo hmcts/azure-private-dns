@@ -1,4 +1,7 @@
 name: "prod.api.internal.hmcts.net"
-vnet_links: []
+vnet_links: 
+  - link_name: "sps-platform-networking-vnet-prod"
+    vnet_id: "/subscriptions/890625e2-7a8b-445c-81b4-8044a062cef3/resourceGroups/rg-sps-platform-prod/providers/Microsoft.Network/virtualNetworks/sps-platform-networking-vnet-prod"
+    registration_enabled: false
 A: []
 cname: []
