@@ -1,0 +1,7 @@
+name: "perftest.api.internal.hmcts.net"
+vnet_links: 
+  - link_name: "sps-platform-networking-vnet-perftest"
+    vnet_id: "/subscriptions/4e0267c8-d18a-460b-8707-496f0b36954d/resourceGroups/rg-sps-platform-perftest/providers/Microsoft.Network/virtualNetworks/sps-platform-networking-vnet-perftest"
+    registration_enabled: false
+A: []
+cname: []
