@@ -1166,6 +1166,9 @@ A:
   - name: backstage
     record:
     - 10.10.73.250
+  - name: backstage-sandbox
+    record:
+    - 10.70.24.149
     ttl: 300
   - name: ipam
     record:
