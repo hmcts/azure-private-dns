@@ -89,6 +89,12 @@ cname:
   - name: register-org
     record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
     ttl: 300
+  - name: finrem-citizen-ui
+    record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
+    ttl: 300
+  - name: afdverify.finrem-citizen-ui
+    record: afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
+    ttl: 300
   - name: paybubble
     record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
     ttl: 300
