@@ -1109,7 +1109,7 @@ A:
     ttl: 300
   - name: sandbox-build
     record:
-    - 10.70.25.250
+    - 10.70.24.149
     ttl: 300
   - name: tools
     ttl: 600
@@ -1125,11 +1125,11 @@ A:
     ttl: 300
   - name: static-sandbox-build
     record:
-      - 10.70.25.250
+      - 10.70.24.149
     ttl: 300
   - name: cft-sandbox-sonarqube-webhook
     record:
-      - 10.70.25.250
+      - 10.70.24.149
     ttl: 300
   - name: sds-sonarqube-webhook
     record:
@@ -1166,6 +1166,10 @@ A:
   - name: backstage
     record:
     - 10.10.73.250
+    ttl: 300
+  - name: backstage-sandbox
+    record:
+    - 10.70.24.149
     ttl: 300
   - name: ipam
     record:
