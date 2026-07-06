@@ -18,8 +18,8 @@ vnet_links:
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/dynatrace-activegate-nonprod/providers/Microsoft.Network/virtualNetworks/dynatrace-activegate-vnet-nonprod"
   - link_name: "csds-network-csds-sbox"
     vnet_id: "/subscriptions/b72ab7b7-723f-4b18-b6f6-03b0f2c6a1bb/resourceGroups/csds-semarchy-xdm-sbox-rg/providers/Microsoft.Network/virtualNetworks/csds-network-csds-sbox"
-  - link_name: "sps-ai-networking-vnet-sbox"
-    vnet_id: "/subscriptions/bd2864ed-4f3e-45ed-9c6a-8d179674bab1/resourceGroups/sps-ai-sbox-rg/providers/Microsoft.Network/virtualNetworks/sps-ai-networking-vnet-sbox"
+  - link_name: "sps-ai-vnet-sbox"
+    vnet_id: "/subscriptions/bd2864ed-4f3e-45ed-9c6a-8d179674bab1/resourceGroups/sps-ai-sbox-rg/providers/Microsoft.Network/virtualNetworks/sps-ai-vnet-sbox"
 A:
   - name: grafana
     record:
