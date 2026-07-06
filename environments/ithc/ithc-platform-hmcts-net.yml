@@ -269,3 +269,6 @@ cname:
   - name: civil-citizen-ui
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net
     ttl: 3600
+  - name: finrem-citizen-ui
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net
+    ttl: 3600
