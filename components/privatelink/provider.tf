@@ -1,6 +1,11 @@
 provider "azuread" {}
 
 provider "azurerm" {
+  features {}
+  resource_provider_registrations = "none"
+}
+
+provider "azurerm" {
   alias = "cross_tenant_nonlive"
 
   features {}
