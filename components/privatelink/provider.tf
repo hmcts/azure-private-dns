@@ -3,6 +3,8 @@ provider "azurerm" {
   resource_provider_registrations = "none"
 }
 
+provider "azuread" {}
+
 terraform {
   required_version = ">= 1.8.0"
 
@@ -12,6 +14,10 @@ terraform {
     azurerm = {
       source  = "hashicorp/azurerm"
       version = "4.51.0"
+    }
+    azuread = {
+      source  = "hashicorp/azuread"
+      version = "3.9.0"
     }
   }
 }
