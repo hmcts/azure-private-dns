@@ -191,6 +191,12 @@ cname:
   - name: "afdverify.et-sya"
     ttl: 300
     record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "finrem-citizen-ui"
+    ttl: 300
+    record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "afdverify.finrem-citizen-ui"
+    ttl: 300
+    record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
   - name: "paybubble"
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
@@ -539,3 +545,6 @@ cname:
   - name: et-syr
     record: hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net.
     ttl: 300
+  - name: pt
+    record: hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net
+    ttl: 3600

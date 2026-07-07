@@ -1109,7 +1109,7 @@ A:
     ttl: 300
   - name: sandbox-build
     record:
-    - 10.70.25.250
+    - 10.70.24.149
     ttl: 300
   - name: tools
     ttl: 600
@@ -1125,11 +1125,11 @@ A:
     ttl: 300
   - name: static-sandbox-build
     record:
-      - 10.70.25.250
+      - 10.70.24.149
     ttl: 300
   - name: cft-sandbox-sonarqube-webhook
     record:
-      - 10.70.25.250
+      - 10.70.24.149
     ttl: 300
   - name: sds-sonarqube-webhook
     record:
@@ -1167,6 +1167,10 @@ A:
     record:
     - 10.10.73.250
     ttl: 300
+  - name: backstage-sandbox
+    record:
+    - 10.70.24.149
+    ttl: 300
   - name: ipam
     record:
     - 10.147.79.250
@@ -1182,6 +1186,10 @@ A:
   - name: cft-neuvector-ithc00
     record:
       - 10.11.207.250
+    ttl: 300
+  - name: cft-neuvector-ithc01
+    record:
+      - 10.11.223.250
     ttl: 300
   - name: cft-neuvector-perftest00
     record:
@@ -1199,10 +1207,6 @@ A:
     record:
       - 10.90.95.250
     ttl: 300
-  - name: staging.tools
-    ttl: 600
-    record:
-      - 10.0.8.29
   - name: sds-neuvector-ithc00
     ttl: 300
     record:
