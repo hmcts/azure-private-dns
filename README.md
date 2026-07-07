@@ -16,15 +16,24 @@ The module supports granting `Private DNS Zone Contributor` to one or more princ
 Pass a list of principal (object) IDs via the `zone_contributors` variable on any module call:
 
 ```hcl
+locals {
+  example_contributors = [
+    "My SPN Display Name",
+  ]
+}
+
+data "azuread_service_principal" "example_contributors" {
+  for_each     = toset(local.example_contributors)
+  display_name = each.value
+}
+
 module "example-private-link" {
   source              = "../../modules/azure-private-dns/"
   zone_name           = "privatelink.example.azure.net"
   resource_group_name = var.resource_group_name
   env                 = var.env
 
-  zone_contributors = [
-    data.azuread_service_principal.my_spn.object_id,
-  ]
+  zone_contributors = values(data.azuread_service_principal.example_contributors)[*].object_id
 }
 ```
 

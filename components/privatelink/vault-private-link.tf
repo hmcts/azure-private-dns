@@ -2,8 +2,15 @@ data "local_file" "vault-private-link" {
   filename = "${path.cwd}/../../environments/privatelink/vault-private-link.yml"
 }
 
-data "azuread_service_principal" "dts_sps_sbox" {
-  display_name = "DTS Bootstrap (sub:dts-sps-sbox)"
+locals {
+  vault_private_link_contributors = [
+    "DTS Bootstrap (sub:dts-sps-sbox)",
+  ]
+}
+
+data "azuread_service_principal" "vault_private_link_contributors" {
+  for_each     = toset(local.vault_private_link_contributors)
+  display_name = each.value
 }
 
 module "vault-private-link" {
@@ -15,7 +22,5 @@ module "vault-private-link" {
   resource_group_name = var.resource_group_name
   env                 = var.env
 
-  zone_contributors = [
-    data.azuread_service_principal.dts_sps_sbox.object_id,
-  ]
+  zone_contributors = values(data.azuread_service_principal.vault_private_link_contributors)[*].object_id
 }
