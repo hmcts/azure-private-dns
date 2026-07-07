@@ -2,14 +2,8 @@ data "local_file" "vault-private-link" {
   filename = "${path.cwd}/../../environments/privatelink/vault-private-link.yml"
 }
 
-locals {
-  vault_private_link_contributors = [
-    "DTS Bootstrap (sub:dts-sps-sbox)",
-  ]
-}
-
 data "azuread_service_principal" "vault_private_link_contributors" {
-  for_each     = toset(local.vault_private_link_contributors)
+  for_each     = toset(try(yamldecode(data.local_file.vault-private-link.content).contributors, []))
   display_name = each.value
 }
 

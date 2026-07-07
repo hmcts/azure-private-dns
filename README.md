@@ -13,23 +13,32 @@ as an example.
 # Role Assignments
 
 The module supports granting `Private DNS Zone Contributor` to one or more principals on a zone.
-Pass a list of principal (object) IDs via the `zone_contributors` variable on any module call:
+Contributors are defined in the zone's YAML file in the `environments` directory and looked up by
+display name at plan time. The `contributors` key is optional — omit it for zones that need no role assignments.
+
+In the zone YAML:
+
+```yaml
+name: "privatelink.example.azure.net"
+contributors:
+  - "My SPN Display Name"
+vnet_links:
+  ...
+A: []
+cname: []
+```
+
+In the component `.tf` file:
 
 ```hcl
-locals {
-  example_contributors = [
-    "My SPN Display Name",
-  ]
-}
-
 data "azuread_service_principal" "example_contributors" {
-  for_each     = toset(local.example_contributors)
+  for_each     = toset(try(yamldecode(data.local_file.example.content).contributors, []))
   display_name = each.value
 }
 
 module "example-private-link" {
   source              = "../../modules/azure-private-dns/"
-  zone_name           = "privatelink.example.azure.net"
+  zone_name           = yamldecode(data.local_file.example.content).name
   resource_group_name = var.resource_group_name
   env                 = var.env
 
