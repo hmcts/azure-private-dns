@@ -1,3 +1,5 @@
+provider "azuread" {}
+
 provider "azurerm" {
   features {}
   resource_provider_registrations = "none"
@@ -25,6 +27,10 @@ terraform {
     azurerm = {
       source  = "hashicorp/azurerm"
       version = "4.51.0"
+    }
+    azuread = {
+      source  = "hashicorp/azuread"
+      version = "3.9.0"
     }
   }
 }
