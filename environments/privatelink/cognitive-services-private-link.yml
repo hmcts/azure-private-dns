@@ -31,4 +31,12 @@ A:
     record:
     - 10.0.30.69
     ttl: 300
+  - name: sps-ai-cognitive-account-sbox
+    record:
+    - 10.181.1.5
+    ttl: 300
+  - name: sps-ai-content-safety-account-sbox
+    record:
+    - 10.181.1.8
+    ttl: 300
 cname: []
