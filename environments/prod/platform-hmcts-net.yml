@@ -668,7 +668,7 @@ cname:
     record: dynatrace-activegate-nonprod-vmss000002.platform.hmcts.net
     ttl: 300
   - name: dynatrace-activegate-private-nonprod
-    record: dynatrace-activegate-private-nonprod-vmss000001.platform.hmcts.net
+    record: dynatrace-activegate-private-nonprod-vmss000008.platform.hmcts.net
     ttl: 300
   - name: fact-data-api
     record: fact-data-api-prod.service.core-compute-prod.internal.
