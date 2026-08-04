@@ -433,3 +433,6 @@ cname:
   - name: "finrem-citizen-ui"
     ttl: 300
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: snl-backend
+    record: snl-backend-api-aat.service.core-compute-aat.internal.
+    ttl: 300

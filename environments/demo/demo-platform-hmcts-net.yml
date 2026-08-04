@@ -548,3 +548,6 @@ cname:
   - name: pt
     record: hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net
     ttl: 3600
+  - name: snl-backend
+    ttl: 300
+    record: snl-backend-demo.service.core-compute-demo.internal.

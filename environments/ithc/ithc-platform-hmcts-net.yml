@@ -272,3 +272,6 @@ cname:
   - name: finrem-citizen-ui
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net
     ttl: 3600
+  - name: snl-backend
+    record: snl-backend-ithc.service.core-compute-ithc.internal.
+    ttl: 300

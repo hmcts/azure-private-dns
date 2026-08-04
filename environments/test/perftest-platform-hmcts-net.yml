@@ -239,3 +239,6 @@ cname:
   - name: pt
     record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net
     ttl: 3600
+  - name: snl-backend
+    record: snl-backend-perftest.service.core-compute-perftest.internal.
+    ttl: 300
