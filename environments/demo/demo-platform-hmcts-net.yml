@@ -551,3 +551,6 @@ cname:
   - name: snl-backend
     ttl: 300
     record: snl-backend-demo.service.core-compute-demo.internal.
+  - name: snl-ui
+    ttl: 300
+    record: hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net.

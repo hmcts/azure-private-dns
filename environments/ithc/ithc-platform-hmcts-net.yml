@@ -275,3 +275,6 @@ cname:
   - name: snl-backend
     record: snl-backend-ithc.service.core-compute-ithc.internal.
     ttl: 300
+  - name: snl-ui
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
+    ttl: 300
