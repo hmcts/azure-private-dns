@@ -1,6 +1,7 @@
 name: "privatelink.vaultcore.azure.net"
 contributors:
   - "DTS Bootstrap (sub:dts-sps-sbox)"
+  - "DTS Bootstrap (sub:dts-sps-stg)"
 vnet_links:
   - link_name: "vpn"
     vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/mgmt-vpn-2-mgmt/providers/Microsoft.Network/virtualNetworks/mgmt-vpn-2-vnet"
@@ -16,5 +17,7 @@ vnet_links:
     vnet_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/resourceGroups/courtstranscribe-prod-rg/providers/Microsoft.Network/virtualNetworks/hmcts-transcribe-vnet-prod-main-prod"
   - link_name: "sps-ai-vnet-sbox"
     vnet_id: "/subscriptions/bd2864ed-4f3e-45ed-9c6a-8d179674bab1/resourceGroups/sps-ai-sbox-rg/providers/Microsoft.Network/virtualNetworks/sps-ai-vnet-sbox"
+  - link_name: "sps-ai-vnet-stg"
+    vnet_id: "/subscriptions/70bea6e3-384f-4cf4-b551-743a78d716cd/resourceGroups/sps-ai-stg-rg/providers/Microsoft.Network/virtualNetworks/sps-ai-vnet-stg"
 A: []
 cname: []
