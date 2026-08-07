@@ -41,4 +41,12 @@ A:
     record:
     - 10.181.1.8
     ttl: 300
+  - name: sps-ai-cognitive-account-stg
+    record:
+    - 10.181.21.6
+    ttl: 300
+  - name: sps-ai-content-safety-account-stg
+    record:
+    - 10.181.21.5
+    ttl: 300
 cname: []
