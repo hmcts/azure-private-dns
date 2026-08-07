@@ -100,8 +100,16 @@ A:
   - name: darts-proxy
     record:
     - 10.51.98.132
-    ttl: 300 
-  
+    ttl: 300
+  - name: em-icp-webpubsub
+    record:
+    - 4.158.117.136
+    ttl: 300
+  - name: rpx-case-activity-api-webpubsub
+    record:
+    - 4.158.117.136
+    ttl: 300
+
 cname:
   - name: bulk-scanning
     record: 3644b292-ae3f-4055-ba68-4a9500e43659.cloudapp.net.

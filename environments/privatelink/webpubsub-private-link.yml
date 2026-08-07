@@ -31,4 +31,8 @@ A:
     ttl: 300
     record:
       - 10.90.100.5
+  - name: rpx-case-activity-api-webpubsub-demo
+    record:
+    - 10.50.100.6
+    ttl: 300
 cname: []
