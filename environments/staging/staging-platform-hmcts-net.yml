@@ -65,6 +65,10 @@ A:
     record:
     - 10.148.42.4
     ttl: 300
+  - name: ai-gateway
+    record:
+    - 10.181.20.4
+    ttl: 300
 cname:
   - name: c100-application
     ttl: 300
