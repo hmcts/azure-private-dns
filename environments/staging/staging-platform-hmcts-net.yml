@@ -20,6 +20,8 @@ vnet_links:
     vnet_id: "/subscriptions/0978315c-75fe-4ada-9d11-1eb5e0e0b214/resourceGroups/hub-github-network-rg-prod/providers/Microsoft.Network/virtualNetworks/hub-github-network-github-prod"
   - link_name: "dynatrace-activegate-vnet-nonprod"
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/dynatrace-activegate-nonprod/providers/Microsoft.Network/virtualNetworks/dynatrace-activegate-vnet-nonprod"
+  - link_name: "sps-ai-vnet-stg"
+    vnet_id: "/subscriptions/70bea6e3-384f-4cf4-b551-743a78d716cd/resourceGroups/sps-ai-stg-rg/providers/Microsoft.Network/virtualNetworks/sps-ai-vnet-stg"
 A:
   - name: traefik-sds-00
     ttl: 300
