@@ -434,7 +434,7 @@ cname:
     ttl: 300
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: snl-backend
-    record: snl-backend-api-aat.service.core-compute-aat.internal.
+    record: snl-backend-aat.service.core-compute-aat.internal.
     ttl: 300
   - name: snl-ui
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
