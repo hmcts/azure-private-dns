@@ -20,6 +20,8 @@ vnet_links:
     vnet_id: "/subscriptions/ba71a911-e0d6-4776-a1a6-079af1df7139/resourceGroups/ss-ithc-network-rg/providers/Microsoft.Network/virtualNetworks/ss-ithc-vnet"
   - link_name: "ss-demo-vnet"
     vnet_id: "/subscriptions/c68a4bed-4c3d-4956-af51-4ae164c1957c/resourceGroups/ss-demo-network-rg/providers/Microsoft.Network/virtualNetworks/ss-demo-vnet"
+  - link_name: "dynatrace-activegate-vnet-nonprod"
+    vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/dynatrace-activegate-nonprod/providers/Microsoft.Network/virtualNetworks/dynatrace-activegate-vnet-nonprod"
 A:
   - name: hmi-wiremock
     record:
