@@ -3,11 +3,18 @@ resource "azurerm_private_dns_zone" "zone" {
   resource_group_name = var.resource_group_name
 
   tags  = module.ctags.common_tags
-  count = var.create_zone == true ? 1 : 0
+  count = var.create_zone ? 1 : 0
+}
+
+data "azurerm_private_dns_zone" "existing" {
+  count               = var.create_zone ? 0 : 1
+  name                = var.zone_name
+  resource_group_name = var.resource_group_name
 }
 
 locals {
-  zone = var.create_zone == true ? azurerm_private_dns_zone.zone[0].name : var.zone_name
+  zone    = var.create_zone ? azurerm_private_dns_zone.zone[0].name : var.zone_name
+  zone_id = var.create_zone ? azurerm_private_dns_zone.zone[0].id : data.azurerm_private_dns_zone.existing[0].id
 }
 
 resource "azurerm_private_dns_zone_virtual_network_link" "vnet_link" {

@@ -55,3 +55,9 @@ variable "expiresAfter" {
   description = "Date when Sandbox resources can be deleted. Format: YYYY-MM-DD"
   default     = "3000-01-01"
 }
+
+variable "zone_contributors" {
+  description = "Principal IDs to grant Private DNS Zone Contributor on the zone."
+  type        = list(string)
+  default     = []
+}

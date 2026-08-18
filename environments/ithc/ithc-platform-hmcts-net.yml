@@ -77,10 +77,6 @@ A:
     record:
     - 10.143.31.250
     ttl: 300
-  - name: civil-citizen-ui
-    record:
-      - 10.143.31.250
-    ttl: 300
   - name: darts-proxy
     record:
     - 10.143.44.4
@@ -177,8 +173,17 @@ cname:
   - name: fact
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
+  - name: fact-public-frontend
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
+    ttl: 300
+  - name: fact-admin-frontend
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
+    ttl: 300
   - name: fact-admin
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
+    ttl: 300
+  - name: fact-data-api
+    record: fact-data-api-ithc.service.core-compute-ithc.internal.
     ttl: 300
   - name: nfdiv
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
@@ -256,5 +261,20 @@ cname:
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: em-icp
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
+    ttl: 300
+  - name: pt
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net
+    ttl: 3600
+  - name: civil-citizen-ui
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net
+    ttl: 3600
+  - name: finrem-citizen-ui
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net
+    ttl: 3600
+  - name: snl-backend
+    record: snl-backend-ithc.service.core-compute-ithc.internal.
+    ttl: 300
+  - name: snl-ui
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300

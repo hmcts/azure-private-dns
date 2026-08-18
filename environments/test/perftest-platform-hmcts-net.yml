@@ -89,6 +89,12 @@ cname:
   - name: register-org
     record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
     ttl: 300
+  - name: finrem-citizen-ui
+    record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
+    ttl: 300
+  - name: afdverify.finrem-citizen-ui
+    record: afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
+    ttl: 300
   - name: paybubble
     record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
     ttl: 300
@@ -131,8 +137,17 @@ cname:
   - name: fact
     record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
     ttl: 300
+  - name: fact-public-frontend
+    record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
+    ttl: 300
+  - name: fact-admin-frontend
+    record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
+    ttl: 300
   - name: fact-admin
     record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
+    ttl: 300
+  - name: fact-data-api
+    record: fact-data-api-perftest.service.core-compute-perftest.internal.
     ttl: 300
   - name: rpts
     record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
@@ -219,5 +234,14 @@ cname:
     record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
     ttl: 300
   - name: em-icp
+    record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
+    ttl: 300
+  - name: pt
+    record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net
+    ttl: 3600
+  - name: snl-backend
+    record: snl-backend-perftest.service.core-compute-perftest.internal.
+    ttl: 300
+  - name: snl-ui
     record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
     ttl: 300
