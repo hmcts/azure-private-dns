@@ -21,4 +21,7 @@ vnet_links:
     vnet_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/hmi-sharedinfra-prod-rg/providers/Microsoft.Network/virtualNetworks/hmi-sharedinfra-vnet-prod"
 A: []
 
-cname: []
+cname:
+  - name: "finrem-citizen-ui"
+    ttl: 300
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
