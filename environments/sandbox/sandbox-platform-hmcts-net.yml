@@ -263,3 +263,6 @@ cname:
   - name: "labs-njk-debolina-seal"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+  - name: "labs-tmckillop95-nodejs"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
