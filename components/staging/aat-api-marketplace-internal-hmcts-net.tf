@@ -1,5 +1,5 @@
 data "local_file" "aat-api-marketplace-internal-hmcts-configuration" {
-  filename = "${path.cwd}/../../environments/aat/aat-api-marketplace-internal-hmcts-net.yml"
+  filename = "${path.cwd}/../../environments/staging/aat-api-marketplace-internal-hmcts-net.yml"
 }
 
 module "aat-api-marketplace-internal-hmcts-net" {
