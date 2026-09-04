@@ -49,4 +49,8 @@ A:
     record:
     - 10.181.21.5
     ttl: 300
+  - name: crumble-cognitive-account-sandbox
+    record:
+    - 10.181.1.9
+    ttl: 300
 cname: []
