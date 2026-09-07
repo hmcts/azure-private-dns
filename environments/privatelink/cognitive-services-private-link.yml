@@ -53,4 +53,8 @@ A:
     record:
     - 10.181.1.9
     ttl: 300
+  - name: crumble-doc-intelligence-sandbox
+    record:
+    - 10.181.1.11
+    ttl: 300
 cname: []
