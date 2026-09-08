@@ -197,7 +197,7 @@ cname:
   - name: dtsse-ardoq-adapter
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
-  - name: dtsse-github-metrics
+  - name: github-metrics
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: hmcts-access
