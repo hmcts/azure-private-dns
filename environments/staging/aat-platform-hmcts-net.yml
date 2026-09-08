@@ -63,6 +63,10 @@ A:
     record:
     - 10.11.8.215
     ttl: 300
+  - name: xui-icp-webpubsub
+    record:
+    - 10.10.169.8
+    ttl: 300
   - name: traefik-cft-00
     record:
     - 10.10.143.250
