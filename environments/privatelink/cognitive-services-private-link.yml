@@ -51,10 +51,10 @@ A:
     ttl: 300
   - name: crumble-cognitive-account-sandbox
     record:
-    - 10.181.2.5
+    - 10.181.2.8
     ttl: 300
   - name: crumble-doc-intelligence-sandbox
     record:
-    - 10.181.2.4
+    - 10.181.2.11
     ttl: 300
 cname: []
