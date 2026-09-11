@@ -63,10 +63,6 @@ A:
     record:
     - 10.11.8.215
     ttl: 300
-  - name: xui-icp-webpubsub
-    record:
-    - 10.10.169.8
-    ttl: 300
   - name: traefik-cft-00
     record:
     - 10.10.143.250
@@ -156,6 +152,9 @@ cname:
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: em-icp
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
+    ttl: 300
+  - name: xui-icp
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: fees-register
