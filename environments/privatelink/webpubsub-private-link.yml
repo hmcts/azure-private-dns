@@ -19,9 +19,21 @@ A:
     record:
     - 10.50.100.5
     ttl: 300
+  - name: xui-icp-api-webpubsub-demo
+    record:
+    - 10.50.100.8
+    ttl: 300
+  - name: xui-icp-api-webpubsub-ithc
+    record:
+    - 10.11.228.7
+    ttl: 300
   - name: em-icp-webpubsub-perftest
     record:
     - 10.48.100.5
+    ttl: 300
+  - name: xui-icp-api-webpubsub-perftest
+    record:
+    - 10.48.100.7
     ttl: 300
   - name: em-icp-webpubsub-aat
     ttl: 300

@@ -85,6 +85,10 @@ A:
     record:
     - 4.158.63.145
     ttl: 300
+  - name: xui-icp-webpubsub
+    record:
+    - 4.158.63.145
+    ttl: 300
 cname:
   - name: c100-application
     ttl: 300
@@ -261,6 +265,9 @@ cname:
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: em-icp
+    record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
+    ttl: 300
+  - name: xui-icp
     record: hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net.
     ttl: 300
   - name: pt
