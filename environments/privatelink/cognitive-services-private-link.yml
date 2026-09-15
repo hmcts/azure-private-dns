@@ -57,4 +57,8 @@ A:
     record:
     - 10.181.2.11
     ttl: 300
+  - name: crumble-speech-sandbox
+    record:
+    - 10.181.2.4
+    ttl: 300
 cname: []
