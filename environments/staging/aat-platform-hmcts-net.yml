@@ -77,8 +77,7 @@ A:
     ttl: 300
   - name: litellm
     record:
-    - 10.10.143.250
-    - 10.10.159.250
+    - 10.10.161.101
     ttl: 300
 cname:
   - name: adoption-web
