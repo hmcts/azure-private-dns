@@ -61,4 +61,8 @@ A:
     record:
     - 10.181.2.4
     ttl: 300
+  - name: sps-ai-document-intelligence-account-sbox
+    record:
+    - 10.181.1.7
+    ttl: 300
 cname: []
