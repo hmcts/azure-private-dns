@@ -409,6 +409,10 @@ A:
     record:
       - 10.144.32.132
     ttl: 300
+  - name: nessus-scanners-nonprod000005
+    record:
+      - 10.146.5.6
+    ttl: 300
   # - name: pdda-public-display-manager
   #   record:
   #     - 10.144.32.132
