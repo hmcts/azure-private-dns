@@ -1,0 +1,6 @@
+name: "privatelink.blob.core.windows.net"
+vnet_links:
+  - link_name: "docmosis-network-rg-sandbox"
+    vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/docmosis-network-rg-sandbox/providers/Microsoft.Network/virtualNetworks/docmosis-network-vnet-sandbox"
+A: []
+cname: []
