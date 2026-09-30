@@ -2,7 +2,7 @@ data "local_file" "blob-privatelink-configuration" {
   filename = "${path.cwd}/../../environments/sandbox/blob-privatelink.yml"
 }
 
-module "sandbox-platform" {
+module "blob-privatelink" {
   source              = "../../modules/azure-private-dns/"
   cname_records       = yamldecode(data.local_file.blob-privatelink-configuration.content).cname
   a_recordsets        = yamldecode(data.local_file.blob-privatelink-configuration.content).A
