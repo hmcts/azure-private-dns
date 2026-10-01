@@ -677,3 +677,6 @@ cname:
   - name: fact-data-api
     record: fact-data-api-prod.service.core-compute-prod.internal.
     ttl: 300
+  - name: ai-gateway-docs
+    record: hmcts.github.io.
+    ttl: 300
