@@ -571,3 +571,6 @@ cname:
   - name: snl-ui
     ttl: 300
     record: hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net.
+  - name: cath
+    ttl: 300
+    record: hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net.
