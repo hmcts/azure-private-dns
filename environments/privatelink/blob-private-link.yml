@@ -30,6 +30,8 @@ vnet_links:
     vnet_id: "/subscriptions/96c274ce-846d-4e48-89a7-d528432298a7/resourceGroups/courtstranscribe-stg-rg/providers/Microsoft.Network/virtualNetworks/hmcts-transcribe-vnet-stg-main-stg"
   - link_name: "hmcts-transcribe-vnet-prod-main-prod"
     vnet_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/resourceGroups/courtstranscribe-prod-rg/providers/Microsoft.Network/virtualNetworks/hmcts-transcribe-vnet-prod-main-prod"
+  - link_name: "docmosis-network-vnet-sandbox"
+    vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/docmosis-network-rg-sandbox/providers/Microsoft.Network/virtualNetworks/docmosis-network-vnet-sandbox"
 A:
   - name: emhrsapidemo
     record:
