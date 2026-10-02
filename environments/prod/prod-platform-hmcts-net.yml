@@ -21,6 +21,8 @@ vnet_links:
     vnet_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/hmi-sharedinfra-prod-rg/providers/Microsoft.Network/virtualNetworks/hmi-sharedinfra-vnet-prod"
   - link_name: "sds-prod"
     vnet_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/ss-prod-network-rg/providers/Microsoft.Network/virtualNetworks/ss-prod-vnet"
+  - link_name: "semarchy-prod"
+    vnet_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/resourceGroups/csds-semarchy-xdm-prod-rg/providers/Microsoft.Network/virtualNetworks/csds-network-csds-prod"
 A: []
 
 cname:
