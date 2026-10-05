@@ -253,3 +253,6 @@ cname:
   - name: cath
     record: hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net.
     ttl: 300
+  - name: cath-api
+    record: cath-api-perftest.service.core-compute-perftest.internal.
+    ttl: 300
