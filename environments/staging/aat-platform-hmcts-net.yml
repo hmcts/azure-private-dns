@@ -75,6 +75,10 @@ A:
     record:
     - 10.10.143.250
     ttl: 300
+  - name: amp-try-slc
+    record:
+    - 10.10.161.101
+    ttl: 300
 cname:
   - name: adoption-web
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
@@ -200,6 +204,9 @@ cname:
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: agent-hub
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
+    ttl: 300
+  - name: benchnotes
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
   - name: hmcts-access

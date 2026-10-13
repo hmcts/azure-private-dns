@@ -185,6 +185,10 @@ A:
     record:
     - 10.2.13.112
     ttl: 300
+  - name: amp-try-slc
+    record:
+    - 10.2.13.112
+    ttl: 300
 cname:
   - name: moneyclaim
     record: sandbox-waf.sandbox.platform.hmcts.net.
