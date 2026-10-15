@@ -121,7 +121,7 @@ stages:
               inputs:
                 connectedServiceName: ${{ deployment.serviceConnection }}
                 keyVaultName: 'central-app-reg-kv'
-                secretsFilter: 'nonlive-crime-idam-cross-tenant-secret'
+                secretsFilter: 'nonlive-crime-idam-cross-tenant-secret,live-crime-idam-cross-tenant-app-id,live-crime-idam-cross-tenant-secret'
                 runAsPreJob: false
           - template: steps/terraform.yaml@cnp-azuredevops-libraries
             parameters:
@@ -134,6 +134,8 @@ stages:
               ${{ if eq(deployment.component, 'privatelink') }}:
                 terraformEnvironmentVariables:
                   TF_VAR_cross_tenant_nonlive_client_secret: $(nonlive-crime-idam-cross-tenant-secret)
+                  TF_VAR_cross_tenant_live_client_id: $(live-crime-idam-cross-tenant-app-id)
+                  TF_VAR_cross_tenant_live_client_secret: $(live-crime-idam-cross-tenant-secret)
               backendAzureRmUseEntraIdForAuthentication: true
               initCommandOptions: >
                 -backend-config resource_group_name=${{ deployment.resourceGroupName }}
