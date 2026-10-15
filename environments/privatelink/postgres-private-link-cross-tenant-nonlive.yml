@@ -10,5 +10,9 @@ vnet_links:
   # This is the only one required for DNS resolution - the others are in case of future removal of ADDS
   - link_name: "nlv-adds-vnet"
     vnet_id: "/subscriptions/e6b5053b-4c38-4475-a835-a025aeb3d8c7/resourceGroups/sp-nlv-adds/providers/Microsoft.Network/virtualNetworks/sp-nlv-adds-net"
+  - link_name: "crime-idam-prp-vnet"
+    vnet_id: "/subscriptions/e7819cdc-66af-4611-9dba-b9958e5b6d7d/resourceGroups/RG-PRP-IDM1-OPS-01/providers/Microsoft.Network/virtualNetworks/VN-PRP-INT-IDM1-01"
+  - link_name: "crime-idam-prd-vnet"
+    vnet_id: "/subscriptions/e7819cdc-66af-4611-9dba-b9958e5b6d7d/resourceGroups/RG-PRD-IDM1-OPS-01/providers/Microsoft.Network/virtualNetworks/VN-PRD-INT-IDM1-01"
 A: []
 cname: []
