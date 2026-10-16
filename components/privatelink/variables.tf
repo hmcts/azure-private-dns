@@ -45,3 +45,31 @@ variable "cross_tenant_nonlive_auxiliary_tenant_ids" {
   description = "Auxiliary tenant IDs required to resolve nonlive cross-tenant VNet links (e.g. crime tenant)"
   default     = []
 }
+
+variable "cross_tenant_live_subscription_id" {
+  type        = string
+  description = "Subscription ID where private DNS zone updates are applied by the live cross-tenant SPN"
+}
+
+variable "cross_tenant_live_tenant_id" {
+  type        = string
+  description = "Home tenant ID for the live cross-tenant SPN"
+}
+
+variable "cross_tenant_live_client_id" {
+  type        = string
+  description = "Application (client) ID for the live cross-tenant SPN"
+}
+
+variable "cross_tenant_live_client_secret" {
+  type        = string
+  description = "Client secret for the live cross-tenant SPN"
+  default     = ""
+  sensitive   = true
+}
+
+variable "cross_tenant_live_auxiliary_tenant_ids" {
+  type        = list(string)
+  description = "Auxiliary tenant IDs required to resolve live cross-tenant VNet links"
+  default     = []
+}

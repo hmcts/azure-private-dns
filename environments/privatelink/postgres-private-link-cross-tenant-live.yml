@@ -1,0 +1,12 @@
+name: "private.postgres.database.azure.com"
+vnet_links:
+  # Crime IDAM VNets (cross-tenant: HMCTS Live tenant: e7819cdc-66af-4611-9dba-b9958e5b6d7d )
+  - link_name: "crime-idam-prp-vnet"
+    vnet_id: "/subscriptions/e7819cdc-66af-4611-9dba-b9958e5b6d7d/resourceGroups/RG-PRP-IDM1-OPS-01/providers/Microsoft.Network/virtualNetworks/VN-PRP-INT-IDM1-01"
+  - link_name: "crime-idam-prd-vnet"
+    vnet_id: "/subscriptions/e7819cdc-66af-4611-9dba-b9958e5b6d7d/resourceGroups/RG-PRD-IDM1-OPS-01/providers/Microsoft.Network/virtualNetworks/VN-PRD-INT-IDM1-01"
+  # This is required for DNS resolution - above links are for the Crime IDAM VNets in case of future removal of ADDS
+  - link_name: "mpd-adds-vnet"
+    vnet_id: "/subscriptions/9ab65d81-930d-4cc0-a93d-367e14676bc0/resourceGroups/RG-MPD-ADDS-01/providers/Microsoft.Network/virtualNetworks/VN-MPD-ADDS-01"
+A: []
+cname: []
