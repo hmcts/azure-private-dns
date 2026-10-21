@@ -153,6 +153,10 @@ A:
     record:
     - 10.181.3.10
     ttl: 300
+  - name: ai-gateway-cpp
+    record:
+    - 10.30.32.6
+    ttl: 300
   - name: cvp-recording
     record:
     - 10.50.11.10
