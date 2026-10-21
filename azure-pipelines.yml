@@ -123,6 +123,14 @@ stages:
                 keyVaultName: 'central-app-reg-kv'
                 secretsFilter: 'nonlive-crime-idam-cross-tenant-secret,live-crime-idam-cross-tenant-app-id,live-crime-idam-cross-tenant-secret'
                 runAsPreJob: false
+          - ${{ if eq(deployment.component, 'sandbox') }}:
+            - task: AzureKeyVault@2
+              displayName: 'Read cross-tenant SPN secret from central-app-reg KV'
+              inputs:
+                connectedServiceName: ${{ deployment.serviceConnection }}
+                keyVaultName: 'central-app-reg-kv'
+                secretsFilter: 'crime-ai-gateway-cross-tenant-peering-sbox-secret'
+                runAsPreJob: false
           - template: steps/terraform.yaml@cnp-azuredevops-libraries
             parameters:
               product: ${{ variables.product }}
@@ -136,6 +144,9 @@ stages:
                   TF_VAR_cross_tenant_nonlive_client_secret: $(nonlive-crime-idam-cross-tenant-secret)
                   TF_VAR_cross_tenant_live_client_id: $(live-crime-idam-cross-tenant-app-id)
                   TF_VAR_cross_tenant_live_client_secret: $(live-crime-idam-cross-tenant-secret)
+              ${{ if eq(deployment.component, 'sandbox') }}:
+                terraformEnvironmentVariables:
+                  TF_VAR_cross_tenant_nonlive_client_secret: $(crime-ai-gateway-cross-tenant-peering-sbox-secret)
               backendAzureRmUseEntraIdForAuthentication: true
               initCommandOptions: >
                 -backend-config resource_group_name=${{ deployment.resourceGroupName }}

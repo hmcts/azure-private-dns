@@ -1,0 +1,7 @@
+name: "sandbox.platform.hmcts.net"
+vnet_links:
+  # AI Gateway CPP private endpoint consumers (cross-tenant: HMCTS Non-Live tenant e2995d11-9947-4e78-9de6-d44e0603518e)
+  - link_name: "crime-dev-cs01-cl01-vnet"
+    vnet_id: "/subscriptions/e6b5053b-4c38-4475-a835-a025aeb3d8c7/resourceGroups/RG-DEV-CS01-CL01/providers/Microsoft.Network/virtualNetworks/VN-DEV-CS01-CL01"
+A: []
+cname: []

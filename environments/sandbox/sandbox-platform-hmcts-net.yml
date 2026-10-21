@@ -1,4 +1,6 @@
 name: "sandbox.platform.hmcts.net"
+contributors:
+  - "crime-ai-gateway-cross-tenant-peering-sbox"
 vnet_links:
   - link_name: "core-infra-vnet-sandbox-platform"
     vnet_id: "/subscriptions/bf308a5c-0624-4334-8ff8-8dca9fd43783/resourceGroups/core-infra-sandbox/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-sandbox"
