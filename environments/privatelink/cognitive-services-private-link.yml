@@ -20,6 +20,8 @@ vnet_links:
     vnet_id: "/subscriptions/bd2864ed-4f3e-45ed-9c6a-8d179674bab1/resourceGroups/sps-ai-sbox-rg/providers/Microsoft.Network/virtualNetworks/sps-ai-vnet-sbox"
   - link_name: "sps-ai-vnet-stg"
     vnet_id: "/subscriptions/70bea6e3-384f-4cf4-b551-743a78d716cd/resourceGroups/sps-ai-stg-rg/providers/Microsoft.Network/virtualNetworks/sps-ai-vnet-stg"
+  - link_name: "cft-aat-vnet"
+    vnet_id: "/subscriptions/96c274ce-846d-4e48-89a7-d528432298a7/resourceGroups/cft-aat-network-rg/providers/Microsoft.Network/virtualNetworks/cft-aat-vnet"
 A:
   - name: hmcts-transcribe-ai-dev
     record:
@@ -32,6 +34,14 @@ A:
   - name: hmcts-transcribe-ai-prod
     record:
     - 10.0.30.69
+    ttl: 300
+  - name: transcribe-speech-aat
+    record:
+    - 10.10.164.9
+    ttl: 300
+  - name: transcribe-openai-aat
+    record:
+    - 10.10.164.10
     ttl: 300
   - name: sps-ai-cognitive-account-sbox
     record:
