@@ -22,6 +22,8 @@ vnet_links:
     vnet_id: "/subscriptions/b44eb479-9ae2-42e7-9c63-f3c599719b6f/resourceGroups/dynatrace-activegate-nonprod/providers/Microsoft.Network/virtualNetworks/dynatrace-activegate-vnet-nonprod"
   - link_name: "sps-ai-vnet-stg"
     vnet_id: "/subscriptions/70bea6e3-384f-4cf4-b551-743a78d716cd/resourceGroups/sps-ai-stg-rg/providers/Microsoft.Network/virtualNetworks/sps-ai-vnet-stg"
+  - link_name: "cft-preview-vnet"
+    vnet_id: "/subscriptions/8b6ea922-0862-443e-af15-6056e1c9b9a4/resourceGroups/cft-preview-network-rg/providers/Microsoft.Network/virtualNetworks/cft-preview-vnet"
 A:
   - name: traefik-sds-00
     ttl: 300
