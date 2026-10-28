@@ -680,3 +680,6 @@ cname:
   - name: ai-gateway-docs
     record: hmcts.github.io.
     ttl: 300
+  - name: benchnotes
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
+    ttl: 300
