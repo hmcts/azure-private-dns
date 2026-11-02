@@ -191,7 +191,7 @@ A:
     record:
     - 10.25.236.87
     ttl: 300
-  - name: apim-marketplace
+  - name: amp-marketplace
     record:
     - 10.2.13.112
     ttl: 300
