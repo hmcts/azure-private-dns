@@ -75,6 +75,14 @@ A:
     record:
     - 10.10.143.250
     ttl: 300
+  - name: amp-marketplace
+    record:
+    - 10.10.161.101
+    ttl: 300
+  - name: amp-marketplace-web
+    record:
+    - 10.10.161.101
+    ttl: 300
   - name: amp-try-slc
     record:
     - 10.10.161.101
