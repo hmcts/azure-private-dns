@@ -95,4 +95,8 @@ A:
     record:
     - 10.181.1.7
     ttl: 300
+  - name: sps-ai-speech-account-sbox
+    record:
+    - 10.181.1.10
+    ttl: 300
 cname: []
