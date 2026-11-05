@@ -122,6 +122,14 @@ A:
     record:
     - 10.50.97.119
     ttl: 300
+  - name: amp-marketplace
+    record:
+    - 10.50.97.119
+    ttl: 300
+  - name: amp-marketplace-web
+    record:
+    - 10.50.97.119
+    ttl: 300
 
 cname:
   - name: bulk-scanning
