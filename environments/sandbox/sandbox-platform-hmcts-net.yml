@@ -195,7 +195,7 @@ A:
     record:
     - 10.2.13.112
     ttl: 300
-  - name: amp-try-slc
+  - name: amp-marketplace-web
     record:
     - 10.2.13.112
     ttl: 300
