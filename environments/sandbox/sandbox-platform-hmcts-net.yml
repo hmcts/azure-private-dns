@@ -149,7 +149,7 @@ A:
     ttl: 300
   - name: ai-gateway
     record:
-    - 10.181.0.4
+    - 10.181.3.10
     ttl: 300
   - name: ai-gateway-appgw
     record:
