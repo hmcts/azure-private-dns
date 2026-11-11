@@ -126,12 +126,11 @@ A:
     record:
     - 10.50.97.119
     ttl: 300
-  - name: amp-marketplace-web
-    record:
-    - 10.50.97.119
-    ttl: 300
 
 cname:
+  - name: amp-marketplace-web
+    record: hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net
+    ttl: 300
   - name: bulk-scanning
     record: 3644b292-ae3f-4055-ba68-4a9500e43659.cloudapp.net.
     ttl: 300
