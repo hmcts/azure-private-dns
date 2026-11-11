@@ -1,7 +1,7 @@
 # Records that already existed in Azure before they were added to the zone files.
 # Safe to delete once the import has been applied.
 
-# amp-marketplace.platform.hmcts.net was created by hand as a CNAME to the prod Front Door.
+# amp-marketplace.platform.hmcts.net exists as a CNAME to the prod Front Door, created outside Terraform.
 # Imported only so Terraform can delete it in the next change.
 import {
   to = module.prod-platform.azurerm_private_dns_cname_record.this["amp-marketplace"]

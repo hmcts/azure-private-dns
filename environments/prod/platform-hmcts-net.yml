@@ -148,10 +148,6 @@ A:
     record:
     - 10.10.73.250
     ttl: 300
-  - name: amp-marketplace-web
-    record:
-    - 10.90.96.20
-    ttl: 300
   - name: amp-try-it-now
     record:
     - 10.90.96.20
@@ -428,6 +424,9 @@ cname:
   - name: amp-marketplace
     record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net
     ttl: 3600
+  - name: amp-marketplace-web
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net
+    ttl: 300
   - name: c100-application
     ttl: 300
     record: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
