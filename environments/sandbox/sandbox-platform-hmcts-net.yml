@@ -195,15 +195,14 @@ A:
     record:
     - 10.2.13.112
     ttl: 300
-  - name: amp-marketplace-web
-    record:
-    - 10.2.13.112
-    ttl: 300
   - name: amp-try-it-now
     record:
     - 10.2.13.112
     ttl: 300
 cname:
+  - name: amp-marketplace-web
+    record: hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net
+    ttl: 300
   - name: moneyclaim
     record: sandbox-waf.sandbox.platform.hmcts.net.
     ttl: 300

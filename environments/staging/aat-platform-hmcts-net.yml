@@ -88,6 +88,9 @@ A:
     - 10.10.161.101
     ttl: 300
 cname:
+  - name: amp-marketplace-web
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net
+    ttl: 300
   - name: adoption-web
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300
