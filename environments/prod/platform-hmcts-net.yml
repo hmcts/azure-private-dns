@@ -148,10 +148,6 @@ A:
     record:
     - 10.10.73.250
     ttl: 300
-  - name: amp-marketplace
-    record:
-    - 10.90.96.20
-    ttl: 300
   - name: amp-marketplace-web
     record:
     - 10.90.96.20
@@ -427,6 +423,11 @@ A:
   #   ttl: 300
 
 cname:
+  # Stale: its Front Door domain was removed. Imported so the next change can delete it
+  # and put the amp-marketplace A record (10.90.96.20) back.
+  - name: amp-marketplace
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net
+    ttl: 3600
   - name: c100-application
     ttl: 300
     record: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
