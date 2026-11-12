@@ -3,6 +3,31 @@
 Azure Private DNS terraform module for deployment of internal DNS zones
 
 
+# CP staging AI Gateway
+
+CP clients use the hostname for their reachable private endpoint. All names below are
+in `staging.platform.hmcts.net` and target the same staging Application Gateway.
+
+| Record | Private endpoint VNet |
+|---|---|
+| `ai-gateway-cpp-nft-01` | `VN-NFT-SVC-01` |
+| `ai-gateway-cpp-nft-02` | `VN-NFT-SVC-02` |
+| `ai-gateway-cpp-sit` | `VN-SIT-SVC-01` |
+| `ai-gateway-cpp-ste` | `VN-STE-SVC-01` |
+| `ai-gateway-cpp-mdv` | `VN-MNL-INT-01` |
+
+The staging component links the zone to these five VNets using
+`crime-ai-gateway-cross-tenant-peering-nonprod`. Its secret is supplied by the
+pipeline from `central-app-reg-kv`; its DNS-subscription Reader and CP VNet
+read/join permissions must be deployed before running the cross-tenant pipeline.
+
+Keep the records in `environments/staging/staging-platform-hmcts-net.yml` aligned
+with the deployed private endpoint IPs after endpoint recreation. DNS links do
+not provide network access or extend DNS resolution to peered VNets: AKS and
+other callers outside the linked VNets need their own DNS link or forwarding
+path as well as connectivity to the selected endpoint.
+
+
 # Creating New DNS Zones
 
 To create a new DNS zone add a new terraform definition to the components in the target environment

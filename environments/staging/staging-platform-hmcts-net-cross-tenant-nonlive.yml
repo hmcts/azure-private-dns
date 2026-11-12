@@ -1,0 +1,14 @@
+name: "staging.platform.hmcts.net"
+vnet_links:
+  - link_name: "crime-nft-svc-01-vnet"
+    vnet_id: "/subscriptions/e6b5053b-4c38-4475-a835-a025aeb3d8c7/resourceGroups/RG-NFT-SVC-01/providers/Microsoft.Network/virtualNetworks/VN-NFT-SVC-01"
+  - link_name: "crime-nft-svc-02-vnet"
+    vnet_id: "/subscriptions/e6b5053b-4c38-4475-a835-a025aeb3d8c7/resourceGroups/RG-NFT-SVC-02/providers/Microsoft.Network/virtualNetworks/VN-NFT-SVC-02"
+  - link_name: "crime-sit-svc-01-vnet"
+    vnet_id: "/subscriptions/e6b5053b-4c38-4475-a835-a025aeb3d8c7/resourceGroups/RG-SIT-SVC-01/providers/Microsoft.Network/virtualNetworks/VN-SIT-SVC-01"
+  - link_name: "crime-ste-svc-01-vnet"
+    vnet_id: "/subscriptions/e6b5053b-4c38-4475-a835-a025aeb3d8c7/resourceGroups/RG-STE-SVC-01/providers/Microsoft.Network/virtualNetworks/VN-STE-SVC-01"
+  - link_name: "crime-mnl-int-01-vnet"
+    vnet_id: "/subscriptions/e6b5053b-4c38-4475-a835-a025aeb3d8c7/resourceGroups/RG-MNL-INT-01/providers/Microsoft.Network/virtualNetworks/VN-MNL-INT-01"
+A: []
+cname: []
