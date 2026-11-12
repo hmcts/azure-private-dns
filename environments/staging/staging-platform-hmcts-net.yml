@@ -1,4 +1,6 @@
 name: "staging.platform.hmcts.net"
+contributors:
+  - "crime-ai-gateway-cross-tenant-peering-nonprod"
 vnet_links:
   - link_name: "core-infra-vnet-mgmt"
     vnet_id: "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/rg-mgmt/providers/Microsoft.Network/virtualNetworks/core-infra-vnet-mgmt"
@@ -72,6 +74,26 @@ A:
   - name: ai-gateway
     record:
     - 10.181.23.10
+    ttl: 300
+  - name: ai-gateway-cpp-nft-01
+    record:
+    - 10.44.253.4
+    ttl: 300
+  - name: ai-gateway-cpp-nft-02
+    record:
+    - 10.46.253.4
+    ttl: 300
+  - name: ai-gateway-cpp-sit
+    record:
+    - 10.42.253.4
+    ttl: 300
+  - name: ai-gateway-cpp-ste
+    record:
+    - 10.48.253.4
+    ttl: 300
+  - name: ai-gateway-cpp-mdv
+    record:
+    - 10.5.8.4
     ttl: 300
 cname:
   - name: c100-application
