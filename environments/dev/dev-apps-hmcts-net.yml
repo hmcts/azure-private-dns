@@ -25,3 +25,6 @@ cname:
   - name: "courtstranscribe"
     ttl: 300
     record: "hmcts-transcribe-frontend-dev.azurewebsites.net"
+  - name: "benchnotes"
+    ttl: 300
+    record: "hmcts-transcribe-frontend-dev.azurewebsites.net"
