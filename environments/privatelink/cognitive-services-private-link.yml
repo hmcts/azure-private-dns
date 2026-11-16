@@ -95,6 +95,10 @@ A:
     record:
     - 10.181.1.7
     ttl: 300
+  - name: sps-ai-document-intelligence-account-stg
+    record:
+    - 10.181.21.9
+    ttl: 300
   - name: sps-ai-speech-account-sbox
     record:
     - 10.181.1.10
