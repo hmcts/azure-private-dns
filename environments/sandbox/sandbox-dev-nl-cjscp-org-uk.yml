@@ -1,0 +1,12 @@
+name: "dev.nl.cjscp.org.uk"
+vnet_links:
+  - link_name: "sps-platform-networking-vnet-sbox"
+    vnet_id: "/subscriptions/bd2864ed-4f3e-45ed-9c6a-8d179674bab1/resourceGroups/rg-sps-platform-sbox/providers/Microsoft.Network/virtualNetworks/sps-platform-networking-vnet-sbox"
+    registration_enabled: false
+A:
+  # Private Endpoint to the CPP dev WAF Private Link Service (pe-cpp-dev-dmzwaf-sbox)
+  - name: ccp-marketplace
+    ttl: 300
+    record:
+      - 10.180.2.4
+cname: []
