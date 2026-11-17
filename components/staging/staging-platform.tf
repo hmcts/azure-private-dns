@@ -12,4 +12,6 @@ module "staging-platform" {
   env                 = var.env
   builtFrom           = var.builtFrom
   product             = var.product
+
+  zone_contributors = values(data.azuread_service_principal.staging_platform_contributors)[*].object_id
 }

@@ -149,7 +149,7 @@ A:
     ttl: 300
   - name: ai-gateway
     record:
-    - 10.181.0.4
+    - 10.181.3.10
     ttl: 300
   - name: ai-gateway-appgw
     record:
@@ -157,7 +157,7 @@ A:
     ttl: 300
   - name: ai-gateway-cpp
     record:
-    - 10.30.32.6
+    - 10.40.254.6
     ttl: 300
   - name: cvp-recording
     record:
@@ -191,11 +191,7 @@ A:
     record:
     - 10.25.236.87
     ttl: 300
-  - name: apim-marketplace
-    record:
-    - 10.2.13.112
-    ttl: 300
-  - name: amp-try-slc
+  - name: amp-marketplace
     record:
     - 10.2.13.112
     ttl: 300
@@ -204,6 +200,9 @@ A:
     - 10.2.13.112
     ttl: 300
 cname:
+  - name: amp-marketplace-web
+    record: hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net
+    ttl: 300
   - name: moneyclaim
     record: sandbox-waf.sandbox.platform.hmcts.net.
     ttl: 300

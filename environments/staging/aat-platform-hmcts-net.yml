@@ -51,6 +51,10 @@ A:
     record:
     - 10.10.161.100
     ttl: 300
+  - name: doc-render
+    record:
+    - 10.10.161.101
+    ttl: 300
   - name: cvp-recording
     record:
     - 10.50.11.41
@@ -75,6 +79,10 @@ A:
     record:
     - 10.10.143.250
     ttl: 300
+  - name: amp-marketplace
+    record:
+    - 10.10.161.101
+    ttl: 300
   - name: amp-try-slc
     record:
     - 10.10.161.101
@@ -84,6 +92,9 @@ A:
     - 10.10.161.101
     ttl: 300
 cname:
+  - name: amp-marketplace-web
+    record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net
+    ttl: 300
   - name: adoption-web
     record: hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net.
     ttl: 300

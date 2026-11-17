@@ -53,8 +53,6 @@ vnet_links:
     vnet_id: "/subscriptions/fb084706-583f-4c9a-bdab-949aac66ba5c/resourceGroups/hmcts-dmz-nonprodi/providers/Microsoft.Network/virtualNetworks/hmcts-dmz-nonprodi"
   - link_name: "dmz-prod"
     vnet_id: "/subscriptions/0978315c-75fe-4ada-9d11-1eb5e0e0b214/resourceGroups/hmcts-dmz-prod-int/providers/Microsoft.Network/virtualNetworks/hmcts-dmz-prod-int"
-  - link_name: "atlassian-int-prod-vnet"
-    vnet_id: "/subscriptions/79898897-729c-41a0-a5ca-53c764839d95/resourceGroups/atlassian-prod-rg/providers/Microsoft.Network/virtualNetworks/atlassian-int-prod-vnet"
 A:
   - name: aat-waf
     record:
@@ -147,6 +145,14 @@ A:
   - name: alertmanager-ptl
     record:
     - 10.10.73.250
+    ttl: 300
+  - name: amp-marketplace-web
+    record:
+    - 10.90.96.20
+    ttl: 300
+  - name: amp-try-it-now
+    record:
+    - 10.90.96.20
     ttl: 300
   - name: ccd-admin-web
     record:
@@ -688,4 +694,10 @@ cname:
     ttl: 300
   - name: benchnotes
     record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
+    ttl: 300
+  - name: cath
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net.
+    ttl: 300
+  - name: cath-api
+    record: cath-api-prod.service.core-compute-prod.internal.
     ttl: 300

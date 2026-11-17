@@ -38,56 +38,56 @@ parameters:
       environment: demo
       component: demo
       resourceGroupName: azure-control-ptl-rg
-      serviceConnection: dts-cftptl-intsvc
+      serviceConnection: dts-cftptl-intsvc-wif
       dependsOn:
         - Precheck
     - deployment: dev
       environment: dev
       component: dev
       resourceGroupName: azure-control-ptl-rg
-      serviceConnection: dts-cftptl-intsvc
+      serviceConnection: dts-cftptl-intsvc-wif
       dependsOn:
         - Precheck
     - deployment: ithc
       environment: ithc
       component: ithc
       resourceGroupName: azure-control-ptl-rg
-      serviceConnection: dts-cftptl-intsvc
+      serviceConnection: dts-cftptl-intsvc-wif
       dependsOn:
         - Precheck
     - deployment: test
       environment: test
       component: test
       resourceGroupName: azure-control-ptl-rg
-      serviceConnection: dts-cftptl-intsvc
+      serviceConnection: dts-cftptl-intsvc-wif
       dependsOn:
         - Precheck
     - deployment: privatelink
       environment: privatelink
       component: privatelink
       resourceGroupName: azure-control-ptl-rg
-      serviceConnection: dts-cftptl-intsvc
+      serviceConnection: dts-cftptl-intsvc-wif
       dependsOn:
         - Precheck
     - deployment: prod
       environment: prod
       component: prod
       resourceGroupName: azure-control-ptl-rg
-      serviceConnection: dts-cftptl-intsvc
+      serviceConnection: dts-cftptl-intsvc-wif
       dependsOn:
         - Precheck
     - deployment: sandbox
       environment: sbox
       component: sandbox
       resourceGroupName: azure-control-ptlsbox-rg
-      serviceConnection: dts-cftsbox-intsvc
+      serviceConnection: dts-cftsbox-intsvc-wif
       dependsOn:
         - Precheck
     - deployment: staging
       environment: staging
       component: staging
       resourceGroupName: azure-control-ptl-rg
-      serviceConnection: dts-cftptl-intsvc
+      serviceConnection: dts-cftptl-intsvc-wif
       dependsOn:
         - Precheck
 
@@ -102,7 +102,7 @@ stages:
             parameters:
               keyvaultName: 'infra-vault-nonprod'
               keyvaultSecret: 'azure-devops-sp-token'
-              serviceConnection: 'DCD-CFTAPPS-SBOX'
+              serviceConnection: 'DCD-CFTAPPS-SBOX-WIF'
               overrideAction: ${{ parameters.overrideAction }}
 
   - ${{ each deployment in parameters.environment_components }}:
@@ -131,6 +131,14 @@ stages:
                 keyVaultName: 'central-app-reg-kv'
                 secretsFilter: 'crime-ai-gateway-cross-tenant-peering-sbox-secret'
                 runAsPreJob: false
+          - ${{ if eq(deployment.component, 'staging') }}:
+            - task: AzureKeyVault@2
+              displayName: 'Read cross-tenant SPN secret from central-app-reg KV'
+              inputs:
+                connectedServiceName: ${{ deployment.serviceConnection }}
+                keyVaultName: 'central-app-reg-kv'
+                secretsFilter: 'crime-ai-gateway-cross-tenant-peering-nonprod-secret'
+                runAsPreJob: false
           - template: steps/terraform.yaml@cnp-azuredevops-libraries
             parameters:
               product: ${{ variables.product }}
@@ -147,6 +155,9 @@ stages:
               ${{ if eq(deployment.component, 'sandbox') }}:
                 terraformEnvironmentVariables:
                   TF_VAR_cross_tenant_nonlive_client_secret: $(crime-ai-gateway-cross-tenant-peering-sbox-secret)
+              ${{ if eq(deployment.component, 'staging') }}:
+                terraformEnvironmentVariables:
+                  TF_VAR_cross_tenant_nonlive_client_secret: $(crime-ai-gateway-cross-tenant-peering-nonprod-secret)
               backendAzureRmUseEntraIdForAuthentication: true
               initCommandOptions: >
                 -backend-config resource_group_name=${{ deployment.resourceGroupName }}
