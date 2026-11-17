@@ -1,4 +1,6 @@
 name: "privatelink.redis.azure.net"
+contributors:
+  - "cath-service-prod"
 
 vnet_links:
   - link_name: "core-infra-vnet-mgmt"
