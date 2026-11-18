@@ -57,4 +57,8 @@ A:
     record:
     - 10.50.100.6
     ttl: 300
+  - name: rpx-case-activity-api-webpubsub-perftest
+    record:
+    - 10.48.100.8
+    ttl: 300
 cname: []
