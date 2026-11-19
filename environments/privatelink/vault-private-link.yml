@@ -1,5 +1,7 @@
 name: "privatelink.vaultcore.azure.net"
 contributors:
+  - "DTS Bootstrap (sub:dts-sps-sbox)"
+  - "DTS Bootstrap (sub:dts-sps-stg)"
   - "DTS-SPS-SBOX-WIF-mi"
   - "DTS-SPS-STG-WIF-mi"
   - "DTS-SPS-PROD-WIF-mi"
