@@ -155,7 +155,7 @@ A:
     ttl: 300
   - name: amp-try-it-now
     record:
-    - 10.90.96.20
+    - 10.90.96.21
     ttl: 300
   - name: ccd-admin-web
     record:
