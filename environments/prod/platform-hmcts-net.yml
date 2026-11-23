@@ -53,6 +53,9 @@ vnet_links:
     vnet_id: "/subscriptions/fb084706-583f-4c9a-bdab-949aac66ba5c/resourceGroups/hmcts-dmz-nonprodi/providers/Microsoft.Network/virtualNetworks/hmcts-dmz-nonprodi"
   - link_name: "dmz-prod"
     vnet_id: "/subscriptions/0978315c-75fe-4ada-9d11-1eb5e0e0b214/resourceGroups/hmcts-dmz-prod-int/providers/Microsoft.Network/virtualNetworks/hmcts-dmz-prod-int"
+  - link_name: "sps-platform-networking-vnet-prod"
+    vnet_id: "/subscriptions/890625e2-7a8b-445c-81b4-8044a062cef3/resourceGroups/rg-sps-platform-prod/providers/Microsoft.Network/virtualNetworks/sps-platform-networking-vnet-prod"
+    registration_enabled: false
 A:
   - name: aat-waf
     record:
@@ -152,7 +155,7 @@ A:
     ttl: 300
   - name: amp-try-it-now
     record:
-    - 10.90.96.20
+    - 10.90.96.21
     ttl: 300
   - name: ccd-admin-web
     record:
