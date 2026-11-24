@@ -121,4 +121,8 @@ A:
     record:
     - 10.181.25.5
     ttl: 300
+  - name: et-openai-aat
+    record:
+    - 10.181.22.4
+    ttl: 300
 cname: []
