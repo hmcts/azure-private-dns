@@ -418,6 +418,10 @@ A:
     record:
       - 10.144.32.132
     ttl: 300
+  - name: ai-gateway
+    record:
+    - 10.181.27.10
+    ttl: 300
   # - name: pdda-public-display-manager
   #   record:
   #     - 10.144.32.132
