@@ -20,6 +20,8 @@ vnet_links:
     vnet_id: "/subscriptions/bd2864ed-4f3e-45ed-9c6a-8d179674bab1/resourceGroups/sps-ai-sbox-rg/providers/Microsoft.Network/virtualNetworks/sps-ai-vnet-sbox"
   - link_name: "sps-ai-vnet-stg"
     vnet_id: "/subscriptions/70bea6e3-384f-4cf4-b551-743a78d716cd/resourceGroups/sps-ai-stg-rg/providers/Microsoft.Network/virtualNetworks/sps-ai-vnet-stg"
+  - link_name: "sps-ai-vnet-prod"
+    vnet_id: "/subscriptions/890625e2-7a8b-445c-81b4-8044a062cef3/resourceGroups/sps-ai-prod-rg/providers/Microsoft.Network/virtualNetworks/sps-ai-vnet-prod"
   - link_name: "cft-aat-vnet"
     vnet_id: "/subscriptions/96c274ce-846d-4e48-89a7-d528432298a7/resourceGroups/cft-aat-network-rg/providers/Microsoft.Network/virtualNetworks/cft-aat-vnet"
   - link_name: "cft-prod-vnet"
@@ -102,5 +104,25 @@ A:
   - name: sps-ai-speech-account-stg
     record:
     - 10.181.21.10
+    ttl: 300
+  - name: sps-ai-cognitive-account-prod
+    record:
+    - 10.181.25.6
+    ttl: 300
+  - name: sps-ai-content-safety-account-prod
+    record:
+    - 10.181.25.9
+    ttl: 300
+  - name: sps-ai-document-intelligence-account-prod
+    record:
+    - 10.181.25.10
+    ttl: 300
+  - name: sps-ai-speech-account-prod
+    record:
+    - 10.181.25.5
+    ttl: 300
+  - name: et-openai-aat
+    record:
+    - 10.181.22.4
     ttl: 300
 cname: []
