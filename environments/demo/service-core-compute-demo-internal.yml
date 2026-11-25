@@ -58,4 +58,20 @@ A:
     record:
       - 10.96.216.103
     ttl: 300
+  - name: ccd-es-app-demo-0
+    record:
+    - 10.96.216.8
+    ttl: 300
+  - name: ccd-es-app-demo-1
+    record:
+    - 10.96.216.9
+    ttl: 300
+  - name: ccd-es-app-demo-2
+    record:
+    - 10.96.216.11
+    ttl: 300
+  - name: ccd-es-app-demo-3
+    record:
+    - 10.96.216.12
+    ttl: 300
 cname: []

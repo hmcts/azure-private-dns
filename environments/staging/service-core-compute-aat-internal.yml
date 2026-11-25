@@ -67,6 +67,22 @@ A:
     record:
     - 10.96.149.10
     ttl: 300
+  - name: ccd-es-app-aat-0
+    record:
+    - 10.96.149.8
+    ttl: 300
+  - name: ccd-es-app-aat-1
+    record:
+    - 10.96.149.9
+    ttl: 300
+  - name: ccd-es-app-aat-2
+    record:
+    - 10.96.149.12
+    ttl: 300
+  - name: ccd-es-app-aat-3
+    record:
+    - 10.96.149.13
+    ttl: 300
 cname:
   - name: civil-service-camunda-staging-aat
     record: jenkins-cluster.service.core-compute-aat.internal.
