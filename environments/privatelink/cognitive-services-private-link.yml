@@ -125,4 +125,8 @@ A:
     record:
     - 10.181.22.4
     ttl: 300
+  - name: et-openai-eu-aat
+    record:
+    - 10.181.22.7
+    ttl: 300
 cname: []
