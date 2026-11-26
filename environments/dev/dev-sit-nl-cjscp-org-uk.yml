@@ -9,4 +9,12 @@ A:
     ttl: 300
     record:
       - 10.180.6.5
+  - name: sitamp01-appgw
+    ttl: 3600
+    record:
+      - 10.42.50.10
+  - name: spnl-sit-apim-int-gw
+    ttl: 3600
+    record:
+      - 10.42.50.10
 cname: []
