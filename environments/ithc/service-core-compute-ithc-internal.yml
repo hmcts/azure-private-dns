@@ -41,4 +41,20 @@ A:
     record:
     - 10.112.53.7
     ttl: 300
+  - name: ccd-es-app-ithc-0
+    record:
+    - 10.112.53.8
+    ttl: 300
+  - name: ccd-es-app-ithc-1
+    record:
+    - 10.112.53.10
+    ttl: 300
+  - name: ccd-es-app-ithc-2
+    record:
+    - 10.112.53.11
+    ttl: 300
+  - name: ccd-es-app-ithc-3
+    record:
+    - 10.112.53.12
+    ttl: 300
 cname: []

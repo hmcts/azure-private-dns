@@ -39,4 +39,20 @@ A:
     record:
       - 10.112.153.5
     ttl: 300
+  - name: ccd-es-app-perftest-0
+    record:
+    - 10.112.153.8
+    ttl: 300
+  - name: ccd-es-app-perftest-1
+    record:
+    - 10.112.153.10
+    ttl: 300
+  - name: ccd-es-app-perftest-2
+    record:
+    - 10.112.153.11
+    ttl: 300
+  - name: ccd-es-app-perftest-3
+    record:
+    - 10.112.153.12
+    ttl: 300
 cname: []

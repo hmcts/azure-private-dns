@@ -45,4 +45,20 @@ A:
     record:
     - 10.96.85.5
     ttl: 300
+  - name: ccd-es-app-prod-0
+    record:
+    - 10.96.85.8
+    ttl: 300
+  - name: ccd-es-app-prod-1
+    record:
+    - 10.96.85.9
+    ttl: 300
+  - name: ccd-es-app-prod-2
+    record:
+    - 10.96.85.11
+    ttl: 300
+  - name: ccd-es-app-prod-3
+    record:
+    - 10.96.85.13
+    ttl: 300
 cname: []
