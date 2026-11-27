@@ -1,0 +1,12 @@
+name: "nft.nl.cjscp.org.uk"
+vnet_links:
+  - link_name: "sps-platform-networking-vnet-perftest"
+    vnet_id: "/subscriptions/4e0267c8-d18a-460b-8707-496f0b36954d/resourceGroups/rg-sps-platform-perftest/providers/Microsoft.Network/virtualNetworks/sps-platform-networking-vnet-perftest"
+    registration_enabled: false
+A:
+  # Private Endpoint to the CPP NFT WAF Private Link Service (pe-cpp-nft-dmzwaf-perftest)
+  - name: ccp-marketplace
+    ttl: 300
+    record:
+      - 10.180.10.5
+cname: []
